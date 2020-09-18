@@ -1,0 +1,46 @@
+body, html, .wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #fcefee;
+  overflow: hidden;
+}
+
+body .wrap, html .wrap, .wrap .wrap {
+  position: relative;
+}
+
+body .p1, body .p2, body .p3, body .p4, body .p5, body .wrap .p1, .wrap body .p1, body .wrap .p2, .wrap body .p2, body .wrap .p3, .wrap body .p3, body .wrap .p4, .wrap body .p4, body .wrap .p5, .wrap body .p5, html .p1, html .p2, html .p3, html .p4, html .p5, html .wrap .p1, .wrap html .p1, html .wrap .p2, .wrap html .p2, html .wrap .p3, .wrap html .p3, html .wrap .p4, .wrap html .p4, html .wrap .p5, .wrap html .p5, .wrap .p1, .wrap .p2, .wrap .p3, .wrap .p4, .wrap .p5 {
+  background: linear-gradient(260deg, #f7c984 0%, #efac63 83%);
+}
+
+body .pumpkin, html .pumpkin, .wrap .pumpkin {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #f00;
+}
+
+body .p1, body .p2, body .p3, body .p4, body .p5, html .p1, html .p2, html .p3, html .p4, html .p5, .wrap .p1, .wrap .p2, .wrap .p3, .wrap .p4, .wrap .p5 {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  border-radius: 10px;
+  border: .3vmin solid #000;
+}
+
+body .p1, html .p1, .wrap .p1 {
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
+
+body .p2, html .p2, .wrap .p2 {
+  z-index: 99;
+  top: 25px;
+  left: 50px;
+  border-radius: 150px 150px 170px 100px;
+}
