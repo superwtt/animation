@@ -3,7 +3,7 @@ html,
 .wrap {
   width: 100%;
   height: 100%;
-  background-color: #fcefee;
+  background-color: #928a97;
   overflow: hidden;
 }
 
@@ -74,6 +74,7 @@ html .eye2, .wrap .eye1, .wrap .eye2 {
   border-radius: 50%;
   color: #f3d76e;
   box-shadow: 0 0 3px #f3d76e;
+  border: 1px solid #E9AB4D;
 }
 
 body .pumpkin,
@@ -107,7 +108,7 @@ html .p6,
 .wrap .p6 {
   position: absolute;
   height: 20vmin;
-  width: 10vmin;
+  width: 11vmin;
   border: 1px solid #B6591C;
 }
 
@@ -172,8 +173,9 @@ html .top,
 .wrap .top {
   position: absolute;
   height: 7vmin;
-  width: 2vmin;
-  background: #cb9876;
+  width: 1vmin;
+  border-radius: 10px;
+  background: #473D0E;
   border: 1px solid #000;
   transform: rotate(20deg) translate(-50%, -50%);
   top: 23vmin;
@@ -208,6 +210,7 @@ html .nose,
   border-right: 2vmin solid transparent;
   /* border-top: 100px solid firebrick; */
   border-bottom: 5vmin solid #f3d76e;
+  filter: drop-shadow(0 0 3px #f3d76e);
 }
 
 body .mouth,
@@ -221,6 +224,7 @@ html .mouth,
   border-right: 0px solid transparent;
   border-radius: 50%;
   position: absolute;
-  bottom: 28vmin;
+  bottom: 29vmin;
   left: 30vmin;
+  filter: drop-shadow(0 0 3px #f3d76e);
 }
