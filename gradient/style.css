@@ -1,46 +1,226 @@
-body, html, .wrap {
+body,
+html,
+.wrap {
   width: 100%;
   height: 100%;
   background-color: #fcefee;
   overflow: hidden;
 }
 
-body .wrap, html .wrap, .wrap .wrap {
+body .wrap,
+html .wrap,
+.wrap .wrap {
   position: relative;
 }
 
-body .p1, body .p2, body .p3, body .p4, body .p5, body .wrap .p1, .wrap body .p1, body .wrap .p2, .wrap body .p2, body .wrap .p3, .wrap body .p3, body .wrap .p4, .wrap body .p4, body .wrap .p5, .wrap body .p5, html .p1, html .p2, html .p3, html .p4, html .p5, html .wrap .p1, .wrap html .p1, html .wrap .p2, .wrap html .p2, html .wrap .p3, .wrap html .p3, html .wrap .p4, .wrap html .p4, html .wrap .p5, .wrap html .p5, .wrap .p1, .wrap .p2, .wrap .p3, .wrap .p4, .wrap .p5 {
-  background: linear-gradient(260deg, #f7c984 0%, #efac63 83%);
+body .p1, body .p2, body .p3, body .p4, body .p5, body .p6, body
+.wrap .p1,
+.wrap body .p1, body
+.wrap .p2,
+.wrap body .p2, body
+.wrap .p3,
+.wrap body .p3, body
+.wrap .p4,
+.wrap body .p4, body
+.wrap .p5,
+.wrap body .p5, body
+.wrap .p6,
+.wrap body .p6, html .p1, html .p2, html .p3, html .p4, html .p5, html .p6,
+html
+.wrap .p1,
+.wrap
+html .p1,
+html
+.wrap .p2,
+.wrap
+html .p2,
+html
+.wrap .p3,
+.wrap
+html .p3,
+html
+.wrap .p4,
+.wrap
+html .p4,
+html
+.wrap .p5,
+.wrap
+html .p5,
+html
+.wrap .p6,
+.wrap
+html .p6, .wrap .p1, .wrap .p2, .wrap .p3, .wrap .p4, .wrap .p5, .wrap .p6 {
+  background: #CE6D29;
 }
 
-body .pumpkin, html .pumpkin, .wrap .pumpkin {
-  width: 100px;
-  height: 100px;
+body .eye1, body
+.wrap .eye1,
+.wrap body .eye1, body .eye2, body
+.wrap .eye2,
+.wrap body .eye2, html .eye1,
+html
+.wrap .eye1,
+.wrap
+html .eye1, html .eye2,
+html
+.wrap .eye2,
+.wrap
+html .eye2, .wrap .eye1, .wrap .eye2 {
+  position: absolute;
+  z-index: 101;
+  background: #f3d76e;
+  width: 4vmin;
+  height: 4vmin;
+  border-radius: 50%;
+  color: #f3d76e;
+  box-shadow: 0 0 3px #f3d76e;
+}
+
+body .pumpkin,
+html .pumpkin,
+.wrap .pumpkin {
+  width: 70vmin;
+  height: 70vmin;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid #f00;
 }
 
-body .p1, body .p2, body .p3, body .p4, body .p5, html .p1, html .p2, html .p3, html .p4, html .p5, .wrap .p1, .wrap .p2, .wrap .p3, .wrap .p4, .wrap .p5 {
+body .p1,
+body .p2,
+body .p3,
+body .p4,
+body .p5,
+body .p6,
+html .p1,
+html .p2,
+html .p3,
+html .p4,
+html .p5,
+html .p6,
+.wrap .p1,
+.wrap .p2,
+.wrap .p3,
+.wrap .p4,
+.wrap .p5,
+.wrap .p6 {
   position: absolute;
-  width: 20px;
-  height: 40px;
-  border-radius: 10px;
-  border: .3vmin solid #000;
+  height: 20vmin;
+  width: 10vmin;
+  border: 1px solid #B6591C;
 }
 
-body .p1, html .p1, .wrap .p1 {
-  top: 50%;
+body .p1,
+html .p1,
+.wrap .p1 {
+  top: 35vmin;
   left: 50%;
   z-index: 100;
+  border-radius: 150px 150px 150px 150px;
   transform: translate(-50%, -50%);
 }
 
-body .p2, html .p2, .wrap .p2 {
+body .p2,
+html .p2,
+.wrap .p2 {
   z-index: 99;
-  top: 25px;
-  left: 50px;
-  border-radius: 150px 150px 170px 100px;
+  top: 23vmin;
+  left: 35vmin;
+  border-radius: 150px 150px 170px 95px;
+}
+
+body .p3,
+html .p3,
+.wrap .p3 {
+  z-index: 98;
+  top: 21vmin;
+  left: 36vmin;
+  border-radius: 150px 150px 170px 95px;
+}
+
+body .p4,
+html .p4,
+.wrap .p4 {
+  z-index: 98;
+  top: 23vmin;
+  left: 23vmin;
+  border-radius: 150px 150px 95px 170px;
+}
+
+body .p5,
+html .p5,
+.wrap .p5 {
+  z-index: 97;
+  top: 21vmin;
+  left: 22vmin;
+  border-radius: 150px 150px 95px 170px;
+}
+
+body .p6,
+html .p6,
+.wrap .p6 {
+  z-index: 96;
+  top: 30vmin;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 150px 150px 150px 150px;
+}
+
+body .top,
+html .top,
+.wrap .top {
+  position: absolute;
+  height: 7vmin;
+  width: 2vmin;
+  background: #cb9876;
+  border: 1px solid #000;
+  transform: rotate(20deg) translate(-50%, -50%);
+  top: 23vmin;
+  left: 48%;
+  z-index: 99;
+}
+
+body .eye1,
+html .eye1,
+.wrap .eye1 {
+  top: 27vmin;
+  left: 27vmin;
+}
+
+body .eye2,
+html .eye2,
+.wrap .eye2 {
+  top: 27vmin;
+  left: 38vmin;
+}
+
+body .nose,
+html .nose,
+.wrap .nose {
+  position: absolute;
+  z-index: 101;
+  width: 0;
+  height: 0;
+  top: 30vmin;
+  left: 33vmin;
+  border-left: 2vmin solid transparent;
+  border-right: 2vmin solid transparent;
+  /* border-top: 100px solid firebrick; */
+  border-bottom: 5vmin solid #f3d76e;
+}
+
+body .mouth,
+html .mouth,
+.wrap .mouth {
+  z-index: 101;
+  width: 10vmin;
+  height: 4vmin;
+  border-bottom: 3vmin solid #f3d76e;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 28vmin;
+  left: 30vmin;
 }
