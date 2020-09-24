@@ -1,0 +1,144 @@
+html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+body .lamp .light-wrap .sun, body .lamp .light-wrap .sun-ray, body .lamp .night-wrap .night1,
+body .lamp .night-wrap .night2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: top left;
+}
+
+body {
+  background-color: #fdb813;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .wrap {
+  width: 100px;
+  height: 100px;
+}
+
+body input {
+  display: none;
+}
+
+body label {
+  cursor: pointer;
+}
+
+body .lamp {
+  cursor: pointer;
+  position: relative;
+  width: 50px;
+  height: 95px;
+  border-radius: 30px;
+  background-color: #514e4b;
+}
+
+body .lamp .light-wrap {
+  width: 29px;
+  height: 29px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5px;
+}
+
+body .lamp .light-wrap .sun {
+  transform: translate(-50%, -50%);
+  width: 22px;
+  height: 22px;
+  background-color: #fdb813;
+  border-radius: 50%;
+}
+
+body .lamp .light-wrap .sun-ray {
+  z-index: -99;
+  width: 500px;
+  height: 100px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  background-color: #fff;
+  transform: rotate(calc((var(--ray-index) * (360 / 20)) * 1deg));
+}
+
+body .lamp .night-wrap {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  transform: rotate(-35deg);
+  height: 29px;
+  opacity: 0;
+}
+
+body .lamp .night-wrap .night1,
+body .lamp .night-wrap .night2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+}
+
+body .lamp .night-wrap .night1 {
+  background-color: #fff;
+}
+
+body .lamp .night-wrap .night2 {
+  transform: translate(-10%, -50%);
+  background-color: #514e4b;
+}
+
+body #light:checked ~ .light-wrap {
+  animation: light 1s linear 1 forwards;
+}
+
+body #light:checked ~ .night-wrap {
+  animation: night 0.5s 1s linear 1 forwards;
+}
+
+@keyframes light {
+  0% {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 1;
+  }
+  10% {
+    transform: translate(-50%, 0) scale(0.9);
+    opacity: 0.99;
+  }
+  50% {
+    transform: translate(-50%, 50%) scale(0.9);
+    opacity: 0.8;
+  }
+  80% {
+    transform: translate(-50%, 100%) scale(0.9);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-50%, 120%) scale(0.9);
+    opacity: 0;
+  }
+}
+
+@keyframes night {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}

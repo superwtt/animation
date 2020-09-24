@@ -1,0 +1,130 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #112d4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  height: 200px;
+}
+li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+  &:nth-child(1) {
+    background-color: #f62e74;
+    animation: animation1 4s linear infinite;
+  }
+  &:nth-child(2) {
+    background-color: #f45330;
+    animation: animation2 4s linear infinite;
+    animation-delay: 0.15s;
+  }
+  &:nth-child(3) {
+    background-color: #ffc883;
+    animation: animation3 4s linear infinite;
+    animation-delay: 0.3s;
+  }
+  &:nth-child(4) {
+    background-color: #30d268;
+    animation: animation4 4s linear infinite;
+    animation-delay: 0.45s;
+  }
+  &:nth-child(5) {
+    background-color: #006cb4;
+    animation: animation5 4s linear infinite;
+    animation-delay: 0.6s;
+  }
+  &:nth-child(6) {
+    background-color: #784697;
+    animation: animation4 4s linear infinite;
+    animation-delay: 0.75s;
+  }
+  &:nth-child(7) {
+    background-color: #ffc883;
+    animation: animation3 4s linear infinite;
+    animation-delay: 0.9s;
+  }
+  &:nth-child(8) {
+    background-color: #f45330;
+    animation: animation2 4s linear infinite;
+    animation-delay: 1.05s;
+  }
+  &:nth-child(9) {
+    background-color: #f62e74;
+    animation: animation1 4s linear infinite;
+    animation-delay: 1.2s;
+  }
+}
+@keyframes animation1 {
+  30%,
+  50% {
+    height: 60px;
+    transform: translateY(-30px);
+  }
+
+  75%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
+@keyframes animation2 {
+  30%,
+  50% {
+    height: 125px;
+    transform: translateY(-62.5px);
+  }
+
+  75%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
+@keyframes animation3 {
+  30%,
+  50% {
+    height: 160px;
+    transform: translateY(-75px);
+  }
+
+  75%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
+@keyframes animation4 {
+  30%,
+  50% {
+    height: 180px;
+    transform: translateY(-60px);
+  }
+
+  75%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
+
+@keyframes animation5 {
+  30%,
+  50% {
+    height: 190px;
+    transform: translateY(-45px);
+  }
+
+  75%,
+  100% {
+    height: 20px;
+    transform: translateY(0);
+  }
+}
