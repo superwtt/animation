@@ -4,16 +4,25 @@ html, body {
   height: 100%;
 }
 
-body .lamp .light-wrap .sun, body .lamp .light-wrap .sun-ray, body .lamp .night-wrap .night1,
-body .lamp .night-wrap .night2 {
+body .light-wrap .sun, body .light-wrap .sun-ray, body .night-wrap .night1,
+body .night-wrap .night2 {
   position: absolute;
   left: 50%;
   top: 50%;
   transform-origin: top left;
 }
 
+body .light-wrap, body .night-wrap {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 95px;
+  border-radius: 30px;
+  background-color: #514e4b;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
 body {
-  background-color: #fdb813;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,16 +41,28 @@ body label {
   cursor: pointer;
 }
 
-body .lamp {
-  cursor: pointer;
-  position: relative;
-  width: 50px;
-  height: 95px;
-  border-radius: 30px;
-  background-color: #514e4b;
+body .lamp,
+body .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-body .lamp .light-wrap {
+body .mask {
+  background-color: #fdb813;
+  z-index: -99;
+}
+
+body .light-wrap {
+  z-index: 100;
+}
+
+body .light-wrap .sun-wrap {
   width: 29px;
   height: 29px;
   overflow: hidden;
@@ -52,7 +73,7 @@ body .lamp .light-wrap {
   top: 5px;
 }
 
-body .lamp .light-wrap .sun {
+body .light-wrap .sun {
   transform: translate(-50%, -50%);
   width: 22px;
   height: 22px;
@@ -60,7 +81,7 @@ body .lamp .light-wrap .sun {
   border-radius: 50%;
 }
 
-body .lamp .light-wrap .sun-ray {
+body .light-wrap .sun-ray {
   z-index: -99;
   width: 500px;
   height: 100px;
@@ -69,40 +90,58 @@ body .lamp .light-wrap .sun-ray {
   transform: rotate(calc((var(--ray-index) * (360 / 20)) * 1deg));
 }
 
-body .lamp .night-wrap {
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  right: 0;
-  transform: rotate(-35deg);
-  height: 29px;
-  opacity: 0;
+body .night-wrap {
+  z-index: 99;
+  overflow: hidden;
+  opacity: 1;
 }
 
-body .lamp .night-wrap .night1,
-body .lamp .night-wrap .night2 {
+body .night-wrap .night1,
+body .night-wrap .night2 {
   position: absolute;
+  top: 70%;
   transform: translate(-50%, -50%);
   width: 29px;
   height: 29px;
   border-radius: 50%;
 }
 
-body .lamp .night-wrap .night1 {
+body .night-wrap .night1 {
   background-color: #fff;
 }
 
-body .lamp .night-wrap .night2 {
-  transform: translate(-10%, -50%);
+body .night-wrap .night2 {
+  transform: rotate(-35deg) translate(-10%, -50%);
   background-color: #514e4b;
 }
 
 body #light:checked ~ .light-wrap {
+  animation: opacity1-0 1s linear 1s 1 forwards;
+}
+
+body #light:checked ~ .light-wrap > .sun-wrap {
   animation: light 1s linear 1 forwards;
 }
 
 body #light:checked ~ .night-wrap {
-  animation: night 0.5s 1s linear 1 forwards;
+  animation: opacity0-1 1s linear 1s 1 forwards, night 0.5s 1s linear 1 forwards;
+}
+
+body #light:checked ~ .mask {
+  animation: bg 0.1s linear 1s 1 forwards;
+}
+
+body #night:checked ~ .light-wrap {
+  animation: opacity0-1 0.5s linear 1 forwards;
+}
+
+body #night:checked ~ .night-wrap {
+  opacity: 0;
+  z-index: 99;
+}
+
+body #night:checked ~ .mask {
+  background-color: #fdb813;
 }
 
 @keyframes light {
@@ -140,5 +179,43 @@ body #light:checked ~ .night-wrap {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes bg {
+  0% {
+    background-color: #fdb813;
+  }
+  100% {
+    background-color: #000;
+  }
+}
+
+@keyframes bg2 {
+  0% {
+    background-color: #000;
+  }
+  100% {
+    background-color: #fdb813;
+  }
+}
+
+@keyframes opacity1-0 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: 99;
+  }
+}
+
+@keyframes opacity0-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    z-index: 100;
   }
 }
