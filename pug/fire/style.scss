@@ -14,10 +14,6 @@ body {
   }
   
   .camera {
-    // &.-x {
-    //   transform: rotateX(-60deg);
-    // }
-    
     &.-y {
       animation: rotate 30s linear infinite;
     }
@@ -50,9 +46,6 @@ body {
   
   .spark {
     position: absolute;
-    // width: 400px;
-    // height: 400px;
-    // background: rgba(#fff, 0.1);
     transform-origin: 0 0;
   }
   
@@ -62,7 +55,6 @@ body {
     width: 5px;
     height: 5px;
     background: rgb(250, 40, 40);
-    // background: var(--color);
     
     &::before {
       content: '';
@@ -78,11 +70,7 @@ body {
     @for $i from 1 through 200 {
       &:nth-child(#{$i}) {
         transform: rotateY(random(360) + 0deg);
-        
         .spark {
-          // transform-origin: random(100) + 0% random(100) + 0%;
-          // width: random(200) + 200px;
-          // height: random(200) + 200px;
           animation:
             spark#{$i} 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite,
             opacity 5s ease-out infinite;
@@ -102,10 +90,6 @@ body {
           50% {
             transform: translateY(0);
           }
-  
-          // 100% {
-          //   transform: translateY(0) rotateZ(random(60) + 30deg);
-          // }
           
           100% {
             transform: rotateZ($deg) translateX(random(200) + 100px);
