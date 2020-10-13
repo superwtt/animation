@@ -9,7 +9,9 @@ html(lang="en")
       .camera.-x
         .camera.-y
           .camera.-z
-            .fireworks
-              .line
-                .spark
-                  .fire
+            - for (j = 0; j < 3; j++)
+              .fireworks
+                - for (i = 0; i < 200; i++)
+                  .line
+                    .spark
+                      .fire
