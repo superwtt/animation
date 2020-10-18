@@ -13,40 +13,12 @@ div {
   transform-style: preserve-3d;
 }
 
-.camera {
-  &.-y {
-    animation: rotate 30s linear infinite;
-  }
+.x {
+  animation: rotate 30s linear infinite;
 }
 
-.fireworks {
-  &:nth-child(1) {
-    transform: translate3d(0, -200px, 100px);
-    --color: rgb(250, 40, 40);
-  }
-  
-  &:nth-child(2) {
-    transform: translate3d(160px, -100px, -160px);
-    --color: rgb(50, 240, 40);
-    
-    .line .spark {
-      animation-delay: -0.5s;
-    }
-  }
-  
-  &:nth-child(3) {
-    transform: translate3d(-160px, 0, -160px);
-    --color: rgb(50, 80, 250);
-    
-    .line .spark {
-      animation-delay: -1s;
-    }
-  }
-}
-
-.spark {
-  position: absolute;
-  transform-origin: 0 0;
+.wrap {
+  transform: translate3d(0, -200px, 100px);
 }
 
 .fire {
@@ -55,7 +27,7 @@ div {
   width: 5px;
   height: 5px;
   background: rgb(250, 40, 40);
-  
+
   &::before {
     content: '';
     position: absolute;
@@ -70,18 +42,20 @@ div {
   @for $i from 1 through 200 {
     &:nth-child(#{$i}) {
       transform: rotateY(random(360) + 0deg);
+
       .spark {
-        animation:
-          spark#{$i} 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite,
-          opacity 5s ease-out infinite;
+        animation: spark#{$i} 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite,
+        opacity 5s ease-out infinite;
       }
-      
+
+      // 此处加opacity是为了缓解动画卡顿
+
       .fire {
         animation: fire random(1000) + 1000ms random(1000) * -1ms linear infinite;
       }
-      
-      $deg: random(360) + 0deg;
-      
+
+      $deg: random(360)+0deg;
+
       @keyframes spark#{$i} {
         0% {
           transform: translateY(random(150) + 500px);
@@ -90,12 +64,32 @@ div {
         50% {
           transform: translateY(0);
         }
-        
+
         100% {
           transform: rotateZ($deg) translateX(random(200) + 100px);
         }
       }
     }
+  }
+}
+
+@keyframes fire {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(360deg * 1) rotateY(360deg * 2) rotateZ(360deg * 3);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
   }
 }
 
@@ -126,25 +120,5 @@ div {
   
   100% {
     opacity: 0;
-  }
-}
-
-@keyframes fire {
-  0% {
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  }
-  
-  100% {
-    transform: rotateX(360deg * 1) rotateY(360deg * 2) rotateZ(360deg * 3);
-  }
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotateY(0deg);
-  }
-  
-  100% {
-    transform: rotateY(360deg);
   }
 }
