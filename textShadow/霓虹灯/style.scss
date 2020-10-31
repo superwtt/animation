@@ -1,14 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css?family=Sansita Swashed");
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body,html{
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.nh-btn {
+  width: 450px;
+  padding: 20px 30px;
+  border-radius: 6px;
+  font-size: 48px;
+  font: 100px "Sansita Swashed", "Kaushan Script", Futura, "Roboto",
+    "Trebuchet MS", Helvetica, sans-serif;
+  filter: brightness(110%);
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 15px #fff, 
+    0 0 20px #e91e63,
+    0 0 35px #e91e63, 
+    0 0 40px #e91e63, 
+    0 0 50px #e91e63, 
+    0 0 75px #e91e63;
+    box-shadow: 
+    inset 0 0 1vw #1041ff, 
+    0 0 3vw #1041ff, 
+    inset 0 0 6vw #1041ff, 
+    0 0 6vw #1041ff, 
+    0 0 0.4vw #8bfdfe; 
+}
+.nh-time{
+    font-size: 80px;
+    display: block;
+    color: transparent;
+    paint-order: fill stroke markers;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #fed128;
+    text-shadow: 0 0 3vw #fa1c16, 0 0 3vw #fa1c16, 0 0 3vw #fa1c16, 0 0 0.4vw #fed128;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.nh-status{
+  float: right;
+  margin-right: 30px;
 }
