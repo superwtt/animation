@@ -1,27 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  width: 100vw;
   height: 100vh;
-  overflow: hidden;
   display: flex;
-  font-family: 'Anton', sans-serif;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  background: radial-gradient(#1b2735 0%, #090a0f 100%);
   perspective: 600px;
+}
+
+.wrap {
+  width: 500px;
+  height: 500px;
+  border: 5px solid silver;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 div {
   transform-style: preserve-3d;
 }
 
-.x {
-  animation: rotate 30s linear infinite;
-}
-
-.wrap {
-  transform: translate3d(0, -200px, 100px);
-}
-
-.fire {
+.star {
   position: absolute;
   left: -3px;
   width: 5px;
@@ -29,7 +33,7 @@ div {
   background: #fa2828;
 }
 
-.fire::before {
+.star::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -39,4820 +43,4611 @@ div {
 }
 
 .line:nth-child(1) {
-  transform: rotateY(191deg);
+  transform: rotateY(209deg);
 }
 
 .line:nth-child(1) .spark {
-  animation: spark1 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(1) .fire {
-  animation: fire 1833ms -358ms linear infinite;
+.line:nth-child(1) .star {
+  top: 77px;
+  left: 220px;
+  animation: star 1903ms -259ms linear infinite;
 }
 
 @keyframes spark1 {
   0% {
-    transform: translateY(527px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(121px);
   }
   100% {
-    transform: rotateZ(136deg) translateX(296px);
+    transform: rotateZ(65deg) translateX(127px);
   }
 }
 
 .line:nth-child(2) {
-  transform: rotateY(142deg);
+  transform: rotateY(299deg);
 }
 
 .line:nth-child(2) .spark {
-  animation: spark2 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(2) .fire {
-  animation: fire 1438ms -785ms linear infinite;
+.line:nth-child(2) .star {
+  top: 381px;
+  left: 193px;
+  animation: star 1755ms -60ms linear infinite;
 }
 
 @keyframes spark2 {
   0% {
-    transform: translateY(617px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(133px);
   }
   100% {
-    transform: rotateZ(297deg) translateX(112px);
+    transform: rotateZ(55deg) translateX(115px);
   }
 }
 
 .line:nth-child(3) {
-  transform: rotateY(352deg);
+  transform: rotateY(155deg);
 }
 
 .line:nth-child(3) .spark {
-  animation: spark3 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(3) .fire {
-  animation: fire 1628ms -980ms linear infinite;
+.line:nth-child(3) .star {
+  top: 388px;
+  left: 172px;
+  animation: star 1176ms -499ms linear infinite;
 }
 
 @keyframes spark3 {
   0% {
-    transform: translateY(532px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(150px);
   }
   100% {
-    transform: rotateZ(270deg) translateX(168px);
+    transform: rotateZ(118deg) translateX(142px);
   }
 }
 
 .line:nth-child(4) {
-  transform: rotateY(129deg);
+  transform: rotateY(61deg);
 }
 
 .line:nth-child(4) .spark {
-  animation: spark4 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(4) .fire {
-  animation: fire 1221ms -313ms linear infinite;
+.line:nth-child(4) .star {
+  top: 82px;
+  left: 398px;
+  animation: star 1570ms -432ms linear infinite;
 }
 
 @keyframes spark4 {
   0% {
-    transform: translateY(605px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(150px);
   }
   100% {
-    transform: rotateZ(145deg) translateX(140px);
+    transform: rotateZ(175deg) translateX(129px);
   }
 }
 
 .line:nth-child(5) {
-  transform: rotateY(27deg);
+  transform: rotateY(276deg);
 }
 
 .line:nth-child(5) .spark {
-  animation: spark5 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(5) .fire {
-  animation: fire 1863ms -288ms linear infinite;
+.line:nth-child(5) .star {
+  top: 270px;
+  left: 87px;
+  animation: star 1322ms -877ms linear infinite;
 }
 
 @keyframes spark5 {
   0% {
-    transform: translateY(586px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(142px);
   }
   100% {
-    transform: rotateZ(213deg) translateX(137px);
+    transform: rotateZ(111deg) translateX(114px);
   }
 }
 
 .line:nth-child(6) {
-  transform: rotateY(336deg);
+  transform: rotateY(98deg);
 }
 
 .line:nth-child(6) .spark {
-  animation: spark6 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(6) .fire {
-  animation: fire 1450ms -654ms linear infinite;
+.line:nth-child(6) .star {
+  top: 154px;
+  left: 105px;
+  animation: star 1697ms -927ms linear infinite;
 }
 
 @keyframes spark6 {
   0% {
-    transform: translateY(621px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(118px);
   }
   100% {
-    transform: rotateZ(131deg) translateX(127px);
+    transform: rotateZ(223deg) translateX(101px);
   }
 }
 
 .line:nth-child(7) {
-  transform: rotateY(254deg);
+  transform: rotateY(135deg);
 }
 
 .line:nth-child(7) .spark {
-  animation: spark7 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(7) .fire {
-  animation: fire 1900ms -840ms linear infinite;
+.line:nth-child(7) .star {
+  top: 38px;
+  left: 484px;
+  animation: star 1977ms -625ms linear infinite;
 }
 
 @keyframes spark7 {
   0% {
-    transform: translateY(611px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(137px);
   }
   100% {
-    transform: rotateZ(268deg) translateX(132px);
+    transform: rotateZ(2deg) translateX(134px);
   }
 }
 
 .line:nth-child(8) {
-  transform: rotateY(162deg);
+  transform: rotateY(137deg);
 }
 
 .line:nth-child(8) .spark {
-  animation: spark8 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(8) .fire {
-  animation: fire 1972ms -645ms linear infinite;
+.line:nth-child(8) .star {
+  top: 57px;
+  left: 27px;
+  animation: star 1515ms -747ms linear infinite;
 }
 
 @keyframes spark8 {
   0% {
-    transform: translateY(645px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(136px);
   }
   100% {
-    transform: rotateZ(187deg) translateX(198px);
+    transform: rotateZ(301deg) translateX(111px);
   }
 }
 
 .line:nth-child(9) {
-  transform: rotateY(248deg);
+  transform: rotateY(82deg);
 }
 
 .line:nth-child(9) .spark {
-  animation: spark9 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(9) .fire {
-  animation: fire 1945ms -277ms linear infinite;
+.line:nth-child(9) .star {
+  top: 166px;
+  left: 354px;
+  animation: star 1089ms -47ms linear infinite;
 }
 
 @keyframes spark9 {
   0% {
-    transform: translateY(595px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(106px);
   }
   100% {
-    transform: rotateZ(16deg) translateX(278px);
+    transform: rotateZ(45deg) translateX(110px);
   }
 }
 
 .line:nth-child(10) {
-  transform: rotateY(274deg);
+  transform: rotateY(246deg);
 }
 
 .line:nth-child(10) .spark {
-  animation: spark10 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(10) .fire {
-  animation: fire 1083ms -627ms linear infinite;
+.line:nth-child(10) .star {
+  top: 126px;
+  left: 219px;
+  animation: star 1188ms -607ms linear infinite;
 }
 
 @keyframes spark10 {
   0% {
-    transform: translateY(635px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(129px);
   }
   100% {
-    transform: rotateZ(41deg) translateX(125px);
+    transform: rotateZ(294deg) translateX(134px);
   }
 }
 
 .line:nth-child(11) {
-  transform: rotateY(323deg);
+  transform: rotateY(15deg);
 }
 
 .line:nth-child(11) .spark {
-  animation: spark11 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(11) .fire {
-  animation: fire 1512ms -731ms linear infinite;
+.line:nth-child(11) .star {
+  top: 109px;
+  left: 481px;
+  animation: star 1773ms -487ms linear infinite;
 }
 
 @keyframes spark11 {
   0% {
-    transform: translateY(644px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(117px);
   }
   100% {
-    transform: rotateZ(243deg) translateX(241px);
+    transform: rotateZ(75deg) translateX(141px);
   }
 }
 
 .line:nth-child(12) {
-  transform: rotateY(358deg);
+  transform: rotateY(200deg);
 }
 
 .line:nth-child(12) .spark {
-  animation: spark12 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(12) .fire {
-  animation: fire 1426ms -830ms linear infinite;
+.line:nth-child(12) .star {
+  top: 420px;
+  left: 468px;
+  animation: star 1060ms -376ms linear infinite;
 }
 
 @keyframes spark12 {
   0% {
-    transform: translateY(521px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(140px);
   }
   100% {
-    transform: rotateZ(191deg) translateX(141px);
+    transform: rotateZ(291deg) translateX(126px);
   }
 }
 
 .line:nth-child(13) {
-  transform: rotateY(338deg);
+  transform: rotateY(9deg);
 }
 
 .line:nth-child(13) .spark {
-  animation: spark13 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(13) .fire {
-  animation: fire 1256ms -406ms linear infinite;
+.line:nth-child(13) .star {
+  top: 10px;
+  left: 187px;
+  animation: star 1571ms -628ms linear infinite;
 }
 
 @keyframes spark13 {
   0% {
-    transform: translateY(600px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(112px);
   }
   100% {
-    transform: rotateZ(318deg) translateX(275px);
+    transform: rotateZ(264deg) translateX(102px);
   }
 }
 
 .line:nth-child(14) {
-  transform: rotateY(55deg);
+  transform: rotateY(179deg);
 }
 
 .line:nth-child(14) .spark {
-  animation: spark14 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(14) .fire {
-  animation: fire 1787ms -137ms linear infinite;
+.line:nth-child(14) .star {
+  top: 449px;
+  left: 495px;
+  animation: star 1166ms -617ms linear infinite;
 }
 
 @keyframes spark14 {
   0% {
-    transform: translateY(517px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(116px);
   }
   100% {
-    transform: rotateZ(326deg) translateX(125px);
+    transform: rotateZ(43deg) translateX(123px);
   }
 }
 
 .line:nth-child(15) {
-  transform: rotateY(186deg);
+  transform: rotateY(91deg);
 }
 
 .line:nth-child(15) .spark {
-  animation: spark15 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(15) .fire {
-  animation: fire 1984ms -343ms linear infinite;
+.line:nth-child(15) .star {
+  top: 297px;
+  left: 35px;
+  animation: star 1405ms -362ms linear infinite;
 }
 
 @keyframes spark15 {
   0% {
-    transform: translateY(575px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(139px);
   }
   100% {
-    transform: rotateZ(1deg) translateX(164px);
+    transform: rotateZ(320deg) translateX(116px);
   }
 }
 
 .line:nth-child(16) {
-  transform: rotateY(42deg);
+  transform: rotateY(170deg);
 }
 
 .line:nth-child(16) .spark {
-  animation: spark16 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(16) .fire {
-  animation: fire 1398ms -256ms linear infinite;
+.line:nth-child(16) .star {
+  top: 189px;
+  left: 288px;
+  animation: star 1693ms -594ms linear infinite;
 }
 
 @keyframes spark16 {
   0% {
-    transform: translateY(635px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(138px);
   }
   100% {
-    transform: rotateZ(281deg) translateX(123px);
+    transform: rotateZ(264deg) translateX(113px);
   }
 }
 
 .line:nth-child(17) {
-  transform: rotateY(108deg);
+  transform: rotateY(139deg);
 }
 
 .line:nth-child(17) .spark {
-  animation: spark17 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(17) .fire {
-  animation: fire 1823ms -394ms linear infinite;
+.line:nth-child(17) .star {
+  top: 465px;
+  left: 43px;
+  animation: star 1498ms -588ms linear infinite;
 }
 
 @keyframes spark17 {
   0% {
-    transform: translateY(562px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(127px);
   }
   100% {
-    transform: rotateZ(77deg) translateX(292px);
+    transform: rotateZ(322deg) translateX(131px);
   }
 }
 
 .line:nth-child(18) {
-  transform: rotateY(131deg);
+  transform: rotateY(294deg);
 }
 
 .line:nth-child(18) .spark {
-  animation: spark18 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(18) .fire {
-  animation: fire 1042ms -256ms linear infinite;
+.line:nth-child(18) .star {
+  top: 402px;
+  left: 466px;
+  animation: star 1549ms -302ms linear infinite;
 }
 
 @keyframes spark18 {
   0% {
-    transform: translateY(647px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(104px);
   }
   100% {
-    transform: rotateZ(311deg) translateX(263px);
+    transform: rotateZ(261deg) translateX(121px);
   }
 }
 
 .line:nth-child(19) {
-  transform: rotateY(341deg);
+  transform: rotateY(275deg);
 }
 
 .line:nth-child(19) .spark {
-  animation: spark19 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(19) .fire {
-  animation: fire 1078ms -255ms linear infinite;
+.line:nth-child(19) .star {
+  top: 379px;
+  left: 71px;
+  animation: star 1273ms -517ms linear infinite;
 }
 
 @keyframes spark19 {
   0% {
-    transform: translateY(537px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(135px);
   }
   100% {
-    transform: rotateZ(141deg) translateX(219px);
+    transform: rotateZ(1deg) translateX(102px);
   }
 }
 
 .line:nth-child(20) {
-  transform: rotateY(103deg);
+  transform: rotateY(92deg);
 }
 
 .line:nth-child(20) .spark {
-  animation: spark20 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(20) .fire {
-  animation: fire 1626ms -129ms linear infinite;
+.line:nth-child(20) .star {
+  top: 480px;
+  left: 243px;
+  animation: star 1651ms -456ms linear infinite;
 }
 
 @keyframes spark20 {
   0% {
-    transform: translateY(508px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(128px);
   }
   100% {
-    transform: rotateZ(41deg) translateX(210px);
+    transform: rotateZ(194deg) translateX(139px);
   }
 }
 
 .line:nth-child(21) {
-  transform: rotateY(87deg);
+  transform: rotateY(300deg);
 }
 
 .line:nth-child(21) .spark {
-  animation: spark21 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(21) .fire {
-  animation: fire 1977ms -500ms linear infinite;
+.line:nth-child(21) .star {
+  top: 168px;
+  left: 87px;
+  animation: star 1130ms -781ms linear infinite;
 }
 
 @keyframes spark21 {
   0% {
-    transform: translateY(543px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(113px);
   }
   100% {
-    transform: rotateZ(307deg) translateX(106px);
+    transform: rotateZ(26deg) translateX(127px);
   }
 }
 
 .line:nth-child(22) {
-  transform: rotateY(90deg);
+  transform: rotateY(144deg);
 }
 
 .line:nth-child(22) .spark {
-  animation: spark22 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(22) .fire {
-  animation: fire 1584ms -814ms linear infinite;
+.line:nth-child(22) .star {
+  top: 380px;
+  left: 53px;
+  animation: star 1761ms -3ms linear infinite;
 }
 
 @keyframes spark22 {
   0% {
-    transform: translateY(563px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(111px);
   }
   100% {
-    transform: rotateZ(215deg) translateX(256px);
+    transform: rotateZ(98deg) translateX(120px);
   }
 }
 
 .line:nth-child(23) {
-  transform: rotateY(283deg);
+  transform: rotateY(313deg);
 }
 
 .line:nth-child(23) .spark {
-  animation: spark23 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(23) .fire {
-  animation: fire 1804ms -331ms linear infinite;
+.line:nth-child(23) .star {
+  top: 208px;
+  left: 479px;
+  animation: star 1450ms -9ms linear infinite;
 }
 
 @keyframes spark23 {
   0% {
-    transform: translateY(639px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(145px);
   }
   100% {
-    transform: rotateZ(299deg) translateX(200px);
+    transform: rotateZ(29deg) translateX(109px);
   }
 }
 
 .line:nth-child(24) {
-  transform: rotateY(257deg);
+  transform: rotateY(218deg);
 }
 
 .line:nth-child(24) .spark {
-  animation: spark24 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(24) .fire {
-  animation: fire 1664ms -911ms linear infinite;
+.line:nth-child(24) .star {
+  top: 178px;
+  left: 428px;
+  animation: star 1031ms -292ms linear infinite;
 }
 
 @keyframes spark24 {
   0% {
-    transform: translateY(603px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(149px);
   }
   100% {
-    transform: rotateZ(156deg) translateX(167px);
+    transform: rotateZ(343deg) translateX(125px);
   }
 }
 
 .line:nth-child(25) {
-  transform: rotateY(130deg);
+  transform: rotateY(180deg);
 }
 
 .line:nth-child(25) .spark {
-  animation: spark25 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(25) .fire {
-  animation: fire 1097ms -547ms linear infinite;
+.line:nth-child(25) .star {
+  top: 469px;
+  left: 490px;
+  animation: star 1029ms -402ms linear infinite;
 }
 
 @keyframes spark25 {
   0% {
-    transform: translateY(586px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(138px);
   }
   100% {
-    transform: rotateZ(171deg) translateX(298px);
+    transform: rotateZ(204deg) translateX(113px);
   }
 }
 
 .line:nth-child(26) {
-  transform: rotateY(237deg);
+  transform: rotateY(209deg);
 }
 
 .line:nth-child(26) .spark {
-  animation: spark26 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(26) .fire {
-  animation: fire 1893ms -283ms linear infinite;
+.line:nth-child(26) .star {
+  top: 69px;
+  left: 36px;
+  animation: star 1398ms -536ms linear infinite;
 }
 
 @keyframes spark26 {
   0% {
-    transform: translateY(592px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(150px);
   }
   100% {
-    transform: rotateZ(19deg) translateX(162px);
+    transform: rotateZ(212deg) translateX(105px);
   }
 }
 
 .line:nth-child(27) {
-  transform: rotateY(195deg);
+  transform: rotateY(287deg);
 }
 
 .line:nth-child(27) .spark {
-  animation: spark27 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(27) .fire {
-  animation: fire 1534ms -777ms linear infinite;
+.line:nth-child(27) .star {
+  top: 222px;
+  left: 277px;
+  animation: star 1949ms -694ms linear infinite;
 }
 
 @keyframes spark27 {
   0% {
-    transform: translateY(615px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(121px);
   }
   100% {
-    transform: rotateZ(97deg) translateX(214px);
+    transform: rotateZ(92deg) translateX(122px);
   }
 }
 
 .line:nth-child(28) {
-  transform: rotateY(45deg);
+  transform: rotateY(278deg);
 }
 
 .line:nth-child(28) .spark {
-  animation: spark28 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(28) .fire {
-  animation: fire 1658ms -415ms linear infinite;
+.line:nth-child(28) .star {
+  top: 136px;
+  left: 112px;
+  animation: star 1311ms -369ms linear infinite;
 }
 
 @keyframes spark28 {
   0% {
-    transform: translateY(523px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(129px);
   }
   100% {
-    transform: rotateZ(219deg) translateX(223px);
+    transform: rotateZ(93deg) translateX(126px);
   }
 }
 
 .line:nth-child(29) {
-  transform: rotateY(221deg);
+  transform: rotateY(323deg);
 }
 
 .line:nth-child(29) .spark {
-  animation: spark29 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(29) .fire {
-  animation: fire 1883ms -518ms linear infinite;
+.line:nth-child(29) .star {
+  top: 252px;
+  left: 280px;
+  animation: star 1009ms -886ms linear infinite;
 }
 
 @keyframes spark29 {
   0% {
-    transform: translateY(588px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(123px);
   }
   100% {
-    transform: rotateZ(108deg) translateX(270px);
+    transform: rotateZ(103deg) translateX(128px);
   }
 }
 
 .line:nth-child(30) {
-  transform: rotateY(209deg);
+  transform: rotateY(64deg);
 }
 
 .line:nth-child(30) .spark {
-  animation: spark30 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(30) .fire {
-  animation: fire 1975ms -583ms linear infinite;
+.line:nth-child(30) .star {
+  top: 71px;
+  left: 416px;
+  animation: star 1634ms -75ms linear infinite;
 }
 
 @keyframes spark30 {
   0% {
-    transform: translateY(575px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(128px);
   }
   100% {
-    transform: rotateZ(2deg) translateX(193px);
+    transform: rotateZ(120deg) translateX(118px);
   }
 }
 
 .line:nth-child(31) {
-  transform: rotateY(182deg);
+  transform: rotateY(142deg);
 }
 
 .line:nth-child(31) .spark {
-  animation: spark31 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(31) .fire {
-  animation: fire 1883ms -249ms linear infinite;
+.line:nth-child(31) .star {
+  top: 317px;
+  left: 210px;
+  animation: star 1607ms -131ms linear infinite;
 }
 
 @keyframes spark31 {
   0% {
-    transform: translateY(572px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(122px);
   }
   100% {
-    transform: rotateZ(298deg) translateX(148px);
+    transform: rotateZ(222deg) translateX(144px);
   }
 }
 
 .line:nth-child(32) {
-  transform: rotateY(354deg);
+  transform: rotateY(189deg);
 }
 
 .line:nth-child(32) .spark {
-  animation: spark32 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(32) .fire {
-  animation: fire 1959ms -929ms linear infinite;
+.line:nth-child(32) .star {
+  top: 276px;
+  left: 376px;
+  animation: star 1955ms -93ms linear infinite;
 }
 
 @keyframes spark32 {
   0% {
-    transform: translateY(504px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(141px);
   }
   100% {
-    transform: rotateZ(166deg) translateX(128px);
+    transform: rotateZ(187deg) translateX(141px);
   }
 }
 
 .line:nth-child(33) {
-  transform: rotateY(194deg);
+  transform: rotateY(27deg);
 }
 
 .line:nth-child(33) .spark {
-  animation: spark33 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(33) .fire {
-  animation: fire 1665ms -155ms linear infinite;
+.line:nth-child(33) .star {
+  top: 440px;
+  left: 27px;
+  animation: star 1274ms -650ms linear infinite;
 }
 
 @keyframes spark33 {
   0% {
-    transform: translateY(566px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(121px);
   }
   100% {
-    transform: rotateZ(122deg) translateX(206px);
+    transform: rotateZ(100deg) translateX(116px);
   }
 }
 
 .line:nth-child(34) {
-  transform: rotateY(88deg);
+  transform: rotateY(130deg);
 }
 
 .line:nth-child(34) .spark {
-  animation: spark34 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(34) .fire {
-  animation: fire 1197ms -154ms linear infinite;
+.line:nth-child(34) .star {
+  top: 305px;
+  left: 393px;
+  animation: star 1071ms -788ms linear infinite;
 }
 
 @keyframes spark34 {
   0% {
-    transform: translateY(640px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(140px);
   }
   100% {
-    transform: rotateZ(221deg) translateX(183px);
+    transform: rotateZ(252deg) translateX(132px);
   }
 }
 
 .line:nth-child(35) {
-  transform: rotateY(300deg);
+  transform: rotateY(60deg);
 }
 
 .line:nth-child(35) .spark {
-  animation: spark35 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(35) .fire {
-  animation: fire 1653ms -844ms linear infinite;
+.line:nth-child(35) .star {
+  top: 96px;
+  left: 459px;
+  animation: star 1858ms -306ms linear infinite;
 }
 
 @keyframes spark35 {
   0% {
-    transform: translateY(553px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(101px);
   }
   100% {
-    transform: rotateZ(183deg) translateX(183px);
+    transform: rotateZ(359deg) translateX(133px);
   }
 }
 
 .line:nth-child(36) {
-  transform: rotateY(49deg);
+  transform: rotateY(335deg);
 }
 
 .line:nth-child(36) .spark {
-  animation: spark36 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(36) .fire {
-  animation: fire 1298ms -510ms linear infinite;
+.line:nth-child(36) .star {
+  top: 142px;
+  left: 182px;
+  animation: star 1760ms -190ms linear infinite;
 }
 
 @keyframes spark36 {
   0% {
-    transform: translateY(609px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(101px);
   }
   100% {
-    transform: rotateZ(177deg) translateX(218px);
+    transform: rotateZ(349deg) translateX(113px);
   }
 }
 
 .line:nth-child(37) {
-  transform: rotateY(103deg);
+  transform: rotateY(240deg);
 }
 
 .line:nth-child(37) .spark {
-  animation: spark37 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(37) .fire {
-  animation: fire 1400ms -880ms linear infinite;
+.line:nth-child(37) .star {
+  top: 351px;
+  left: 476px;
+  animation: star 1862ms -869ms linear infinite;
 }
 
 @keyframes spark37 {
   0% {
-    transform: translateY(519px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(138px);
   }
   100% {
-    transform: rotateZ(37deg) translateX(183px);
+    transform: rotateZ(292deg) translateX(146px);
   }
 }
 
 .line:nth-child(38) {
-  transform: rotateY(156deg);
+  transform: rotateY(67deg);
 }
 
 .line:nth-child(38) .spark {
-  animation: spark38 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(38) .fire {
-  animation: fire 1747ms -625ms linear infinite;
+.line:nth-child(38) .star {
+  top: 427px;
+  left: 51px;
+  animation: star 1103ms -853ms linear infinite;
 }
 
 @keyframes spark38 {
   0% {
-    transform: translateY(581px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(112px);
   }
   100% {
-    transform: rotateZ(29deg) translateX(172px);
+    transform: rotateZ(305deg) translateX(146px);
   }
 }
 
 .line:nth-child(39) {
-  transform: rotateY(143deg);
+  transform: rotateY(181deg);
 }
 
 .line:nth-child(39) .spark {
-  animation: spark39 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(39) .fire {
-  animation: fire 1864ms -893ms linear infinite;
+.line:nth-child(39) .star {
+  top: 475px;
+  left: 4px;
+  animation: star 1266ms -310ms linear infinite;
 }
 
 @keyframes spark39 {
   0% {
-    transform: translateY(643px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(135px);
   }
   100% {
-    transform: rotateZ(344deg) translateX(262px);
+    transform: rotateZ(93deg) translateX(137px);
   }
 }
 
 .line:nth-child(40) {
-  transform: rotateY(112deg);
+  transform: rotateY(352deg);
 }
 
 .line:nth-child(40) .spark {
-  animation: spark40 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(40) .fire {
-  animation: fire 1540ms -448ms linear infinite;
+.line:nth-child(40) .star {
+  top: 400px;
+  left: 427px;
+  animation: star 1837ms -427ms linear infinite;
 }
 
 @keyframes spark40 {
   0% {
-    transform: translateY(509px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(116px);
   }
   100% {
-    transform: rotateZ(123deg) translateX(290px);
+    transform: rotateZ(8deg) translateX(138px);
   }
 }
 
 .line:nth-child(41) {
-  transform: rotateY(268deg);
+  transform: rotateY(193deg);
 }
 
 .line:nth-child(41) .spark {
-  animation: spark41 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(41) .fire {
-  animation: fire 1567ms -70ms linear infinite;
+.line:nth-child(41) .star {
+  top: 212px;
+  left: 154px;
+  animation: star 1197ms -667ms linear infinite;
 }
 
 @keyframes spark41 {
   0% {
-    transform: translateY(614px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(143px);
   }
   100% {
-    transform: rotateZ(23deg) translateX(160px);
+    transform: rotateZ(325deg) translateX(132px);
   }
 }
 
 .line:nth-child(42) {
-  transform: rotateY(164deg);
+  transform: rotateY(347deg);
 }
 
 .line:nth-child(42) .spark {
-  animation: spark42 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(42) .fire {
-  animation: fire 1372ms -409ms linear infinite;
+.line:nth-child(42) .star {
+  top: 108px;
+  left: 417px;
+  animation: star 1384ms -490ms linear infinite;
 }
 
 @keyframes spark42 {
   0% {
-    transform: translateY(516px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(146px);
   }
   100% {
-    transform: rotateZ(153deg) translateX(186px);
+    transform: rotateZ(68deg) translateX(118px);
   }
 }
 
 .line:nth-child(43) {
-  transform: rotateY(26deg);
+  transform: rotateY(39deg);
 }
 
 .line:nth-child(43) .spark {
-  animation: spark43 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(43) .fire {
-  animation: fire 1585ms -775ms linear infinite;
+.line:nth-child(43) .star {
+  top: 102px;
+  left: 50px;
+  animation: star 1930ms -579ms linear infinite;
 }
 
 @keyframes spark43 {
   0% {
-    transform: translateY(641px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(141px);
   }
   100% {
-    transform: rotateZ(13deg) translateX(191px);
+    transform: rotateZ(325deg) translateX(150px);
   }
 }
 
 .line:nth-child(44) {
-  transform: rotateY(56deg);
+  transform: rotateY(125deg);
 }
 
 .line:nth-child(44) .spark {
-  animation: spark44 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(44) .fire {
-  animation: fire 1322ms -403ms linear infinite;
+.line:nth-child(44) .star {
+  top: 132px;
+  left: 429px;
+  animation: star 1441ms -535ms linear infinite;
 }
 
 @keyframes spark44 {
   0% {
-    transform: translateY(638px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(115px);
   }
   100% {
-    transform: rotateZ(143deg) translateX(123px);
+    transform: rotateZ(185deg) translateX(146px);
   }
 }
 
 .line:nth-child(45) {
-  transform: rotateY(118deg);
+  transform: rotateY(324deg);
 }
 
 .line:nth-child(45) .spark {
-  animation: spark45 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(45) .fire {
-  animation: fire 1657ms -94ms linear infinite;
+.line:nth-child(45) .star {
+  top: 273px;
+  left: 198px;
+  animation: star 1274ms -242ms linear infinite;
 }
 
 @keyframes spark45 {
   0% {
-    transform: translateY(518px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(121px);
   }
   100% {
-    transform: rotateZ(258deg) translateX(147px);
+    transform: rotateZ(311deg) translateX(126px);
   }
 }
 
 .line:nth-child(46) {
-  transform: rotateY(337deg);
+  transform: rotateY(290deg);
 }
 
 .line:nth-child(46) .spark {
-  animation: spark46 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(46) .fire {
-  animation: fire 1931ms -534ms linear infinite;
+.line:nth-child(46) .star {
+  top: 494px;
+  left: 166px;
+  animation: star 1939ms -436ms linear infinite;
 }
 
 @keyframes spark46 {
   0% {
-    transform: translateY(507px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(109px);
   }
   100% {
-    transform: rotateZ(28deg) translateX(113px);
+    transform: rotateZ(284deg) translateX(137px);
   }
 }
 
 .line:nth-child(47) {
-  transform: rotateY(296deg);
+  transform: rotateY(181deg);
 }
 
 .line:nth-child(47) .spark {
-  animation: spark47 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(47) .fire {
-  animation: fire 1619ms -522ms linear infinite;
+.line:nth-child(47) .star {
+  top: 302px;
+  left: 236px;
+  animation: star 1139ms -356ms linear infinite;
 }
 
 @keyframes spark47 {
   0% {
-    transform: translateY(541px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(132px);
   }
   100% {
-    transform: rotateZ(329deg) translateX(141px);
+    transform: rotateZ(93deg) translateX(122px);
   }
 }
 
 .line:nth-child(48) {
-  transform: rotateY(58deg);
+  transform: rotateY(266deg);
 }
 
 .line:nth-child(48) .spark {
-  animation: spark48 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(48) .fire {
-  animation: fire 1064ms -540ms linear infinite;
+.line:nth-child(48) .star {
+  top: 381px;
+  left: 171px;
+  animation: star 1345ms -618ms linear infinite;
 }
 
 @keyframes spark48 {
   0% {
-    transform: translateY(614px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(103px);
   }
   100% {
-    transform: rotateZ(178deg) translateX(113px);
+    transform: rotateZ(102deg) translateX(111px);
   }
 }
 
 .line:nth-child(49) {
-  transform: rotateY(273deg);
+  transform: rotateY(183deg);
 }
 
 .line:nth-child(49) .spark {
-  animation: spark49 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(49) .fire {
-  animation: fire 1308ms -733ms linear infinite;
+.line:nth-child(49) .star {
+  top: 126px;
+  left: 144px;
+  animation: star 1420ms -87ms linear infinite;
 }
 
 @keyframes spark49 {
   0% {
-    transform: translateY(638px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(134px);
   }
   100% {
-    transform: rotateZ(30deg) translateX(174px);
+    transform: rotateZ(332deg) translateX(112px);
   }
 }
 
 .line:nth-child(50) {
-  transform: rotateY(121deg);
+  transform: rotateY(106deg);
 }
 
 .line:nth-child(50) .spark {
-  animation: spark50 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(50) .fire {
-  animation: fire 1716ms -570ms linear infinite;
+.line:nth-child(50) .star {
+  top: 82px;
+  left: 457px;
+  animation: star 1193ms -510ms linear infinite;
 }
 
 @keyframes spark50 {
   0% {
-    transform: translateY(512px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(120px);
   }
   100% {
-    transform: rotateZ(85deg) translateX(125px);
+    transform: rotateZ(47deg) translateX(133px);
   }
 }
 
 .line:nth-child(51) {
-  transform: rotateY(87deg);
+  transform: rotateY(77deg);
 }
 
 .line:nth-child(51) .spark {
-  animation: spark51 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(51) .fire {
-  animation: fire 1411ms -389ms linear infinite;
+.line:nth-child(51) .star {
+  top: 159px;
+  left: 440px;
+  animation: star 1863ms -971ms linear infinite;
 }
 
 @keyframes spark51 {
   0% {
-    transform: translateY(562px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(144px);
   }
   100% {
-    transform: rotateZ(81deg) translateX(222px);
+    transform: rotateZ(222deg) translateX(108px);
   }
 }
 
 .line:nth-child(52) {
-  transform: rotateY(127deg);
+  transform: rotateY(174deg);
 }
 
 .line:nth-child(52) .spark {
-  animation: spark52 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(52) .fire {
-  animation: fire 1781ms -139ms linear infinite;
+.line:nth-child(52) .star {
+  top: 252px;
+  left: 385px;
+  animation: star 1746ms -44ms linear infinite;
 }
 
 @keyframes spark52 {
   0% {
-    transform: translateY(609px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(141px);
   }
   100% {
-    transform: rotateZ(224deg) translateX(172px);
+    transform: rotateZ(158deg) translateX(140px);
   }
 }
 
 .line:nth-child(53) {
-  transform: rotateY(282deg);
+  transform: rotateY(218deg);
 }
 
 .line:nth-child(53) .spark {
-  animation: spark53 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(53) .fire {
-  animation: fire 1222ms -934ms linear infinite;
+.line:nth-child(53) .star {
+  top: 200px;
+  left: 241px;
+  animation: star 1909ms -104ms linear infinite;
 }
 
 @keyframes spark53 {
   0% {
-    transform: translateY(544px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(107px);
   }
   100% {
-    transform: rotateZ(54deg) translateX(267px);
+    transform: rotateZ(355deg) translateX(129px);
   }
 }
 
 .line:nth-child(54) {
-  transform: rotateY(145deg);
+  transform: rotateY(258deg);
 }
 
 .line:nth-child(54) .spark {
-  animation: spark54 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(54) .fire {
-  animation: fire 1339ms -853ms linear infinite;
+.line:nth-child(54) .star {
+  top: 198px;
+  left: 445px;
+  animation: star 1197ms -273ms linear infinite;
 }
 
 @keyframes spark54 {
   0% {
-    transform: translateY(639px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(125px);
   }
   100% {
-    transform: rotateZ(168deg) translateX(150px);
+    transform: rotateZ(332deg) translateX(134px);
   }
 }
 
 .line:nth-child(55) {
-  transform: rotateY(284deg);
+  transform: rotateY(236deg);
 }
 
 .line:nth-child(55) .spark {
-  animation: spark55 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(55) .fire {
-  animation: fire 1923ms -695ms linear infinite;
+.line:nth-child(55) .star {
+  top: 333px;
+  left: 287px;
+  animation: star 1635ms -985ms linear infinite;
 }
 
 @keyframes spark55 {
   0% {
-    transform: translateY(630px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(127px);
   }
   100% {
-    transform: rotateZ(70deg) translateX(142px);
+    transform: rotateZ(170deg) translateX(137px);
   }
 }
 
 .line:nth-child(56) {
-  transform: rotateY(196deg);
+  transform: rotateY(33deg);
 }
 
 .line:nth-child(56) .spark {
-  animation: spark56 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(56) .fire {
-  animation: fire 1249ms -367ms linear infinite;
+.line:nth-child(56) .star {
+  top: 391px;
+  left: 359px;
+  animation: star 1659ms -139ms linear infinite;
 }
 
 @keyframes spark56 {
   0% {
-    transform: translateY(545px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(131px);
   }
   100% {
-    transform: rotateZ(346deg) translateX(268px);
+    transform: rotateZ(228deg) translateX(118px);
   }
 }
 
 .line:nth-child(57) {
-  transform: rotateY(280deg);
+  transform: rotateY(25deg);
 }
 
 .line:nth-child(57) .spark {
-  animation: spark57 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(57) .fire {
-  animation: fire 1111ms -9ms linear infinite;
+.line:nth-child(57) .star {
+  top: 52px;
+  left: 15px;
+  animation: star 1824ms -174ms linear infinite;
 }
 
 @keyframes spark57 {
   0% {
-    transform: translateY(516px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(125px);
   }
   100% {
-    transform: rotateZ(9deg) translateX(112px);
+    transform: rotateZ(245deg) translateX(129px);
   }
 }
 
 .line:nth-child(58) {
-  transform: rotateY(274deg);
+  transform: rotateY(152deg);
 }
 
 .line:nth-child(58) .spark {
-  animation: spark58 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(58) .fire {
-  animation: fire 1807ms -823ms linear infinite;
+.line:nth-child(58) .star {
+  top: 363px;
+  left: 460px;
+  animation: star 1766ms -521ms linear infinite;
 }
 
 @keyframes spark58 {
   0% {
-    transform: translateY(541px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(123px);
   }
   100% {
-    transform: rotateZ(251deg) translateX(210px);
+    transform: rotateZ(77deg) translateX(141px);
   }
 }
 
 .line:nth-child(59) {
-  transform: rotateY(76deg);
+  transform: rotateY(251deg);
 }
 
 .line:nth-child(59) .spark {
-  animation: spark59 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(59) .fire {
-  animation: fire 1929ms -803ms linear infinite;
+.line:nth-child(59) .star {
+  top: 492px;
+  left: 5px;
+  animation: star 1039ms -914ms linear infinite;
 }
 
 @keyframes spark59 {
   0% {
-    transform: translateY(507px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(147px);
   }
   100% {
-    transform: rotateZ(221deg) translateX(230px);
+    transform: rotateZ(166deg) translateX(126px);
   }
 }
 
 .line:nth-child(60) {
-  transform: rotateY(106deg);
+  transform: rotateY(132deg);
 }
 
 .line:nth-child(60) .spark {
-  animation: spark60 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(60) .fire {
-  animation: fire 1864ms -860ms linear infinite;
+.line:nth-child(60) .star {
+  top: 128px;
+  left: 92px;
+  animation: star 1053ms -313ms linear infinite;
 }
 
 @keyframes spark60 {
   0% {
-    transform: translateY(618px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(135px);
   }
   100% {
-    transform: rotateZ(57deg) translateX(199px);
+    transform: rotateZ(214deg) translateX(144px);
   }
 }
 
 .line:nth-child(61) {
-  transform: rotateY(179deg);
+  transform: rotateY(27deg);
 }
 
 .line:nth-child(61) .spark {
-  animation: spark61 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(61) .fire {
-  animation: fire 1422ms -105ms linear infinite;
+.line:nth-child(61) .star {
+  top: 397px;
+  left: 230px;
+  animation: star 1785ms -8ms linear infinite;
 }
 
 @keyframes spark61 {
   0% {
-    transform: translateY(617px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(136px);
   }
   100% {
-    transform: rotateZ(161deg) translateX(276px);
+    transform: rotateZ(206deg) translateX(102px);
   }
 }
 
 .line:nth-child(62) {
-  transform: rotateY(215deg);
+  transform: rotateY(165deg);
 }
 
 .line:nth-child(62) .spark {
-  animation: spark62 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(62) .fire {
-  animation: fire 1448ms -159ms linear infinite;
+.line:nth-child(62) .star {
+  top: 219px;
+  left: 493px;
+  animation: star 1815ms -922ms linear infinite;
 }
 
 @keyframes spark62 {
   0% {
-    transform: translateY(587px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(111px);
   }
   100% {
-    transform: rotateZ(157deg) translateX(281px);
+    transform: rotateZ(349deg) translateX(115px);
   }
 }
 
 .line:nth-child(63) {
-  transform: rotateY(93deg);
+  transform: rotateY(15deg);
 }
 
 .line:nth-child(63) .spark {
-  animation: spark63 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(63) .fire {
-  animation: fire 1059ms -470ms linear infinite;
+.line:nth-child(63) .star {
+  top: 140px;
+  left: 349px;
+  animation: star 1959ms -174ms linear infinite;
 }
 
 @keyframes spark63 {
   0% {
-    transform: translateY(640px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(140px);
   }
   100% {
-    transform: rotateZ(308deg) translateX(251px);
+    transform: rotateZ(41deg) translateX(111px);
   }
 }
 
 .line:nth-child(64) {
-  transform: rotateY(180deg);
+  transform: rotateY(126deg);
 }
 
 .line:nth-child(64) .spark {
-  animation: spark64 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(64) .fire {
-  animation: fire 1404ms -423ms linear infinite;
+.line:nth-child(64) .star {
+  top: 293px;
+  left: 53px;
+  animation: star 1316ms -531ms linear infinite;
 }
 
 @keyframes spark64 {
   0% {
-    transform: translateY(618px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(107px);
   }
   100% {
-    transform: rotateZ(198deg) translateX(187px);
+    transform: rotateZ(347deg) translateX(145px);
   }
 }
 
 .line:nth-child(65) {
-  transform: rotateY(181deg);
+  transform: rotateY(38deg);
 }
 
 .line:nth-child(65) .spark {
-  animation: spark65 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(65) .fire {
-  animation: fire 1584ms -354ms linear infinite;
+.line:nth-child(65) .star {
+  top: 178px;
+  left: 60px;
+  animation: star 1422ms -14ms linear infinite;
 }
 
 @keyframes spark65 {
   0% {
-    transform: translateY(550px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(106px);
   }
   100% {
-    transform: rotateZ(223deg) translateX(267px);
+    transform: rotateZ(213deg) translateX(139px);
   }
 }
 
 .line:nth-child(66) {
-  transform: rotateY(115deg);
+  transform: rotateY(131deg);
 }
 
 .line:nth-child(66) .spark {
-  animation: spark66 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(66) .fire {
-  animation: fire 1901ms -777ms linear infinite;
+.line:nth-child(66) .star {
+  top: 207px;
+  left: 472px;
+  animation: star 1117ms -52ms linear infinite;
 }
 
 @keyframes spark66 {
   0% {
-    transform: translateY(559px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(145px);
   }
   100% {
-    transform: rotateZ(165deg) translateX(286px);
+    transform: rotateZ(349deg) translateX(127px);
   }
 }
 
 .line:nth-child(67) {
-  transform: rotateY(151deg);
+  transform: rotateY(143deg);
 }
 
 .line:nth-child(67) .spark {
-  animation: spark67 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(67) .fire {
-  animation: fire 1092ms -4ms linear infinite;
+.line:nth-child(67) .star {
+  top: 133px;
+  left: 40px;
+  animation: star 1883ms -469ms linear infinite;
 }
 
 @keyframes spark67 {
   0% {
-    transform: translateY(640px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(124px);
   }
   100% {
-    transform: rotateZ(318deg) translateX(291px);
+    transform: rotateZ(349deg) translateX(114px);
   }
 }
 
 .line:nth-child(68) {
-  transform: rotateY(248deg);
+  transform: rotateY(137deg);
 }
 
 .line:nth-child(68) .spark {
-  animation: spark68 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(68) .fire {
-  animation: fire 1177ms -365ms linear infinite;
+.line:nth-child(68) .star {
+  top: 339px;
+  left: 240px;
+  animation: star 1901ms -90ms linear infinite;
 }
 
 @keyframes spark68 {
   0% {
-    transform: translateY(507px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(111px);
   }
   100% {
-    transform: rotateZ(279deg) translateX(140px);
+    transform: rotateZ(3deg) translateX(145px);
   }
 }
 
 .line:nth-child(69) {
-  transform: rotateY(247deg);
+  transform: rotateY(157deg);
 }
 
 .line:nth-child(69) .spark {
-  animation: spark69 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(69) .fire {
-  animation: fire 1884ms -411ms linear infinite;
+.line:nth-child(69) .star {
+  top: 66px;
+  left: 71px;
+  animation: star 1869ms -925ms linear infinite;
 }
 
 @keyframes spark69 {
   0% {
-    transform: translateY(629px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(122px);
   }
   100% {
-    transform: rotateZ(121deg) translateX(298px);
+    transform: rotateZ(14deg) translateX(148px);
   }
 }
 
 .line:nth-child(70) {
-  transform: rotateY(220deg);
+  transform: rotateY(203deg);
 }
 
 .line:nth-child(70) .spark {
-  animation: spark70 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(70) .fire {
-  animation: fire 1907ms -392ms linear infinite;
+.line:nth-child(70) .star {
+  top: 340px;
+  left: 180px;
+  animation: star 1217ms -351ms linear infinite;
 }
 
 @keyframes spark70 {
   0% {
-    transform: translateY(543px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(104px);
   }
   100% {
-    transform: rotateZ(356deg) translateX(289px);
+    transform: rotateZ(299deg) translateX(144px);
   }
 }
 
 .line:nth-child(71) {
-  transform: rotateY(223deg);
+  transform: rotateY(232deg);
 }
 
 .line:nth-child(71) .spark {
-  animation: spark71 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(71) .fire {
-  animation: fire 2000ms -957ms linear infinite;
+.line:nth-child(71) .star {
+  top: 134px;
+  left: 137px;
+  animation: star 1092ms -839ms linear infinite;
 }
 
 @keyframes spark71 {
   0% {
-    transform: translateY(510px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(129px);
   }
   100% {
-    transform: rotateZ(154deg) translateX(127px);
+    transform: rotateZ(56deg) translateX(139px);
   }
 }
 
 .line:nth-child(72) {
-  transform: rotateY(342deg);
+  transform: rotateY(249deg);
 }
 
 .line:nth-child(72) .spark {
-  animation: spark72 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(72) .fire {
-  animation: fire 1961ms -568ms linear infinite;
+.line:nth-child(72) .star {
+  top: 124px;
+  left: 247px;
+  animation: star 1782ms -425ms linear infinite;
 }
 
 @keyframes spark72 {
   0% {
-    transform: translateY(590px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(124px);
   }
   100% {
-    transform: rotateZ(246deg) translateX(105px);
+    transform: rotateZ(274deg) translateX(146px);
   }
 }
 
 .line:nth-child(73) {
-  transform: rotateY(301deg);
+  transform: rotateY(204deg);
 }
 
 .line:nth-child(73) .spark {
-  animation: spark73 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(73) .fire {
-  animation: fire 1169ms -904ms linear infinite;
+.line:nth-child(73) .star {
+  top: 425px;
+  left: 216px;
+  animation: star 1448ms -976ms linear infinite;
 }
 
 @keyframes spark73 {
   0% {
-    transform: translateY(648px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(121px);
   }
   100% {
-    transform: rotateZ(109deg) translateX(134px);
+    transform: rotateZ(173deg) translateX(139px);
   }
 }
 
 .line:nth-child(74) {
-  transform: rotateY(290deg);
+  transform: rotateY(141deg);
 }
 
 .line:nth-child(74) .spark {
-  animation: spark74 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(74) .fire {
-  animation: fire 1016ms -462ms linear infinite;
+.line:nth-child(74) .star {
+  top: 10px;
+  left: 76px;
+  animation: star 1594ms -200ms linear infinite;
 }
 
 @keyframes spark74 {
   0% {
-    transform: translateY(567px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(145px);
   }
   100% {
-    transform: rotateZ(176deg) translateX(244px);
+    transform: rotateZ(229deg) translateX(137px);
   }
 }
 
 .line:nth-child(75) {
-  transform: rotateY(101deg);
+  transform: rotateY(310deg);
 }
 
 .line:nth-child(75) .spark {
-  animation: spark75 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(75) .fire {
-  animation: fire 1122ms -624ms linear infinite;
+.line:nth-child(75) .star {
+  top: 13px;
+  left: 194px;
+  animation: star 1970ms -229ms linear infinite;
 }
 
 @keyframes spark75 {
   0% {
-    transform: translateY(608px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(131px);
   }
   100% {
-    transform: rotateZ(351deg) translateX(290px);
+    transform: rotateZ(360deg) translateX(149px);
   }
 }
 
 .line:nth-child(76) {
-  transform: rotateY(77deg);
+  transform: rotateY(326deg);
 }
 
 .line:nth-child(76) .spark {
-  animation: spark76 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(76) .fire {
-  animation: fire 1748ms -330ms linear infinite;
+.line:nth-child(76) .star {
+  top: 372px;
+  left: 123px;
+  animation: star 1795ms -278ms linear infinite;
 }
 
 @keyframes spark76 {
   0% {
-    transform: translateY(641px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(111px);
   }
   100% {
-    transform: rotateZ(249deg) translateX(265px);
+    transform: rotateZ(54deg) translateX(112px);
   }
 }
 
 .line:nth-child(77) {
-  transform: rotateY(188deg);
+  transform: rotateY(233deg);
 }
 
 .line:nth-child(77) .spark {
-  animation: spark77 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(77) .fire {
-  animation: fire 1343ms -311ms linear infinite;
+.line:nth-child(77) .star {
+  top: 348px;
+  left: 451px;
+  animation: star 1033ms -836ms linear infinite;
 }
 
 @keyframes spark77 {
   0% {
-    transform: translateY(531px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(146px);
   }
   100% {
-    transform: rotateZ(91deg) translateX(178px);
+    transform: rotateZ(173deg) translateX(106px);
   }
 }
 
 .line:nth-child(78) {
-  transform: rotateY(323deg);
+  transform: rotateY(30deg);
 }
 
 .line:nth-child(78) .spark {
-  animation: spark78 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(78) .fire {
-  animation: fire 1055ms -905ms linear infinite;
+.line:nth-child(78) .star {
+  top: 241px;
+  left: 251px;
+  animation: star 1781ms -866ms linear infinite;
 }
 
 @keyframes spark78 {
   0% {
-    transform: translateY(640px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(141px);
   }
   100% {
-    transform: rotateZ(142deg) translateX(109px);
+    transform: rotateZ(132deg) translateX(147px);
   }
 }
 
 .line:nth-child(79) {
-  transform: rotateY(120deg);
+  transform: rotateY(345deg);
 }
 
 .line:nth-child(79) .spark {
-  animation: spark79 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(79) .fire {
-  animation: fire 1203ms -991ms linear infinite;
+.line:nth-child(79) .star {
+  top: 11px;
+  left: 424px;
+  animation: star 1019ms -621ms linear infinite;
 }
 
 @keyframes spark79 {
   0% {
-    transform: translateY(630px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(101px);
   }
   100% {
-    transform: rotateZ(327deg) translateX(164px);
+    transform: rotateZ(249deg) translateX(116px);
   }
 }
 
 .line:nth-child(80) {
-  transform: rotateY(136deg);
+  transform: rotateY(6deg);
 }
 
 .line:nth-child(80) .spark {
-  animation: spark80 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(80) .fire {
-  animation: fire 1749ms -726ms linear infinite;
+.line:nth-child(80) .star {
+  top: 351px;
+  left: 477px;
+  animation: star 1622ms -613ms linear infinite;
 }
 
 @keyframes spark80 {
   0% {
-    transform: translateY(557px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(144px);
   }
   100% {
-    transform: rotateZ(128deg) translateX(286px);
+    transform: rotateZ(92deg) translateX(143px);
   }
 }
 
 .line:nth-child(81) {
-  transform: rotateY(192deg);
+  transform: rotateY(142deg);
 }
 
 .line:nth-child(81) .spark {
-  animation: spark81 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(81) .fire {
-  animation: fire 1784ms -637ms linear infinite;
+.line:nth-child(81) .star {
+  top: 468px;
+  left: 96px;
+  animation: star 1518ms -311ms linear infinite;
 }
 
 @keyframes spark81 {
   0% {
-    transform: translateY(632px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(125px);
   }
   100% {
-    transform: rotateZ(88deg) translateX(299px);
+    transform: rotateZ(339deg) translateX(137px);
   }
 }
 
 .line:nth-child(82) {
-  transform: rotateY(356deg);
+  transform: rotateY(250deg);
 }
 
 .line:nth-child(82) .spark {
-  animation: spark82 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(82) .fire {
-  animation: fire 1910ms -733ms linear infinite;
+.line:nth-child(82) .star {
+  top: 209px;
+  left: 482px;
+  animation: star 1761ms -707ms linear infinite;
 }
 
 @keyframes spark82 {
   0% {
-    transform: translateY(521px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(148px);
   }
   100% {
-    transform: rotateZ(89deg) translateX(229px);
+    transform: rotateZ(342deg) translateX(107px);
   }
 }
 
 .line:nth-child(83) {
-  transform: rotateY(36deg);
+  transform: rotateY(156deg);
 }
 
 .line:nth-child(83) .spark {
-  animation: spark83 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(83) .fire {
-  animation: fire 1184ms -199ms linear infinite;
+.line:nth-child(83) .star {
+  top: 316px;
+  left: 23px;
+  animation: star 1131ms -917ms linear infinite;
 }
 
 @keyframes spark83 {
   0% {
-    transform: translateY(516px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(122px);
   }
   100% {
-    transform: rotateZ(83deg) translateX(181px);
+    transform: rotateZ(353deg) translateX(139px);
   }
 }
 
 .line:nth-child(84) {
-  transform: rotateY(186deg);
+  transform: rotateY(244deg);
 }
 
 .line:nth-child(84) .spark {
-  animation: spark84 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(84) .fire {
-  animation: fire 1777ms -801ms linear infinite;
+.line:nth-child(84) .star {
+  top: 491px;
+  left: 124px;
+  animation: star 1291ms -692ms linear infinite;
 }
 
 @keyframes spark84 {
   0% {
-    transform: translateY(649px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(108px);
   }
   100% {
-    transform: rotateZ(16deg) translateX(120px);
+    transform: rotateZ(214deg) translateX(113px);
   }
 }
 
 .line:nth-child(85) {
-  transform: rotateY(190deg);
+  transform: rotateY(309deg);
 }
 
 .line:nth-child(85) .spark {
-  animation: spark85 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(85) .fire {
-  animation: fire 1863ms -853ms linear infinite;
+.line:nth-child(85) .star {
+  top: 131px;
+  left: 163px;
+  animation: star 1796ms -124ms linear infinite;
 }
 
 @keyframes spark85 {
   0% {
-    transform: translateY(574px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(142px);
   }
   100% {
-    transform: rotateZ(31deg) translateX(250px);
+    transform: rotateZ(350deg) translateX(107px);
   }
 }
 
 .line:nth-child(86) {
-  transform: rotateY(286deg);
+  transform: rotateY(86deg);
 }
 
 .line:nth-child(86) .spark {
-  animation: spark86 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(86) .fire {
-  animation: fire 1939ms -239ms linear infinite;
+.line:nth-child(86) .star {
+  top: 8px;
+  left: 260px;
+  animation: star 1539ms -917ms linear infinite;
 }
 
 @keyframes spark86 {
   0% {
-    transform: translateY(516px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(120px);
   }
   100% {
-    transform: rotateZ(68deg) translateX(119px);
+    transform: rotateZ(58deg) translateX(112px);
   }
 }
 
 .line:nth-child(87) {
-  transform: rotateY(167deg);
+  transform: rotateY(2deg);
 }
 
 .line:nth-child(87) .spark {
-  animation: spark87 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(87) .fire {
-  animation: fire 1208ms -182ms linear infinite;
+.line:nth-child(87) .star {
+  top: 311px;
+  left: 10px;
+  animation: star 1183ms -455ms linear infinite;
 }
 
 @keyframes spark87 {
   0% {
-    transform: translateY(605px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(143px);
   }
   100% {
-    transform: rotateZ(162deg) translateX(200px);
+    transform: rotateZ(132deg) translateX(103px);
   }
 }
 
 .line:nth-child(88) {
-  transform: rotateY(302deg);
+  transform: rotateY(179deg);
 }
 
 .line:nth-child(88) .spark {
-  animation: spark88 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(88) .fire {
-  animation: fire 1352ms -105ms linear infinite;
+.line:nth-child(88) .star {
+  top: 370px;
+  left: 276px;
+  animation: star 1190ms -464ms linear infinite;
 }
 
 @keyframes spark88 {
   0% {
-    transform: translateY(535px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(108px);
   }
   100% {
-    transform: rotateZ(261deg) translateX(154px);
+    transform: rotateZ(355deg) translateX(113px);
   }
 }
 
 .line:nth-child(89) {
-  transform: rotateY(45deg);
+  transform: rotateY(154deg);
 }
 
 .line:nth-child(89) .spark {
-  animation: spark89 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(89) .fire {
-  animation: fire 1291ms -356ms linear infinite;
+.line:nth-child(89) .star {
+  top: 99px;
+  left: 325px;
+  animation: star 1206ms -692ms linear infinite;
 }
 
 @keyframes spark89 {
   0% {
-    transform: translateY(625px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(109px);
   }
   100% {
-    transform: rotateZ(187deg) translateX(235px);
+    transform: rotateZ(105deg) translateX(102px);
   }
 }
 
 .line:nth-child(90) {
-  transform: rotateY(268deg);
+  transform: rotateY(135deg);
 }
 
 .line:nth-child(90) .spark {
-  animation: spark90 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(90) .fire {
-  animation: fire 1021ms -58ms linear infinite;
+.line:nth-child(90) .star {
+  top: 416px;
+  left: 8px;
+  animation: star 1777ms -9ms linear infinite;
 }
 
 @keyframes spark90 {
   0% {
-    transform: translateY(554px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(143px);
   }
   100% {
-    transform: rotateZ(330deg) translateX(143px);
+    transform: rotateZ(270deg) translateX(108px);
   }
 }
 
 .line:nth-child(91) {
-  transform: rotateY(181deg);
+  transform: rotateY(289deg);
 }
 
 .line:nth-child(91) .spark {
-  animation: spark91 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(91) .fire {
-  animation: fire 1303ms -642ms linear infinite;
+.line:nth-child(91) .star {
+  top: 143px;
+  left: 221px;
+  animation: star 1175ms -100ms linear infinite;
 }
 
 @keyframes spark91 {
   0% {
-    transform: translateY(648px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(119px);
   }
   100% {
-    transform: rotateZ(57deg) translateX(170px);
+    transform: rotateZ(294deg) translateX(102px);
   }
 }
 
 .line:nth-child(92) {
-  transform: rotateY(273deg);
+  transform: rotateY(144deg);
 }
 
 .line:nth-child(92) .spark {
-  animation: spark92 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(92) .fire {
-  animation: fire 1218ms -670ms linear infinite;
+.line:nth-child(92) .star {
+  top: 415px;
+  left: 326px;
+  animation: star 1101ms -175ms linear infinite;
 }
 
 @keyframes spark92 {
   0% {
-    transform: translateY(640px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(122px);
   }
   100% {
-    transform: rotateZ(275deg) translateX(245px);
+    transform: rotateZ(126deg) translateX(132px);
   }
 }
 
 .line:nth-child(93) {
-  transform: rotateY(26deg);
+  transform: rotateY(77deg);
 }
 
 .line:nth-child(93) .spark {
-  animation: spark93 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(93) .fire {
-  animation: fire 1871ms -641ms linear infinite;
+.line:nth-child(93) .star {
+  top: 292px;
+  left: 175px;
+  animation: star 1528ms -566ms linear infinite;
 }
 
 @keyframes spark93 {
   0% {
-    transform: translateY(508px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(103px);
   }
   100% {
-    transform: rotateZ(106deg) translateX(292px);
+    transform: rotateZ(272deg) translateX(150px);
   }
 }
 
 .line:nth-child(94) {
-  transform: rotateY(292deg);
+  transform: rotateY(71deg);
 }
 
 .line:nth-child(94) .spark {
-  animation: spark94 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(94) .fire {
-  animation: fire 1225ms -271ms linear infinite;
+.line:nth-child(94) .star {
+  top: 304px;
+  left: 108px;
+  animation: star 1421ms -914ms linear infinite;
 }
 
 @keyframes spark94 {
   0% {
-    transform: translateY(644px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(125px);
   }
   100% {
-    transform: rotateZ(41deg) translateX(134px);
+    transform: rotateZ(142deg) translateX(108px);
   }
 }
 
 .line:nth-child(95) {
-  transform: rotateY(285deg);
+  transform: rotateY(174deg);
 }
 
 .line:nth-child(95) .spark {
-  animation: spark95 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(95) .fire {
-  animation: fire 1702ms -865ms linear infinite;
+.line:nth-child(95) .star {
+  top: 365px;
+  left: 123px;
+  animation: star 1556ms -280ms linear infinite;
 }
 
 @keyframes spark95 {
   0% {
-    transform: translateY(631px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(127px);
   }
   100% {
-    transform: rotateZ(335deg) translateX(170px);
+    transform: rotateZ(326deg) translateX(135px);
   }
 }
 
 .line:nth-child(96) {
-  transform: rotateY(104deg);
+  transform: rotateY(106deg);
 }
 
 .line:nth-child(96) .spark {
-  animation: spark96 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(96) .fire {
-  animation: fire 1843ms -154ms linear infinite;
+.line:nth-child(96) .star {
+  top: 226px;
+  left: 212px;
+  animation: star 1588ms -171ms linear infinite;
 }
 
 @keyframes spark96 {
   0% {
-    transform: translateY(543px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(105px);
   }
   100% {
-    transform: rotateZ(182deg) translateX(248px);
+    transform: rotateZ(217deg) translateX(108px);
   }
 }
 
 .line:nth-child(97) {
-  transform: rotateY(45deg);
+  transform: rotateY(322deg);
 }
 
 .line:nth-child(97) .spark {
-  animation: spark97 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(97) .fire {
-  animation: fire 1838ms -511ms linear infinite;
+.line:nth-child(97) .star {
+  top: 39px;
+  left: 400px;
+  animation: star 1231ms -68ms linear infinite;
 }
 
 @keyframes spark97 {
   0% {
-    transform: translateY(643px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(117px);
   }
   100% {
-    transform: rotateZ(136deg) translateX(206px);
+    transform: rotateZ(329deg) translateX(138px);
   }
 }
 
 .line:nth-child(98) {
-  transform: rotateY(13deg);
+  transform: rotateY(236deg);
 }
 
 .line:nth-child(98) .spark {
-  animation: spark98 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(98) .fire {
-  animation: fire 1402ms -732ms linear infinite;
+.line:nth-child(98) .star {
+  top: 462px;
+  left: 28px;
+  animation: star 1676ms -627ms linear infinite;
 }
 
 @keyframes spark98 {
   0% {
-    transform: translateY(502px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(138px);
   }
   100% {
-    transform: rotateZ(158deg) translateX(264px);
+    transform: rotateZ(245deg) translateX(111px);
   }
 }
 
 .line:nth-child(99) {
-  transform: rotateY(124deg);
+  transform: rotateY(298deg);
 }
 
 .line:nth-child(99) .spark {
-  animation: spark99 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(99) .fire {
-  animation: fire 1063ms -144ms linear infinite;
+.line:nth-child(99) .star {
+  top: 29px;
+  left: 211px;
+  animation: star 1749ms -411ms linear infinite;
 }
 
 @keyframes spark99 {
   0% {
-    transform: translateY(547px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(134px);
   }
   100% {
-    transform: rotateZ(241deg) translateX(122px);
+    transform: rotateZ(59deg) translateX(105px);
   }
 }
 
 .line:nth-child(100) {
-  transform: rotateY(311deg);
+  transform: rotateY(299deg);
 }
 
 .line:nth-child(100) .spark {
-  animation: spark100 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(100) .fire {
-  animation: fire 1978ms -300ms linear infinite;
+.line:nth-child(100) .star {
+  top: 29px;
+  left: 228px;
+  animation: star 1725ms -585ms linear infinite;
 }
 
 @keyframes spark100 {
   0% {
-    transform: translateY(591px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(141px);
   }
   100% {
-    transform: rotateZ(46deg) translateX(112px);
+    transform: rotateZ(52deg) translateX(128px);
   }
 }
 
 .line:nth-child(101) {
-  transform: rotateY(322deg);
+  transform: rotateY(206deg);
 }
 
 .line:nth-child(101) .spark {
-  animation: spark101 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(101) .fire {
-  animation: fire 1829ms -702ms linear infinite;
+.line:nth-child(101) .star {
+  top: 295px;
+  left: 260px;
+  animation: star 1306ms -163ms linear infinite;
 }
 
 @keyframes spark101 {
   0% {
-    transform: translateY(534px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(131px);
   }
   100% {
-    transform: rotateZ(62deg) translateX(129px);
+    transform: rotateZ(257deg) translateX(140px);
   }
 }
 
 .line:nth-child(102) {
-  transform: rotateY(190deg);
+  transform: rotateY(212deg);
 }
 
 .line:nth-child(102) .spark {
-  animation: spark102 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(102) .fire {
-  animation: fire 1500ms -991ms linear infinite;
+.line:nth-child(102) .star {
+  top: 465px;
+  left: 274px;
+  animation: star 1618ms -472ms linear infinite;
 }
 
 @keyframes spark102 {
   0% {
-    transform: translateY(577px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(103px);
   }
   100% {
-    transform: rotateZ(84deg) translateX(225px);
+    transform: rotateZ(261deg) translateX(119px);
   }
 }
 
 .line:nth-child(103) {
-  transform: rotateY(111deg);
+  transform: rotateY(257deg);
 }
 
 .line:nth-child(103) .spark {
-  animation: spark103 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(103) .fire {
-  animation: fire 1743ms -628ms linear infinite;
+.line:nth-child(103) .star {
+  top: 347px;
+  left: 34px;
+  animation: star 1735ms -629ms linear infinite;
 }
 
 @keyframes spark103 {
   0% {
-    transform: translateY(542px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(121px);
   }
   100% {
-    transform: rotateZ(104deg) translateX(133px);
+    transform: rotateZ(277deg) translateX(122px);
   }
 }
 
 .line:nth-child(104) {
-  transform: rotateY(306deg);
+  transform: rotateY(119deg);
 }
 
 .line:nth-child(104) .spark {
-  animation: spark104 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(104) .fire {
-  animation: fire 1657ms -304ms linear infinite;
+.line:nth-child(104) .star {
+  top: 457px;
+  left: 127px;
+  animation: star 1749ms -301ms linear infinite;
 }
 
 @keyframes spark104 {
   0% {
-    transform: translateY(528px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(137px);
   }
   100% {
-    transform: rotateZ(48deg) translateX(300px);
+    transform: rotateZ(174deg) translateX(142px);
   }
 }
 
 .line:nth-child(105) {
-  transform: rotateY(326deg);
+  transform: rotateY(35deg);
 }
 
 .line:nth-child(105) .spark {
-  animation: spark105 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(105) .fire {
-  animation: fire 1320ms -774ms linear infinite;
+.line:nth-child(105) .star {
+  top: 373px;
+  left: 76px;
+  animation: star 1522ms -216ms linear infinite;
 }
 
 @keyframes spark105 {
   0% {
-    transform: translateY(566px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(107px);
   }
   100% {
-    transform: rotateZ(270deg) translateX(164px);
+    transform: rotateZ(119deg) translateX(118px);
   }
 }
 
 .line:nth-child(106) {
-  transform: rotateY(284deg);
+  transform: rotateY(14deg);
 }
 
 .line:nth-child(106) .spark {
-  animation: spark106 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(106) .fire {
-  animation: fire 1785ms -386ms linear infinite;
+.line:nth-child(106) .star {
+  top: 242px;
+  left: 448px;
+  animation: star 1034ms -626ms linear infinite;
 }
 
 @keyframes spark106 {
   0% {
-    transform: translateY(591px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(111px);
   }
   100% {
-    transform: rotateZ(261deg) translateX(179px);
+    transform: rotateZ(347deg) translateX(130px);
   }
 }
 
 .line:nth-child(107) {
-  transform: rotateY(305deg);
+  transform: rotateY(123deg);
 }
 
 .line:nth-child(107) .spark {
-  animation: spark107 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(107) .fire {
-  animation: fire 1980ms -755ms linear infinite;
+.line:nth-child(107) .star {
+  top: 190px;
+  left: 277px;
+  animation: star 1875ms -516ms linear infinite;
 }
 
 @keyframes spark107 {
   0% {
-    transform: translateY(607px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(115px);
   }
   100% {
-    transform: rotateZ(16deg) translateX(219px);
+    transform: rotateZ(34deg) translateX(146px);
   }
 }
 
 .line:nth-child(108) {
-  transform: rotateY(8deg);
+  transform: rotateY(129deg);
 }
 
 .line:nth-child(108) .spark {
-  animation: spark108 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(108) .fire {
-  animation: fire 1714ms -921ms linear infinite;
+.line:nth-child(108) .star {
+  top: 479px;
+  left: 69px;
+  animation: star 1858ms -329ms linear infinite;
 }
 
 @keyframes spark108 {
   0% {
-    transform: translateY(510px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(133px);
   }
   100% {
-    transform: rotateZ(301deg) translateX(269px);
+    transform: rotateZ(115deg) translateX(109px);
   }
 }
 
 .line:nth-child(109) {
-  transform: rotateY(186deg);
+  transform: rotateY(279deg);
 }
 
 .line:nth-child(109) .spark {
-  animation: spark109 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(109) .fire {
-  animation: fire 1587ms -118ms linear infinite;
+.line:nth-child(109) .star {
+  top: 310px;
+  left: 335px;
+  animation: star 1388ms -359ms linear infinite;
 }
 
 @keyframes spark109 {
   0% {
-    transform: translateY(529px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(123px);
   }
   100% {
-    transform: rotateZ(151deg) translateX(234px);
+    transform: rotateZ(217deg) translateX(127px);
   }
 }
 
 .line:nth-child(110) {
-  transform: rotateY(162deg);
+  transform: rotateY(314deg);
 }
 
 .line:nth-child(110) .spark {
-  animation: spark110 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(110) .fire {
-  animation: fire 1335ms -629ms linear infinite;
+.line:nth-child(110) .star {
+  top: 22px;
+  left: 276px;
+  animation: star 1503ms -115ms linear infinite;
 }
 
 @keyframes spark110 {
   0% {
-    transform: translateY(507px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(128px);
   }
   100% {
-    transform: rotateZ(183deg) translateX(186px);
+    transform: rotateZ(153deg) translateX(123px);
   }
 }
 
 .line:nth-child(111) {
-  transform: rotateY(187deg);
+  transform: rotateY(154deg);
 }
 
 .line:nth-child(111) .spark {
-  animation: spark111 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(111) .fire {
-  animation: fire 1168ms -65ms linear infinite;
+.line:nth-child(111) .star {
+  top: 430px;
+  left: 243px;
+  animation: star 1007ms -793ms linear infinite;
 }
 
 @keyframes spark111 {
   0% {
-    transform: translateY(527px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(119px);
   }
   100% {
-    transform: rotateZ(153deg) translateX(248px);
+    transform: rotateZ(240deg) translateX(118px);
   }
 }
 
 .line:nth-child(112) {
-  transform: rotateY(192deg);
+  transform: rotateY(211deg);
 }
 
 .line:nth-child(112) .spark {
-  animation: spark112 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(112) .fire {
-  animation: fire 1514ms -987ms linear infinite;
+.line:nth-child(112) .star {
+  top: 8px;
+  left: 95px;
+  animation: star 1127ms -37ms linear infinite;
 }
 
 @keyframes spark112 {
   0% {
-    transform: translateY(640px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(120px);
   }
   100% {
-    transform: rotateZ(76deg) translateX(182px);
+    transform: rotateZ(57deg) translateX(118px);
   }
 }
 
 .line:nth-child(113) {
-  transform: rotateY(80deg);
+  transform: rotateY(155deg);
 }
 
 .line:nth-child(113) .spark {
-  animation: spark113 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(113) .fire {
-  animation: fire 1544ms -500ms linear infinite;
+.line:nth-child(113) .star {
+  top: 218px;
+  left: 422px;
+  animation: star 1052ms -402ms linear infinite;
 }
 
 @keyframes spark113 {
   0% {
-    transform: translateY(508px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(121px);
   }
   100% {
-    transform: rotateZ(222deg) translateX(156px);
+    transform: rotateZ(64deg) translateX(122px);
   }
 }
 
 .line:nth-child(114) {
-  transform: rotateY(186deg);
+  transform: rotateY(90deg);
 }
 
 .line:nth-child(114) .spark {
-  animation: spark114 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(114) .fire {
-  animation: fire 1581ms -972ms linear infinite;
+.line:nth-child(114) .star {
+  top: 167px;
+  left: 468px;
+  animation: star 1854ms -624ms linear infinite;
 }
 
 @keyframes spark114 {
   0% {
-    transform: translateY(633px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(128px);
   }
   100% {
-    transform: rotateZ(152deg) translateX(113px);
+    transform: rotateZ(256deg) translateX(116px);
   }
 }
 
 .line:nth-child(115) {
-  transform: rotateY(60deg);
+  transform: rotateY(188deg);
 }
 
 .line:nth-child(115) .spark {
-  animation: spark115 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(115) .fire {
-  animation: fire 1952ms -687ms linear infinite;
+.line:nth-child(115) .star {
+  top: 137px;
+  left: 151px;
+  animation: star 1232ms -534ms linear infinite;
 }
 
 @keyframes spark115 {
   0% {
-    transform: translateY(639px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(123px);
   }
   100% {
-    transform: rotateZ(315deg) translateX(144px);
+    transform: rotateZ(98deg) translateX(128px);
   }
 }
 
 .line:nth-child(116) {
-  transform: rotateY(54deg);
+  transform: rotateY(308deg);
 }
 
 .line:nth-child(116) .spark {
-  animation: spark116 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(116) .fire {
-  animation: fire 1685ms -600ms linear infinite;
+.line:nth-child(116) .star {
+  top: 58px;
+  left: 264px;
+  animation: star 1830ms -207ms linear infinite;
 }
 
 @keyframes spark116 {
   0% {
-    transform: translateY(626px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(149px);
   }
   100% {
-    transform: rotateZ(120deg) translateX(109px);
+    transform: rotateZ(56deg) translateX(123px);
   }
 }
 
 .line:nth-child(117) {
-  transform: rotateY(115deg);
+  transform: rotateY(350deg);
 }
 
 .line:nth-child(117) .spark {
-  animation: spark117 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(117) .fire {
-  animation: fire 1764ms -384ms linear infinite;
+.line:nth-child(117) .star {
+  top: 86px;
+  left: 425px;
+  animation: star 1927ms -711ms linear infinite;
 }
 
 @keyframes spark117 {
   0% {
-    transform: translateY(596px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(132px);
   }
   100% {
-    transform: rotateZ(15deg) translateX(212px);
+    transform: rotateZ(328deg) translateX(124px);
   }
 }
 
 .line:nth-child(118) {
-  transform: rotateY(355deg);
+  transform: rotateY(209deg);
 }
 
 .line:nth-child(118) .spark {
-  animation: spark118 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(118) .fire {
-  animation: fire 1996ms -495ms linear infinite;
+.line:nth-child(118) .star {
+  top: 103px;
+  left: 28px;
+  animation: star 1628ms -516ms linear infinite;
 }
 
 @keyframes spark118 {
   0% {
-    transform: translateY(518px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(144px);
   }
   100% {
-    transform: rotateZ(155deg) translateX(280px);
+    transform: rotateZ(98deg) translateX(139px);
   }
 }
 
 .line:nth-child(119) {
-  transform: rotateY(209deg);
+  transform: rotateY(7deg);
 }
 
 .line:nth-child(119) .spark {
-  animation: spark119 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(119) .fire {
-  animation: fire 1842ms -622ms linear infinite;
+.line:nth-child(119) .star {
+  top: 253px;
+  left: 368px;
+  animation: star 1759ms -860ms linear infinite;
 }
 
 @keyframes spark119 {
   0% {
-    transform: translateY(558px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(110px);
   }
   100% {
-    transform: rotateZ(348deg) translateX(282px);
+    transform: rotateZ(355deg) translateX(108px);
   }
 }
 
 .line:nth-child(120) {
-  transform: rotateY(138deg);
+  transform: rotateY(40deg);
 }
 
 .line:nth-child(120) .spark {
-  animation: spark120 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(120) .fire {
-  animation: fire 1319ms -635ms linear infinite;
+.line:nth-child(120) .star {
+  top: 407px;
+  left: 223px;
+  animation: star 1047ms -556ms linear infinite;
 }
 
 @keyframes spark120 {
   0% {
-    transform: translateY(622px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(131px);
   }
   100% {
-    transform: rotateZ(213deg) translateX(291px);
+    transform: rotateZ(99deg) translateX(127px);
   }
 }
 
 .line:nth-child(121) {
-  transform: rotateY(59deg);
+  transform: rotateY(63deg);
 }
 
 .line:nth-child(121) .spark {
-  animation: spark121 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(121) .fire {
-  animation: fire 1114ms -291ms linear infinite;
+.line:nth-child(121) .star {
+  top: 360px;
+  left: 388px;
+  animation: star 1298ms -419ms linear infinite;
 }
 
 @keyframes spark121 {
   0% {
-    transform: translateY(597px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(144px);
   }
   100% {
-    transform: rotateZ(278deg) translateX(281px);
+    transform: rotateZ(170deg) translateX(116px);
   }
 }
 
 .line:nth-child(122) {
-  transform: rotateY(96deg);
+  transform: rotateY(262deg);
 }
 
 .line:nth-child(122) .spark {
-  animation: spark122 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(122) .fire {
-  animation: fire 1115ms -463ms linear infinite;
+.line:nth-child(122) .star {
+  top: 444px;
+  left: 62px;
+  animation: star 1985ms -11ms linear infinite;
 }
 
 @keyframes spark122 {
   0% {
-    transform: translateY(511px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(119px);
   }
   100% {
-    transform: rotateZ(323deg) translateX(179px);
+    transform: rotateZ(220deg) translateX(103px);
   }
 }
 
 .line:nth-child(123) {
-  transform: rotateY(355deg);
+  transform: rotateY(309deg);
 }
 
 .line:nth-child(123) .spark {
-  animation: spark123 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(123) .fire {
-  animation: fire 1051ms -246ms linear infinite;
+.line:nth-child(123) .star {
+  top: 165px;
+  left: 303px;
+  animation: star 1103ms -618ms linear infinite;
 }
 
 @keyframes spark123 {
   0% {
-    transform: translateY(619px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(150px);
   }
   100% {
-    transform: rotateZ(92deg) translateX(264px);
+    transform: rotateZ(294deg) translateX(118px);
   }
 }
 
 .line:nth-child(124) {
-  transform: rotateY(245deg);
+  transform: rotateY(164deg);
 }
 
 .line:nth-child(124) .spark {
-  animation: spark124 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(124) .fire {
-  animation: fire 1938ms -693ms linear infinite;
+.line:nth-child(124) .star {
+  top: 364px;
+  left: 32px;
+  animation: star 1264ms -662ms linear infinite;
 }
 
 @keyframes spark124 {
   0% {
-    transform: translateY(540px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(109px);
   }
   100% {
-    transform: rotateZ(325deg) translateX(159px);
+    transform: rotateZ(280deg) translateX(136px);
   }
 }
 
 .line:nth-child(125) {
-  transform: rotateY(300deg);
+  transform: rotateY(266deg);
 }
 
 .line:nth-child(125) .spark {
-  animation: spark125 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(125) .fire {
-  animation: fire 1009ms -128ms linear infinite;
+.line:nth-child(125) .star {
+  top: 470px;
+  left: 278px;
+  animation: star 1289ms -634ms linear infinite;
 }
 
 @keyframes spark125 {
   0% {
-    transform: translateY(561px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(147px);
   }
   100% {
-    transform: rotateZ(181deg) translateX(213px);
+    transform: rotateZ(315deg) translateX(148px);
   }
 }
 
 .line:nth-child(126) {
-  transform: rotateY(188deg);
+  transform: rotateY(183deg);
 }
 
 .line:nth-child(126) .spark {
-  animation: spark126 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(126) .fire {
-  animation: fire 1755ms -761ms linear infinite;
+.line:nth-child(126) .star {
+  top: 450px;
+  left: 351px;
+  animation: star 1696ms -36ms linear infinite;
 }
 
 @keyframes spark126 {
   0% {
-    transform: translateY(552px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(147px);
   }
   100% {
-    transform: rotateZ(132deg) translateX(170px);
+    transform: rotateZ(48deg) translateX(148px);
   }
 }
 
 .line:nth-child(127) {
-  transform: rotateY(33deg);
+  transform: rotateY(34deg);
 }
 
 .line:nth-child(127) .spark {
-  animation: spark127 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(127) .fire {
-  animation: fire 1446ms -92ms linear infinite;
+.line:nth-child(127) .star {
+  top: 119px;
+  left: 368px;
+  animation: star 1139ms -440ms linear infinite;
 }
 
 @keyframes spark127 {
   0% {
-    transform: translateY(650px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(140px);
   }
   100% {
-    transform: rotateZ(347deg) translateX(269px);
+    transform: rotateZ(360deg) translateX(104px);
   }
 }
 
 .line:nth-child(128) {
-  transform: rotateY(175deg);
+  transform: rotateY(89deg);
 }
 
 .line:nth-child(128) .spark {
-  animation: spark128 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(128) .fire {
-  animation: fire 1251ms -884ms linear infinite;
+.line:nth-child(128) .star {
+  top: 111px;
+  left: 345px;
+  animation: star 1259ms -530ms linear infinite;
 }
 
 @keyframes spark128 {
   0% {
-    transform: translateY(590px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(120px);
   }
   100% {
-    transform: rotateZ(311deg) translateX(127px);
+    transform: rotateZ(75deg) translateX(138px);
   }
 }
 
 .line:nth-child(129) {
-  transform: rotateY(220deg);
+  transform: rotateY(320deg);
 }
 
 .line:nth-child(129) .spark {
-  animation: spark129 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(129) .fire {
-  animation: fire 1863ms -792ms linear infinite;
+.line:nth-child(129) .star {
+  top: 223px;
+  left: 326px;
+  animation: star 1524ms -310ms linear infinite;
 }
 
 @keyframes spark129 {
   0% {
-    transform: translateY(555px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(145px);
   }
   100% {
-    transform: rotateZ(264deg) translateX(273px);
+    transform: rotateZ(282deg) translateX(138px);
   }
 }
 
 .line:nth-child(130) {
-  transform: rotateY(291deg);
+  transform: rotateY(88deg);
 }
 
 .line:nth-child(130) .spark {
-  animation: spark130 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(130) .fire {
-  animation: fire 1646ms -866ms linear infinite;
+.line:nth-child(130) .star {
+  top: 56px;
+  left: 319px;
+  animation: star 1165ms -780ms linear infinite;
 }
 
 @keyframes spark130 {
   0% {
-    transform: translateY(591px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(145px);
   }
   100% {
-    transform: rotateZ(311deg) translateX(295px);
+    transform: rotateZ(149deg) translateX(112px);
   }
 }
 
 .line:nth-child(131) {
-  transform: rotateY(88deg);
+  transform: rotateY(254deg);
 }
 
 .line:nth-child(131) .spark {
-  animation: spark131 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(131) .fire {
-  animation: fire 1041ms -451ms linear infinite;
+.line:nth-child(131) .star {
+  top: 346px;
+  left: 41px;
+  animation: star 1568ms -365ms linear infinite;
 }
 
 @keyframes spark131 {
   0% {
-    transform: translateY(631px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(113px);
   }
   100% {
-    transform: rotateZ(46deg) translateX(300px);
+    transform: rotateZ(195deg) translateX(129px);
   }
 }
 
 .line:nth-child(132) {
-  transform: rotateY(82deg);
+  transform: rotateY(75deg);
 }
 
 .line:nth-child(132) .spark {
-  animation: spark132 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(132) .fire {
-  animation: fire 1995ms -79ms linear infinite;
+.line:nth-child(132) .star {
+  top: 40px;
+  left: 291px;
+  animation: star 1325ms -407ms linear infinite;
 }
 
 @keyframes spark132 {
   0% {
-    transform: translateY(564px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(141px);
   }
   100% {
-    transform: rotateZ(355deg) translateX(196px);
+    transform: rotateZ(139deg) translateX(150px);
   }
 }
 
 .line:nth-child(133) {
-  transform: rotateY(33deg);
+  transform: rotateY(68deg);
 }
 
 .line:nth-child(133) .spark {
-  animation: spark133 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(133) .fire {
-  animation: fire 1351ms -338ms linear infinite;
+.line:nth-child(133) .star {
+  top: 413px;
+  left: 136px;
+  animation: star 1934ms -877ms linear infinite;
 }
 
 @keyframes spark133 {
   0% {
-    transform: translateY(543px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(101px);
   }
   100% {
-    transform: rotateZ(50deg) translateX(102px);
+    transform: rotateZ(15deg) translateX(134px);
   }
 }
 
 .line:nth-child(134) {
-  transform: rotateY(265deg);
+  transform: rotateY(238deg);
 }
 
 .line:nth-child(134) .spark {
-  animation: spark134 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(134) .fire {
-  animation: fire 1674ms -442ms linear infinite;
+.line:nth-child(134) .star {
+  top: 217px;
+  left: 2px;
+  animation: star 1764ms -114ms linear infinite;
 }
 
 @keyframes spark134 {
   0% {
-    transform: translateY(634px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(123px);
   }
   100% {
-    transform: rotateZ(85deg) translateX(161px);
+    transform: rotateZ(348deg) translateX(132px);
   }
 }
 
 .line:nth-child(135) {
-  transform: rotateY(179deg);
+  transform: rotateY(262deg);
 }
 
 .line:nth-child(135) .spark {
-  animation: spark135 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(135) .fire {
-  animation: fire 1274ms -954ms linear infinite;
+.line:nth-child(135) .star {
+  top: 212px;
+  left: 489px;
+  animation: star 1285ms -763ms linear infinite;
 }
 
 @keyframes spark135 {
   0% {
-    transform: translateY(562px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(111px);
   }
   100% {
-    transform: rotateZ(124deg) translateX(199px);
+    transform: rotateZ(94deg) translateX(103px);
   }
 }
 
 .line:nth-child(136) {
-  transform: rotateY(230deg);
+  transform: rotateY(135deg);
 }
 
 .line:nth-child(136) .spark {
-  animation: spark136 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(136) .fire {
-  animation: fire 1354ms -820ms linear infinite;
+.line:nth-child(136) .star {
+  top: 225px;
+  left: 172px;
+  animation: star 1201ms -557ms linear infinite;
 }
 
 @keyframes spark136 {
   0% {
-    transform: translateY(545px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(103px);
   }
   100% {
-    transform: rotateZ(206deg) translateX(117px);
+    transform: rotateZ(101deg) translateX(148px);
   }
 }
 
 .line:nth-child(137) {
-  transform: rotateY(202deg);
+  transform: rotateY(198deg);
 }
 
 .line:nth-child(137) .spark {
-  animation: spark137 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(137) .fire {
-  animation: fire 1636ms -64ms linear infinite;
+.line:nth-child(137) .star {
+  top: 405px;
+  left: 305px;
+  animation: star 1303ms -435ms linear infinite;
 }
 
 @keyframes spark137 {
   0% {
-    transform: translateY(584px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(117px);
   }
   100% {
-    transform: rotateZ(258deg) translateX(115px);
+    transform: rotateZ(237deg) translateX(133px);
   }
 }
 
 .line:nth-child(138) {
-  transform: rotateY(163deg);
+  transform: rotateY(221deg);
 }
 
 .line:nth-child(138) .spark {
-  animation: spark138 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(138) .fire {
-  animation: fire 1063ms -532ms linear infinite;
+.line:nth-child(138) .star {
+  top: 207px;
+  left: 115px;
+  animation: star 1650ms -775ms linear infinite;
 }
 
 @keyframes spark138 {
   0% {
-    transform: translateY(549px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(145px);
   }
   100% {
-    transform: rotateZ(252deg) translateX(109px);
+    transform: rotateZ(257deg) translateX(143px);
   }
 }
 
 .line:nth-child(139) {
-  transform: rotateY(304deg);
+  transform: rotateY(75deg);
 }
 
 .line:nth-child(139) .spark {
-  animation: spark139 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(139) .fire {
-  animation: fire 1740ms -10ms linear infinite;
+.line:nth-child(139) .star {
+  top: 226px;
+  left: 300px;
+  animation: star 1833ms -443ms linear infinite;
 }
 
 @keyframes spark139 {
   0% {
-    transform: translateY(534px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(106px);
   }
   100% {
-    transform: rotateZ(130deg) translateX(239px);
+    transform: rotateZ(141deg) translateX(112px);
   }
 }
 
 .line:nth-child(140) {
-  transform: rotateY(187deg);
+  transform: rotateY(359deg);
 }
 
 .line:nth-child(140) .spark {
-  animation: spark140 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(140) .fire {
-  animation: fire 1114ms -705ms linear infinite;
+.line:nth-child(140) .star {
+  top: 460px;
+  left: 290px;
+  animation: star 1172ms -73ms linear infinite;
 }
 
 @keyframes spark140 {
   0% {
-    transform: translateY(620px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(120px);
   }
   100% {
-    transform: rotateZ(138deg) translateX(121px);
+    transform: rotateZ(240deg) translateX(101px);
   }
 }
 
 .line:nth-child(141) {
-  transform: rotateY(162deg);
+  transform: rotateY(136deg);
 }
 
 .line:nth-child(141) .spark {
-  animation: spark141 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(141) .fire {
-  animation: fire 1749ms -868ms linear infinite;
+.line:nth-child(141) .star {
+  top: 187px;
+  left: 143px;
+  animation: star 1678ms -612ms linear infinite;
 }
 
 @keyframes spark141 {
   0% {
-    transform: translateY(513px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(124px);
   }
   100% {
-    transform: rotateZ(174deg) translateX(196px);
+    transform: rotateZ(12deg) translateX(110px);
   }
 }
 
 .line:nth-child(142) {
-  transform: rotateY(128deg);
+  transform: rotateY(179deg);
 }
 
 .line:nth-child(142) .spark {
-  animation: spark142 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(142) .fire {
-  animation: fire 1636ms -738ms linear infinite;
+.line:nth-child(142) .star {
+  top: 437px;
+  left: 465px;
+  animation: star 1445ms -184ms linear infinite;
 }
 
 @keyframes spark142 {
   0% {
-    transform: translateY(629px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(120px);
   }
   100% {
-    transform: rotateZ(261deg) translateX(143px);
+    transform: rotateZ(26deg) translateX(115px);
   }
 }
 
 .line:nth-child(143) {
-  transform: rotateY(46deg);
+  transform: rotateY(278deg);
 }
 
 .line:nth-child(143) .spark {
-  animation: spark143 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(143) .fire {
-  animation: fire 1263ms -426ms linear infinite;
+.line:nth-child(143) .star {
+  top: 375px;
+  left: 382px;
+  animation: star 1592ms -191ms linear infinite;
 }
 
 @keyframes spark143 {
   0% {
-    transform: translateY(501px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(113px);
   }
   100% {
-    transform: rotateZ(69deg) translateX(181px);
+    transform: rotateZ(243deg) translateX(126px);
   }
 }
 
 .line:nth-child(144) {
-  transform: rotateY(264deg);
+  transform: rotateY(52deg);
 }
 
 .line:nth-child(144) .spark {
-  animation: spark144 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(144) .fire {
-  animation: fire 1551ms -785ms linear infinite;
+.line:nth-child(144) .star {
+  top: 429px;
+  left: 458px;
+  animation: star 1559ms -757ms linear infinite;
 }
 
 @keyframes spark144 {
   0% {
-    transform: translateY(631px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(146px);
   }
   100% {
-    transform: rotateZ(236deg) translateX(253px);
+    transform: rotateZ(87deg) translateX(118px);
   }
 }
 
 .line:nth-child(145) {
-  transform: rotateY(245deg);
+  transform: rotateY(7deg);
 }
 
 .line:nth-child(145) .spark {
-  animation: spark145 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(145) .fire {
-  animation: fire 1719ms -978ms linear infinite;
+.line:nth-child(145) .star {
+  top: 343px;
+  left: 140px;
+  animation: star 1970ms -964ms linear infinite;
 }
 
 @keyframes spark145 {
   0% {
-    transform: translateY(546px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(102px);
   }
   100% {
-    transform: rotateZ(256deg) translateX(156px);
+    transform: rotateZ(335deg) translateX(149px);
   }
 }
 
 .line:nth-child(146) {
-  transform: rotateY(201deg);
+  transform: rotateY(12deg);
 }
 
 .line:nth-child(146) .spark {
-  animation: spark146 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(146) .fire {
-  animation: fire 1699ms -465ms linear infinite;
+.line:nth-child(146) .star {
+  top: 209px;
+  left: 122px;
+  animation: star 1465ms -95ms linear infinite;
 }
 
 @keyframes spark146 {
   0% {
-    transform: translateY(625px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(107px);
   }
   100% {
-    transform: rotateZ(64deg) translateX(185px);
+    transform: rotateZ(77deg) translateX(120px);
   }
 }
 
 .line:nth-child(147) {
-  transform: rotateY(258deg);
+  transform: rotateY(111deg);
 }
 
 .line:nth-child(147) .spark {
-  animation: spark147 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(147) .fire {
-  animation: fire 1336ms -986ms linear infinite;
+.line:nth-child(147) .star {
+  top: 225px;
+  left: 412px;
+  animation: star 1908ms -953ms linear infinite;
 }
 
 @keyframes spark147 {
   0% {
-    transform: translateY(581px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(113px);
   }
   100% {
-    transform: rotateZ(2deg) translateX(159px);
+    transform: rotateZ(148deg) translateX(138px);
   }
 }
 
 .line:nth-child(148) {
-  transform: rotateY(154deg);
+  transform: rotateY(282deg);
 }
 
 .line:nth-child(148) .spark {
-  animation: spark148 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(148) .fire {
-  animation: fire 1321ms -906ms linear infinite;
+.line:nth-child(148) .star {
+  top: 231px;
+  left: 214px;
+  animation: star 1274ms -599ms linear infinite;
 }
 
 @keyframes spark148 {
   0% {
-    transform: translateY(547px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(112px);
   }
   100% {
-    transform: rotateZ(206deg) translateX(289px);
+    transform: rotateZ(8deg) translateX(125px);
   }
 }
 
 .line:nth-child(149) {
-  transform: rotateY(66deg);
+  transform: rotateY(209deg);
 }
 
 .line:nth-child(149) .spark {
-  animation: spark149 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(149) .fire {
-  animation: fire 1679ms -121ms linear infinite;
+.line:nth-child(149) .star {
+  top: 407px;
+  left: 165px;
+  animation: star 1225ms -827ms linear infinite;
 }
 
 @keyframes spark149 {
   0% {
-    transform: translateY(580px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(110px);
   }
   100% {
-    transform: rotateZ(275deg) translateX(258px);
+    transform: rotateZ(320deg) translateX(107px);
   }
 }
 
 .line:nth-child(150) {
-  transform: rotateY(303deg);
+  transform: rotateY(98deg);
 }
 
 .line:nth-child(150) .spark {
-  animation: spark150 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(150) .fire {
-  animation: fire 1775ms -751ms linear infinite;
+.line:nth-child(150) .star {
+  top: 215px;
+  left: 142px;
+  animation: star 1245ms -244ms linear infinite;
 }
 
 @keyframes spark150 {
   0% {
-    transform: translateY(580px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(110px);
   }
   100% {
-    transform: rotateZ(194deg) translateX(284px);
+    transform: rotateZ(295deg) translateX(108px);
   }
 }
 
 .line:nth-child(151) {
-  transform: rotateY(337deg);
+  transform: rotateY(39deg);
 }
 
 .line:nth-child(151) .spark {
-  animation: spark151 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(151) .fire {
-  animation: fire 1699ms -795ms linear infinite;
+.line:nth-child(151) .star {
+  top: 266px;
+  left: 483px;
+  animation: star 1025ms -799ms linear infinite;
 }
 
 @keyframes spark151 {
   0% {
-    transform: translateY(619px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(126px);
   }
   100% {
-    transform: rotateZ(124deg) translateX(287px);
+    transform: rotateZ(166deg) translateX(116px);
   }
 }
 
 .line:nth-child(152) {
-  transform: rotateY(235deg);
+  transform: rotateY(73deg);
 }
 
 .line:nth-child(152) .spark {
-  animation: spark152 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(152) .fire {
-  animation: fire 1400ms -51ms linear infinite;
+.line:nth-child(152) .star {
+  top: 481px;
+  left: 425px;
+  animation: star 1571ms -941ms linear infinite;
 }
 
 @keyframes spark152 {
   0% {
-    transform: translateY(607px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(116px);
   }
   100% {
-    transform: rotateZ(313deg) translateX(123px);
+    transform: rotateZ(134deg) translateX(112px);
   }
 }
 
 .line:nth-child(153) {
-  transform: rotateY(264deg);
+  transform: rotateY(316deg);
 }
 
 .line:nth-child(153) .spark {
-  animation: spark153 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(153) .fire {
-  animation: fire 1703ms -836ms linear infinite;
+.line:nth-child(153) .star {
+  top: 430px;
+  left: 286px;
+  animation: star 1989ms -822ms linear infinite;
 }
 
 @keyframes spark153 {
   0% {
-    transform: translateY(589px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(112px);
   }
   100% {
-    transform: rotateZ(350deg) translateX(115px);
+    transform: rotateZ(340deg) translateX(140px);
   }
 }
 
 .line:nth-child(154) {
-  transform: rotateY(98deg);
+  transform: rotateY(234deg);
 }
 
 .line:nth-child(154) .spark {
-  animation: spark154 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(154) .fire {
-  animation: fire 1848ms -144ms linear infinite;
+.line:nth-child(154) .star {
+  top: 362px;
+  left: 211px;
+  animation: star 1923ms -343ms linear infinite;
 }
 
 @keyframes spark154 {
   0% {
-    transform: translateY(557px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(132px);
   }
   100% {
-    transform: rotateZ(321deg) translateX(254px);
+    transform: rotateZ(66deg) translateX(121px);
   }
 }
 
 .line:nth-child(155) {
-  transform: rotateY(264deg);
+  transform: rotateY(224deg);
 }
 
 .line:nth-child(155) .spark {
-  animation: spark155 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(155) .fire {
-  animation: fire 1626ms -189ms linear infinite;
+.line:nth-child(155) .star {
+  top: 170px;
+  left: 204px;
+  animation: star 1129ms -817ms linear infinite;
 }
 
 @keyframes spark155 {
   0% {
-    transform: translateY(642px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(121px);
   }
   100% {
-    transform: rotateZ(133deg) translateX(211px);
+    transform: rotateZ(113deg) translateX(142px);
   }
 }
 
 .line:nth-child(156) {
-  transform: rotateY(314deg);
+  transform: rotateY(326deg);
 }
 
 .line:nth-child(156) .spark {
-  animation: spark156 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(156) .fire {
-  animation: fire 1145ms -329ms linear infinite;
+.line:nth-child(156) .star {
+  top: 57px;
+  left: 204px;
+  animation: star 1280ms -545ms linear infinite;
 }
 
 @keyframes spark156 {
   0% {
-    transform: translateY(591px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(108px);
   }
   100% {
-    transform: rotateZ(47deg) translateX(269px);
+    transform: rotateZ(74deg) translateX(137px);
   }
 }
 
 .line:nth-child(157) {
-  transform: rotateY(350deg);
+  transform: rotateY(301deg);
 }
 
 .line:nth-child(157) .spark {
-  animation: spark157 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(157) .fire {
-  animation: fire 1937ms -128ms linear infinite;
+.line:nth-child(157) .star {
+  top: 37px;
+  left: 106px;
+  animation: star 1276ms -341ms linear infinite;
 }
 
 @keyframes spark157 {
   0% {
-    transform: translateY(505px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(135px);
   }
   100% {
-    transform: rotateZ(75deg) translateX(217px);
+    transform: rotateZ(351deg) translateX(128px);
   }
 }
 
 .line:nth-child(158) {
-  transform: rotateY(215deg);
+  transform: rotateY(301deg);
 }
 
 .line:nth-child(158) .spark {
-  animation: spark158 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(158) .fire {
-  animation: fire 1550ms -86ms linear infinite;
+.line:nth-child(158) .star {
+  top: 340px;
+  left: 476px;
+  animation: star 1429ms -297ms linear infinite;
 }
 
 @keyframes spark158 {
   0% {
-    transform: translateY(647px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(122px);
   }
   100% {
-    transform: rotateZ(246deg) translateX(157px);
+    transform: rotateZ(228deg) translateX(109px);
   }
 }
 
 .line:nth-child(159) {
-  transform: rotateY(152deg);
+  transform: rotateY(313deg);
 }
 
 .line:nth-child(159) .spark {
-  animation: spark159 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(159) .fire {
-  animation: fire 1759ms -305ms linear infinite;
+.line:nth-child(159) .star {
+  top: 404px;
+  left: 322px;
+  animation: star 1154ms -1000ms linear infinite;
 }
 
 @keyframes spark159 {
   0% {
-    transform: translateY(633px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(128px);
   }
   100% {
-    transform: rotateZ(173deg) translateX(226px);
+    transform: rotateZ(275deg) translateX(105px);
   }
 }
 
 .line:nth-child(160) {
-  transform: rotateY(67deg);
+  transform: rotateY(297deg);
 }
 
 .line:nth-child(160) .spark {
-  animation: spark160 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(160) .fire {
-  animation: fire 1561ms -286ms linear infinite;
+.line:nth-child(160) .star {
+  top: 187px;
+  left: 155px;
+  animation: star 1395ms -990ms linear infinite;
 }
 
 @keyframes spark160 {
   0% {
-    transform: translateY(644px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(116px);
   }
   100% {
-    transform: rotateZ(148deg) translateX(205px);
+    transform: rotateZ(292deg) translateX(138px);
   }
 }
 
 .line:nth-child(161) {
-  transform: rotateY(233deg);
+  transform: rotateY(295deg);
 }
 
 .line:nth-child(161) .spark {
-  animation: spark161 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(161) .fire {
-  animation: fire 1536ms -973ms linear infinite;
+.line:nth-child(161) .star {
+  top: 441px;
+  left: 259px;
+  animation: star 1591ms -304ms linear infinite;
 }
 
 @keyframes spark161 {
   0% {
-    transform: translateY(518px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(106px);
   }
   100% {
-    transform: rotateZ(139deg) translateX(165px);
+    transform: rotateZ(188deg) translateX(145px);
   }
 }
 
 .line:nth-child(162) {
-  transform: rotateY(209deg);
+  transform: rotateY(245deg);
 }
 
 .line:nth-child(162) .spark {
-  animation: spark162 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(162) .fire {
-  animation: fire 1776ms -930ms linear infinite;
+.line:nth-child(162) .star {
+  top: 243px;
+  left: 409px;
+  animation: star 1673ms -640ms linear infinite;
 }
 
 @keyframes spark162 {
   0% {
-    transform: translateY(579px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(131px);
   }
   100% {
-    transform: rotateZ(268deg) translateX(142px);
+    transform: rotateZ(203deg) translateX(144px);
   }
 }
 
 .line:nth-child(163) {
-  transform: rotateY(338deg);
+  transform: rotateY(189deg);
 }
 
 .line:nth-child(163) .spark {
-  animation: spark163 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(163) .fire {
-  animation: fire 1064ms -93ms linear infinite;
+.line:nth-child(163) .star {
+  top: 456px;
+  left: 148px;
+  animation: star 1401ms -19ms linear infinite;
 }
 
 @keyframes spark163 {
   0% {
-    transform: translateY(643px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(144px);
   }
   100% {
-    transform: rotateZ(284deg) translateX(259px);
+    transform: rotateZ(279deg) translateX(132px);
   }
 }
 
 .line:nth-child(164) {
-  transform: rotateY(315deg);
+  transform: rotateY(185deg);
 }
 
 .line:nth-child(164) .spark {
-  animation: spark164 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(164) .fire {
-  animation: fire 1412ms -546ms linear infinite;
+.line:nth-child(164) .star {
+  top: 95px;
+  left: 407px;
+  animation: star 1118ms -797ms linear infinite;
 }
 
 @keyframes spark164 {
   0% {
-    transform: translateY(516px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(133px);
   }
   100% {
-    transform: rotateZ(24deg) translateX(109px);
+    transform: rotateZ(160deg) translateX(130px);
   }
 }
 
 .line:nth-child(165) {
-  transform: rotateY(334deg);
+  transform: rotateY(60deg);
 }
 
 .line:nth-child(165) .spark {
-  animation: spark165 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(165) .fire {
-  animation: fire 1177ms -469ms linear infinite;
+.line:nth-child(165) .star {
+  top: 123px;
+  left: 300px;
+  animation: star 1128ms -222ms linear infinite;
 }
 
 @keyframes spark165 {
   0% {
-    transform: translateY(576px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(114px);
   }
   100% {
-    transform: rotateZ(176deg) translateX(108px);
+    transform: rotateZ(32deg) translateX(137px);
   }
 }
 
 .line:nth-child(166) {
-  transform: rotateY(348deg);
+  transform: rotateY(346deg);
 }
 
 .line:nth-child(166) .spark {
-  animation: spark166 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(166) .fire {
-  animation: fire 1420ms -990ms linear infinite;
+.line:nth-child(166) .star {
+  top: 414px;
+  left: 347px;
+  animation: star 1133ms -561ms linear infinite;
 }
 
 @keyframes spark166 {
   0% {
-    transform: translateY(612px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(129px);
   }
   100% {
-    transform: rotateZ(201deg) translateX(240px);
+    transform: rotateZ(216deg) translateX(101px);
   }
 }
 
 .line:nth-child(167) {
-  transform: rotateY(292deg);
+  transform: rotateY(299deg);
 }
 
 .line:nth-child(167) .spark {
-  animation: spark167 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(167) .fire {
-  animation: fire 1603ms -273ms linear infinite;
+.line:nth-child(167) .star {
+  top: 240px;
+  left: 491px;
+  animation: star 1687ms -408ms linear infinite;
 }
 
 @keyframes spark167 {
   0% {
-    transform: translateY(572px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(106px);
   }
   100% {
-    transform: rotateZ(190deg) translateX(119px);
+    transform: rotateZ(357deg) translateX(138px);
   }
 }
 
 .line:nth-child(168) {
-  transform: rotateY(235deg);
+  transform: rotateY(227deg);
 }
 
 .line:nth-child(168) .spark {
-  animation: spark168 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(168) .fire {
-  animation: fire 1611ms -72ms linear infinite;
+.line:nth-child(168) .star {
+  top: 338px;
+  left: 385px;
+  animation: star 1578ms -459ms linear infinite;
 }
 
 @keyframes spark168 {
   0% {
-    transform: translateY(621px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(126px);
   }
   100% {
-    transform: rotateZ(358deg) translateX(117px);
+    transform: rotateZ(113deg) translateX(137px);
   }
 }
 
 .line:nth-child(169) {
-  transform: rotateY(328deg);
+  transform: rotateY(147deg);
 }
 
 .line:nth-child(169) .spark {
-  animation: spark169 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(169) .fire {
-  animation: fire 1657ms -65ms linear infinite;
+.line:nth-child(169) .star {
+  top: 106px;
+  left: 259px;
+  animation: star 1369ms -144ms linear infinite;
 }
 
 @keyframes spark169 {
   0% {
-    transform: translateY(511px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(133px);
   }
   100% {
-    transform: rotateZ(292deg) translateX(147px);
+    transform: rotateZ(143deg) translateX(140px);
   }
 }
 
 .line:nth-child(170) {
-  transform: rotateY(179deg);
+  transform: rotateY(277deg);
 }
 
 .line:nth-child(170) .spark {
-  animation: spark170 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(170) .fire {
-  animation: fire 1592ms -870ms linear infinite;
+.line:nth-child(170) .star {
+  top: 495px;
+  left: 491px;
+  animation: star 1731ms -991ms linear infinite;
 }
 
 @keyframes spark170 {
   0% {
-    transform: translateY(646px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(101px);
   }
   100% {
-    transform: rotateZ(109deg) translateX(252px);
+    transform: rotateZ(359deg) translateX(110px);
   }
 }
 
 .line:nth-child(171) {
-  transform: rotateY(294deg);
+  transform: rotateY(155deg);
 }
 
 .line:nth-child(171) .spark {
-  animation: spark171 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(171) .fire {
-  animation: fire 1754ms -671ms linear infinite;
+.line:nth-child(171) .star {
+  top: 35px;
+  left: 308px;
+  animation: star 1706ms -508ms linear infinite;
 }
 
 @keyframes spark171 {
   0% {
-    transform: translateY(609px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(132px);
   }
   100% {
-    transform: rotateZ(334deg) translateX(104px);
+    transform: rotateZ(89deg) translateX(136px);
   }
 }
 
 .line:nth-child(172) {
-  transform: rotateY(318deg);
+  transform: rotateY(111deg);
 }
 
 .line:nth-child(172) .spark {
-  animation: spark172 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(172) .fire {
-  animation: fire 1477ms -887ms linear infinite;
+.line:nth-child(172) .star {
+  top: 324px;
+  left: 93px;
+  animation: star 1625ms -982ms linear infinite;
 }
 
 @keyframes spark172 {
   0% {
-    transform: translateY(546px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(105px);
   }
   100% {
-    transform: rotateZ(272deg) translateX(248px);
+    transform: rotateZ(5deg) translateX(135px);
   }
 }
 
 .line:nth-child(173) {
-  transform: rotateY(252deg);
+  transform: rotateY(115deg);
 }
 
 .line:nth-child(173) .spark {
-  animation: spark173 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(173) .fire {
-  animation: fire 1444ms -807ms linear infinite;
+.line:nth-child(173) .star {
+  top: 288px;
+  left: 254px;
+  animation: star 1088ms -913ms linear infinite;
 }
 
 @keyframes spark173 {
   0% {
-    transform: translateY(640px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(115px);
   }
   100% {
-    transform: rotateZ(294deg) translateX(290px);
+    transform: rotateZ(115deg) translateX(117px);
   }
 }
 
 .line:nth-child(174) {
-  transform: rotateY(226deg);
+  transform: rotateY(128deg);
 }
 
 .line:nth-child(174) .spark {
-  animation: spark174 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(174) .fire {
-  animation: fire 1665ms -888ms linear infinite;
+.line:nth-child(174) .star {
+  top: 167px;
+  left: 186px;
+  animation: star 1208ms -63ms linear infinite;
 }
 
 @keyframes spark174 {
   0% {
-    transform: translateY(525px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(146px);
   }
   100% {
-    transform: rotateZ(255deg) translateX(262px);
+    transform: rotateZ(207deg) translateX(114px);
   }
 }
 
 .line:nth-child(175) {
-  transform: rotateY(253deg);
+  transform: rotateY(92deg);
 }
 
 .line:nth-child(175) .spark {
-  animation: spark175 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(175) .fire {
-  animation: fire 1771ms -141ms linear infinite;
+.line:nth-child(175) .star {
+  top: 241px;
+  left: 94px;
+  animation: star 1465ms -736ms linear infinite;
 }
 
 @keyframes spark175 {
   0% {
-    transform: translateY(631px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(126px);
   }
   100% {
-    transform: rotateZ(29deg) translateX(149px);
+    transform: rotateZ(124deg) translateX(104px);
   }
 }
 
 .line:nth-child(176) {
-  transform: rotateY(356deg);
+  transform: rotateY(167deg);
 }
 
 .line:nth-child(176) .spark {
-  animation: spark176 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(176) .fire {
-  animation: fire 1316ms -105ms linear infinite;
+.line:nth-child(176) .star {
+  top: 19px;
+  left: 459px;
+  animation: star 1839ms -681ms linear infinite;
 }
 
 @keyframes spark176 {
   0% {
-    transform: translateY(561px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(136px);
   }
   100% {
-    transform: rotateZ(254deg) translateX(123px);
+    transform: rotateZ(72deg) translateX(129px);
   }
 }
 
 .line:nth-child(177) {
-  transform: rotateY(59deg);
+  transform: rotateY(240deg);
 }
 
 .line:nth-child(177) .spark {
-  animation: spark177 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(177) .fire {
-  animation: fire 1268ms -288ms linear infinite;
+.line:nth-child(177) .star {
+  top: 407px;
+  left: 251px;
+  animation: star 1595ms -79ms linear infinite;
 }
 
 @keyframes spark177 {
   0% {
-    transform: translateY(601px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(101px);
   }
   100% {
-    transform: rotateZ(228deg) translateX(225px);
+    transform: rotateZ(206deg) translateX(109px);
   }
 }
 
 .line:nth-child(178) {
-  transform: rotateY(208deg);
+  transform: rotateY(352deg);
 }
 
 .line:nth-child(178) .spark {
-  animation: spark178 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(178) .fire {
-  animation: fire 1345ms -91ms linear infinite;
+.line:nth-child(178) .star {
+  top: 251px;
+  left: 223px;
+  animation: star 1978ms -976ms linear infinite;
 }
 
 @keyframes spark178 {
   0% {
-    transform: translateY(596px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(125px);
   }
   100% {
-    transform: rotateZ(348deg) translateX(139px);
+    transform: rotateZ(291deg) translateX(132px);
   }
 }
 
 .line:nth-child(179) {
-  transform: rotateY(321deg);
+  transform: rotateY(211deg);
 }
 
 .line:nth-child(179) .spark {
-  animation: spark179 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(179) .fire {
-  animation: fire 1433ms -460ms linear infinite;
+.line:nth-child(179) .star {
+  top: 411px;
+  left: 222px;
+  animation: star 1963ms -718ms linear infinite;
 }
 
 @keyframes spark179 {
   0% {
-    transform: translateY(548px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(150px);
   }
   100% {
-    transform: rotateZ(60deg) translateX(117px);
+    transform: rotateZ(41deg) translateX(133px);
   }
 }
 
 .line:nth-child(180) {
-  transform: rotateY(184deg);
+  transform: rotateY(26deg);
 }
 
 .line:nth-child(180) .spark {
-  animation: spark180 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(180) .fire {
-  animation: fire 1535ms -841ms linear infinite;
+.line:nth-child(180) .star {
+  top: 479px;
+  left: 443px;
+  animation: star 1795ms -853ms linear infinite;
 }
 
 @keyframes spark180 {
   0% {
-    transform: translateY(506px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(138px);
   }
   100% {
-    transform: rotateZ(199deg) translateX(160px);
+    transform: rotateZ(347deg) translateX(113px);
   }
 }
 
 .line:nth-child(181) {
-  transform: rotateY(145deg);
+  transform: rotateY(9deg);
 }
 
 .line:nth-child(181) .spark {
-  animation: spark181 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(181) .fire {
-  animation: fire 1926ms -618ms linear infinite;
+.line:nth-child(181) .star {
+  top: 394px;
+  left: 135px;
+  animation: star 1703ms -989ms linear infinite;
 }
 
 @keyframes spark181 {
   0% {
-    transform: translateY(504px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(115px);
   }
   100% {
-    transform: rotateZ(29deg) translateX(248px);
+    transform: rotateZ(259deg) translateX(102px);
   }
 }
 
 .line:nth-child(182) {
-  transform: rotateY(279deg);
+  transform: rotateY(154deg);
 }
 
 .line:nth-child(182) .spark {
-  animation: spark182 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(182) .fire {
-  animation: fire 1837ms -248ms linear infinite;
+.line:nth-child(182) .star {
+  top: 172px;
+  left: 206px;
+  animation: star 1739ms -106ms linear infinite;
 }
 
 @keyframes spark182 {
   0% {
-    transform: translateY(644px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(128px);
   }
   100% {
-    transform: rotateZ(283deg) translateX(127px);
+    transform: rotateZ(279deg) translateX(101px);
   }
 }
 
 .line:nth-child(183) {
-  transform: rotateY(156deg);
+  transform: rotateY(15deg);
 }
 
 .line:nth-child(183) .spark {
-  animation: spark183 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(183) .fire {
-  animation: fire 1176ms -609ms linear infinite;
+.line:nth-child(183) .star {
+  top: 356px;
+  left: 164px;
+  animation: star 1522ms -911ms linear infinite;
 }
 
 @keyframes spark183 {
   0% {
-    transform: translateY(541px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(123px);
   }
   100% {
-    transform: rotateZ(177deg) translateX(163px);
+    transform: rotateZ(242deg) translateX(106px);
   }
 }
 
 .line:nth-child(184) {
-  transform: rotateY(205deg);
+  transform: rotateY(306deg);
 }
 
 .line:nth-child(184) .spark {
-  animation: spark184 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(184) .fire {
-  animation: fire 1863ms -816ms linear infinite;
+.line:nth-child(184) .star {
+  top: 9px;
+  left: 92px;
+  animation: star 1295ms -524ms linear infinite;
 }
 
 @keyframes spark184 {
   0% {
-    transform: translateY(642px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(144px);
   }
   100% {
-    transform: rotateZ(209deg) translateX(240px);
+    transform: rotateZ(65deg) translateX(101px);
   }
 }
 
 .line:nth-child(185) {
-  transform: rotateY(331deg);
+  transform: rotateY(134deg);
 }
 
 .line:nth-child(185) .spark {
-  animation: spark185 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(185) .fire {
-  animation: fire 1111ms -943ms linear infinite;
+.line:nth-child(185) .star {
+  top: 152px;
+  left: 355px;
+  animation: star 1075ms -583ms linear infinite;
 }
 
 @keyframes spark185 {
   0% {
-    transform: translateY(590px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(120px);
   }
   100% {
-    transform: rotateZ(157deg) translateX(288px);
+    transform: rotateZ(262deg) translateX(104px);
   }
 }
 
 .line:nth-child(186) {
-  transform: rotateY(297deg);
+  transform: rotateY(276deg);
 }
 
 .line:nth-child(186) .spark {
-  animation: spark186 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(186) .fire {
-  animation: fire 1634ms -699ms linear infinite;
+.line:nth-child(186) .star {
+  top: 83px;
+  left: 458px;
+  animation: star 1377ms -372ms linear infinite;
 }
 
 @keyframes spark186 {
   0% {
-    transform: translateY(557px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(114px);
   }
   100% {
-    transform: rotateZ(142deg) translateX(154px);
+    transform: rotateZ(156deg) translateX(132px);
   }
 }
 
 .line:nth-child(187) {
-  transform: rotateY(65deg);
+  transform: rotateY(66deg);
 }
 
 .line:nth-child(187) .spark {
-  animation: spark187 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(187) .fire {
-  animation: fire 1442ms -47ms linear infinite;
+.line:nth-child(187) .star {
+  top: 233px;
+  left: 272px;
+  animation: star 1536ms -45ms linear infinite;
 }
 
 @keyframes spark187 {
   0% {
-    transform: translateY(537px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(105px);
   }
   100% {
-    transform: rotateZ(188deg) translateX(183px);
+    transform: rotateZ(152deg) translateX(110px);
   }
 }
 
 .line:nth-child(188) {
-  transform: rotateY(219deg);
+  transform: rotateY(75deg);
 }
 
 .line:nth-child(188) .spark {
-  animation: spark188 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(188) .fire {
-  animation: fire 1716ms -288ms linear infinite;
+.line:nth-child(188) .star {
+  top: 85px;
+  left: 4px;
+  animation: star 1149ms -233ms linear infinite;
 }
 
 @keyframes spark188 {
   0% {
-    transform: translateY(530px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(102px);
   }
   100% {
-    transform: rotateZ(287deg) translateX(164px);
+    transform: rotateZ(69deg) translateX(150px);
   }
 }
 
 .line:nth-child(189) {
-  transform: rotateY(301deg);
+  transform: rotateY(308deg);
 }
 
 .line:nth-child(189) .spark {
-  animation: spark189 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(189) .fire {
-  animation: fire 1163ms -10ms linear infinite;
+.line:nth-child(189) .star {
+  top: 369px;
+  left: 193px;
+  animation: star 1559ms -844ms linear infinite;
 }
 
 @keyframes spark189 {
   0% {
-    transform: translateY(638px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(120px);
   }
   100% {
-    transform: rotateZ(47deg) translateX(153px);
+    transform: rotateZ(91deg) translateX(114px);
   }
 }
 
 .line:nth-child(190) {
-  transform: rotateY(34deg);
+  transform: rotateY(239deg);
 }
 
 .line:nth-child(190) .spark {
-  animation: spark190 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(190) .fire {
-  animation: fire 1792ms -832ms linear infinite;
+.line:nth-child(190) .star {
+  top: 66px;
+  left: 194px;
+  animation: star 1076ms -642ms linear infinite;
 }
 
 @keyframes spark190 {
   0% {
-    transform: translateY(638px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(105px);
   }
   100% {
-    transform: rotateZ(121deg) translateX(109px);
+    transform: rotateZ(230deg) translateX(119px);
   }
 }
 
 .line:nth-child(191) {
-  transform: rotateY(195deg);
+  transform: rotateY(79deg);
 }
 
 .line:nth-child(191) .spark {
-  animation: spark191 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(191) .fire {
-  animation: fire 1017ms -105ms linear infinite;
+.line:nth-child(191) .star {
+  top: 387px;
+  left: 490px;
+  animation: star 1199ms -466ms linear infinite;
 }
 
 @keyframes spark191 {
   0% {
-    transform: translateY(554px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(122px);
   }
   100% {
-    transform: rotateZ(349deg) translateX(184px);
+    transform: rotateZ(317deg) translateX(105px);
   }
 }
 
 .line:nth-child(192) {
-  transform: rotateY(118deg);
+  transform: rotateY(245deg);
 }
 
 .line:nth-child(192) .spark {
-  animation: spark192 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(192) .fire {
-  animation: fire 1664ms -178ms linear infinite;
+.line:nth-child(192) .star {
+  top: 463px;
+  left: 132px;
+  animation: star 1134ms -618ms linear infinite;
 }
 
 @keyframes spark192 {
   0% {
-    transform: translateY(611px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(138px);
   }
   100% {
-    transform: rotateZ(38deg) translateX(195px);
+    transform: rotateZ(283deg) translateX(121px);
   }
 }
 
 .line:nth-child(193) {
-  transform: rotateY(151deg);
+  transform: rotateY(242deg);
 }
 
 .line:nth-child(193) .spark {
-  animation: spark193 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(193) .fire {
-  animation: fire 1077ms -610ms linear infinite;
+.line:nth-child(193) .star {
+  top: 315px;
+  left: 297px;
+  animation: star 1190ms -425ms linear infinite;
 }
 
 @keyframes spark193 {
   0% {
-    transform: translateY(552px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(104px);
   }
   100% {
-    transform: rotateZ(202deg) translateX(112px);
+    transform: rotateZ(50deg) translateX(138px);
   }
 }
 
 .line:nth-child(194) {
-  transform: rotateY(257deg);
+  transform: rotateY(351deg);
 }
 
 .line:nth-child(194) .spark {
-  animation: spark194 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(194) .fire {
-  animation: fire 1260ms -755ms linear infinite;
+.line:nth-child(194) .star {
+  top: 338px;
+  left: 185px;
+  animation: star 1791ms -361ms linear infinite;
 }
 
 @keyframes spark194 {
   0% {
-    transform: translateY(637px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(105px);
   }
   100% {
-    transform: rotateZ(286deg) translateX(172px);
+    transform: rotateZ(280deg) translateX(138px);
   }
 }
 
 .line:nth-child(195) {
-  transform: rotateY(354deg);
+  transform: rotateY(164deg);
 }
 
 .line:nth-child(195) .spark {
-  animation: spark195 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(195) .fire {
-  animation: fire 1188ms -228ms linear infinite;
+.line:nth-child(195) .star {
+  top: 284px;
+  left: 385px;
+  animation: star 1397ms -582ms linear infinite;
 }
 
 @keyframes spark195 {
   0% {
-    transform: translateY(582px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(122px);
   }
   100% {
-    transform: rotateZ(48deg) translateX(118px);
+    transform: rotateZ(135deg) translateX(121px);
   }
 }
 
 .line:nth-child(196) {
-  transform: rotateY(346deg);
+  transform: rotateY(257deg);
 }
 
 .line:nth-child(196) .spark {
-  animation: spark196 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(196) .fire {
-  animation: fire 1491ms -438ms linear infinite;
+.line:nth-child(196) .star {
+  top: 252px;
+  left: 321px;
+  animation: star 1598ms -3ms linear infinite;
 }
 
 @keyframes spark196 {
   0% {
-    transform: translateY(556px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(130px);
   }
   100% {
-    transform: rotateZ(39deg) translateX(217px);
+    transform: rotateZ(20deg) translateX(127px);
   }
 }
 
 .line:nth-child(197) {
-  transform: rotateY(173deg);
+  transform: rotateY(262deg);
 }
 
 .line:nth-child(197) .spark {
-  animation: spark197 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(197) .fire {
-  animation: fire 1190ms -953ms linear infinite;
+.line:nth-child(197) .star {
+  top: 178px;
+  left: 339px;
+  animation: star 1807ms -401ms linear infinite;
 }
 
 @keyframes spark197 {
   0% {
-    transform: translateY(616px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(128px);
   }
   100% {
-    transform: rotateZ(273deg) translateX(181px);
+    transform: rotateZ(14deg) translateX(114px);
   }
 }
 
 .line:nth-child(198) {
-  transform: rotateY(215deg);
+  transform: rotateY(18deg);
 }
 
 .line:nth-child(198) .spark {
-  animation: spark198 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(198) .fire {
-  animation: fire 1891ms -358ms linear infinite;
+.line:nth-child(198) .star {
+  top: 227px;
+  left: 324px;
+  animation: star 1210ms -447ms linear infinite;
 }
 
 @keyframes spark198 {
   0% {
-    transform: translateY(509px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(135px);
   }
   100% {
-    transform: rotateZ(54deg) translateX(249px);
+    transform: rotateZ(16deg) translateX(138px);
   }
 }
 
 .line:nth-child(199) {
-  transform: rotateY(263deg);
+  transform: rotateY(192deg);
 }
 
 .line:nth-child(199) .spark {
-  animation: spark199 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(199) .fire {
-  animation: fire 1821ms -134ms linear infinite;
+.line:nth-child(199) .star {
+  top: 245px;
+  left: 325px;
+  animation: star 1450ms -301ms linear infinite;
 }
 
 @keyframes spark199 {
   0% {
-    transform: translateY(526px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(107px);
   }
   100% {
-    transform: rotateZ(212deg) translateX(128px);
+    transform: rotateZ(173deg) translateX(146px);
   }
 }
 
 .line:nth-child(200) {
-  transform: rotateY(245deg);
+  transform: rotateY(266deg);
 }
 
 .line:nth-child(200) .spark {
-  animation: spark200 5s cubic-bezier(0.39, 0.575, 0.565, 1) infinite, opacity 5s ease-out infinite;
+  transform-origin: center center;
 }
 
-.line:nth-child(200) .fire {
-  animation: fire 1304ms -887ms linear infinite;
+.line:nth-child(200) .star {
+  top: 33px;
+  left: 495px;
+  animation: star 1320ms -88ms linear infinite;
 }
 
 @keyframes spark200 {
   0% {
-    transform: translateY(603px);
-  }
-  50% {
-    transform: translateY(0);
+    transform: rotateZ(0) translateX(135px);
   }
   100% {
-    transform: rotateZ(188deg) translateX(295px);
+    transform: rotateZ(347deg) translateX(146px);
   }
 }
 
-@keyframes fire {
+@keyframes star {
   0% {
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   }
   100% {
     transform: rotateX(360deg) rotateY(720deg) rotateZ(1080deg);
-  }
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
   }
 }
 
@@ -4877,5 +4672,14 @@ div {
   }
   100% {
     opacity: 0;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
   }
 }
