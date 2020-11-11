@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="./style.css")                       
+    body
+        div.g-wrap
+            -for(var i = 0; i<4; i++)
+                div.g-queue
+                    -for(var j = 0; j<8; j++)
+                        div.g-item
+                            -for(var k = 0; k<1; k++)
+                                div.loading
+                                    mixin article(flag)
+                                        if flag
+                                            -for(var h = 0; h<4; h++)
+                                                section.shape
+                                        else
+                                                span
+
+                                    +article(1)

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.g-wrap {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+.g-queue {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  flex-basis: 24%;
+}
+
+.g-queue .g-item {
+  width: 100%;
+  height: 190px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.g-queue .loading {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

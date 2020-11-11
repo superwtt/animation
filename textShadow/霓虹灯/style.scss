@@ -43,14 +43,39 @@ html {
     font-size: 80px;
     display: block;
     color: transparent;
-    paint-order: fill stroke markers;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #fed128;
     text-shadow: 0 0 3vw #fa1c16, 0 0 3vw #fa1c16, 0 0 3vw #fa1c16, 0 0 0.4vw #fed128;
     font-weight: bold;
     letter-spacing: 5px;
+    animation-name: blink;
+    animation-duration: 2s;
+    animation-iteration-count: 9999;
+    // text-shadow文字阴影；text-stroke文字描边
 }
 .nh-status{
   float: right;
   margin-right: 30px;
+}
+@keyframes blink {
+  from,
+  20%,
+  38%,
+  43.25%,
+  49.5%,
+  51.125%,
+  to {
+    -webkit-text-stroke-color: #fed128;
+    text-shadow: 0 0 3vw #fa1c16, 0 0 3vw #fa1c16, 0 0 3vw #fa1c16, 0 0 0.4vw #fed128;
+      
+  }
+
+  20.5%,
+  38.5%,
+  43%,
+  50%,
+  51%{
+    -webkit-text-stroke-color: #444444;
+      text-shadow: 0 0 1vw #222222, 0 0 1vw #222222, 0 0 1vw #222222, 0 0 0.2vw #444444;
+  }
 }
