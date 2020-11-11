@@ -6,8 +6,8 @@ html(lang="en")
         title Document
         link(rel="stylesheet", href="./style.css")
     body
-      .wrap
-        - for(var i=0;i<100;i++)
-          .line
-            .spark
-              .star
+      div.wrap
+        -for(var i = 0; i<4; i++)
+            div.queue
+                -for(var j = 0; j<8; j++)
+                    div.item
