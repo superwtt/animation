@@ -12,12 +12,9 @@ html(lang="en")
                     -for(var j = 0; j<8; j++)
                         div.g-item
                             -for(var k = 0; k<1; k++)
-                                div.loading
-                                    mixin article(flag)
-                                        if flag
-                                            -for(var h = 0; h<4; h++)
-                                                section.shape
-                                        else
-                                                span
-
-                                    +article(1)
+                                div.loading1
+                                    -for(var h = 0; h<4; h++)
+                                        section.shape
+                            -for(var m = 0; m<1; m++)
+                                div.loading2
+                                    span

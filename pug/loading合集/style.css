@@ -8,6 +8,10 @@ html, body {
   height: 100%;
 }
 
+html, body {
+  background: linear-gradient(to right, #c9ffbf, #ffafbd);
+}
+
 .g-wrap {
   width: 50%;
   margin: auto;
@@ -28,7 +32,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-.g-queue .loading {
+.g-queue .loading1, .g-queue .loading2 {
   color: #fff;
   height: 100%;
   display: flex;

@@ -8,7 +8,7 @@
 }
 html,body {
   @extend %wh;
-  // background: linear-gradient(to right, rgb(201, 255, 191), rgb(255, 175, 189));
+  background: linear-gradient(to right, rgb(201, 255, 191), rgb(255, 175, 189));
 }
 
 .g-wrap{
@@ -28,7 +28,7 @@ html,body {
      margin: 10px;
      background-color: rgba(0,0,0,0.9);
    }
-   .loading{
+   .loading1,.loading2{
      color: #fff;
      height: 100%;
      display: flex;
