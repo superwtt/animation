@@ -8,13 +8,12 @@ html(lang="en")
     body
         div.g-wrap
             -for(var i = 0; i<4; i++)
-                div.g-queue
-                    -for(var j = 0; j<8; j++)
-                        div.g-item
-                            -for(var k = 0; k<1; k++)
-                                div.loading1
-                                    -for(var h = 0; h<4; h++)
-                                        section.shape
-                            -for(var m = 0; m<1; m++)
-                                div.loading2
-                                    span
+                div(class='g-queue g-queue'+(i+1))
+                    -for(var j = 0; j<2; j++)
+                        div(class='g-item g-item'+(j+1))
+                            if j<=2
+                                -for(var k = 0; k<1; k++)
+                                    div(class='loading loading'+(i+1))
+                                        div(class='shapeWrap shapeWrap'+(i+1))
+                                            -for(var h = 0; h<4; h++)
+                                                section(class='shape shape'+(h+1)) 
