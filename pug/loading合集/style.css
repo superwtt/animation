@@ -293,6 +293,18 @@ body {
   animation: Animation8ShapeWrap4 1s linear 1s infinite alternate;
 }
 
+.g-queue .g-item3 .c-loading {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #cdcdcd;
+  border-radius: 50%;
+}
+
+.g-queue1 .c-loading3 {
+  border-bottom-color: #C5523F;
+  animation: Animation2Container 1s linear infinite;
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -387,6 +399,46 @@ body {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes Animation3ShapeWrap1 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(5px, 5px);
+  }
+}
+
+@keyframes Animation3ShapeWrap2 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-5px, 5px);
+  }
+}
+
+@keyframes Animation3ShapeWrap3 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(5px, -5px);
+  }
+}
+
+@keyframes Animation3ShapeWrap4 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-5px, -5px);
   }
 }
 
