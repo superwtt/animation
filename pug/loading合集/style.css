@@ -520,6 +520,35 @@ body {
   animation-delay: 1s;
 }
 
+.g-queue1 .c-loading6 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-top: 3px solid #499255;
+  border-right: 3px solid transparent;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue2 .c-loading6 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-top: 3px solid #499255;
+  border-bottom: 3px solid #C5523F;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue3 .c-loading6 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 6px solid;
+  border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5);
+  animation: Animation2Container 1s linear infinite;
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
