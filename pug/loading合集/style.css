@@ -296,7 +296,7 @@ body {
 .g-queue .g-item3 .c-loading, .g-queue .g-item4 .c-loading, .g-queue .g-item5 .c-loading {
   width: 30px;
   height: 30px;
-  border: 3px solid;
+  border: 2px solid;
   border-top-color: #cdcdcd;
   border-left-color: #cdcdcd;
   border-right-color: #cdcdcd;
@@ -481,6 +481,45 @@ body {
   animation: Animation3Container .5s linear infinite;
 }
 
+.g-queue3 .c-loading5 {
+  position: relative;
+}
+
+.g-queue3 .c-loading5::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 2px;
+  background-color: #C5523F;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transform-origin: right;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue4 .c-loading5 {
+  position: relative;
+  border: none !important;
+}
+
+.g-queue4 .c-loading5::after, .g-queue4 .c-loading5::before {
+  content: '';
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  animation: Animation4Opcity 2s linear infinite;
+}
+
+.g-queue4 .c-loading5::after {
+  animation-delay: 1s;
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -584,6 +623,17 @@ body {
   }
   100% {
     transform: rotate(-360deg);
+  }
+}
+
+@keyframes Animation4Opcity {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
   }
 }
 
