@@ -293,7 +293,7 @@ body {
   animation: Animation8ShapeWrap4 1s linear 1s infinite alternate;
 }
 
-.g-queue .g-item3 .c-loading, .g-queue .g-item4 .c-loading {
+.g-queue .g-item3 .c-loading, .g-queue .g-item4 .c-loading, .g-queue .g-item5 .c-loading {
   width: 30px;
   height: 30px;
   border: 3px solid;
@@ -443,6 +443,44 @@ body {
   border-radius: 50%;
 }
 
+.g-queue1 .c-loading5 {
+  position: relative;
+  border-bottom-color: transparent !important;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue1 .c-loading5::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 3px solid #C5523F;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: Animation3Container .5s linear infinite;
+}
+
+.g-queue2 .c-loading5 {
+  position: relative;
+  border-bottom-style: dotted !important;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue2 .c-loading5::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 3px solid #C5523F;
+  border-radius: 50%;
+  border-top-style: dotted;
+  animation: Animation3Container .5s linear infinite;
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -537,6 +575,15 @@ body {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes Animation3Container {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
   }
 }
 

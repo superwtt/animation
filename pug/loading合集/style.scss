@@ -283,7 +283,7 @@ body {
       }
     }
   }
-  .g-item3,.g-item4{
+  .g-item3,.g-item4,.g-item5{
     .c-loading{
       width: 30px;
       height: 30px;
@@ -416,6 +416,47 @@ body {
     border-radius: 50%;
   }
 }
+.g-queue1 .c-loading5{
+   position: relative;
+   border-bottom-color: transparent !important;
+   animation: Animation2Container 1s linear infinite;
+   &::after{
+     content: "";
+    //  width: 15px;
+    //  height: 15px;
+     position: absolute;
+     top: 5px;
+     left: 5px;
+     right: 5px;
+     bottom: 5px;
+     border: 3px solid #C5523F;
+     border-radius: 50%;
+     border-top-color: transparent;
+     animation: Animation3Container .5s linear infinite;
+   }
+}
+.g-queue2 .c-loading5{
+  position: relative;
+  border-bottom-style: dotted !important;
+  animation: Animation2Container 1s linear infinite;
+  &::after{
+    content: "";
+    // width: 15px;
+    // height: 15px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid #C5523F;
+    border-radius: 50%;
+    border-top-style: dotted;
+    animation: Animation3Container .5s linear infinite;
+  }
+}
+.g-queue3 .c-loading5{
+
+}
 
 @keyframes Animation1ShapeWrap1 {
   0% {
@@ -521,6 +562,16 @@ body {
     transform: rotate(360deg);
   }
 }
+@keyframes Animation3Container {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 
 @keyframes Animation3ShapeWrap1 {
   0% {
