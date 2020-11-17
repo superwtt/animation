@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -266,7 +267,7 @@ body {
 }
 
 .g-queue .g-item2 .shapeWrap3 .shape1 {
-  animation: Animation7ShapeWrap1 .5s  ease infinite alternate;
+  animation: Animation7ShapeWrap1 .5s ease infinite alternate;
 }
 
 .g-queue .g-item2 .shapeWrap3 .shape4 {
@@ -293,7 +294,9 @@ body {
   animation: Animation8ShapeWrap4 1s linear 1s infinite alternate;
 }
 
-.g-queue .g-item3 .c-loading, .g-queue .g-item4 .c-loading, .g-queue .g-item5 .c-loading {
+.g-queue .g-item3 .c-loading,
+.g-queue .g-item4 .c-loading,
+.g-queue .g-item5 .c-loading {
   width: 30px;
   height: 30px;
   border: 2px solid;
@@ -553,7 +556,7 @@ body {
   position: relative;
   width: 30px;
   height: 30px;
-  border: 2px solid #fff;
+  border: 2px solid #1875E5;
   border-radius: 50%;
   border-top-color: transparent;
   animation: Animation2Container 1s linear infinite;
@@ -565,10 +568,162 @@ body {
   top: -12px;
   transform: rotate(20deg);
   content: "";
-  border: 11px solid #fff;
+  border: 11px solid #1875E5;
   border-top-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
+}
+
+.g-queue1 .c-loading7 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 50%;
+  animation: Animation5Translate 2s linear infinite;
+}
+
+.g-queue2 .c-loading7 {
+  width: 30px;
+  height: 30px;
+  background-color: #C5523F;
+  border-radius: 50%;
+  animation: Animation6Scale 1s linear infinite;
+}
+
+.g-queue3 .c-loading7 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.g-queue3 .c-loading7::after, .g-queue3 .c-loading7::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #C5523F;
+  animation: Animation6Scale 1s linear infinite;
+}
+
+.g-queue3 .c-loading7::after {
+  animation-delay: .5s;
+}
+
+.g-queue4 .c-loading7 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.g-queue4 .c-loading7::after, .g-queue4 .c-loading7::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #C5523F;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: Animation7Scale 2s ease-in-out infinite;
+}
+
+.g-queue4 .c-loading7::after {
+  animation-delay: 1s;
+}
+
+.g-queue1 .c-loading8 {
+  border-radius: 50%;
+  background-color: #fff;
+  border: 17px solid #fff;
+  border-bottom-color: #C5523F;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue2 .c-loading8 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue2 .c-loading8::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  border: 4px solid #C5523F;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important;
+}
+
+.g-queue2 .c-loading8::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 8px solid #fff;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+
+.g-queue3 .c-loading8 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue3 .c-loading8::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: 18px solid rgba(255, 255, 255, 0.2);
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.g-queue4 .c-loading8 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue4 .c-loading8::after, .g-queue4 .c-loading8::before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+}
+
+.g-queue4 .c-loading8::after {
+  left: 0;
+  background-color: #C5523F;
+}
+
+.g-queue4 .c-loading8::before {
+  right: 0;
+  background-color: #499255;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -685,6 +840,42 @@ body {
   100% {
     opacity: 0;
     transform: scale(1);
+  }
+}
+
+@keyframes Animation5Translate {
+  0% {
+    box-shadow: -48px 0 0 0 #C5523F inset;
+    /* 改变内投影实现移动效果 */
+  }
+  100% {
+    box-shadow: 48px 0 0 0 #C5523F inset;
+  }
+}
+
+@keyframes Animation6Scale {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes Animation7Scale {
+  0%, 100% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 1;
   }
 }
 
