@@ -726,6 +726,130 @@ body {
   background-color: #499255;
 }
 
+.g-queue1 .c-loading9 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  animation: Animation8Rotate .8s linear infinite alternate;
+}
+
+.g-queue1 .c-loading9::after, .g-queue1 .c-loading9::before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+}
+
+.g-queue1 .c-loading9::after {
+  left: 0;
+  background-color: #C5523F;
+}
+
+.g-queue1 .c-loading9::before {
+  right: 0;
+  background-color: #499255;
+}
+
+.g-queue2 .c-loading9 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.g-queue2 .c-loading9::after, .g-queue2 .c-loading9::before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  content: "";
+  width: 10px;
+  height: 10px;
+  animation: Animation10Scale 1s ease-in-out infinite;
+}
+
+.g-queue2 .c-loading9::after {
+  left: 0;
+  background-color: #C5523F;
+  animation-delay: .5s;
+}
+
+.g-queue2 .c-loading9::before {
+  right: 0;
+  background-color: #499255;
+}
+
+.g-queue3 .c-loading9 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  animation: Animation2Container 1s linear infinite;
+}
+
+.g-queue3 .c-loading9::after, .g-queue3 .c-loading9::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  left: 50%;
+  transform: scale(0.5) translate(0, 0);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  animation: Animation12Translate 1s ease-in-out infinite;
+}
+
+.g-queue3 .c-loading9::after {
+  background-color: #C5523F;
+  transform: scale(0.5) translate(-38px, -38px);
+}
+
+.g-queue3 .c-loading9::before {
+  background-color: #499255;
+}
+
+.g-queue4 .c-loading9 {
+  width: 10px;
+  height: 10px;
+  background-color: #C5523F;
+  border-radius: 50%;
+  opacity: 1;
+  animation: Animation13BoxShadow .8s linear infinite alternate;
+}
+
+.g-queue1 .c-loading10 {
+  width: 10px;
+  height: 10px;
+  background-color: #C5523F;
+  color: #C5523F;
+  border-radius: 50%;
+  box-shadow: -20px 0, 20px 0;
+  animation: Animation14BoxShadow 1s linear infinite alternate;
+}
+
+.g-queue2 .c-loading10 {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 50%;
+  color: #1875E5;
+  animation: Animation15BoxShadow 1s linear infinite alternate;
+}
+
+.g-queue3 .c-loading10 {
+  width: 10px;
+  height: 10px;
+  background-color: #C5523F;
+  color: #1875E5;
+  border-radius: 50%;
+  box-shadow: -20px 0 0 #1875E5, 20px 0 0 #499255;
+  animation: Animation2Container 1s ease-in-out infinite;
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -865,7 +989,8 @@ body {
 }
 
 @keyframes Animation7Scale {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(0);
     opacity: 1;
   }
@@ -876,6 +1001,96 @@ body {
   100% {
     transform: scale(0);
     opacity: 1;
+  }
+}
+
+@keyframes Animation8Rotate {
+  0% {
+    transform: rotate(0) scale(0);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes Animation9Rotate {
+  0% {
+    transform: rotate(0) scale(0);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes Animation10Scale {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes Animation11Translate {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes Animation12Translate {
+  50% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
+
+@keyframes Animation13BoxShadow {
+  0% {
+    box-shadow: 0 0, 0 0;
+    color: rgba(197, 82, 63, 0.2);
+  }
+  100% {
+    box-shadow: -15px 0, 15px 0;
+    color: rgba(197, 82, 63, 0.8);
+  }
+}
+
+@keyframes Animation14BoxShadow {
+  0% {
+    box-shadow: -20px 0 0 0 #F2B736, 20px 0;
+  }
+  50% {
+    color: #C5523F;
+    box-shadow: -20px 0, 20px 0;
+    background-color: #F2B736;
+  }
+  100% {
+    box-shadow: -20px 0, 20px 0 0 #F2B736;
+  }
+}
+
+@keyframes Animation15BoxShadow {
+  0% {
+    box-shadow: -38px -6px, -14px 6px, 14px -6px;
+  }
+  33% {
+    box-shadow: -38px 6px, -14px -6px, 14px 6px;
+  }
+  66% {
+    box-shadow: -38px -6px, -14px 6px, 14px -6px;
+  }
+  100% {
+    box-shadow: -38px 6px, -14px -6px, 14px 6px;
   }
 }
 
