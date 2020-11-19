@@ -920,11 +920,12 @@ body {
   animation: Animation2Container 1s ease-in-out infinite;
 }
 .g-queue4 .c-loading10 {
-  // width: 10px;
-  // height: 10px;
-  // color: #1875E5;
-  // border-radius: 50%;
-  // box-shadow: -20px 0 0 #1875E5,-10px 0 0 #F2B736, 20px 0 0 #C5523F, 20px 0 0 #499255;
+  left: -100px;
+  width: 10px;
+  height: 10px;
+  color: #1875E5;
+  border-radius: 50%;
+  animation: Animation16BoxShadow 1s ease-in-out infinite;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -1203,6 +1204,15 @@ body {
     box-shadow: -38px 6px, -14px -6px, 14px 6px
 }
 }
+@keyframes Animation16BoxShadow{
+   0%{
+     box-shadow: 
+     100px 0 0 #C5523F,
+     0 0 0 #499255,
+     0 0 0 #F2B736
+     0 0 0 #1875E5;
+   }
+} 
 
 
 
