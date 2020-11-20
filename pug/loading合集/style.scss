@@ -1013,6 +1013,99 @@ body {
   border-radius: 50%;
   animation: Animation22Border 1s ease-out infinite;
 }
+.g-queue4 .c-loading12 {
+   position: relative;
+   width: 30px;
+   height: 30px;
+   &::after,
+   &::before{
+     position: absolute;
+     top: -2px;
+     left: -2px;
+     right: -2px;
+     bottom: -2px;
+     content: "";
+     animation: Animation2Container 2s ease-in-out infinite;
+   }
+   &::after{
+    border: 2px solid #fff;
+   }
+   &::before{
+    border: 2px solid #C5523F;
+    animation-delay: 1s;
+   }
+}
+.g-queue1 .c-loading13 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  &::after,
+  &::before{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    content: "";
+    animation: Animation23Opacity 2s ease-in-out infinite;
+  }
+  &::after{
+   border: 2px solid #fff;
+  }
+  &::before{
+   border: 2px solid #C5523F;
+   animation-delay: 1s;
+  }
+}
+.g-queue2 .c-loading13 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  &::after,
+  &::before{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    content: "";
+    animation: Animation2Container 4s ease-in-out infinite alternate;
+  }
+  &::after{
+   border: 2px solid #fff;
+  }
+  &::before{
+   border: 2px solid #C5523F;
+   animation-direction: alternate-reverse;
+  }
+}
+
+.g-queue3 .c-loading13 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #F2B736;
+  // animation: Animation2Container 4s ease-in-out infinite alternate;
+  &::after,
+  &::before{
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    content: "";
+  }
+  &::after{
+    transform: rotate(45deg);
+   border: 2px solid #fff;
+  //  animation: Animation2Container 4s ease-in-out infinite alternate;
+  }
+  &::before{
+    transform: rotate(135deg);
+   border: 2px solid #C5523F;
+  //  animation: Animation2Container 3s ease-in-out infinite alternate;
+  }
+}
 
 @keyframes Animation1ShapeWrap1 {
   0% {
@@ -1494,6 +1587,16 @@ body {
 
   100% {
     transform: rotatez(360deg);
+  }
+}
+@keyframes Animation23Opacity{
+  0%{
+    transform: scale(0);
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: scale(1);
   }
 }
 
