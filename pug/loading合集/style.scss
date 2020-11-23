@@ -19,7 +19,6 @@ body {
   width: 50%;
   margin: auto;
   display: flex;
-
 }
 
 .g-queue {
@@ -51,11 +50,11 @@ body {
     position: relative;
 
     .shape1 {
-      background-color: #1875E5;
+      background-color: #1875e5;
     }
 
     .shape2 {
-      background-color: #C5523F;
+      background-color: #c5523f;
     }
 
     .shape3 {
@@ -63,7 +62,7 @@ body {
     }
 
     .shape4 {
-      background-color: #F2B736;
+      background-color: #f2b736;
     }
 
     .shape {
@@ -115,23 +114,23 @@ body {
 
       .shape1 {
         left: 0;
-        animation: Animation2ShapeWrap1 .5s ease infinite alternate;
+        animation: Animation2ShapeWrap1 0.5s ease infinite alternate;
       }
 
       .shape2 {
         right: 0;
-        animation: Animation2ShapeWrap2 .5s ease infinite alternate;
+        animation: Animation2ShapeWrap2 0.5s ease infinite alternate;
       }
 
       .shape3 {
         bottom: 0;
-        animation: Animation2ShapeWrap3 .5s ease infinite alternate;
+        animation: Animation2ShapeWrap3 0.5s ease infinite alternate;
       }
 
       .shape4 {
         right: 0;
         bottom: 0;
-        animation: Animation2ShapeWrap4 .5s ease infinite alternate;
+        animation: Animation2ShapeWrap4 0.5s ease infinite alternate;
       }
     }
 
@@ -144,26 +143,26 @@ body {
       .shape1 {
         left: 0;
         border-top-left-radius: 100%;
-        animation: Animation3ShapeWrap1 .5s ease infinite alternate;
+        animation: Animation3ShapeWrap1 0.5s ease infinite alternate;
       }
 
       .shape2 {
         right: 0;
         border-top-right-radius: 100%;
-        animation: Animation3ShapeWrap2 .5s ease infinite alternate;
+        animation: Animation3ShapeWrap2 0.5s ease infinite alternate;
       }
 
       .shape3 {
         bottom: 0;
         border-bottom-left-radius: 100%;
-        animation: Animation3ShapeWrap3 .5s ease infinite alternate;
+        animation: Animation3ShapeWrap3 0.5s ease infinite alternate;
       }
 
       .shape4 {
         right: 0;
         bottom: 0;
         border-bottom-right-radius: 100%;
-        animation: Animation3ShapeWrap4 .5s ease infinite alternate;
+        animation: Animation3ShapeWrap4 0.5s ease infinite alternate;
       }
     }
 
@@ -179,23 +178,23 @@ body {
 
       .shape1 {
         left: 0;
-        animation: Animation4ShapeWrap1 .3s ease infinite alternate;
+        animation: Animation4ShapeWrap1 0.3s ease infinite alternate;
       }
 
       .shape2 {
         right: 0;
-        animation: Animation4ShapeWrap2 .3s ease .3s infinite alternate;
+        animation: Animation4ShapeWrap2 0.3s ease 0.3s infinite alternate;
       }
 
       .shape3 {
         bottom: 0;
-        animation: Animation4ShapeWrap3 .3s ease .3s infinite alternate;
+        animation: Animation4ShapeWrap3 0.3s ease 0.3s infinite alternate;
       }
 
       .shape4 {
         right: 0;
         bottom: 0;
-        animation: Animation4ShapeWrap4 .3s ease infinite alternate;
+        animation: Animation4ShapeWrap4 0.3s ease infinite alternate;
       }
     }
   }
@@ -274,11 +273,11 @@ body {
       }
 
       .shape1 {
-        animation: Animation7ShapeWrap1 .5s ease infinite alternate;
+        animation: Animation7ShapeWrap1 0.5s ease infinite alternate;
       }
 
       .shape4 {
-        animation: Animation7ShapeWrap2 .5s -.5s ease infinite alternate;
+        animation: Animation7ShapeWrap2 0.5s -0.5s ease infinite alternate;
       }
     }
 
@@ -292,11 +291,11 @@ body {
       }
 
       .shape2 {
-        animation: Animation8ShapeWrap2 1s linear .5s infinite alternate;
+        animation: Animation8ShapeWrap2 1s linear 0.5s infinite alternate;
       }
 
       .shape3 {
-        animation: Animation8ShapeWrap3 1s linear .8s infinite alternate;
+        animation: Animation8ShapeWrap3 1s linear 0.8s infinite alternate;
       }
 
       .shape4 {
@@ -322,7 +321,7 @@ body {
 }
 
 .g-queue1 .c-loading3 {
-  border-bottom-color: #C5523F !important;
+  border-bottom-color: #c5523f !important;
   animation: Animation2Container 1s linear infinite;
 }
 
@@ -338,7 +337,7 @@ body {
     right: 1px;
     bottom: 1px;
     border: 3px solid transparent;
-    border-bottom-color: #C5523F;
+    border-bottom-color: #c5523f;
     display: block;
     border-radius: 50%;
   }
@@ -356,7 +355,7 @@ body {
     right: -7px;
     bottom: -7px;
     border: 3px solid transparent;
-    border-bottom-color: #C5523F;
+    border-bottom-color: #c5523f;
     display: block;
     border-radius: 50%;
   }
@@ -374,8 +373,8 @@ body {
     right: -7px;
     bottom: -7px;
     border: 3px solid transparent;
-    border-bottom-color: #C5523F;
-    border-top-color: #C5523F;
+    border-bottom-color: #c5523f;
+    border-top-color: #c5523f;
     display: block;
     border-radius: 50%;
   }
@@ -394,7 +393,7 @@ body {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #C5523F;
+    background-color: #c5523f;
   }
 
   &::before {
@@ -419,7 +418,7 @@ body {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #C5523F;
+    background-color: #c5523f;
   }
 
   &::before {
@@ -442,13 +441,13 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #C5523F;
+    background-color: #c5523f;
   }
 }
 
 .g-queue4 .c-loading4 {
   position: relative;
-  border: 3px solid #C5523F !important;
+  border: 3px solid #c5523f !important;
   animation: Animation2Container 1s linear infinite;
 
   &::after {
@@ -456,7 +455,7 @@ body {
     content: "";
     width: 8px;
     height: 8px;
-    border: 2px solid #F2B736;
+    border: 2px solid #f2b736;
     left: 3px;
     border-radius: 50%;
   }
@@ -476,10 +475,10 @@ body {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    border: 3px solid #C5523F;
+    border: 3px solid #c5523f;
     border-radius: 50%;
     border-top-color: transparent;
-    animation: Animation3Container .5s linear infinite;
+    animation: Animation3Container 0.5s linear infinite;
   }
 }
 
@@ -497,10 +496,10 @@ body {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    border: 3px solid #C5523F;
+    border: 3px solid #c5523f;
     border-radius: 50%;
     border-top-style: dotted;
-    animation: Animation3Container .5s linear infinite;
+    animation: Animation3Container 0.5s linear infinite;
   }
 }
 
@@ -512,7 +511,7 @@ body {
     position: absolute;
     width: 15px;
     height: 2px;
-    background-color: #C5523F;
+    background-color: #c5523f;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
@@ -527,7 +526,7 @@ body {
 
   &::after,
   &::before {
-    content: '';
+    content: "";
     // width: 30px;
     // height: 30px;
     border-radius: 50%;
@@ -560,7 +559,7 @@ body {
   height: 30px;
   border-radius: 50%;
   border-top: 3px solid #499255;
-  border-bottom: 3px solid #C5523F;
+  border-bottom: 3px solid #c5523f;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   animation: Animation2Container 1s linear infinite;
@@ -575,7 +574,8 @@ body {
   //  border-left-color: #1875E5;
   //  border-right-color: #499255;
   //  border-bottom-color: #F2B736;
-  border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25)
+    rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5);
   animation: Animation2Container 1s linear infinite;
 }
 
@@ -583,7 +583,7 @@ body {
   position: relative;
   width: 30px;
   height: 30px;
-  border: 2px solid #1875E5;
+  border: 2px solid #1875e5;
   border-radius: 50%;
   border-top-color: transparent;
   animation: Animation2Container 1s linear infinite;
@@ -594,7 +594,7 @@ body {
     top: -12px;
     transform: rotate(20deg);
     content: "";
-    border: 11px solid #1875E5;
+    border: 11px solid #1875e5;
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
@@ -626,7 +626,7 @@ body {
 .g-queue2 .c-loading7 {
   width: 30px;
   height: 30px;
-  background-color: #C5523F;
+  background-color: #c5523f;
   border-radius: 50%;
   animation: Animation6Scale 1s linear infinite;
 }
@@ -643,12 +643,12 @@ body {
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: #C5523F;
+    background-color: #c5523f;
     animation: Animation6Scale 1s linear infinite;
   }
 
   &::after {
-    animation-delay: .5s;
+    animation-delay: 0.5s;
   }
 }
 
@@ -663,7 +663,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: #C5523F;
+    background: #c5523f;
     position: absolute;
     left: 0;
     top: 0;
@@ -681,7 +681,7 @@ body {
   border-radius: 50%;
   background-color: #fff;
   border: 17px solid #fff;
-  border-bottom-color: #C5523F;
+  border-bottom-color: #c5523f;
   animation: Animation2Container 1s linear infinite;
 }
 
@@ -722,7 +722,7 @@ body {
     border-radius: 50%;
     width: 28px;
     height: 28px;
-    border: 4px solid #C5523F;
+    border: 4px solid #c5523f;
     border-top-color: transparent !important;
     border-left-color: transparent !important;
   }
@@ -785,7 +785,7 @@ body {
 
   &::after {
     left: 0;
-    background-color: #C5523F;
+    background-color: #c5523f;
   }
 
   &::before {
@@ -799,7 +799,7 @@ body {
   width: 30px;
   height: 30px;
   //  border: 1px solid #fff;
-  animation: Animation8Rotate .8s linear infinite alternate;
+  animation: Animation8Rotate 0.8s linear infinite alternate;
 
   &::after,
   &::before {
@@ -814,7 +814,7 @@ body {
 
   &::after {
     left: 0;
-    background-color: #C5523F;
+    background-color: #c5523f;
   }
 
   &::before {
@@ -843,8 +843,8 @@ body {
 
   &::after {
     left: 0;
-    background-color: #C5523F;
-    animation-delay: .5s;
+    background-color: #c5523f;
+    animation-delay: 0.5s;
   }
 
   &::before {
@@ -876,7 +876,7 @@ body {
   }
 
   &::after {
-    background-color: #C5523F;
+    background-color: #c5523f;
     transform: scale(0.5) translate(-38px, -38px);
   }
 
@@ -888,17 +888,17 @@ body {
 .g-queue4 .c-loading9 {
   width: 10px;
   height: 10px;
-  background-color: #C5523F;
+  background-color: #c5523f;
   border-radius: 50%;
   opacity: 1;
-  animation: Animation13BoxShadow .8s linear infinite alternate;
+  animation: Animation13BoxShadow 0.8s linear infinite alternate;
 }
 
 .g-queue1 .c-loading10 {
   width: 10px;
   height: 10px;
-  background-color: #C5523F;
-  color: #C5523F;
+  background-color: #c5523f;
+  color: #c5523f;
   border-radius: 50%;
   box-shadow: -20px 0, 20px 0;
   animation: Animation14BoxShadow 1s linear infinite alternate;
@@ -909,17 +909,17 @@ body {
   height: 12px;
   display: inline-block;
   border-radius: 50%;
-  color: #1875E5;
+  color: #1875e5;
   animation: Animation15BoxShadow 1s linear infinite alternate;
 }
 
 .g-queue3 .c-loading10 {
   width: 10px;
   height: 10px;
-  background-color: #C5523F;
-  color: #1875E5;
+  background-color: #c5523f;
+  color: #1875e5;
   border-radius: 50%;
-  box-shadow: -20px 0 0 #1875E5, 20px 0 0 #499255;
+  box-shadow: -20px 0 0 #1875e5, 20px 0 0 #499255;
   animation: Animation2Container 1s ease-in-out infinite;
 }
 
@@ -960,10 +960,10 @@ body {
   height: 15px;
   border: 10px solid #fff;
   border-radius: 10px;
-  border-top-color: #C5523F;
-  border-left-color: #C5523F;
-  border-right-color: #1875E5;
-  border-bottom-color: #1875E5;
+  border-top-color: #c5523f;
+  border-left-color: #c5523f;
+  border-right-color: #1875e5;
+  border-bottom-color: #1875e5;
   animation: Animation19Border 1s ease-out infinite;
 }
 
@@ -972,11 +972,11 @@ body {
   height: 15px;
   border: 10px solid #fff;
   border-radius: 10px;
-  border-top-color: #C5523F;
+  border-top-color: #c5523f;
   border-left-color: #499255;
-  border-right-color: #1875E5;
-  border-bottom-color: #F2B736;
-  transform: scale(.7);
+  border-right-color: #1875e5;
+  border-bottom-color: #f2b736;
+  transform: scale(0.7);
   animation: Animation20Border 2s ease-out infinite;
 }
 
@@ -985,11 +985,11 @@ body {
   height: 15px;
   border: 15px ridge #fff;
   border-radius: 50%;
-  border-top-color: #C5523F;
+  border-top-color: #c5523f;
   border-left-color: transparent;
   border-right-color: transparent;
-  border-bottom-color: #F2B736;
-  transform: scale(.7);
+  border-bottom-color: #f2b736;
+  transform: scale(0.7);
   animation: Animation21Border 1s ease-out infinite;
 }
 
@@ -998,11 +998,11 @@ body {
   height: 0;
   border: 15px ridge #fff;
   border-radius: 50%;
-  border-top-color: #C5523F;
+  border-top-color: #c5523f;
   border-left-color: #499255;
-  border-right-color: #1875E5;
-  border-bottom-color: #F2B736;
-  transform: scale(.7);
+  border-right-color: #1875e5;
+  border-bottom-color: #f2b736;
+  transform: scale(0.7);
   animation: Animation21Border 1s ease-out infinite;
 }
 
@@ -1014,33 +1014,33 @@ body {
   animation: Animation22Border 1s ease-out infinite;
 }
 .g-queue4 .c-loading12 {
-   position: relative;
-   width: 30px;
-   height: 30px;
-   &::after,
-   &::before{
-     position: absolute;
-     top: -2px;
-     left: -2px;
-     right: -2px;
-     bottom: -2px;
-     content: "";
-     animation: Animation2Container 2s ease-in-out infinite;
-   }
-   &::after{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  &::after,
+  &::before {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    content: "";
+    animation: Animation2Container 2s ease-in-out infinite;
+  }
+  &::after {
     border: 2px solid #fff;
-   }
-   &::before{
-    border: 2px solid #C5523F;
+  }
+  &::before {
+    border: 2px solid #c5523f;
     animation-delay: 1s;
-   }
+  }
 }
 .g-queue1 .c-loading13 {
   position: relative;
   width: 30px;
   height: 30px;
   &::after,
-  &::before{
+  &::before {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -1049,12 +1049,12 @@ body {
     content: "";
     animation: Animation23Opacity 2s ease-in-out infinite;
   }
-  &::after{
-   border: 2px solid #fff;
+  &::after {
+    border: 2px solid #fff;
   }
-  &::before{
-   border: 2px solid #C5523F;
-   animation-delay: 1s;
+  &::before {
+    border: 2px solid #c5523f;
+    animation-delay: 1s;
   }
 }
 .g-queue2 .c-loading13 {
@@ -1062,7 +1062,7 @@ body {
   width: 30px;
   height: 30px;
   &::after,
-  &::before{
+  &::before {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -1071,12 +1071,12 @@ body {
     content: "";
     animation: Animation2Container 4s ease-in-out infinite alternate;
   }
-  &::after{
-   border: 2px solid #fff;
+  &::after {
+    border: 2px solid #fff;
   }
-  &::before{
-   border: 2px solid #C5523F;
-   animation-direction: alternate-reverse;
+  &::before {
+    border: 2px solid #c5523f;
+    animation-direction: alternate-reverse;
   }
 }
 
@@ -1084,27 +1084,45 @@ body {
   position: relative;
   width: 30px;
   height: 30px;
-  border: 2px solid #F2B736;
-  // animation: Animation2Container 4s ease-in-out infinite alternate;
-  &::after,
-  &::before{
+  span{
     position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: rotate(0);
+    display: inline-block;
+    border: 2px solid #f2b736;
+    width: 30px;
+    height: 30px;
+  }
+  &::after,
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
     content: "";
   }
-  &::after{
+  &::after {
     transform: rotate(45deg);
-   border: 2px solid #fff;
-  //  animation: Animation2Container 4s ease-in-out infinite alternate;
+    border: 2px solid #fff;
+    // animation: Animation2Container 4s ease-in-out infinite alternate;
   }
-  &::before{
-    transform: rotate(135deg);
-   border: 2px solid #C5523F;
-  //  animation: Animation2Container 3s ease-in-out infinite alternate;
+  &::before {
+    transform: rotate(75deg);
+    border: 2px solid #c5523f;
+    // animation: Animation2Container 3s ease-in-out infinite alternate;
   }
+}
+.g-queue4 .c-loading13 {
+  width: 30px;
+  height: 30px;
+  background-color: #c5523f;
+  animation: Animation24Perspective 3s ease-in-out infinite alternate;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -1155,7 +1173,6 @@ body {
   }
 }
 
-
 @keyframes Animation2ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -1204,7 +1221,6 @@ body {
   }
 }
 
-
 @keyframes Animation2Container {
   0% {
     transform: rotate(0);
@@ -1239,12 +1255,12 @@ body {
 
 @keyframes Animation5Translate {
   0% {
-    box-shadow: -48px 0 0 0 #C5523F inset;
+    box-shadow: -48px 0 0 0 #c5523f inset;
     /* 改变内投影实现移动效果 */
   }
 
   100% {
-    box-shadow: 48px 0 0 0 #C5523F inset;
+    box-shadow: 48px 0 0 0 #c5523f inset;
   }
 }
 
@@ -1261,7 +1277,6 @@ body {
 }
 
 @keyframes Animation7Scale {
-
   0%,
   100% {
     transform: scale(0);
@@ -1300,7 +1315,6 @@ body {
 }
 
 @keyframes Animation10Scale {
-
   0%,
   100% {
     transform: scale(0);
@@ -1316,7 +1330,6 @@ body {
 }
 
 @keyframes Animation11Translate {
-
   0%,
   100% {
     transform: scale(0);
@@ -1333,211 +1346,153 @@ body {
 
 @keyframes Animation12Translate {
   50% {
-    transform: scale(1) translate(-50%, -50%)
+    transform: scale(1) translate(-50%, -50%);
   }
 }
 
 @keyframes Animation13BoxShadow {
   0% {
     box-shadow: 0 0, 0 0;
-    color: rgba(197, 82, 63, 0.2)
+    color: rgba(197, 82, 63, 0.2);
   }
 
   100% {
     box-shadow: -15px 0, 15px 0;
-    color: rgba(197, 82, 63, 0.8)
+    color: rgba(197, 82, 63, 0.8);
   }
-
 }
 
 @keyframes Animation14BoxShadow {
   0% {
-    box-shadow: -20px 0 0 0 #F2B736, 20px 0;
+    box-shadow: -20px 0 0 0 #f2b736, 20px 0;
   }
 
   50% {
-    color: #C5523F;
+    color: #c5523f;
     box-shadow: -20px 0, 20px 0;
-    background-color: #F2B736;
+    background-color: #f2b736;
   }
 
   100% {
-    box-shadow: -20px 0, 20px 0 0 #F2B736;
+    box-shadow: -20px 0, 20px 0 0 #f2b736;
   }
 }
 
 @keyframes Animation15BoxShadow {
   0% {
-    box-shadow: -38px -6px, -14px 6px, 14px -6px
+    box-shadow: -38px -6px, -14px 6px, 14px -6px;
   }
 
   33% {
-    box-shadow: -38px 6px, -14px -6px, 14px 6px
+    box-shadow: -38px 6px, -14px -6px, 14px 6px;
   }
 
   66% {
-    box-shadow: -38px -6px, -14px 6px, 14px -6px
+    box-shadow: -38px -6px, -14px 6px, 14px -6px;
   }
 
   100% {
-    box-shadow: -38px 6px, -14px -6px, 14px 6px
+    box-shadow: -38px 6px, -14px -6px, 14px 6px;
   }
 }
 
 @keyframes Animation16BoxShadow {
   0% {
-    box-shadow:
-      0 0 rgba(197, 82, 63, 1),
-      0 0 rgba(73, 146, 85, 1),
-      0 0 rgba(242, 183, 54, 1),
-      0 0 rgba(24, 117, 22, 1);
+    box-shadow: 0 0 rgba(197, 82, 63, 1), 0 0 rgba(73, 146, 85, 1),
+      0 0 rgba(242, 183, 54, 1), 0 0 rgba(24, 117, 22, 1);
   }
 
   12% {
-    box-shadow:
-      100px 0 rgba(197, 82, 63, 1),
-      0 0 rgba(73, 146, 85, 1),
-      0 0 rgba(242, 183, 54, 1),
-      0 0 rgba(24, 117, 22, 1);
+    box-shadow: 100px 0 rgba(197, 82, 63, 1), 0 0 rgba(73, 146, 85, 1),
+      0 0 rgba(242, 183, 54, 1), 0 0 rgba(24, 117, 22, 1);
   }
 
   25% {
-    box-shadow:
-      110px 0 rgba(197, 82, 63, 1),
-      100px 0 rgba(73, 146, 85, 1),
-      0 0 rgba(242, 183, 54, 1),
-      0 0 rgba(24, 117, 22, 1);
+    box-shadow: 110px 0 rgba(197, 82, 63, 1), 100px 0 rgba(73, 146, 85, 1),
+      0 0 rgba(242, 183, 54, 1), 0 0 rgba(24, 117, 22, 1);
   }
 
   36% {
-    box-shadow:
-      120px 0 rgba(197, 82, 63, 1),
-      110px 0 rgba(73, 146, 85, 1),
-      100px 0 rgba(242, 183, 54, 1),
-      0 0 0 rgba(24, 117, 22, 1);
+    box-shadow: 120px 0 rgba(197, 82, 63, 1), 110px 0 rgba(73, 146, 85, 1),
+      100px 0 rgba(242, 183, 54, 1), 0 0 0 rgba(24, 117, 22, 1);
   }
 
   50% {
-    box-shadow:
-      130px 0 rgba(197, 82, 63, 1),
-      120px 0 rgba(73, 146, 85, 1),
-      110px 0 rgba(242, 183, 54, 1),
-      100px 0 rgba(24, 117, 22, 1);
+    box-shadow: 130px 0 rgba(197, 82, 63, 1), 120px 0 rgba(73, 146, 85, 1),
+      110px 0 rgba(242, 183, 54, 1), 100px 0 rgba(24, 117, 22, 1);
   }
 
   62% {
-    box-shadow:
-      200px 0 rgba(197, 82, 63, 0),
-      130px 0 rgba(73, 146, 85, 1),
-      120px 0 rgba(242, 183, 54, 1),
-      110px 0 rgba(24, 117, 22, 1);
+    box-shadow: 200px 0 rgba(197, 82, 63, 0), 130px 0 rgba(73, 146, 85, 1),
+      120px 0 rgba(242, 183, 54, 1), 110px 0 rgba(24, 117, 22, 1);
   }
 
   75% {
-    box-shadow:
-      200px 0 rgba(197, 82, 63, 0),
-      200px 0 rgba(73, 146, 85, 0),
-      130px 0 rgba(242, 183, 54, 1),
-      120px 0 rgba(24, 117, 22, 1);
+    box-shadow: 200px 0 rgba(197, 82, 63, 0), 200px 0 rgba(73, 146, 85, 0),
+      130px 0 rgba(242, 183, 54, 1), 120px 0 rgba(24, 117, 22, 1);
   }
 
   87% {
-    box-shadow:
-      200px 0 rgba(197, 82, 63, 0),
-      200px 0 rgba(73, 146, 85, 0),
-      200px 0 rgba(242, 183, 54, 0),
-      130px 0 rgba(24, 117, 22, 1);
+    box-shadow: 200px 0 rgba(197, 82, 63, 0), 200px 0 rgba(73, 146, 85, 0),
+      200px 0 rgba(242, 183, 54, 0), 130px 0 rgba(24, 117, 22, 1);
   }
 
   100% {
-    box-shadow:
-      200px 0 rgba(197, 82, 63, 0),
-      200px 0 rgba(73, 146, 85, 0),
-      200px 0 rgba(242, 183, 54, 0),
-      200px 0 rgba(24, 117, 22, 0);
+    box-shadow: 200px 0 rgba(197, 82, 63, 0), 200px 0 rgba(73, 146, 85, 0),
+      200px 0 rgba(242, 183, 54, 0), 200px 0 rgba(24, 117, 22, 0);
   }
 }
 
 @keyframes Animation17BoxShadow {
   0% {
-    box-shadow:
-      -15px 0 0 0 #1875E5,
-      -35px 0 0 0 #C5523F,
-      15px 0 0 0 #F2B736,
+    box-shadow: -15px 0 0 0 #1875e5, -35px 0 0 0 #c5523f, 15px 0 0 0 #f2b736,
       35px 0 0 0 #499255;
   }
 
   25% {
-    box-shadow:
-      -15px 0 0 0 #1875E5,
-      -35px 0 0 5px #C5523F,
-      15px 0 0 #F2B736,
+    box-shadow: -15px 0 0 0 #1875e5, -35px 0 0 5px #c5523f, 15px 0 0 #f2b736,
       35px 0 0 #499255;
   }
 
   50% {
-    box-shadow:
-      -15px 0 0 5px #1875E5,
-      -35px 0 0 0 #C5523F,
-      15px 0 0 #F2B736,
+    box-shadow: -15px 0 0 5px #1875e5, -35px 0 0 0 #c5523f, 15px 0 0 #f2b736,
       35px 0 0 #499255;
   }
 
   75% {
-    box-shadow:
-      -15px 0 0 #1875E5,
-      -35px 0 0 #C5523F,
-      15px 0 0 5px #F2B736,
+    box-shadow: -15px 0 0 #1875e5, -35px 0 0 #c5523f, 15px 0 0 5px #f2b736,
       35px 0 0 #499255;
   }
 
   100% {
-    box-shadow:
-      -15px 0 0 #1875E5,
-      -35px 0 0 #C5523F,
-      15px 0 0 #F2B736,
+    box-shadow: -15px 0 0 #1875e5, -35px 0 0 #c5523f, 15px 0 0 #f2b736,
       35px 0 0 5px #499255;
   }
 }
 
 @keyframes Animation18BoxShadow {
   0% {
-    box-shadow:
-      -15px 0 0 0 #1875E5,
-      -35px 0 0 0 #C5523F,
-      15px 0 0 0 #F2B736,
+    box-shadow: -15px 0 0 0 #1875e5, -35px 0 0 0 #c5523f, 15px 0 0 0 #f2b736,
       35px 0 0 0 #499255;
   }
 
   25% {
-    box-shadow:
-      -15px 0 0 0 #1875E5,
-      -35px -10px 0 0 #C5523F,
-      15px 0 0 #F2B736,
+    box-shadow: -15px 0 0 0 #1875e5, -35px -10px 0 0 #c5523f, 15px 0 0 #f2b736,
       35px 0 0 #499255;
   }
 
   50% {
-    box-shadow:
-      -15px -10px 0 0 #1875E5,
-      -35px 0 0 0 #C5523F,
-      15px 0 0 #F2B736,
+    box-shadow: -15px -10px 0 0 #1875e5, -35px 0 0 0 #c5523f, 15px 0 0 #f2b736,
       35px 0 0 #499255;
   }
 
   75% {
-    box-shadow:
-      -15px 0 0 #1875E5,
-      -35px 0 0 #C5523F,
-      15px -10px 0 0 #F2B736,
+    box-shadow: -15px 0 0 #1875e5, -35px 0 0 #c5523f, 15px -10px 0 0 #f2b736,
       35px 0 0 #499255;
   }
 
   100% {
-    box-shadow:
-      -15px 0 0 #1875E5,
-      -35px 0 0 #C5523F,
-      15px 0 0 #F2B736,
+    box-shadow: -15px 0 0 #1875e5, -35px 0 0 #c5523f, 15px 0 0 #f2b736,
       35px -10px 0 0 #499255;
   }
 }
@@ -1567,7 +1522,7 @@ body {
 
 @keyframes Animation21Border {
   0% {
-    transform: rotate(0) scale(.7);
+    transform: rotate(0) scale(0.7);
   }
 
   50% {
@@ -1575,7 +1530,7 @@ body {
   }
 
   100% {
-    transform: rotate(360deg) scale(.7);
+    transform: rotate(360deg) scale(0.7);
   }
 }
 @keyframes Animation22Border {
@@ -1589,17 +1544,27 @@ body {
     transform: rotatez(360deg);
   }
 }
-@keyframes Animation23Opacity{
-  0%{
+@keyframes Animation23Opacity {
+  0% {
     transform: scale(0);
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
     transform: scale(1);
   }
 }
-
+@keyframes Animation24Perspective {
+  0% {
+    transform: perspective(200px) rotateX(0) rotateY(0);
+  }
+  50% {
+    transform: perspective(200px) rotateX(-180deg) rotateY(0);
+  }
+  100% {
+    transform: perspective(200px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
 
 @keyframes Animation3ShapeWrap1 {
   0% {
