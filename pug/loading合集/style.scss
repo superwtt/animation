@@ -1125,13 +1125,54 @@ body {
   color: #c5523f;
   animation: Animation26Boxshadow 2s linear infinite alternate;
 }
+
 .g-queue2 .c-loading14 {
   width: 40px;
-  height: 6px;
+  height: 4px;
   margin-top: -60px;
   color: #c5523f;
   border-radius: 20px;
   animation: Animation27Translate 0.6s linear infinite;
+}
+
+.g-queue3 .c-loading14 {
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  position: relative;
+  background-color: #c5523f;
+  border-radius: 4px;
+  color: #fff;
+  animation: Animation29Width 0.3s -0.3s linear infinite alternate;
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    animation: Animation29Width 0.3s 0.45s linear infinite alternate;
+  }
+  &::after {
+    background-color: #f2b736;
+    top: -15px;
+    animation-delay: 0s;
+  }
+  &::before {
+    // margin-top: 10px;
+    background-color: #499255;
+  }
+}
+
+.g-queue4 .c-loading14 {
+  width: 15px;
+  height: 15px;
+  background-color: #1875e5;
+  animation: Animation28Translate 2s linear infinite;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -1239,6 +1280,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 @keyframes Animation3Container {
   0% {
     transform: rotate(0);
@@ -1248,6 +1290,7 @@ body {
     transform: rotate(-360deg);
   }
 }
+
 @keyframes Animation4Opcity {
   0% {
     opacity: 1;
@@ -1259,6 +1302,7 @@ body {
     transform: scale(1);
   }
 }
+
 @keyframes Animation5Translate {
   0% {
     box-shadow: -48px 0 0 0 #c5523f inset;
@@ -1269,6 +1313,7 @@ body {
     box-shadow: 48px 0 0 0 #c5523f inset;
   }
 }
+
 @keyframes Animation6Scale {
   0% {
     transform: scale(0);
@@ -1280,6 +1325,7 @@ body {
     opacity: 0;
   }
 }
+
 @keyframes Animation7Scale {
   0%,
   100% {
@@ -1297,6 +1343,7 @@ body {
     opacity: 1;
   }
 }
+
 @keyframes Animation8Rotate {
   0% {
     transform: rotate(0) scale(0);
@@ -1306,6 +1353,7 @@ body {
     transform: rotate(360deg) scale(1);
   }
 }
+
 @keyframes Animation9Rotate {
   0% {
     transform: rotate(0) scale(0);
@@ -1315,6 +1363,7 @@ body {
     transform: rotate(360deg) scale(1);
   }
 }
+
 @keyframes Animation10Scale {
   0%,
   100% {
@@ -1329,6 +1378,7 @@ body {
     transform: scale(0);
   }
 }
+
 @keyframes Animation11Translate {
   0%,
   100% {
@@ -1343,11 +1393,13 @@ body {
     transform: scale(0);
   }
 }
+
 @keyframes Animation12Translate {
   50% {
     transform: scale(1) translate(-50%, -50%);
   }
 }
+
 @keyframes Animation13BoxShadow {
   0% {
     box-shadow: 0 0, 0 0;
@@ -1359,6 +1411,7 @@ body {
     color: rgba(197, 82, 63, 0.8);
   }
 }
+
 @keyframes Animation14BoxShadow {
   0% {
     box-shadow: -20px 0 0 0 #f2b736, 20px 0;
@@ -1374,6 +1427,7 @@ body {
     box-shadow: -20px 0, 20px 0 0 #f2b736;
   }
 }
+
 @keyframes Animation15BoxShadow {
   0% {
     box-shadow: -38px -6px, -14px 6px, 14px -6px;
@@ -1391,6 +1445,7 @@ body {
     box-shadow: -38px 6px, -14px -6px, 14px 6px;
   }
 }
+
 @keyframes Animation16BoxShadow {
   0% {
     box-shadow: 0 0 rgba(197, 82, 63, 1), 0 0 rgba(73, 146, 85, 1),
@@ -1437,6 +1492,7 @@ body {
       200px 0 rgba(242, 183, 54, 0), 200px 0 rgba(24, 117, 22, 0);
   }
 }
+
 @keyframes Animation17BoxShadow {
   0% {
     box-shadow: -15px 0 0 0 #1875e5, -35px 0 0 0 #c5523f, 15px 0 0 0 #f2b736,
@@ -1463,6 +1519,7 @@ body {
       35px 0 0 5px #499255;
   }
 }
+
 @keyframes Animation18BoxShadow {
   0% {
     box-shadow: -15px 0 0 0 #1875e5, -35px 0 0 0 #c5523f, 15px 0 0 0 #f2b736,
@@ -1489,6 +1546,7 @@ body {
       35px -10px 0 0 #499255;
   }
 }
+
 @keyframes Animation19Border {
   50% {
     border-radius: 50%;
@@ -1500,6 +1558,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 @keyframes Animation20Border {
   50% {
     transform: rotate(180deg) scale(1.2);
@@ -1510,6 +1569,7 @@ body {
     transform: rotate(360deg) scale(0.7);
   }
 }
+
 @keyframes Animation21Border {
   0% {
     transform: rotate(0) scale(0.7);
@@ -1523,6 +1583,7 @@ body {
     transform: rotate(360deg) scale(0.7);
   }
 }
+
 @keyframes Animation22Border {
   50% {
     transform: rotatez(180deg);
@@ -1534,6 +1595,7 @@ body {
     transform: rotatez(360deg);
   }
 }
+
 @keyframes Animation23Opacity {
   0% {
     transform: scale(0);
@@ -1545,6 +1607,7 @@ body {
     transform: scale(1);
   }
 }
+
 @keyframes Animation24Perspective {
   0% {
     transform: perspective(200px) rotateX(0) rotateY(0);
@@ -1558,6 +1621,7 @@ body {
     transform: perspective(200px) rotateX(-180deg) rotateY(-180deg);
   }
 }
+
 @keyframes Animation25Height {
   0% {
     transform: translateY(110%);
@@ -1567,6 +1631,7 @@ body {
     transform: translateY(0);
   }
 }
+
 @keyframes Animation26Boxshadow {
   0% {
     box-shadow: 0 0, 0 0, 0 0;
@@ -1584,6 +1649,7 @@ body {
     box-shadow: 15px 0, 15px 15px, 0px 15px, 0 0;
   }
 }
+
 @keyframes Animation27Translate {
   0% {
     box-shadow: -10px 20px, 10px 35px, 0px 50px;
@@ -1603,6 +1669,38 @@ body {
 
   100% {
     box-shadow: -10px 20px, 10px 35px, 0px 50px;
+  }
+}
+
+@keyframes Animation28Translate {
+  0% {
+    transform: translate(0, 0) rotateX(0) rotateY(0);
+  }
+
+  25% {
+    transform: translate(100%, 0) rotateX(0) rotateY(180deg);
+  }
+
+  50% {
+    transform: translate(100%, 100%) rotateX(180deg) rotateY(180deg);
+  }
+
+  75% {
+    transform: translate(0, 100%) rotateX(180deg) rotateY(0);
+  }
+
+  100% {
+    transform: translate(0, 0) rotateX(0) rotateY(0);
+  }
+}
+
+@keyframes Animation29Width {
+  0% {
+    width: 4px;
+  }
+
+  100% {
+    width: 35px;
   }
 }
 

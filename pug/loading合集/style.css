@@ -1052,11 +1052,52 @@ body {
 
 .g-queue2 .c-loading14 {
   width: 40px;
-  height: 6px;
+  height: 4px;
   margin-top: -60px;
   color: #c5523f;
   border-radius: 20px;
   animation: Animation27Translate 0.6s linear infinite;
+}
+
+.g-queue3 .c-loading14 {
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  position: relative;
+  background-color: #c5523f;
+  border-radius: 4px;
+  color: #fff;
+  animation: Animation29Width 0.3s -0.3s linear infinite alternate;
+}
+
+.g-queue3 .c-loading14::after, .g-queue3 .c-loading14::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  left: 50%;
+  top: 15px;
+  border-radius: 4px;
+  transform: translateX(-50%);
+  animation: Animation29Width 0.3s 0.45s linear infinite alternate;
+}
+
+.g-queue3 .c-loading14::after {
+  background-color: #f2b736;
+  top: -15px;
+  animation-delay: 0s;
+}
+
+.g-queue3 .c-loading14::before {
+  background-color: #499255;
+}
+
+.g-queue4 .c-loading14 {
+  width: 15px;
+  height: 15px;
+  background-color: #1875e5;
+  animation: Animation28Translate 2s linear infinite;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -1475,6 +1516,33 @@ body {
   }
   100% {
     box-shadow: -10px 20px, 10px 35px, 0px 50px;
+  }
+}
+
+@keyframes Animation28Translate {
+  0% {
+    transform: translate(0, 0) rotateX(0) rotateY(0);
+  }
+  25% {
+    transform: translate(100%, 0) rotateX(0) rotateY(180deg);
+  }
+  50% {
+    transform: translate(100%, 100%) rotateX(180deg) rotateY(180deg);
+  }
+  75% {
+    transform: translate(0, 100%) rotateX(180deg) rotateY(0);
+  }
+  100% {
+    transform: translate(0, 0) rotateX(0) rotateY(0);
+  }
+}
+
+@keyframes Animation29Width {
+  0% {
+    width: 4px;
+  }
+  100% {
+    width: 35px;
   }
 }
 
