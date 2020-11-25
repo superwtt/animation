@@ -1175,6 +1175,22 @@ body {
   animation: Animation28Translate 2s linear infinite;
 }
 
+.g-queue1 .c-loading15 {
+  position: relative;
+   width: 120px;
+   height: 3px;
+   background-color: #c5523f;
+   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+   &::after,
+   &::before{
+     position: absolute;
+     content: "";
+     width: 15px;
+     height: 2px;
+     background-color: #fff;
+   }
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
