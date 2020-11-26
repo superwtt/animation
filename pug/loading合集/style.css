@@ -1151,6 +1151,27 @@ body {
   animation: Animation33BG 6s linear infinite;
 }
 
+.g-queue3 .c-loading15 {
+  position: relative;
+  width: 120px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: rgba(197, 82, 63, 0.4);
+}
+
+.g-queue3 .c-loading15::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 4px;
+  background-size: 15px 15px;
+  background-color: #fff;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.25) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 75%, transparent 75%, transparent);
+  animation: Animation33BG 6s linear infinite,barStripe 1s linear infinite;
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -1634,6 +1655,15 @@ body {
   }
   100% {
     width: 100%;
+  }
+}
+
+@keyframes barStripe {
+  0% {
+    background-position: 1em 0;
+  }
+  100% {
+    background-position: 1em 0;
   }
 }
 
