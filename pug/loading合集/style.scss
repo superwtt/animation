@@ -1191,21 +1191,20 @@ body {
     right: 0;
     content: "";
     width: 12px;
-    height: .8px;
+    height: 0.8px;
     background-color: #fff;
-
   }
 
   &::after {
     bottom: 10px;
     transform: rotate(45deg);
-    animation: Animation31Translate .3s linear infinite;
+    animation: Animation31Translate 0.3s linear infinite;
   }
 
   &::before {
     top: 10px;
     transform: rotate(-45deg);
-    animation: Animation32Translate .3s linear infinite;
+    animation: Animation32Translate 0.3s linear infinite;
   }
 }
 
@@ -1225,7 +1224,14 @@ body {
     height: 4px;
     background-size: 15px 15px;
     background-color: #fff;
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.25) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg,
+        rgba(0, 0, 0, 0.25) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(0, 0, 0, 0.25) 50%,
+        rgba(0, 0, 0, 0.25) 75%,
+        transparent 75%,
+        transparent);
     animation: Animation33BG 6s linear infinite;
   }
 }
@@ -1246,7 +1252,14 @@ body {
     height: 4px;
     background-size: 15px 15px;
     background-color: #fff;
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.25) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.25) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg,
+        rgba(0, 0, 0, 0.25) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(0, 0, 0, 0.25) 50%,
+        rgba(0, 0, 0, 0.25) 75%,
+        transparent 75%,
+        transparent);
     animation: Animation33BG 6s linear infinite, barStripe 1s linear infinite;
   }
 }
@@ -1255,20 +1268,19 @@ body {
   width: 96px;
   height: 24px;
   display: inline-block;
-  background-color: #FFF;
-  border: 1px solid #FFF;
+  background-color: #fff;
+  border: 1px solid #fff;
   border-radius: 4px;
-  background:
-    linear-gradient(45deg,
+  background: linear-gradient(45deg,
       transparent 49%,
-      #FFF 50%,
-      #FFF 50%,
+      #fff 50%,
+      #fff 50%,
       transparent 51%,
       transparent),
     linear-gradient(-45deg,
       transparent 49%,
-      #FFF 50%,
-      #FFF 50%,
+      #fff 50%,
+      #fff 50%,
       transparent 51%,
       transparent);
   font-size: 15px;
@@ -1283,7 +1295,7 @@ body {
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     left: 60px;
     bottom: 18px;
     position: absolute;
@@ -1291,23 +1303,42 @@ body {
     height: 36px;
     border-radius: 50%;
     background-color: #499255;
-    background-image:
-      radial-gradient(circle 8px at 18px 18px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 18px 0px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 0px 18px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 36px 18px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 18px 36px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 30px 5px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 30px 5px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 30px 30px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 5px 30px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 4px at 5px 5px, rgba(0, 0, 0, 0.9) 100%, transparent 0);
+    background-image: radial-gradient(circle 8px at 18px 18px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 18px 0px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 0px 18px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 36px 18px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 18px 36px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 30px 5px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 30px 5px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 30px 30px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 5px 30px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 4px at 5px 5px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0);
     background-repeat: no-repeat;
     animation: Animation34Rotate 3s linear infinite;
   }
 
   &::before {
-    content: '';
+    content: "";
     left: 94px;
     bottom: 15px;
     position: absolute;
@@ -1315,17 +1346,36 @@ body {
     height: 24px;
     border-radius: 50%;
     background-color: #c5523f;
-    background-image:
-      radial-gradient(circle 5px at 12px 12px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 12px 0px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 0px 12px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 24px 12px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 12px 24px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 20px 3px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 20px 3px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 20px 20px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 3px 20px, rgba(0, 0, 0, 0.9) 100%, transparent 0),
-      radial-gradient(circle 2.5px at 3px 3px, rgba(0, 0, 0, 0.9) 100%, transparent 0);
+    background-image: radial-gradient(circle 5px at 12px 12px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 12px 0px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 0px 12px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 24px 12px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 12px 24px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 20px 3px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 20px 3px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 20px 20px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 3px 20px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0),
+      radial-gradient(circle 2.5px at 3px 3px,
+        rgba(0, 0, 0, 0.9) 100%,
+        transparent 0);
     background-repeat: no-repeat;
     animation: Animation34Rotate 4s linear infinite;
   }
@@ -1348,6 +1398,342 @@ body {
     border-top-color: #f2b736;
   }
 }
+
+.g-queue3 .c-loading16 {
+  width: 48px;
+  height: 24px;
+  border: 1px solid #1875e5;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    width: 5px;
+    height: 12px;
+    transform: translateY(-50%);
+    background-color: #1875e5;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 2px;
+    bottom: 2px;
+    width: 6px;
+    background-color: transparent;
+    animation: Animation36BoxShadow 3s linear infinite;
+  }
+}
+
+.g-queue4 .c-loading16 {
+  position: relative;
+}
+
+.g-queue4 .c-loading16>div:first-child {
+  width: 32px;
+  height: 32px;
+  background-color: #c5523f;
+  border-radius: 10%;
+  animation: Animation38BorderRadius .6s linear infinite;
+
+}
+
+.g-queue4 .c-loading16>div:last-child {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  height: 12%;
+  border-radius: 50%;
+  background: rgba(197, 82, 63, 0.2);
+  animation: Animation37Shadow .6s -.1s linear infinite;
+}
+
+.g-queue1 .c-loading17 {
+  display: block;
+  font-size: 0;
+  color: #499255;
+  width: 48px;
+  height: 36px;
+
+  div {
+    display: inline-block;
+    float: none;
+    background-color: currentColor;
+    border: 0 solid currentColor;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    border-radius: 100%;
+    animation-name: Animation39Scale;
+    animation-iteration-count: infinite;
+
+    &:nth-child(1) {
+      animation-duration: .65s;
+      animation-delay: .03s;
+    }
+
+    &:nth-child(2) {
+      animation-duration: 1.02s;
+      animation-delay: .09s;
+    }
+
+    &:nth-child(3) {
+      animation-duration: 1.06s;
+      animation-delay: .69s;
+    }
+
+    &:nth-child(4) {
+      animation-duration: 1.5s;
+      animation-delay: .41s;
+    }
+
+    &:nth-child(5) {
+      animation-duration: 1.6s;
+      animation-delay: .04s;
+    }
+
+    &:nth-child(6) {
+      animation-duration: .84s;
+      animation-delay: .07s;
+    }
+
+    &:nth-child(7) {
+      animation-duration: 1.6s;
+      animation-delay: .04s;
+    }
+
+    &:nth-child(8) {
+      animation-duration: .68s;
+      animation-delay: .66s;
+    }
+
+    &:nth-child(9) {
+      animation-duration: .93s;
+      animation-delay: .76s;
+    }
+  }
+}
+
+.g-queue2 .c-loading17 {
+  display: block;
+  font-size: 0;
+  color: #c5523f;
+  width: 48px;
+  height: 36px;
+
+  div {
+    display: inline-block;
+    float: none;
+    background-color: currentColor;
+    border: 0 solid currentColor;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    border-radius: 100%;
+    animation-name: Animation40Opacity;
+    animation-iteration-count: infinite;
+
+    &:nth-child(1) {
+      animation-duration: .65s;
+      animation-delay: .03s;
+    }
+
+    &:nth-child(2) {
+      animation-duration: 1.02s;
+      animation-delay: .09s;
+    }
+
+    &:nth-child(3) {
+      animation-duration: 1.06s;
+      animation-delay: .69s;
+    }
+
+    &:nth-child(4) {
+      animation-duration: 1.5s;
+      animation-delay: .41s;
+    }
+
+    &:nth-child(5) {
+      animation-duration: 1.6s;
+      animation-delay: .04s;
+    }
+
+    &:nth-child(6) {
+      animation-duration: .84s;
+      animation-delay: .07s;
+    }
+
+    &:nth-child(7) {
+      animation-duration: 1.6s;
+      animation-delay: .04s;
+    }
+
+    &:nth-child(8) {
+      animation-duration: .68s;
+      animation-delay: .66s;
+    }
+
+    &:nth-child(9) {
+      animation-duration: .93s;
+      animation-delay: .76s;
+    }
+  }
+}
+
+.g-queue3 .c-loading17,
+.g-queue4 .c-loading17 {
+  position: relative;
+  display: block;
+  font-size: 0;
+  width: 52px;
+  height: 52px;
+  color: #f2b736;
+}
+
+.g-queue3 .c-loading17>div {
+  position: relative;
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  margin-left: -9px;
+  border-radius: 100%;
+  transform: scale(.4);
+
+  animation: Animation41Scale 1s ease-in-out infinite;
+  &:nth-child(9){
+    display: none; // pug模板生成的，手动隐藏一下
+  }
+  &:nth-child(1){
+    top: 0;
+    left: 0;
+    
+    animation-delay: -1.125s;
+  }
+  &:nth-child(2){
+    top: 0;
+    left: 50%;
+
+    animation-delay: -1.25s;
+  }
+  &:nth-child(3){
+    top: 0;
+    left: 100%;
+
+    animation-delay: -1.375s;
+  }
+  &:nth-child(4){
+    top: 50%;
+    left: 100%;
+
+    animation-delay: -1.5s;
+  }
+  &:nth-child(5){
+    top: 100%;
+    left: 100%;
+
+    animation-delay: -1.625s;
+  }
+  &:nth-child(6){
+    top: 100%;
+    left: 50%;
+
+    animation-delay: -1.75s;
+  }
+  &:nth-child(7){
+    top: 100%;
+    left: 0%;
+
+    animation-delay: -1.875s;
+  }
+  &:nth-child(8){
+    top: 50%;
+    left: 0%;
+
+    animation-delay: -2s;
+  }
+}
+.g-queue4 .c-loading17>div {
+  position: relative;
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  margin-left: -9px;
+  border-radius: 100%;
+  transform: scale(.4);
+
+  animation: Animation41Scale 1s ease-in-out infinite;
+  &:nth-child(9){
+    display: none; // pug模板生成的，手动隐藏一下
+  }
+  &:nth-child(1){
+    top: 0;
+    left: 0;
+    
+    animation-delay: -.875s;
+  }
+  &:nth-child(2){
+    top: 0;
+    left: 50%;
+
+    animation-delay: -.75s;
+  }
+  &:nth-child(3){
+    top: 0;
+    left: 100%;
+
+    animation-delay: -.625s;
+  }
+  &:nth-child(4){
+    top: 50%;
+    left: 100%;
+
+    animation-delay: -.5s;
+  }
+  &:nth-child(5){
+    top: 100%;
+    left: 100%;
+
+    animation-delay: -.375s;
+  }
+  &:nth-child(6){
+    top: 100%;
+    left: 50%;
+
+    animation-delay: -.25s;
+  }
+  &:nth-child(7){
+    top: 100%;
+    left: 0%;
+
+    animation-delay: -.125s;
+  }
+  &:nth-child(8){
+    top: 50%;
+    left: 0%;
+
+    animation-delay: 0s;
+  }
+}
+
 
 @keyframes Animation1ShapeWrap1 {
   0% {
@@ -1894,7 +2280,7 @@ body {
 @keyframes Animation31Translate {
   0% {
     transform: rotate(45deg) translateX(0);
-    opacity: .7;
+    opacity: 0.7;
   }
 
   100% {
@@ -1906,7 +2292,7 @@ body {
 @keyframes Animation32Translate {
   0% {
     transform: rotate(-45deg) translateX(0);
-    opacity: .7;
+    opacity: 0.7;
   }
 
   100% {
@@ -1917,31 +2303,124 @@ body {
 
 @keyframes Animation33BG {
   0% {
-    width: 0
+    width: 0;
   }
 
   100% {
-    width: 100%
+    width: 100%;
   }
 }
 
 @keyframes Animation34Rotate {
   0% {
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 
   100% {
-    transform: rotate(-360deg)
+    transform: rotate(-360deg);
   }
 }
-@keyframes Animation35Jump{
+
+@keyframes Animation35Jump {
   0% {
-    transform: translate(-50%, 5px)
+    transform: translate(-50%, 5px);
+  }
+
+  100% {
+    transform: translate(-50%, -5px);
+  }
 }
 
-100% {
-    transform: translate(-50%, -5px)
+@keyframes Animation36BoxShadow {
+  0% {
+    box-shadow: 14px 0 0 0 transparent, 26px 0 0 0 transparent,
+      38px 0 0 0 transparent, 50px 0 0 0 transparent;
+  }
+
+  25% {
+    box-shadow: 14px 0 0 0 #1875e5, 26px 0 0 0 transparent,
+      38px 0 0 0 transparent, 50px 0 0 0 transparent;
+  }
+
+  50% {
+    box-shadow: 14px 0 0 0 #1875e5, 26px 0 0 0 #1875e5, 38px 0 0 0 transparent,
+      50px 0 0 0 transparent;
+  }
+
+  75% {
+    box-shadow: 14px 0 0 0 #1875e5, 26px 0 0 0 #1875e5, 38px 0 0 0 #1875e5,
+      50px 0 0 0 transparent;
+  }
+
+  100% {
+    box-shadow: 14px 0 0 0 #1875e5, 26px 0 0 0 #1875e5, 38px 0 0 0 #1875e5,
+      50px 0 0 0 #1875e5;
+  }
 }
+
+@keyframes Animation37Shadow {
+  50% {
+    transform: scale(1.25, 1);
+    /* opacity: .01; */
+  }
+}
+
+@keyframes Animation38BorderRadius {
+  17% {
+    border-bottom-right-radius: 10%;
+  }
+
+  25% {
+    transform: translateY(25%) rotate(22.5deg);
+  }
+
+  50% {
+    border-bottom-right-radius: 100%;
+    transform: translateY(50%) scale(1, .9) rotate(45deg);
+  }
+
+  75% {
+    transform: translateY(25%) rotate(67.5deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
+@keyframes Animation39Scale {
+
+  0%,
+  100% {
+    transform: scale(.45);
+    opacity: .6;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@keyframes Animation40Opacity {
+  50% {
+    opacity: .35;
+  }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes Animation41Scale{
+  0%,
+  40%,
+  100%{
+      transform: scale(.4);
+  }
+  70%{
+      transform: scale(1.2);
+  }
 }
 
 @keyframes barStripe {
