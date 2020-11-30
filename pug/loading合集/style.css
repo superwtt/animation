@@ -1276,7 +1276,7 @@ body {
   height: 32px;
   background-color: #c5523f;
   border-radius: 10%;
-  animation: Animation38BorderRadius .6s linear infinite;
+  animation: Animation38BorderRadius 0.6s linear infinite;
 }
 
 .g-queue4 .c-loading16 > div:last-child {
@@ -1286,7 +1286,7 @@ body {
   height: 12%;
   border-radius: 50%;
   background: rgba(197, 82, 63, 0.2);
-  animation: Animation37Shadow .6s -.1s linear infinite;
+  animation: Animation37Shadow 0.6s -0.1s linear infinite;
 }
 
 .g-queue1 .c-loading17 {
@@ -1311,48 +1311,48 @@ body {
 }
 
 .g-queue1 .c-loading17 div:nth-child(1) {
-  animation-duration: .65s;
-  animation-delay: .03s;
+  animation-duration: 0.65s;
+  animation-delay: 0.03s;
 }
 
 .g-queue1 .c-loading17 div:nth-child(2) {
   animation-duration: 1.02s;
-  animation-delay: .09s;
+  animation-delay: 0.09s;
 }
 
 .g-queue1 .c-loading17 div:nth-child(3) {
   animation-duration: 1.06s;
-  animation-delay: .69s;
+  animation-delay: 0.69s;
 }
 
 .g-queue1 .c-loading17 div:nth-child(4) {
   animation-duration: 1.5s;
-  animation-delay: .41s;
+  animation-delay: 0.41s;
 }
 
 .g-queue1 .c-loading17 div:nth-child(5) {
   animation-duration: 1.6s;
-  animation-delay: .04s;
+  animation-delay: 0.04s;
 }
 
 .g-queue1 .c-loading17 div:nth-child(6) {
-  animation-duration: .84s;
-  animation-delay: .07s;
+  animation-duration: 0.84s;
+  animation-delay: 0.07s;
 }
 
 .g-queue1 .c-loading17 div:nth-child(7) {
   animation-duration: 1.6s;
-  animation-delay: .04s;
+  animation-delay: 0.04s;
 }
 
 .g-queue1 .c-loading17 div:nth-child(8) {
-  animation-duration: .68s;
-  animation-delay: .66s;
+  animation-duration: 0.68s;
+  animation-delay: 0.66s;
 }
 
 .g-queue1 .c-loading17 div:nth-child(9) {
-  animation-duration: .93s;
-  animation-delay: .76s;
+  animation-duration: 0.93s;
+  animation-delay: 0.76s;
 }
 
 .g-queue2 .c-loading17 {
@@ -1377,48 +1377,48 @@ body {
 }
 
 .g-queue2 .c-loading17 div:nth-child(1) {
-  animation-duration: .65s;
-  animation-delay: .03s;
+  animation-duration: 0.65s;
+  animation-delay: 0.03s;
 }
 
 .g-queue2 .c-loading17 div:nth-child(2) {
   animation-duration: 1.02s;
-  animation-delay: .09s;
+  animation-delay: 0.09s;
 }
 
 .g-queue2 .c-loading17 div:nth-child(3) {
   animation-duration: 1.06s;
-  animation-delay: .69s;
+  animation-delay: 0.69s;
 }
 
 .g-queue2 .c-loading17 div:nth-child(4) {
   animation-duration: 1.5s;
-  animation-delay: .41s;
+  animation-delay: 0.41s;
 }
 
 .g-queue2 .c-loading17 div:nth-child(5) {
   animation-duration: 1.6s;
-  animation-delay: .04s;
+  animation-delay: 0.04s;
 }
 
 .g-queue2 .c-loading17 div:nth-child(6) {
-  animation-duration: .84s;
-  animation-delay: .07s;
+  animation-duration: 0.84s;
+  animation-delay: 0.07s;
 }
 
 .g-queue2 .c-loading17 div:nth-child(7) {
   animation-duration: 1.6s;
-  animation-delay: .04s;
+  animation-delay: 0.04s;
 }
 
 .g-queue2 .c-loading17 div:nth-child(8) {
-  animation-duration: .68s;
-  animation-delay: .66s;
+  animation-duration: 0.68s;
+  animation-delay: 0.66s;
 }
 
 .g-queue2 .c-loading17 div:nth-child(9) {
-  animation-duration: .93s;
-  animation-delay: .76s;
+  animation-duration: 0.93s;
+  animation-delay: 0.76s;
 }
 
 .g-queue3 .c-loading17,
@@ -1526,49 +1526,121 @@ body {
 .g-queue4 .c-loading17 > div:nth-child(1) {
   top: 0;
   left: 0;
-  animation-delay: -.875s;
+  animation-delay: -0.875s;
 }
 
 .g-queue4 .c-loading17 > div:nth-child(2) {
   top: 0;
   left: 50%;
-  animation-delay: -.75s;
+  animation-delay: -0.75s;
 }
 
 .g-queue4 .c-loading17 > div:nth-child(3) {
   top: 0;
   left: 100%;
-  animation-delay: -.625s;
+  animation-delay: -0.625s;
 }
 
 .g-queue4 .c-loading17 > div:nth-child(4) {
   top: 50%;
   left: 100%;
-  animation-delay: -.5s;
+  animation-delay: -0.5s;
 }
 
 .g-queue4 .c-loading17 > div:nth-child(5) {
   top: 100%;
   left: 100%;
-  animation-delay: -.375s;
+  animation-delay: -0.375s;
 }
 
 .g-queue4 .c-loading17 > div:nth-child(6) {
   top: 100%;
   left: 50%;
-  animation-delay: -.25s;
+  animation-delay: -0.25s;
 }
 
 .g-queue4 .c-loading17 > div:nth-child(7) {
   top: 100%;
   left: 0%;
-  animation-delay: -.125s;
+  animation-delay: -0.125s;
 }
 
 .g-queue4 .c-loading17 > div:nth-child(8) {
   top: 50%;
   left: 0%;
   animation-delay: 0s;
+}
+
+.g-queue1 .c-loading18 {
+  vertical-align: middle;
+}
+
+.g-queue1 .c-loading18 > div {
+  vertical-align: middle;
+  width: 5px;
+  height: 40px;
+  display: inline-block;
+  background: #c5523f;
+  margin-right: 5px;
+  animation: Animation42Scale 0.7s infinite alternate;
+}
+
+.g-queue1 .c-loading18 > div:nth-child(1) {
+  animation-delay: 0.7s;
+}
+
+.g-queue1 .c-loading18 > div:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.g-queue1 .c-loading18 > div:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.g-queue1 .c-loading18 > div:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.g-queue1 .c-loading18 > div:nth-child(5) {
+  animation-delay: 0.7s;
+}
+
+.g-queue1 .c-loading18 > div:nth-child(6), .g-queue1 .c-loading18 > div:nth-child(7), .g-queue1 .c-loading18 > div:nth-child(8), .g-queue1 .c-loading18 > div:nth-child(9) {
+  display: none;
+}
+
+.g-queue2 .c-loading18 > div {
+  vertical-align: middle;
+  width: 5px;
+  height: 40px;
+  display: inline-block;
+  background: #c5523f;
+  margin-right: 5px;
+  animation: Animation43Scale 0.7s -0.15s infinite linear;
+}
+
+.g-queue2 .c-loading18 > div:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.g-queue2 .c-loading18 > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.g-queue2 .c-loading18 > div:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.g-queue2 .c-loading18 > div:nth-child(4) {
+  animation-delay: 0.2s;
+}
+
+.g-queue2 .c-loading18 > div:nth-child(5) {
+  animation-delay: 0.1s;
+}
+
+.g-queue2 .c-loading18 > div:nth-child(6), .g-queue2 .c-loading18 > div:nth-child(7), .g-queue2 .c-loading18 > div:nth-child(8), .g-queue2 .c-loading18 > div:nth-child(9) {
+  display: none;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -2123,7 +2195,7 @@ body {
   0%,
   100% {
     transform: scale(0.45);
-    opacity: .6;
+    opacity: 0.6;
   }
   50% {
     transform: scale(1.2);
@@ -2133,7 +2205,7 @@ body {
 
 @keyframes Animation40Opacity {
   50% {
-    opacity: .35;
+    opacity: 0.35;
   }
   0%,
   100% {
@@ -2149,6 +2221,26 @@ body {
   }
   70% {
     transform: scale(1.2);
+  }
+}
+
+@keyframes Animation42Scale {
+  from {
+    height: 40px;
+  }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes Animation43Scale {
+  50% {
+    opacity: 0.2;
+    transform: scale(0.75);
+  }
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 

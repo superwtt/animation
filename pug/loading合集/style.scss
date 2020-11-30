@@ -574,7 +574,8 @@ body {
   //  border-left-color: #1875E5;
   //  border-right-color: #499255;
   //  border-bottom-color: #F2B736;
-  border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25)
+    rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5);
   animation: Animation2Container 1s linear infinite;
 }
 
@@ -1224,14 +1225,16 @@ body {
     height: 4px;
     background-size: 15px 15px;
     background-color: #fff;
-    background-image: linear-gradient(45deg,
-        rgba(0, 0, 0, 0.25) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(0, 0, 0, 0.25) 50%,
-        rgba(0, 0, 0, 0.25) 75%,
-        transparent 75%,
-        transparent);
+    background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.25) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.25) 50%,
+      rgba(0, 0, 0, 0.25) 75%,
+      transparent 75%,
+      transparent
+    );
     animation: Animation33BG 6s linear infinite;
   }
 }
@@ -1252,14 +1255,16 @@ body {
     height: 4px;
     background-size: 15px 15px;
     background-color: #fff;
-    background-image: linear-gradient(45deg,
-        rgba(0, 0, 0, 0.25) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(0, 0, 0, 0.25) 50%,
-        rgba(0, 0, 0, 0.25) 75%,
-        transparent 75%,
-        transparent);
+    background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.25) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.25) 50%,
+      rgba(0, 0, 0, 0.25) 75%,
+      transparent 75%,
+      transparent
+    );
     animation: Animation33BG 6s linear infinite, barStripe 1s linear infinite;
   }
 }
@@ -1271,18 +1276,22 @@ body {
   background-color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
-  background: linear-gradient(45deg,
+  background: linear-gradient(
+      45deg,
       transparent 49%,
       #fff 50%,
       #fff 50%,
       transparent 51%,
-      transparent),
-    linear-gradient(-45deg,
+      transparent
+    ),
+    linear-gradient(
+      -45deg,
       transparent 49%,
       #fff 50%,
       #fff 50%,
       transparent 51%,
-      transparent);
+      transparent
+    );
   font-size: 15px;
   background-size: 1em 1em;
   -webkit-animation: barStripe 0.6s linear infinite;
@@ -1303,36 +1312,56 @@ body {
     height: 36px;
     border-radius: 50%;
     background-color: #499255;
-    background-image: radial-gradient(circle 8px at 18px 18px,
+    background-image: radial-gradient(
+        circle 8px at 18px 18px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 18px 0px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 18px 0px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 0px 18px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 0px 18px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 36px 18px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 36px 18px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 18px 36px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 18px 36px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 30px 5px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 30px 5px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 30px 5px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 30px 5px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 30px 30px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 30px 30px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 5px 30px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 5px 30px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 5px 5px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 5px 5px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0);
+        transparent 0
+      );
     background-repeat: no-repeat;
     animation: Animation34Rotate 3s linear infinite;
   }
@@ -1346,36 +1375,56 @@ body {
     height: 24px;
     border-radius: 50%;
     background-color: #c5523f;
-    background-image: radial-gradient(circle 5px at 12px 12px,
+    background-image: radial-gradient(
+        circle 5px at 12px 12px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 12px 0px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 12px 0px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 0px 12px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 0px 12px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 24px 12px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 24px 12px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 12px 24px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 12px 24px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 20px 3px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 20px 3px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 20px 3px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 20px 3px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 20px 20px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 20px 20px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 3px 20px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 3px 20px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 3px 3px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 3px 3px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0);
+        transparent 0
+      );
     background-repeat: no-repeat;
     animation: Animation34Rotate 4s linear infinite;
   }
@@ -1432,23 +1481,22 @@ body {
   position: relative;
 }
 
-.g-queue4 .c-loading16>div:first-child {
+.g-queue4 .c-loading16 > div:first-child {
   width: 32px;
   height: 32px;
   background-color: #c5523f;
   border-radius: 10%;
-  animation: Animation38BorderRadius .6s linear infinite;
-
+  animation: Animation38BorderRadius 0.6s linear infinite;
 }
 
-.g-queue4 .c-loading16>div:last-child {
+.g-queue4 .c-loading16 > div:last-child {
   position: absolute;
   top: 40px;
   width: 100%;
   height: 12%;
   border-radius: 50%;
   background: rgba(197, 82, 63, 0.2);
-  animation: Animation37Shadow .6s -.1s linear infinite;
+  animation: Animation37Shadow 0.6s -0.1s linear infinite;
 }
 
 .g-queue1 .c-loading17 {
@@ -1471,48 +1519,48 @@ body {
     animation-iteration-count: infinite;
 
     &:nth-child(1) {
-      animation-duration: .65s;
-      animation-delay: .03s;
+      animation-duration: 0.65s;
+      animation-delay: 0.03s;
     }
 
     &:nth-child(2) {
       animation-duration: 1.02s;
-      animation-delay: .09s;
+      animation-delay: 0.09s;
     }
 
     &:nth-child(3) {
       animation-duration: 1.06s;
-      animation-delay: .69s;
+      animation-delay: 0.69s;
     }
 
     &:nth-child(4) {
       animation-duration: 1.5s;
-      animation-delay: .41s;
+      animation-delay: 0.41s;
     }
 
     &:nth-child(5) {
       animation-duration: 1.6s;
-      animation-delay: .04s;
+      animation-delay: 0.04s;
     }
 
     &:nth-child(6) {
-      animation-duration: .84s;
-      animation-delay: .07s;
+      animation-duration: 0.84s;
+      animation-delay: 0.07s;
     }
 
     &:nth-child(7) {
       animation-duration: 1.6s;
-      animation-delay: .04s;
+      animation-delay: 0.04s;
     }
 
     &:nth-child(8) {
-      animation-duration: .68s;
-      animation-delay: .66s;
+      animation-duration: 0.68s;
+      animation-delay: 0.66s;
     }
 
     &:nth-child(9) {
-      animation-duration: .93s;
-      animation-delay: .76s;
+      animation-duration: 0.93s;
+      animation-delay: 0.76s;
     }
   }
 }
@@ -1537,48 +1585,48 @@ body {
     animation-iteration-count: infinite;
 
     &:nth-child(1) {
-      animation-duration: .65s;
-      animation-delay: .03s;
+      animation-duration: 0.65s;
+      animation-delay: 0.03s;
     }
 
     &:nth-child(2) {
       animation-duration: 1.02s;
-      animation-delay: .09s;
+      animation-delay: 0.09s;
     }
 
     &:nth-child(3) {
       animation-duration: 1.06s;
-      animation-delay: .69s;
+      animation-delay: 0.69s;
     }
 
     &:nth-child(4) {
       animation-duration: 1.5s;
-      animation-delay: .41s;
+      animation-delay: 0.41s;
     }
 
     &:nth-child(5) {
       animation-duration: 1.6s;
-      animation-delay: .04s;
+      animation-delay: 0.04s;
     }
 
     &:nth-child(6) {
-      animation-duration: .84s;
-      animation-delay: .07s;
+      animation-duration: 0.84s;
+      animation-delay: 0.07s;
     }
 
     &:nth-child(7) {
       animation-duration: 1.6s;
-      animation-delay: .04s;
+      animation-delay: 0.04s;
     }
 
     &:nth-child(8) {
-      animation-duration: .68s;
-      animation-delay: .66s;
+      animation-duration: 0.68s;
+      animation-delay: 0.66s;
     }
 
     &:nth-child(9) {
-      animation-duration: .93s;
-      animation-delay: .76s;
+      animation-duration: 0.93s;
+      animation-delay: 0.76s;
     }
   }
 }
@@ -1593,7 +1641,7 @@ body {
   color: #f2b736;
 }
 
-.g-queue3 .c-loading17>div {
+.g-queue3 .c-loading17 > div {
   position: relative;
   display: inline-block;
   float: none;
@@ -1608,62 +1656,62 @@ body {
   margin-top: -9px;
   margin-left: -9px;
   border-radius: 100%;
-  transform: scale(.4);
+  transform: scale(0.4);
 
   animation: Animation41Scale 1s ease-in-out infinite;
-  &:nth-child(9){
+  &:nth-child(9) {
     display: none; // pug模板生成的，手动隐藏一下
   }
-  &:nth-child(1){
+  &:nth-child(1) {
     top: 0;
     left: 0;
-    
+
     animation-delay: -1.125s;
   }
-  &:nth-child(2){
+  &:nth-child(2) {
     top: 0;
     left: 50%;
 
     animation-delay: -1.25s;
   }
-  &:nth-child(3){
+  &:nth-child(3) {
     top: 0;
     left: 100%;
 
     animation-delay: -1.375s;
   }
-  &:nth-child(4){
+  &:nth-child(4) {
     top: 50%;
     left: 100%;
 
     animation-delay: -1.5s;
   }
-  &:nth-child(5){
+  &:nth-child(5) {
     top: 100%;
     left: 100%;
 
     animation-delay: -1.625s;
   }
-  &:nth-child(6){
+  &:nth-child(6) {
     top: 100%;
     left: 50%;
 
     animation-delay: -1.75s;
   }
-  &:nth-child(7){
+  &:nth-child(7) {
     top: 100%;
     left: 0%;
 
     animation-delay: -1.875s;
   }
-  &:nth-child(8){
+  &:nth-child(8) {
     top: 50%;
     left: 0%;
 
     animation-delay: -2s;
   }
 }
-.g-queue4 .c-loading17>div {
+.g-queue4 .c-loading17 > div {
   position: relative;
   display: inline-block;
   float: none;
@@ -1678,63 +1726,125 @@ body {
   margin-top: -9px;
   margin-left: -9px;
   border-radius: 100%;
-  transform: scale(.4);
+  transform: scale(0.4);
 
   animation: Animation41Scale 1s ease-in-out infinite;
-  &:nth-child(9){
+  &:nth-child(9) {
     display: none; // pug模板生成的，手动隐藏一下
   }
-  &:nth-child(1){
+  &:nth-child(1) {
     top: 0;
     left: 0;
-    
-    animation-delay: -.875s;
+
+    animation-delay: -0.875s;
   }
-  &:nth-child(2){
+  &:nth-child(2) {
     top: 0;
     left: 50%;
 
-    animation-delay: -.75s;
+    animation-delay: -0.75s;
   }
-  &:nth-child(3){
+  &:nth-child(3) {
     top: 0;
     left: 100%;
 
-    animation-delay: -.625s;
+    animation-delay: -0.625s;
   }
-  &:nth-child(4){
+  &:nth-child(4) {
     top: 50%;
     left: 100%;
 
-    animation-delay: -.5s;
+    animation-delay: -0.5s;
   }
-  &:nth-child(5){
+  &:nth-child(5) {
     top: 100%;
     left: 100%;
 
-    animation-delay: -.375s;
+    animation-delay: -0.375s;
   }
-  &:nth-child(6){
+  &:nth-child(6) {
     top: 100%;
     left: 50%;
 
-    animation-delay: -.25s;
+    animation-delay: -0.25s;
   }
-  &:nth-child(7){
+  &:nth-child(7) {
     top: 100%;
     left: 0%;
 
-    animation-delay: -.125s;
+    animation-delay: -0.125s;
   }
-  &:nth-child(8){
+  &:nth-child(8) {
     top: 50%;
     left: 0%;
 
     animation-delay: 0s;
   }
 }
+.g-queue1 .c-loading18 {
+  vertical-align: middle;
+}
+.g-queue1 .c-loading18 > div {
+  vertical-align: middle;
+  width: 5px;
+  height: 40px;
+  display: inline-block;
+  background: #c5523f;
+  margin-right: 5px;
+  animation: Animation42Scale 0.7s infinite alternate;
+  &:nth-child(1) {
+    animation-delay: 0.7s;
+  }
+  &:nth-child(2) {
+    animation-delay: 0.6s;
+  }
+  &:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+  &:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  &:nth-child(5) {
+    animation-delay: 0.7s;
+  }
+  &:nth-child(6),
+  &:nth-child(7),
+  &:nth-child(8),
+  &:nth-child(9) {
+    display: none;
+  }
+}
 
-
+.g-queue2 .c-loading18 > div {
+  vertical-align: middle;
+  width: 5px;
+  height: 40px;
+  display: inline-block;
+  background: #c5523f;
+  margin-right: 5px;
+  animation: Animation43Scale 0.7s -0.15s infinite linear;
+  &:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  &:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  &:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  &:nth-child(4) {
+    animation-delay: 0.2s;
+  }
+  &:nth-child(5) {
+    animation-delay: 0.1s;
+  }
+  &:nth-child(6),
+  &:nth-child(7),
+  &:nth-child(8),
+  &:nth-child(9) {
+    display: none;
+  }
+}
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -1887,7 +1997,6 @@ body {
 }
 
 @keyframes Animation7Scale {
-
   0%,
   100% {
     transform: scale(0);
@@ -1926,7 +2035,6 @@ body {
 }
 
 @keyframes Animation10Scale {
-
   0%,
   100% {
     transform: scale(0);
@@ -1942,7 +2050,6 @@ body {
 }
 
 @keyframes Animation11Translate {
-
   0%,
   100% {
     transform: scale(0);
@@ -2376,7 +2483,7 @@ body {
 
   50% {
     border-bottom-right-radius: 100%;
-    transform: translateY(50%) scale(1, .9) rotate(45deg);
+    transform: translateY(50%) scale(1, 0.9) rotate(45deg);
   }
 
   75% {
@@ -2389,11 +2496,10 @@ body {
 }
 
 @keyframes Animation39Scale {
-
   0%,
   100% {
-    transform: scale(.45);
-    opacity: .6;
+    transform: scale(0.45);
+    opacity: 0.6;
   }
 
   50% {
@@ -2404,7 +2510,7 @@ body {
 
 @keyframes Animation40Opacity {
   50% {
-    opacity: .35;
+    opacity: 0.35;
   }
 
   0%,
@@ -2412,14 +2518,32 @@ body {
     opacity: 1;
   }
 }
-@keyframes Animation41Scale{
+@keyframes Animation41Scale {
   0%,
   40%,
-  100%{
-      transform: scale(.4);
+  100% {
+    transform: scale(0.4);
   }
-  70%{
-      transform: scale(1.2);
+  70% {
+    transform: scale(1.2);
+  }
+}
+@keyframes Animation42Scale {
+  from {
+    height: 40px;
+  }
+  to {
+    height: 0;
+  }
+}
+@keyframes Animation43Scale {
+  50% {
+    opacity: 0.2;
+    transform: scale(0.75);
+  }
+  0%,100% {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
