@@ -1791,7 +1791,7 @@ body {
   display: inline-block;
   background: #c5523f;
   margin-right: 5px;
-  animation: Animation42Scale 0.7s infinite alternate;
+  animation: Animation42Height 0.7s infinite alternate;
   &:nth-child(1) {
     animation-delay: 0.7s;
   }
@@ -1845,6 +1845,81 @@ body {
     display: none;
   }
 }
+.g-queue3 .c-loading18 {
+  height: 64px;
+}
+.g-queue3 .c-loading18 > div {
+  display: inline-block;
+  float: none;
+  width: 6px;
+  height: 62px;
+  margin: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: scaleY(0.4);
+  background-color: #1875e5;
+  animation: Animation44Scale 1.2s infinite;
+  &:nth-child(1) {
+    animation-delay: -1.2s;
+  }
+  &:nth-child(2) {
+    animation-delay: -1.1s;
+  }
+  &:nth-child(3) {
+    animation-delay: -1s;
+  }
+  &:nth-child(4) {
+    animation-delay: -.9s;
+  }
+  &:nth-child(5) {
+    animation-delay: -.8s;
+  }
+  &:nth-child(6),
+  &:nth-child(7),
+  &:nth-child(8),
+  &:nth-child(9) {
+    display: none;
+  }
+}
+
+.g-queue4 .c-loading18 > div {
+  display: inline-block;
+  float: none;
+  width: 6px;
+  height: 62px;
+  margin: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+  transform: scaleY(0.4);
+  background-color: #1875e5;
+  animation: Animation44Scale 1.2s infinite;
+  &:nth-child(1) {
+    animation-delay: -.5s;
+  }
+  &:nth-child(2) {
+    animation-delay: -.7s;
+  }
+  &:nth-child(3) {
+    animation-delay: -.9s;
+  }
+  &:nth-child(4) {
+    animation-delay: -.7s;
+  }
+  &:nth-child(5) {
+    animation-delay: -.5s;
+  }
+  &:nth-child(6),
+  &:nth-child(7),
+  &:nth-child(8),
+  &:nth-child(9) {
+    display: none;
+  }
+}
+
+.g-queue1 .c-loading19{
+   
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -2528,7 +2603,7 @@ body {
     transform: scale(1.2);
   }
 }
-@keyframes Animation42Scale {
+@keyframes Animation42Height {
   from {
     height: 40px;
   }
@@ -2541,9 +2616,19 @@ body {
     opacity: 0.2;
     transform: scale(0.75);
   }
-  0%,100% {
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+@keyframes Animation44Scale {
+  0%,
+  100%{
+      transform: scaleY(.4);
+  }
+  50%{
+      transform: scaleY(1);
   }
 }
 
