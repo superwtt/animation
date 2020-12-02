@@ -1580,29 +1580,33 @@ body {
   width: 5px;
   height: 40px;
   display: inline-block;
-  background: #c5523f;
   margin-right: 5px;
   animation: Animation42Height 0.7s infinite alternate;
 }
 
 .g-queue1 .c-loading18 > div:nth-child(1) {
   animation-delay: 0.7s;
+  background: #c5523f;
 }
 
 .g-queue1 .c-loading18 > div:nth-child(2) {
   animation-delay: 0.6s;
+  background: #499255;
 }
 
 .g-queue1 .c-loading18 > div:nth-child(3) {
   animation-delay: 0.5s;
+  background: #f2b736;
 }
 
 .g-queue1 .c-loading18 > div:nth-child(4) {
   animation-delay: 0.6s;
+  background: #1875e5;
 }
 
 .g-queue1 .c-loading18 > div:nth-child(5) {
   animation-delay: 0.7s;
+  background: #c5523f;
 }
 
 .g-queue1 .c-loading18 > div:nth-child(6), .g-queue1 .c-loading18 > div:nth-child(7), .g-queue1 .c-loading18 > div:nth-child(8), .g-queue1 .c-loading18 > div:nth-child(9) {
@@ -1614,28 +1618,32 @@ body {
   width: 5px;
   height: 40px;
   display: inline-block;
-  background: #c5523f;
   margin-right: 5px;
   animation: Animation43Scale 0.7s -0.15s infinite linear;
 }
 
 .g-queue2 .c-loading18 > div:nth-child(1) {
+  background: #c5523f;
   animation-delay: 0.1s;
 }
 
 .g-queue2 .c-loading18 > div:nth-child(2) {
+  background: #499255;
   animation-delay: 0.2s;
 }
 
 .g-queue2 .c-loading18 > div:nth-child(3) {
+  background: #f2b736;
   animation-delay: 0.3s;
 }
 
 .g-queue2 .c-loading18 > div:nth-child(4) {
+  background: #1875e5;
   animation-delay: 0.2s;
 }
 
 .g-queue2 .c-loading18 > div:nth-child(5) {
+  background: #c5523f;
   animation-delay: 0.1s;
 }
 
@@ -1656,27 +1664,31 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   transform: scaleY(0.4);
-  background-color: #1875e5;
   animation: Animation44Scale 1.2s infinite;
 }
 
 .g-queue3 .c-loading18 > div:nth-child(1) {
+  background-color: #c5523f;
   animation-delay: -1.2s;
 }
 
 .g-queue3 .c-loading18 > div:nth-child(2) {
+  background-color: #499255;
   animation-delay: -1.1s;
 }
 
 .g-queue3 .c-loading18 > div:nth-child(3) {
+  background-color: #f2b736;
   animation-delay: -1s;
 }
 
 .g-queue3 .c-loading18 > div:nth-child(4) {
+  background-color: #1875e5;
   animation-delay: -0.9s;
 }
 
 .g-queue3 .c-loading18 > div:nth-child(5) {
+  background-color: #c5523f;
   animation-delay: -0.8s;
 }
 
@@ -1693,27 +1705,31 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   transform: scaleY(0.4);
-  background-color: #1875e5;
   animation: Animation44Scale 1.2s infinite;
 }
 
 .g-queue4 .c-loading18 > div:nth-child(1) {
+  background-color: #c5523f;
   animation-delay: -0.5s;
 }
 
 .g-queue4 .c-loading18 > div:nth-child(2) {
+  background-color: #1875e5;
   animation-delay: -0.7s;
 }
 
 .g-queue4 .c-loading18 > div:nth-child(3) {
+  background-color: #499255;
   animation-delay: -0.9s;
 }
 
 .g-queue4 .c-loading18 > div:nth-child(4) {
+  background-color: #f2b736;
   animation-delay: -0.7s;
 }
 
 .g-queue4 .c-loading18 > div:nth-child(5) {
+  background-color: #c5523f;
   animation-delay: -0.5s;
 }
 
