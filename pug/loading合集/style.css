@@ -2400,7 +2400,7 @@ body {
   height: 15px;
   background-color: #f2b736;
   border-radius: 50%;
-  animation: Animation48Scale .7s -.15s linear infinite;
+  animation: Animation48Scale 0.7s -0.15s linear infinite;
 }
 
 .g-queue2 .c-loading21 div:nth-child(1), .g-queue2 .c-loading21 div:nth-child(5) {
@@ -2408,7 +2408,7 @@ body {
 }
 
 .g-queue2 .c-loading21 div:nth-child(2) {
-  animation-delay: -.5s;
+  animation-delay: -0.5s;
   background-color: #c5523f;
 }
 
@@ -2417,7 +2417,40 @@ body {
 }
 
 .g-queue2 .c-loading21 div:nth-child(4) {
-  animation-delay: -.5s;
+  animation-delay: -0.5s;
+}
+
+.g-queue3 .c-loading21 {
+  font-size: 0;
+}
+
+.g-queue3 .c-loading21 div {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.g-queue3 .c-loading21 div:nth-child(1) {
+  background-color: #c5523f;
+  animation: Animation49TranslateLeft 1s ease-out infinite;
+}
+
+.g-queue3 .c-loading21 div:nth-child(2) {
+  background-color: #1875e5;
+}
+
+.g-queue3 .c-loading21 div:nth-child(3) {
+  background-color: #f2b736;
+}
+
+.g-queue3 .c-loading21 div:nth-child(4) {
+  background-color: #499255;
+}
+
+.g-queue3 .c-loading21 div:nth-child(5) {
+  background-color: #c5523f;
+  animation: Animation50TranslateRight 1s  ease-out infinite;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -3067,13 +3100,37 @@ body {
 }
 
 @keyframes Animation48Scale {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     opacity: 1;
   }
   50% {
     transform: scale(0.45);
-    opacity: .35;
+    opacity: 0.35;
+  }
+}
+
+@keyframes Animation49TranslateLeft {
+  25% {
+    transform: translateX(-18px);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes Animation50TranslateRight {
+  25% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(18px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 

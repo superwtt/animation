@@ -582,7 +582,8 @@ body {
   //  border-left-color: #1875E5;
   //  border-right-color: #499255;
   //  border-bottom-color: #F2B736;
-  border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25) rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.25)
+    rgba(255, 255, 255, 0.35) rgba(255, 255, 255, 0.5);
   animation: Animation2Container 1s linear infinite;
 }
 
@@ -1232,14 +1233,16 @@ body {
     height: 4px;
     background-size: 15px 15px;
     background-color: #fff;
-    background-image: linear-gradient(45deg,
-        rgba(0, 0, 0, 0.25) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(0, 0, 0, 0.25) 50%,
-        rgba(0, 0, 0, 0.25) 75%,
-        transparent 75%,
-        transparent);
+    background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.25) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.25) 50%,
+      rgba(0, 0, 0, 0.25) 75%,
+      transparent 75%,
+      transparent
+    );
     animation: Animation33BG 6s linear infinite;
   }
 }
@@ -1260,14 +1263,16 @@ body {
     height: 4px;
     background-size: 15px 15px;
     background-color: #fff;
-    background-image: linear-gradient(45deg,
-        rgba(0, 0, 0, 0.25) 25%,
-        transparent 25%,
-        transparent 50%,
-        rgba(0, 0, 0, 0.25) 50%,
-        rgba(0, 0, 0, 0.25) 75%,
-        transparent 75%,
-        transparent);
+    background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.25) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.25) 50%,
+      rgba(0, 0, 0, 0.25) 75%,
+      transparent 75%,
+      transparent
+    );
     animation: Animation33BG 6s linear infinite, barStripe 1s linear infinite;
   }
 }
@@ -1279,18 +1284,22 @@ body {
   background-color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
-  background: linear-gradient(45deg,
+  background: linear-gradient(
+      45deg,
       transparent 49%,
       #fff 50%,
       #fff 50%,
       transparent 51%,
-      transparent),
-    linear-gradient(-45deg,
+      transparent
+    ),
+    linear-gradient(
+      -45deg,
       transparent 49%,
       #fff 50%,
       #fff 50%,
       transparent 51%,
-      transparent);
+      transparent
+    );
   font-size: 15px;
   background-size: 1em 1em;
   -webkit-animation: barStripe 0.6s linear infinite;
@@ -1311,36 +1320,56 @@ body {
     height: 36px;
     border-radius: 50%;
     background-color: #499255;
-    background-image: radial-gradient(circle 8px at 18px 18px,
+    background-image: radial-gradient(
+        circle 8px at 18px 18px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 18px 0px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 18px 0px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 0px 18px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 0px 18px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 36px 18px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 36px 18px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 18px 36px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 18px 36px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 30px 5px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 30px 5px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 30px 5px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 30px 5px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 30px 30px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 30px 30px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 5px 30px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 5px 30px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 4px at 5px 5px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 4px at 5px 5px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0);
+        transparent 0
+      );
     background-repeat: no-repeat;
     animation: Animation34Rotate 3s linear infinite;
   }
@@ -1354,36 +1383,56 @@ body {
     height: 24px;
     border-radius: 50%;
     background-color: #c5523f;
-    background-image: radial-gradient(circle 5px at 12px 12px,
+    background-image: radial-gradient(
+        circle 5px at 12px 12px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 12px 0px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 12px 0px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 0px 12px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 0px 12px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 24px 12px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 24px 12px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 12px 24px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 12px 24px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 20px 3px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 20px 3px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 20px 3px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 20px 3px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 20px 20px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 20px 20px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 3px 20px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 3px 20px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0),
-      radial-gradient(circle 2.5px at 3px 3px,
+        transparent 0
+      ),
+      radial-gradient(
+        circle 2.5px at 3px 3px,
         rgba(0, 0, 0, 0.9) 100%,
-        transparent 0);
+        transparent 0
+      );
     background-repeat: no-repeat;
     animation: Animation34Rotate 4s linear infinite;
   }
@@ -1440,7 +1489,7 @@ body {
   position: relative;
 }
 
-.g-queue4 .c-loading16>div:first-child {
+.g-queue4 .c-loading16 > div:first-child {
   width: 32px;
   height: 32px;
   background-color: #c5523f;
@@ -1448,7 +1497,7 @@ body {
   animation: Animation38BorderRadius 0.6s linear infinite;
 }
 
-.g-queue4 .c-loading16>div:last-child {
+.g-queue4 .c-loading16 > div:last-child {
   position: absolute;
   top: 40px;
   width: 100%;
@@ -1600,7 +1649,7 @@ body {
   color: #f2b736;
 }
 
-.g-queue3 .c-loading17>div {
+.g-queue3 .c-loading17 > div {
   position: relative;
   display: inline-block;
   float: none;
@@ -1680,7 +1729,7 @@ body {
   }
 }
 
-.g-queue4 .c-loading17>div {
+.g-queue4 .c-loading17 > div {
   position: relative;
   display: inline-block;
   float: none;
@@ -1764,7 +1813,7 @@ body {
   vertical-align: middle;
 }
 
-.g-queue1 .c-loading18>div {
+.g-queue1 .c-loading18 > div {
   vertical-align: middle;
   width: 5px;
   height: 40px;
@@ -1805,7 +1854,7 @@ body {
   }
 }
 
-.g-queue2 .c-loading18>div {
+.g-queue2 .c-loading18 > div {
   vertical-align: middle;
   width: 5px;
   height: 40px;
@@ -1850,7 +1899,7 @@ body {
   height: 64px;
 }
 
-.g-queue3 .c-loading18>div {
+.g-queue3 .c-loading18 > div {
   display: inline-block;
   float: none;
   width: 6px;
@@ -1894,7 +1943,7 @@ body {
   }
 }
 
-.g-queue4 .c-loading18>div {
+.g-queue4 .c-loading18 > div {
   display: inline-block;
   float: none;
   width: 6px;
@@ -2570,6 +2619,7 @@ body {
   width: 100%;
   text-align: center;
   position: relative;
+
   div {
     display: inline-block;
     background-color: #fff;
@@ -2578,45 +2628,89 @@ body {
     white-space: nowrap;
     border-radius: 100%;
     animation: Animation47Scale 1s linear infinite;
-    &:nth-child(1){
+
+    &:nth-child(1) {
       background-color: #c5523f;
     }
-    &:nth-child(2){
+
+    &:nth-child(2) {
       background-color: #499255;
     }
-    &:nth-child(3){
+
+    &:nth-child(3) {
       background-color: #1875e5;
     }
-    &:nth-child(4){
+
+    &:nth-child(4) {
       background-color: #f2b736;
-      
     }
-    &:nth-child(5){
+
+    &:nth-child(5) {
       background-color: #c5523f;
     }
   }
 }
-.g-queue2 .c-loading21{
-  div{
+
+.g-queue2 .c-loading21 {
+  div {
     display: inline-block;
     width: 15px;
     height: 15px;
     background-color: #f2b736;
     border-radius: 50%;
-    animation: Animation48Scale .7s -.15s linear infinite;
+    animation: Animation48Scale 0.7s -0.15s linear infinite;
+
     &:nth-child(1),
-    &:nth-child(5){
+    &:nth-child(5) {
       display: none;
     }
-    &:nth-child(2){
-      animation-delay: -.5s;
+
+    &:nth-child(2) {
+      animation-delay: -0.5s;
       background-color: #c5523f;
     }
-    &:nth-child(3){
+
+    &:nth-child(3) {
       background-color: #1875e5;
     }
-    &:nth-child(4){
-      animation-delay:  -.5s;
+
+    &:nth-child(4) {
+      animation-delay: -0.5s;
+    }
+  }
+}
+
+.g-queue3 .c-loading21 {
+  font-size: 0;
+}
+
+.g-queue3 .c-loading21 {
+  div {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    &:nth-child(1) {
+      background-color: #c5523f;
+      animation: Animation49TranslateLeft 1s ease-out infinite;
+    }
+
+    &:nth-child(2) {
+      background-color: #1875e5;
+    }
+
+    &:nth-child(3) {
+      background-color: #f2b736;
+    }
+
+    &:nth-child(4) {
+      background-color: #499255;
+    }
+
+    &:nth-child(5) {
+      background-color: #c5523f;
+      animation: Animation50TranslateRight 1s  ease-out infinite;
     }
   }
 }
@@ -2773,7 +2867,6 @@ body {
 }
 
 @keyframes Animation7Scale {
-
   0%,
   100% {
     transform: scale(0);
@@ -2812,7 +2905,6 @@ body {
 }
 
 @keyframes Animation10Scale {
-
   0%,
   100% {
     transform: scale(0);
@@ -2828,7 +2920,6 @@ body {
 }
 
 @keyframes Animation11Translate {
-
   0%,
   100% {
     transform: scale(0);
@@ -3275,7 +3366,6 @@ body {
 }
 
 @keyframes Animation39Scale {
-
   0%,
   100% {
     transform: scale(0.45);
@@ -3300,7 +3390,6 @@ body {
 }
 
 @keyframes Animation41Scale {
-
   0%,
   40%,
   100% {
@@ -3336,7 +3425,6 @@ body {
 }
 
 @keyframes Animation44Scale {
-
   0%,
   100% {
     transform: scaleY(0.4);
@@ -3348,7 +3436,6 @@ body {
 }
 
 @keyframes Animation45Scale {
-
   0%,
   100% {
     transform: scale(0);
@@ -3360,7 +3447,6 @@ body {
 }
 
 @keyframes Animation46Opacity {
-
   0%,
   100% {
     opacity: 0.2;
@@ -3374,7 +3460,6 @@ body {
 }
 
 @keyframes Animation47Scale {
-
   0%,
   100% {
     margin: 0;
@@ -3383,17 +3468,44 @@ body {
 
   50% {
     margin: 0 5%;
-    transform: scale(.65);
+    transform: scale(0.65);
   }
 }
-@keyframes Animation48Scale{
-  0%,100%{
+
+@keyframes Animation48Scale {
+  0%,
+  100% {
     transform: scale(1);
     opacity: 1;
   }
-  50%{
-    transform: scale(.45);
-    opacity: .35;
+
+  50% {
+    transform: scale(0.45);
+    opacity: 0.35;
+  }
+}
+
+@keyframes Animation49TranslateLeft {
+  25% {
+    transform: translateX(-18px);
+    animation-timing-function: ease-in;
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes Animation50TranslateRight {
+  25% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(18px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
