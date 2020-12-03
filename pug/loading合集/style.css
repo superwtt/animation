@@ -2450,7 +2450,201 @@ body {
 
 .g-queue3 .c-loading21 div:nth-child(5) {
   background-color: #c5523f;
-  animation: Animation50TranslateRight 1s  ease-out infinite;
+  animation: Animation50TranslateRight 1s ease-out infinite;
+}
+
+.g-queue4 .c-loading21 {
+  position: relative;
+}
+
+.g-queue4 .c-loading21 div {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.g-queue4 .c-loading21 div:nth-child(4), .g-queue4 .c-loading21 div:nth-child(5) {
+  display: none;
+}
+
+.g-queue4 .c-loading21 div:nth-child(1) {
+  animation: Animation51Triangle 2s infinite ease-in-out;
+}
+
+.g-queue4 .c-loading21 div:nth-child(2) {
+  animation: Animation52Triangle 2s infinite ease-in-out;
+}
+
+.g-queue4 .c-loading21 div:nth-child(3) {
+  animation: Animation53Triangle 2s infinite ease-in-out;
+}
+
+.g-queue1 .c-loading22,
+.g-queue1 .c-loading22 div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.g-queue1 .c-loading22 {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+}
+
+.g-queue1 .c-loading22 div {
+  display: inline-block;
+  background-color: #c5523f;
+  border: 0 solid #c5523f;
+}
+
+.g-queue1 .c-loading22 div:nth-child(1) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 60%;
+  height: 60%;
+  background: #c5523f;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  animation: Animation54Translate 4.5s infinite linear;
+}
+
+.g-queue1 .c-loading22 div:not(:nth-child(1)) {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+  animation: Animation55Zindex 1.5s 0s infinite steps(2, end);
+}
+
+.g-queue1 .c-loading22 div:not(:nth-child(1))::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: -5px;
+  margin-left: -5px;
+  content: "";
+  background: #c5523f;
+  border-radius: 50%;
+  opacity: 0.75;
+  animation: Animation56Distance 1.5s 0s infinite ease, Animation57Size 1.5s 0s infinite ease;
+}
+
+.g-queue1 .c-loading22 div:nth-child(2) {
+  animation-delay: 0.75s;
+}
+
+.g-queue1 .c-loading22 div:nth-child(2)::before {
+  animation-delay: 0s, -1.125s;
+}
+
+.g-queue1 .c-loading22 div:nth-child(3) {
+  transform: rotate(120deg);
+  animation-delay: -0.25s;
+}
+
+.g-queue1 .c-loading22 div:nth-child(3)::before {
+  animation-delay: -1s, -0.75s;
+}
+
+.g-queue1 .c-loading22 div:nth-child(4) {
+  transform: rotate(240deg);
+  animation-delay: 0.25s;
+}
+
+.g-queue1 .c-loading22 div:nth-child(4)::before {
+  animation-delay: -0.5s, -0.125s;
+}
+
+.g-queue2 .c-loading22 {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 26px;
+  height: 26px;
+}
+
+.g-queue2 .c-loading22 div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  border: 0 solid currentColor;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: block;
+  width: 26px;
+  height: 26px;
+  height: 100%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation: Animation58Distance 2.5s infinite cubic-bezier(0.25, 0, 0.75, 1), Animation59Translate 2.5s infinite cubic-bezier(0.25, 0, 0.75, 1);
+}
+
+.g-queue2 .c-loading22 div:nth-child(1) {
+  animation-delay: 0s,-.5s;
+}
+
+.g-queue2 .c-loading22 div:nth-child(2) {
+  animation-delay: -.5s,-1s;
+}
+
+.g-queue2 .c-loading22 div:nth-child(3) {
+  animation-delay: -1s,-1.5s;
+}
+
+.g-queue2 .c-loading22 div:nth-child(4) {
+  animation-delay: -1.5s,-2s;
+}
+
+.g-queue2 .c-loading22 div:nth-child(5) {
+  animation-delay: -2s,-2.5s;
+}
+
+.g-queue3 .c-loading22,
+.g-queue3 .c-loading22 > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.g-queue3 .c-loading22 {
+  display: block;
+  font-size: 0;
+  color: #fff;
+  width: 32px;
+  height: 16px;
+}
+
+.g-queue3 .c-loading22 > div {
+  display: inline-block;
+  float: none;
+  background-color: #1875e5;
+  border: 0 solid #1875e5;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: none;
+  border-style: solid;
+  border-width: 24px;
+  border-top-width: 0;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  animation: Animation60Skew 3s infinite;
+}
+
+.g-queue3 .c-loading22 > div:not(:first-child) {
+  display: none;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -3131,6 +3325,140 @@ body {
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@keyframes Animation51Triangle {
+  0% {
+    transform: translate(0, 220%);
+  }
+  17% {
+    opacity: 0.25;
+  }
+  33% {
+    transform: translate(110%, 0);
+  }
+  50% {
+    opacity: 0.25;
+  }
+  66% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+  83% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+}
+
+@keyframes Animation52Triangle {
+  0% {
+    transform: translate(110%, 0);
+  }
+  17% {
+    opacity: 0.25;
+  }
+  33% {
+    transform: translate(220%, 220%);
+  }
+  50% {
+    opacity: 0.25;
+  }
+  66% {
+    opacity: 1;
+    transform: translate(0, 220%);
+  }
+  83% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+}
+
+@keyframes Animation53Triangle {
+  0% {
+    transform: translate(220%, 220%);
+  }
+  17% {
+    opacity: 0.25;
+  }
+  33% {
+    transform: translate(0, 220%);
+  }
+  50% {
+    opacity: 0.25;
+  }
+  66% {
+    opacity: 1;
+    transform: translate(110%, 0);
+  }
+  83% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(220%, 220%);
+  }
+}
+
+@keyframes Animation54Translate {
+  50% {
+    transform: translate(-50%, -50%) scale(0.8, 0.8);
+  }
+}
+
+@keyframes Animation55Zindex {
+  50% {
+    z-index: 10;
+  }
+}
+
+@keyframes Animation56Distance {
+  50% {
+    top: 100%;
+    left: 100%;
+  }
+}
+
+@keyframes Animation57Size {
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes Animation58Distance {
+  50% {
+    left: 100%;
+  }
+}
+
+@keyframes Animation59Translate {
+  50% {
+    transform: scale(0.3, 0.3);
+  }
+}
+
+@keyframes Animation60Skew {
+  0% {
+    transform: perspective(100px) rotateX(0) rotateY(0);
+  }
+  25% {
+    transform: rotate(360deg);
+    transform: perspective(100px) rotateX(180deg) rotateY(0);
+  }
+  50% {
+    transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+  }
+  75% {
+    transform: perspective(100px) rotateX(0) rotateY(180deg);
+  }
+  100% {
+    transform: perspective(100px) rotateX(0) rotateY(360deg);
   }
 }
 
