@@ -15,8 +15,8 @@ body {
     left: calc(50% - 100px);
     width: 200px;
     height: 200px;
-    clip-path: circle(200px at center);
-    border: 1px solid #fff;
+    clip-path: circle(200px at center); // 裁剪一个圆形区域
+
 }
 
 .star {
@@ -27,30 +27,31 @@ body {
     height: 20px;
     background: #fff;
     clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-    animation: bling 6000ms linear infinite;
+    animation: animate 6000ms linear infinite;
 
-    // @for $i from 1 through 200 {
-    //     &:nth-child(#{$i}) {
-    //         top: calc(50% - #{random(400) - 200px});
-    //         left: calc(50% - #{random(400) - 200px});
-    //         animation-delay: random(6000) * -1ms;
-    //     }
-    // }
+    @for $i from 1 through 200 {
+        &:nth-child(#{$i}) {
+            top: calc(50% - #{random(400) - 200px});
+            left: calc(50% - #{random(400) - 200px});
+            animation-delay: random(6000) * -1ms;
+        }
+    }
 }
 
-@keyframes bling {
+@keyframes animate {
     0% {
-        transform: scale(1) rotateZ(45deg) translate(-300px);
+        transform: scale(0) rotateZ(45deg) translate(-300px);
         background: #ff00ff;
     }
 
     50% {
         transform: scale(1) rotateZ(45deg) translate(0);
         background: #ffffff;
+        filter: brightness(110%);
     }
 
     100% {
-        transform: scale(1) rotateZ(45deg) translate(300px);
+        transform: scale(0) rotateZ(45deg) translate(300px);
         background: #0000ff;
     }
 }
