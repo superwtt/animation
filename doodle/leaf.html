@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <css-doodle grid="5">
+         :doodle {
+            grid-gap: 1px;
+            width: 8em; 
+            height: 8em;
+          }
+          border-radius:@pick(100% 0,0 100%);
+          background: rgba(96, 86, 158, @rand(.9));
+         
+    </css-doodle>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.6.1/css-doodle.min.js"></script>
+    <script>
+        const doodle = document.querySelector('css-doodle');
+        // 每次点击刷新css-doodle
+        doodle.onclick = function () {
+            doodle.update();
+        };
+    </script>
+</body>
+</html>
