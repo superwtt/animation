@@ -11,12 +11,15 @@
             grid-gap: 1px;
             width: 8em; 
             height: 8em;
+            @shape:circle;
+            background: #0a0c27;
+            
           }
           border-radius:@pick(100% 0,0 100%);
-          background: rgba(96, 86, 158, @rand(.9));
+          background: hsla(calc(240 - 6 * @row * @col),70%, 68%, @r.8);
          
     </css-doodle>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.6.1/css-doodle.min.js"></script>
+    <script src="https://unpkg.com/css-doodle@0.10.0/css-doodle.min.js"></script>
     <script>
         const doodle = document.querySelector('css-doodle');
         // 每次点击刷新css-doodle

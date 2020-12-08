@@ -12,22 +12,16 @@
     </style>
 </head>
 <body>
-    <css-doodle grid="5">
-        :doodle {
-            @grid: 18 / 100vmax;
+    <css-doodle>
+        :doodle{
+            @grid: 7 / 100vmax;
             background: #0a0c27;
-          }
-          --hue: calc(180 + 1.5 * @row * @col);
-          background: hsl(var(--hue), 50%, 70%);
-          margin: -.5px;
-          transition: @r(.5s) ease;
-          clip-path: polygon(@pick(
-            '0 0, 100% 0, 100% 100%',
-            '0 0, 100% 0, 0 100%',
-            '0 0, 100% 100%, 0 100%',
-            '100% 0, 100% 100%, 0 100%'
-          ));
-         
+        }
+        @shape: clover 5;
+        background: hsla(calc(360 - @i * 4), 70%, 68%, @r.8);
+        transform:scale(@r(.2,1.5)) translate(@m2.@r(50%,-50%));
+
+        
     </css-doodle>
     <script src="https://unpkg.com/css-doodle@0.10.0/css-doodle.min.js"></script>
     <script>

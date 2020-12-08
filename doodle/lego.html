@@ -12,22 +12,18 @@
     </style>
 </head>
 <body>
-    <css-doodle grid="5">
-        :doodle {
-            @grid: 18 / 100vmax;
+    <css-doodle>
+        :doodle{
+            @grid: 32 / 100vmax;
             background: #0a0c27;
-          }
-          --hue: calc(180 + 1.5 * @row * @col);
-          background: hsl(var(--hue), 50%, 70%);
-          margin: -.5px;
-          transition: @r(.5s) ease;
-          clip-path: polygon(@pick(
-            '0 0, 100% 0, 100% 100%',
-            '0 0, 100% 0, 0 100%',
-            '0 0, 100% 100%, 0 100%',
-            '100% 0, 100% 100%, 0 100%'
+        }
+        @size: .3vmax;
+        font-size: .3vmax;
+        margin: 2em;
+        color: @p(#D98CC6, #8CB4D8, @m28(#32325a));
+        box-shadow: @m3x5((
+            calc(4em - @nx * 1em) calc(@ny * 1em) @p(@m3(currentColor), @m2(transparent)),calc(2em + @nx * 1em) calc(@ny * 1em) @lp
           ));
-         
     </css-doodle>
     <script src="https://unpkg.com/css-doodle@0.10.0/css-doodle.min.js"></script>
     <script>
