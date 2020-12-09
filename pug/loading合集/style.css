@@ -2536,7 +2536,7 @@ body {
   background: #c5523f;
   border-radius: 50%;
   opacity: 0.75;
-  animation: Animation56Distance 1.5s 0s infinite ease, Animation57Size 1.5s 0s infinite ease;
+  animation: Animation56Distance 1.5s 0s infinite ease, Animation57Size 1.5s 0s infinite ease;
 }
 
 .g-queue1 .c-loading22 div:nth-child(2) {
@@ -2593,23 +2593,23 @@ body {
 }
 
 .g-queue2 .c-loading22 div:nth-child(1) {
-  animation-delay: 0s,-.5s;
+  animation-delay: 0s, -0.5s;
 }
 
 .g-queue2 .c-loading22 div:nth-child(2) {
-  animation-delay: -.5s,-1s;
+  animation-delay: -0.5s, -1s;
 }
 
 .g-queue2 .c-loading22 div:nth-child(3) {
-  animation-delay: -1s,-1.5s;
+  animation-delay: -1s, -1.5s;
 }
 
 .g-queue2 .c-loading22 div:nth-child(4) {
-  animation-delay: -1.5s,-2s;
+  animation-delay: -1.5s, -2s;
 }
 
 .g-queue2 .c-loading22 div:nth-child(5) {
-  animation-delay: -2s,-2.5s;
+  animation-delay: -2s, -2.5s;
 }
 
 .g-queue3 .c-loading22,
@@ -2671,7 +2671,7 @@ body {
   transform: rotate(-45deg);
   border-radius: 100% 100% 100% 0;
   border: 2px solid #1875e5;
-  animation: Animation62Translate .6s linear infinite alternate;
+  animation: Animation62Translate 0.6s linear infinite alternate;
 }
 
 .g-queue1 .c-loading23::after {
@@ -2725,8 +2725,35 @@ body {
 }
 
 .g-queue4 .c-loading23 {
+  position: relative;
+  margin-left: -38px;
+}
+
+.g-queue4 .c-loading23 div {
+  position: relative;
+}
+
+.g-queue4 .c-loading23 div:nth-child(1) {
   width: 4px;
   height: 10px;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  box-shadow: 6px 0px 0px 0px #1875e5, 12px 0px 0px 0px #1875e5, 18px 0px 0px 0px #1875e5, 24px 0px 0px 0px #1875e5, 30px 0px 0px 0px #1875e5, 36px 0px 0px 0px #1875e5;
+  animation: Animation67Boxshadow 1s linear infinite alternate;
+}
+
+.g-queue4 .c-loading23 div:nth-child(1)::after {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  content: "";
+  top: 0px;
+  opacity: 1;
+  background-color: white;
+  animation: Animation66Postion 2s linear infinite reverse;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -3606,6 +3633,25 @@ body {
   100% {
     top: -7px;
     left: -7px;
+  }
+}
+
+@keyframes Animation66Postion {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40px;
+  }
+}
+
+@keyframes Animation67Boxshadow {
+  0% {
+    box-shadow: 6px 0px 0px 0px white, 12px 0px 0px 0px rgba(255, 255, 255, 0.9), 18px 0px 0px 0px rgba(255, 255, 255, 0.7), 24px 0px 0px 0px rgba(255, 255, 255, 0.6), 30px 0px 0px 0px rgba(255, 255, 255, 0.3), 36px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    box-shadow: 6px 0px 0px 0px rgba(255, 255, 255, 0.2), 12px 0px 0px 0px rgba(255, 255, 255, 0.3), 18px 0px 0px 0px rgba(255, 255, 255, 0.6), 24px 0px 0px 0px rgba(255, 255, 255, 0.7), 30px 0px 0px 0px rgba(255, 255, 255, 0.9), 36px 0px 0px 0px white;
+    opacity: 1;
   }
 }
 
