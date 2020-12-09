@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <css-doodle>
+          :doodle {
+            @grid: 1x3 / 100vmax;
+            position: absolute;
+            top: 0; 
+            left: 0;
+            z-index: 0;
+            background: #0a0c27;
+            perspective: 23vmin;
+          }
+        
+          @size: 100% 150%;
+          position: absolute;
+          
+          background: @multi(@r(200, 240), (
+            radial-gradient(@p(#fff) 15%,transparent 50%) 
+            @r(100%) @r(100%) / @r(.3%, .1%, .1) @lr() no-repeat
+          ));
+
+          transform-style: preserve-3d;
+          animation: light 2s linear infinite alternate;
+          animation-delay: calc(-4s / @size() * @i());
+
+          @keyframes light {
+              0%{
+                filter:brightness(5%);
+              }
+              100%{
+                filter:brightness(550%);
+              }
+          }
+    </css-doodle>
+    <css-doodle> 
+        :doodle {
+          @grid: 1x3 / 100vmax;
+          position: absolute;
+          top: 0; left: 0;
+          z-index: 0;
+        }
+      
+        @size: 150% 100%;
+        position: absolute;
+        
+        background: @m(100, (
+          linear-gradient(transparent, @p(
+            #FFFDE1@repeat(2, @p([0-9a-f])), 
+            #FB3569@repeat(2, @p([0-9a-f])) 
+          ))
+          @r(0%, 100%) @r(0%, 100%) /
+          @r(1px) @r(23vmin)
+          no-repeat
+        ));
+
+      
+        will-change: transform;
+        animation: line 20s linear calc(-20s / @size() * @i()) infinite;
+        @keyframes line {
+          from { transform:rotate(45deg) translateY(-100%) }
+          to { transform:rotate(45deg) translateY(100%) }
+        }
+      </css-doodle>
+    <script src="https://unpkg.com/css-doodle@0.10.0/css-doodle.min.js"></script>
+    <script>
+        const doodle = document.querySelector('css-doodle');
+        // 每次点击刷新css-doodle
+        doodle.onclick = function () {
+            doodle.update();
+        };
+    </script>
+</body>
+</html>
