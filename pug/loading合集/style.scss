@@ -2858,6 +2858,81 @@ body {
      display: none;
    }
 }
+.g-queue4 .c-loading22{
+  position: relative;
+        left: -12px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ddd;
+  animation: Animation61Boxshadow 1s linear infinite alternate;
+}
+.g-queue1 .c-loading23{
+  position: relative;
+  width: 30px;
+  height: 30px;
+   &::before{
+     content: "";
+     display: block;
+     width: 20px;
+     height: 20px;
+     transform: rotate(-45deg);
+     border-radius: 100% 100% 100% 0;
+     border: 2px solid #1875e5;
+     animation: Animation62Translate .6s linear infinite alternate;
+   }
+   &::after{
+      content: "";
+      display: block;
+      margin-top: 2px;
+      margin-left: -3px;
+      width: 30px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: rgba(255, 255, 255, 0.2);
+      z-index: -1;
+   }
+}
+.g-queue2 .c-loading23{
+   width: 10px;
+   height: 10px;
+   color: #c5523f;
+   color: rgba(197,82,63, .8);
+   background-color: rgba(197,82,63, 0.5);
+   border-radius: 50%;
+   box-shadow: 20px 0 0;
+   animation: Animation63Boxshadow 1s ease-in-out infinite alternate;
+}
+.g-queue3 .c-loading23{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #f2b736;
+  position: relative;
+  &::after,
+  &::before{
+    content: "";
+    position: absolute;
+  }
+  &::after{
+    top: -7px;
+    left: -7px;
+    width: 4px;
+    height: 4px;
+    background-color: #f2b736;
+    animation: Animation65Position 1s linear infinite;
+  }
+  &::before{
+     width: 100%;
+     height: 100%;
+     animation: Animation64Height 5s linear infinite;
+  }
+}
+
+.g-queue4 .c-loading23{
+  width: 4px;
+  height: 10px;
+} 
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -3813,6 +3888,69 @@ body {
 }
 }
 
+@keyframes Animation61Boxshadow{
+  0% {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2),
+      24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  25% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 2),
+      24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2),
+      24px 0px 0px 0px rgba(255, 255, 255, 1);
+  }
+}
+@keyframes Animation62Translate{
+  0%{
+    transform: translate(0,0) rotate(-45deg) ;
+  }
+  100%{
+    transform: translate(0,-6px) rotate(-45deg) ;
+  }
+}
+@keyframes Animation63Boxshadow{
+  0%{
+    transform: rotate(0) scale(.2);
+  }
+  100%{
+    transform: rotate(360deg) scale(1.2);
+  }
+}
+@keyframes Animation64Height{
+  0% {
+    box-shadow: inset 0px 0px 0px 0px rgba(242,183,54, 0.1);
+  }
+  100% {
+    box-shadow: inset 0px -20px 0px 0px rgba(242,183,54, 1);
+  }
+}
+@keyframes Animation65Position{
+  0%{
+    top: -7px;
+    left: -7px;
+  }
+  25%{
+    top: -7px;
+    left: 23px;
+  }
+  50%{
+    top: 23px;
+    left: 23px;
+  }
+  75%{
+    top: 23px;
+    left: -7px;
+  }
+  100%{
+    top: -7px;
+    left: -7px;
+  }
+}
 @keyframes barStripe {
   0% {
     background-position: 1em 0;

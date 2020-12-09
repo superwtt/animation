@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <css-doodle>
+        :doodle {
+            @size: 1px;
+            overflow: hidden;
+            filter: url(#filter);
+            box-shadow: @m100(
+              @r(100vw) @r(100vh) @r(20vmin, 40vmin) @r(20vmin)
+              @pd(#fc85ae, #9e579d, #574b90, #303a52)
+            );
+          }
+    </css-doodle>
+    <svg width="0">
+        <filter id="filter">
+          <feTurbulence type="fractalNoise"
+            baseFrequency=".01" numOctaves="10" />
+          <feDisplacementMap
+            in="SourceGraphic" scale="240" />
+        </filter>
+      </svg>
+    <script src="https://unpkg.com/css-doodle@0.10.0/css-doodle.min.js"></script>
+    <script>
+        const doodle = document.querySelector('css-doodle');
+        // 每次点击刷新css-doodle
+        doodle.onclick = function () {
+            doodle.update();
+        };
+    </script>
+</body>
+</html>
