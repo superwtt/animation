@@ -3154,6 +3154,35 @@ body {
     }
   }
 }
+.g-queue2 .c-loading25{
+  position: relative;
+   div{
+    position: absolute;
+    border-radius: 3px;
+    width: 15px;
+    height: 15px;
+    background-color: #9b59b6;
+    &:nth-child(4),
+    &:nth-child(5){
+      display: none;
+    }
+    &:nth-child(1){
+      top: -18px;
+      left: -18px;
+      background-color: #c5523f;
+    }
+    &:nth-child(2){
+      top: 0;
+      left: 0;
+      background-color: #499255;
+    }
+    &:nth-child(3){
+      top: 0;
+      left: -18px;
+      background-color: #1875e5;
+    }
+   }
+}
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
