@@ -9,7 +9,7 @@ html(lang="en")
         div.g-wrap
             -for(var i = 0; i<4; i++)
                 div(class='g-queue g-queue'+(i+1))
-                    -for(var j = 0; j<28; j++)
+                    -for(var j = 0; j<45; j++)
                         div(class='g-item g-item'+(j+1))
                             if j<=1
                                 div(class='loading loading'+(i+1))
@@ -20,9 +20,14 @@ html(lang="en")
                                  div(class='c-loading c-loading'+(j+1))
                                         -for(var x = 0; x<9; x++)
                                             div
-                            else if j<=25   
+                            else if j<=35   
                                 -for(var m = 0; m<1; m++)    
                                     div(class='c-loading c-loading'+(j+1))
                                         -for(var y = 0; y<5; y++)
-                                            div            
+                                            div  
+                            else if j<=45
+                                 div(class='c-loading c-loading'+(j+1))
+                                        -for(var x = 0; x<9; x++)
+                                            div                                
+
                                                        

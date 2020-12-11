@@ -2956,6 +2956,220 @@ body {
   animation-delay: .44s;
 }
 
+.g-queue3 .c-loading25 {
+  position: relative;
+}
+
+.g-queue3 .c-loading25 div {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #9b59b6;
+  animation: Animation78Scale .4s infinite linear alternate;
+}
+
+.g-queue3 .c-loading25 div:nth-child(5) {
+  display: none;
+}
+
+.g-queue3 .c-loading25 div:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+
+.g-queue3 .c-loading25 div:nth-child(2) {
+  left: -22px;
+  top: 0;
+  animation-delay: .1s;
+}
+
+.g-queue3 .c-loading25 div:nth-child(3) {
+  left: 0;
+  top: -22px;
+  animation-delay: -.2s;
+}
+
+.g-queue3 .c-loading25 div:nth-child(4) {
+  left: -22px;
+  top: -22px;
+  animation-delay: .3s;
+}
+
+.g-queue4 .c-loading25 {
+  position: relative;
+}
+
+.g-queue4 .c-loading25 div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #9b59b6;
+  animation: Animation79Opacity 1.5s infinite linear alternate;
+}
+
+.g-queue4 .c-loading25 div:nth-child(1) {
+  width: 50px;
+  height: 50px;
+}
+
+.g-queue4 .c-loading25 div:nth-child(2) {
+  width: 40px;
+  height: 40px;
+}
+
+.g-queue4 .c-loading25 div:nth-child(3) {
+  width: 30px;
+  height: 30px;
+}
+
+.g-queue4 .c-loading25 div:nth-child(4) {
+  width: 20px;
+  height: 20px;
+}
+
+.g-queue4 .c-loading25 div:nth-child(5) {
+  width: 10px;
+  height: 10px;
+}
+
+.g-queue1 .c-loading37 {
+  display: block;
+  font-size: 0;
+  color: #9b59b6;
+  width: 50px;
+  height: 38px;
+}
+
+.g-queue1 .c-loading37 div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+  animation: Animation2Container 2s infinite linear;
+}
+
+.g-queue2 .c-loading37 {
+  display: block;
+  font-size: 0;
+  color: #f1c40f;
+  width: 50px;
+  height: 38px;
+}
+
+.g-queue2 .c-loading37 div {
+  display: inline-block;
+  float: none;
+  background-color: currentColor;
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+  animation: Animation80Scale .4s infinite ease-in-out alternate;
+}
+
+.g-queue2 .c-loading37 div:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.g-queue2 .c-loading37 div:nth-child(2) {
+  animation-delay: .1s;
+}
+
+.g-queue2 .c-loading37 div:nth-child(3) {
+  animation-delay: .2s;
+}
+
+.g-queue2 .c-loading37 div:nth-child(4) {
+  animation-delay: .1s;
+}
+
+.g-queue2 .c-loading37 div:nth-child(5) {
+  animation-delay: .2s;
+}
+
+.g-queue2 .c-loading37 div:nth-child(6) {
+  animation-delay: .3s;
+}
+
+.g-queue2 .c-loading37 div:nth-child(7) {
+  animation-delay: .2s;
+}
+
+.g-queue2 .c-loading37 div:nth-child(8) {
+  animation-delay: .3s;
+}
+
+.g-queue2 .c-loading37 div:nth-child(9) {
+  animation-delay: .4s;
+}
+
+.g-queue3 .c-loading37 {
+  position: relative;
+  display: block;
+  font-size: 0;
+  color: #c5523f;
+  width: 45px;
+  height: 45px;
+}
+
+.g-queue3 .c-loading37 div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: currentColor;
+  width: 12px;
+  height: 12px;
+  animation: Animation81Position .5s infinite linear alternate;
+}
+
+.g-queue3 .c-loading37 div:nth-child(1) {
+  top: 8px;
+  left: 8px;
+}
+
+.g-queue3 .c-loading37 div:nth-child(2) {
+  top: 8px;
+  left: 25px;
+}
+
+.g-queue3 .c-loading37 div:nth-child(3) {
+  top: 8px;
+  left: 43px;
+}
+
+.g-queue3 .c-loading37 div:nth-child(4) {
+  top: 25px;
+  left: 8px;
+}
+
+.g-queue3 .c-loading37 div:nth-child(5) {
+  top: 25px;
+  left: 25px;
+}
+
+.g-queue3 .c-loading37 div:nth-child(6) {
+  top: 25px;
+  left: 43px;
+}
+
+.g-queue3 .c-loading37 div:nth-child(7) {
+  top: 43px;
+  left: 8px;
+}
+
+.g-queue3 .c-loading37 div:nth-child(8) {
+  top: 43px;
+  left: 25px;
+}
+
+.g-queue3 .c-loading37 div:nth-child(9) {
+  top: 43px;
+  left: 43px;
+}
+
 @keyframes Animation1ShapeWrap1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -4035,7 +4249,42 @@ body {
   }
 }
 
-@keyframes Animation78Translate {}@keyframes barStripe {
+@keyframes Animation78Scale {
+  0% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes Animation79Opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes Animation80Scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.3);
+  }
+}
+
+@keyframes Animation81Position {
+  to {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes barStripe {
   0% {
     background-position: 1em 0;
   }
