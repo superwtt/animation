@@ -7,6 +7,11 @@
   width: 100%;
   height: 100%;
 }
+%center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 
 @function randomNum($max, $min: 0, $u: 1) {
   @return ($min + random($max)) * $u;
@@ -3314,8 +3319,49 @@ body {
     }
   }
 }
+.g-queue3 .c-loading26{
+   position: relative;
+   width: 18px;
+   height: 18px;
+   border: 2px solid #D24D57;
+   border-left-color: transparent;
+   border-right-color: transparent;
+   animation: Animation1Container 1.8s infinite ease-in-out alternate;
 
-
+   &::after{
+     content: "";
+     position: absolute;
+     top: 5px;
+     left: 0px;
+     right: 0px;
+     bottom: 5px;
+     border-left: 2px solid #D24D57;
+     border-right: 2px solid #D24D57;
+   }
+}
+.g-queue4 .c-loading26{
+  position: relative;
+   width: 80px;
+   height: 80px;
+   @extend %center;
+   animation: Animation83Scale .8s infinite ease-in-out alternate;
+   &::after,
+   &::before{
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 30px;
+      background-color: #c5523f;
+      border-radius: 20px 20px 0 0;
+   }
+   &::after{
+     left: 39px;
+     transform: rotate(45deg);
+   }
+   &::before{
+    transform: rotate(-45deg);
+   }
+}
 
 
 
@@ -3603,7 +3649,15 @@ body {
     transform: translate(-20px, -20px);
   }
 }
+@keyframes Animation1Container {
+  0% {
+    transform: rotate(0);
+  }
 
+  100% {
+    transform: rotate(720deg);
+  }
+}
 @keyframes Animation2Container {
   0% {
     transform: rotate(0);
@@ -4711,6 +4765,16 @@ body {
 @keyframes Animation82Transform{
   from {transform: rotate(0deg) scale(1,1);border-radius:0px;}
   to {transform: rotate(360deg) scale(0, 0);border-radius:50px;}
+}
+@keyframes Animation83Scale{
+  0%{
+    transform: scale(1);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(.3);
+    opacity: .3;
+  }
 }
 @keyframes barStripe {
   0% {
