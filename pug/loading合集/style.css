@@ -2902,7 +2902,7 @@ body {
   border-radius: 50%;
   display: inline-block;
   background-color: #c5523f;
-  animation: Animation76Translate 1s infinite ease-in-out;
+  animation: Animation75Translate 1s infinite ease-in-out;
 }
 
 .g-queue1 .c-loading25 div:nth-child(1) {
@@ -2937,7 +2937,7 @@ body {
   background-color: #9b59b6;
 }
 
-.g-queue2 .c-loading25 div:nth-child(4), .g-queue2 .c-loading25 div:nth-child(5) {
+.g-queue2 .c-loading25 div:nth-child(2), .g-queue2 .c-loading25 div:nth-child(4), .g-queue2 .c-loading25 div:nth-child(5) {
   display: none;
 }
 
@@ -2945,18 +2945,15 @@ body {
   top: -18px;
   left: -18px;
   background-color: #c5523f;
-}
-
-.g-queue2 .c-loading25 div:nth-child(2) {
-  top: 0;
-  left: 0;
-  background-color: #499255;
+  animation: Animation76Translate 2s infinite linear;
 }
 
 .g-queue2 .c-loading25 div:nth-child(3) {
   top: 0;
   left: -18px;
   background-color: #1875e5;
+  animation: Animation77Translate 2s  infinite linear;
+  animation-delay: .44s;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -4003,22 +4000,42 @@ body {
 }
 
 @keyframes Animation76Translate {
-  0% {
+  0%, 15% {
     transform: translate(0);
-    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.1);
   }
-  50% {
-    transform: translate(0, -4px);
-    box-shadow: 0px 20px 3px rgba(255, 255, 255, 0.05);
-    background-color: #f1c40f;
+  25%, 40% {
+    transform: translate(18px, 0);
+  }
+  50%, 65% {
+    transform: translate(18px, 18px);
+  }
+  75%, 90% {
+    transform: translate(0px, 18px);
   }
   100% {
-    transform: translate(0);
-    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.1);
+    transform: translate(0, 0);
   }
 }
 
-@keyframes barStripe {
+@keyframes Animation77Translate {
+  0%, 15% {
+    transform: translate(0);
+  }
+  25%, 40% {
+    transform: translate(0, -18px);
+  }
+  50%, 65% {
+    transform: translate(18px, -18px);
+  }
+  75%, 90% {
+    transform: translate(18px, 0px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes Animation78Translate {}@keyframes barStripe {
   0% {
     background-position: 1em 0;
   }
