@@ -3569,11 +3569,16 @@ body {
   }
 }
 .g-queue1 .c-loading38{
+  overflow: hidden;
+  height: 120px;
+  @extend %center;
    div{
      width: 20px;
      height: 20px;
      border-radius: 50%;
+     margin: 5px;
      display: inline-block;
+     animation: Animation85Bounce 1.75s  ease-in-out infinite;
      &:nth-child(6),
      &:nth-child(7),
      &:nth-child(8),
@@ -3585,15 +3590,57 @@ body {
      }
      &:nth-child(2){
       background-color: #f1c40f;
+      animation-delay: 50ms;
     }
     &:nth-child(3){
       background-color: #1875e5;
+      animation-delay: 100ms;
     }
     &:nth-child(4){
       background-color: #499255;
+      animation-delay: 150ms;
     }
     &:nth-child(5){
       background-color: #9b59b6;
+      animation-delay: 200ms;
+    }
+   }
+}
+.g-queue2 .c-loading38{
+  overflow: hidden;
+  height: 120px;
+  @extend %center;
+   div{
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     margin: 5px;
+     display: inline-block;
+     animation: Animation86Bounce 1.75s  ease-in-out infinite;
+     &:nth-child(6),
+     &:nth-child(7),
+     &:nth-child(8),
+     &:nth-child(9){
+       display: none;
+     }
+     &:nth-child(1){
+       background-color: #c5523f;
+     }
+     &:nth-child(2){
+      background-color: #f1c40f;
+      animation-delay: 50ms;
+    }
+    &:nth-child(3){
+      background-color: #1875e5;
+      animation-delay: 100ms;
+    }
+    &:nth-child(4){
+      background-color: #499255;
+      animation-delay: 150ms;
+    }
+    &:nth-child(5){
+      background-color: #9b59b6;
+      animation-delay: 200ms;
     }
    }
 }
@@ -4878,6 +4925,33 @@ body {
   100% {
     transform: scale(1.4);
   }
+}
+
+@keyframes Animation85Bounce {
+ 0%{
+   transform: translateY(-150px);
+ }
+ 20%{
+  transform: translateY(30px);
+ }
+ 30%{
+  transform: translateY(-10px);
+ }
+ 40%{
+  transform: translateY(0px);
+ }
+ 60%{
+  transform: translateY(0px);
+ }
+ 80%{
+  transform: translateY(-20px);
+ }
+ 100%{
+  transform: translateY(150px);
+ }
+}
+@keyframes Animation86Bounce{
+  
 }
 
 @keyframes barStripe {
