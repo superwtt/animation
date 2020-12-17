@@ -10,7 +10,7 @@ body {
   height: 100%;
 }
 
-.g-queue4 .c-loading26, .g-queue4 .c-loading37, .g-queue1 .c-loading38, .g-queue2 .c-loading38 {
+.g-queue4 .c-loading26, .g-queue4 .c-loading37, .g-queue1 .c-loading38, .g-queue2 .c-loading38, .g-queue3 .c-loading38 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3301,7 +3301,7 @@ body {
 
 .g-queue4 .c-loading37 div {
   position: relative;
-  color: #F2F2EF;
+  color: #f2f2ef;
   display: inline-block;
   margin: 2px;
   font-size: 24px;
@@ -3322,7 +3322,7 @@ body {
 }
 
 .g-queue4 .c-loading37 div:nth-child(2) {
-  animation-delay: .1s;
+  animation-delay: 0.1s;
 }
 
 .g-queue4 .c-loading37 div:nth-child(2)::after {
@@ -3331,7 +3331,7 @@ body {
 }
 
 .g-queue4 .c-loading37 div:nth-child(3) {
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 .g-queue4 .c-loading37 div:nth-child(3)::after {
@@ -3340,7 +3340,7 @@ body {
 }
 
 .g-queue4 .c-loading37 div:nth-child(4) {
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 
 .g-queue4 .c-loading37 div:nth-child(4)::after {
@@ -3349,7 +3349,7 @@ body {
 }
 
 .g-queue4 .c-loading37 div:nth-child(5) {
-  animation-delay: .4s;
+  animation-delay: 0.4s;
 }
 
 .g-queue4 .c-loading37 div:nth-child(5)::after {
@@ -3358,7 +3358,7 @@ body {
 }
 
 .g-queue4 .c-loading37 div:nth-child(6) {
-  animation-delay: .5s;
+  animation-delay: 0.5s;
 }
 
 .g-queue4 .c-loading37 div:nth-child(6)::after {
@@ -3367,7 +3367,7 @@ body {
 }
 
 .g-queue4 .c-loading37 div:nth-child(7) {
-  animation-delay: .6s;
+  animation-delay: 0.6s;
 }
 
 .g-queue4 .c-loading37 div:nth-child(7)::after {
@@ -3386,7 +3386,7 @@ body {
   border-radius: 50%;
   margin: 5px;
   display: inline-block;
-  animation: Animation85Bounce 1.75s  ease-in-out infinite;
+  animation: Animation85Bounce 1.75s ease-in-out infinite;
 }
 
 .g-queue1 .c-loading38 div:nth-child(6), .g-queue1 .c-loading38 div:nth-child(7), .g-queue1 .c-loading38 div:nth-child(8), .g-queue1 .c-loading38 div:nth-child(9) {
@@ -3420,15 +3420,16 @@ body {
 .g-queue2 .c-loading38 {
   overflow: hidden;
   height: 120px;
+  width: 100%;
 }
 
 .g-queue2 .c-loading38 div {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  margin: 5px;
+  margin: 0 5px;
   display: inline-block;
-  animation: Animation86Bounce 1.75s  ease-in-out infinite;
+  animation: Animation86BounceChild 1.5s infinite ease-in-out;
 }
 
 .g-queue2 .c-loading38 div:nth-child(6), .g-queue2 .c-loading38 div:nth-child(7), .g-queue2 .c-loading38 div:nth-child(8), .g-queue2 .c-loading38 div:nth-child(9) {
@@ -3437,6 +3438,11 @@ body {
 
 .g-queue2 .c-loading38 div:nth-child(1) {
   background-color: #c5523f;
+  animation: Animation86Bounce 1.5s infinite ease-in-out;
+}
+
+.g-queue2 .c-loading38 div:nth-child(1) {
+  animation-delay: 0ms;
 }
 
 .g-queue2 .c-loading38 div:nth-child(2) {
@@ -3457,6 +3463,87 @@ body {
 .g-queue2 .c-loading38 div:nth-child(5) {
   background-color: #9b59b6;
   animation-delay: 200ms;
+}
+
+.g-queue3 .c-loading38 {
+  width: 100%;
+  height: 120px;
+}
+
+.g-queue3 .c-loading38 div {
+  position: relative;
+  color: #cdcdcd;
+  display: inline-block;
+  margin: 2px;
+  font-size: 24px;
+  font-size: 2.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0, 0, 0, 0.15);
+  animation: Animation87TextColor cubic-bezier(0.75, 0, 0.5, 1) 1.2s infinite alternate;
+}
+
+.g-queue3 .c-loading38 div:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.g-queue3 .c-loading38 div:nth-child(1)::after {
+  display: block;
+  content: "L";
+}
+
+.g-queue3 .c-loading38 div:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+.g-queue3 .c-loading38 div:nth-child(2)::after {
+  display: block;
+  content: "O";
+}
+
+.g-queue3 .c-loading38 div:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+.g-queue3 .c-loading38 div:nth-child(3)::after {
+  display: block;
+  content: "A";
+}
+
+.g-queue3 .c-loading38 div:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+.g-queue3 .c-loading38 div:nth-child(4)::after {
+  display: block;
+  content: "D";
+}
+
+.g-queue3 .c-loading38 div:nth-child(5) {
+  animation-delay: 400ms;
+}
+
+.g-queue3 .c-loading38 div:nth-child(5)::after {
+  display: block;
+  content: "I";
+}
+
+.g-queue3 .c-loading38 div:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+.g-queue3 .c-loading38 div:nth-child(6)::after {
+  display: block;
+  content: "N";
+}
+
+.g-queue3 .c-loading38 div:nth-child(7) {
+  animation-delay: 600ms;
+}
+
+.g-queue3 .c-loading38 div:nth-child(7)::after {
+  display: block;
+  content: "G";
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -4646,7 +4733,57 @@ body {
   }
 }
 
-@keyframes Animation86Bounce {}@keyframes barStripe {
+@keyframes Animation86Bounce {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(-50px);
+  }
+  25% {
+    transform: translateX(-50px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  80%,
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes Animation86BounceChild {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(0px);
+  }
+  28% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  80%,
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes Animation87TextColor {
+  0% {
+    color: #cdcdcd;
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: #cdcdcd;
+  }
+}
+
+@keyframes barStripe {
   0% {
     background-position: 1em 0;
   }
