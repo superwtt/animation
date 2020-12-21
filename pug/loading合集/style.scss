@@ -3428,7 +3428,7 @@ body {
       right: 0;
       animation: Animation89Translate4 2s infinite ease-in-out;
     }
-    &:nth-child(5){
+    &:nth-child(5) {
       display: none;
     }
   }
@@ -5209,74 +5209,70 @@ body {
 }
 @keyframes Animation89Translate1 {
   0% {
-    transform:translate(0,0) rotate(0) scale(0.5);
+    transform: translate(0, 0) rotate(0) scale(0.5);
   }
   25% {
-    
-    transform:translate(50px,0) rotate(90deg) scale(1);
+    transform: translate(50px, 0) rotate(90deg) scale(1);
   }
   50% {
-    transform:translate(50px,50px) rotate(180deg) scale(0.5);
+    transform: translate(50px, 50px) rotate(180deg) scale(0.5);
   }
   75% {
-    transform:translate(0,50px) rotate(270deg) scale(1);
+    transform: translate(0, 50px) rotate(270deg) scale(1);
   }
   100% {
-    transform:translate(0,0) rotate(360deg) scale(0.5);
+    transform: translate(0, 0) rotate(360deg) scale(0.5);
   }
 }
 @keyframes Animation89Translate2 {
   0% {
-    transform:translate(0,0) rotate(0) scale(0.5);
+    transform: translate(0, 0) rotate(0) scale(0.5);
   }
   25% {
-    
-    transform:translate(0,50px) rotate(90deg) scale(1);
+    transform: translate(0, 50px) rotate(90deg) scale(1);
   }
   50% {
-    transform:translate(-50px,50px) rotate(180deg) scale(0.5);
+    transform: translate(-50px, 50px) rotate(180deg) scale(0.5);
   }
   75% {
-    transform:translate(-50px,0px) rotate(270deg) scale(1);
+    transform: translate(-50px, 0px) rotate(270deg) scale(1);
   }
   100% {
-    transform:translate(0,0) rotate(360deg) scale(0.5);
+    transform: translate(0, 0) rotate(360deg) scale(0.5);
   }
 }
 @keyframes Animation89Translate3 {
   0% {
-    transform:translate(0,0) rotate(0) scale(0.5);
+    transform: translate(0, 0) rotate(0) scale(0.5);
   }
   25% {
-    
-    transform:translate(0,-50px) rotate(90deg) scale(1);
+    transform: translate(0, -50px) rotate(90deg) scale(1);
   }
   50% {
-    transform:translate(50px,-50px) rotate(180deg) scale(0.5);
+    transform: translate(50px, -50px) rotate(180deg) scale(0.5);
   }
   75% {
-    transform:translate(50px,0px) rotate(270deg) scale(1);
+    transform: translate(50px, 0px) rotate(270deg) scale(1);
   }
   100% {
-    transform:translate(0,0) rotate(360deg) scale(0.5);
+    transform: translate(0, 0) rotate(360deg) scale(0.5);
   }
 }
 @keyframes Animation89Translate4 {
   0% {
-    transform:translate(0,0) rotate(0) scale(0.5);
+    transform: translate(0, 0) rotate(0) scale(0.5);
   }
   25% {
-    
-    transform:translate(-50px,0) rotate(90deg) scale(1);
+    transform: translate(-50px, 0) rotate(90deg) scale(1);
   }
   50% {
-    transform:translate(-50px,-50px) rotate(180deg) scale(0.5);
+    transform: translate(-50px, -50px) rotate(180deg) scale(0.5);
   }
   75% {
-    transform:translate(0,-50px) rotate(270deg) scale(1);
+    transform: translate(0, -50px) rotate(270deg) scale(1);
   }
   100% {
-    transform:translate(0,0) rotate(360deg) scale(0.5);
+    transform: translate(0, 0) rotate(360deg) scale(0.5);
   }
 }
 @keyframes barStripe {
