@@ -3596,8 +3596,37 @@ body {
 
   }
 }
-
-
+.g-queue4 .c-loading28{
+  font-size: 0;
+  animation: Animation2Container 1s infinite;
+  div{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    margin-right: 6px;
+    &:nth-child(1){
+      background-color: #c5523f;
+    }
+    &:nth-child(2){
+      background-color: #f1c40f;
+      animation: Animation96Translate1 1s infinite; 
+    }
+    &:nth-child(3){
+      background-color: #f1c40f;
+      animation: Animation96Translate2 1s infinite; 
+    }
+    &:nth-child(4){
+      background-color: #c5523f;
+    }
+    &:nth-child(5){
+      display: none;
+    }
+  }
+}
+.g-queue1 .c-loading29{
+  
+}
 
 
 .g-queue1 .c-loading37 {
@@ -5690,6 +5719,22 @@ body {
   }
   50%{
    transform: translate(-16px,-16px);
+  }
+}
+@keyframes Animation96Translate1{
+  0%,100%{
+    transform: translate(0);
+  }
+  50%{
+    transform: translate(-24px,0);
+  }
+}
+@keyframes Animation96Translate2{
+  0%,100%{
+    transform: translate(0);
+  }
+  50%{
+    transform: translate(24px,0);
   }
 }
 @keyframes barStripe {
