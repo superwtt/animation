@@ -10,7 +10,7 @@ body {
   height: 100%;
 }
 
-.g-queue4 .c-loading38, .g-queue3 .c-loading38, .g-queue2 .c-loading38, .g-queue1 .c-loading38, .g-queue4 .c-loading37, .g-queue4 .c-loading26 {
+.g-queue4 .c-loading38, .g-queue3 .c-loading38, .g-queue2 .c-loading38, .g-queue1 .c-loading38, .g-queue4 .c-loading37, .g-queue3 .c-loading28, .g-queue2 .c-loading28, .g-queue4 .c-loading26 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2985,6 +2985,68 @@ body {
   display: none;
 }
 
+.g-queue2 .c-loading28 {
+  position: relative;
+}
+.g-queue2 .c-loading28 div {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  display: inline-block;
+}
+.g-queue2 .c-loading28 div:nth-child(1) {
+  background-color: #c5523f;
+  animation: Animation93Translate 0.8s infinite ease-in-out;
+}
+.g-queue2 .c-loading28 div:nth-child(2) {
+  background-color: #9b59b6;
+  animation: Animation93Translate-1 0.8s infinite ease-in-out;
+}
+.g-queue2 .c-loading28 div:nth-child(3), .g-queue2 .c-loading28 div:nth-child(4), .g-queue2 .c-loading28 div:nth-child(5) {
+  display: none;
+}
+
+.g-queue3 .c-loading28 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  animation: Animation2Container 1s infinite;
+}
+.g-queue3 .c-loading28 div {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border-radius: 100%;
+}
+.g-queue3 .c-loading28 div:nth-child(1) {
+  top: 0;
+  left: 0;
+  background-color: #c5523f;
+  animation: Animation95Translate-1 1s infinite;
+}
+.g-queue3 .c-loading28 div:nth-child(2) {
+  top: 0;
+  right: 0;
+  background-color: #f1c40f;
+  animation: Animation95Translate-2 1s infinite;
+}
+.g-queue3 .c-loading28 div:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  background-color: #1875e5;
+  animation: Animation95Translate-3 1s infinite;
+}
+.g-queue3 .c-loading28 div:nth-child(4) {
+  bottom: 0;
+  right: 0;
+  background-color: #499255;
+  animation: Animation95Translate-4 1s infinite;
+}
+.g-queue3 .c-loading28 div:nth-child(5) {
+  display: none;
+}
+
 .g-queue1 .c-loading37 {
   display: block;
   font-size: 0;
@@ -3345,6 +3407,45 @@ body {
   animation-delay: 0.7s;
 }
 .g-queue4 .c-loading38 div:nth-child(9) {
+  animation-delay: 0.8s;
+}
+
+.g-queue1 .c-loading39 {
+  position: relative;
+}
+.g-queue1 .c-loading39 div {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #c5523f;
+  animation: Animation94Translate 1s infinite ease-in-out;
+}
+.g-queue1 .c-loading39 div:nth-child(1) {
+  animation-delay: 0s;
+}
+.g-queue1 .c-loading39 div:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.g-queue1 .c-loading39 div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.g-queue1 .c-loading39 div:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.g-queue1 .c-loading39 div:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.g-queue1 .c-loading39 div:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.g-queue1 .c-loading39 div:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.g-queue1 .c-loading39 div:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.g-queue1 .c-loading39 div:nth-child(9) {
   animation-delay: 0.8s;
 }
 
@@ -4711,6 +4812,71 @@ body {
   }
   100% {
     transform: translate(0);
+  }
+}
+@keyframes Animation93Translate {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-40px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes Animation93Translate-1 {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(40px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes Animation94Translate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes Animation95Translate-1 {
+  0%, 100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(16px, 16px);
+  }
+}
+@keyframes Animation95Translate-2 {
+  0%, 100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-16px, 16px);
+  }
+}
+@keyframes Animation95Translate-3 {
+  0%, 100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(16px, -16px);
+  }
+}
+@keyframes Animation95Translate-4 {
+  0%, 100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(-16px, -16px);
   }
 }
 @keyframes barStripe {
