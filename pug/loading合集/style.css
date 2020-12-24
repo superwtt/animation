@@ -3091,6 +3091,38 @@ body {
   display: none;
 }
 
+.g-queue2 .c-loading29 {
+  position: relative;
+}
+.g-queue2 .c-loading29 div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid;
+}
+.g-queue2 .c-loading29 div:nth-child(1) {
+  width: 80px;
+  height: 80px;
+  border-color: #9b59b6;
+  animation: Animation99Translate1 1s infinite ease-in-out;
+}
+.g-queue2 .c-loading29 div:nth-child(2) {
+  width: 50px;
+  height: 50px;
+  border-color: #c5523f;
+  animation: Animation99Translate2 1s infinite ease-in-out;
+}
+.g-queue2 .c-loading29 div:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  border-color: #f1c40f;
+  animation: Animation99Translate3 1s infinite ease-in-out;
+}
+.g-queue2 .c-loading29 div:nth-child(4), .g-queue2 .c-loading29 div:nth-child(5) {
+  display: none;
+}
+
 .g-queue1 .c-loading37 {
   display: block;
   font-size: 0;
@@ -3558,6 +3590,97 @@ body {
   transform: translate(20px, -55px);
   animation: Animation98Translate5 2s infinite;
   animation-delay: 0.5s;
+}
+
+.g-queue3 .c-loading39 {
+  width: 120px;
+  height: 84%;
+  font-size: 0;
+  padding-top: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+.g-queue3 .c-loading39 div {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 20px;
+  background-color: #1875e5;
+  transform: rotate(45deg);
+}
+.g-queue3 .c-loading39 div:nth-child(odd) {
+  margin-left: 0;
+  margin-right: 20px;
+  animation: Animation100Translate1 1s infinite;
+}
+.g-queue3 .c-loading39 div:nth-child(2n) {
+  margin-right: 0;
+  margin-left: 40px;
+  animation: Animation100Translate2 1s infinite;
+}
+.g-queue3 .c-loading39 div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.g-queue3 .c-loading39 div:nth-child(5) {
+  animation-delay: 0.3s;
+}
+.g-queue3 .c-loading39 div:nth-child(7) {
+  animation-delay: 0.4s;
+}
+.g-queue3 .c-loading39 div:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.g-queue3 .c-loading39 div:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.g-queue3 .c-loading39 div:nth-child(8) {
+  animation-delay: 0.4s;
+}
+
+.g-queue4 .c-loading39 {
+  width: 120px;
+  height: 84%;
+  font-size: 0;
+  padding-top: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+.g-queue4 .c-loading39 div {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-bottom: 20px;
+  background-color: #499255;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+.g-queue4 .c-loading39 div:nth-child(odd) {
+  margin-left: 0;
+  margin-right: 20px;
+  animation: Animation100Translate1 1s infinite;
+}
+.g-queue4 .c-loading39 div:nth-child(2n) {
+  margin-right: 0;
+  margin-left: 40px;
+  animation: Animation100Translate2 1s infinite;
+}
+.g-queue4 .c-loading39 div:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.g-queue4 .c-loading39 div:nth-child(5) {
+  animation-delay: 0.3s;
+}
+.g-queue4 .c-loading39 div:nth-child(7) {
+  animation-delay: 0.4s;
+}
+.g-queue4 .c-loading39 div:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.g-queue4 .c-loading39 div:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.g-queue4 .c-loading39 div:nth-child(8) {
+  animation-delay: 0.4s;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -5057,6 +5180,49 @@ body {
 @keyframes Animation98Translate9 {
   50% {
     transform: translate(0px, -141px);
+  }
+}
+@keyframes Animation99Translate1 {
+  0% {
+    transform: perspective(300px) translate(-50%, -50%) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(300px) translate(-50%, -50%) rotateX(-180deg) rotateY(0);
+  }
+  100% {
+    transform: perspective(300px) translate(-50%, -50%) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+@keyframes Animation99Translate2 {
+  0% {
+    transform: perspective(200px) translate(-50%, -50%) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(200px) translate(-50%, -50%) rotateX(180deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(200px) translate(-50%, -50%) rotateX(180deg) rotateY(180deg);
+  }
+}
+@keyframes Animation99Translate3 {
+  0% {
+    transform: perspective(100px) translate(-50%, -50%) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(100px) translate(-50%, -50%) rotateX(-180deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(100px) translate(-50%, -50%) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+@keyframes Animation100Translate1 {
+  50% {
+    transform: translate(80px);
+  }
+}
+@keyframes Animation100Translate2 {
+  50% {
+    transform: translate(-80px);
   }
 }
 @keyframes barStripe {
