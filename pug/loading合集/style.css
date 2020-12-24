@@ -3499,8 +3499,8 @@ body {
   color: #f1c40f;
   width: 100px;
   height: 100px;
-  border: 1px solid #fff;
   text-align: center;
+  transform: rotate(45deg);
 }
 .g-queue2 .c-loading39 div {
   display: inline-block;
@@ -3511,35 +3511,53 @@ body {
   margin: 14px;
 }
 .g-queue2 .c-loading39 div:nth-child(1) {
-  transform: translate(40px, 47px);
+  transform: translate(-24px, -14px);
+  animation: Animation98Translate1 2s infinite;
+  animation-delay: 0.2s;
 }
 .g-queue2 .c-loading39 div:nth-child(2) {
-  transform: translate(0px, 47px);
+  transform: translate(-19px, -14px);
+  animation: Animation98Translate2 2s infinite;
+  animation-delay: 0.3s;
 }
 .g-queue2 .c-loading39 div:nth-child(3) {
-  transform: translate(-40px, 47px);
+  transform: translate(64px, -54px);
+  animation: Animation98Translate3 2s infinite;
+  animation-delay: 0.4s;
 }
 .g-queue2 .c-loading39 div:nth-child(4) {
-  transform: translate(44px, -6px);
+  transform: translate(-64px, -9px);
+  animation: Animation98Translate4 2s infinite;
+  animation-delay: 0.5s;
 }
 .g-queue2 .c-loading39 div:nth-child(6) {
-  transform: translate(-42px, -6px);
+  transform: translate(22px, -61px);
+  animation: Animation98Translate6 2s infinite;
+  animation-delay: 0.6s;
 }
 .g-queue2 .c-loading39 div:nth-child(7) {
-  transform: translate(40px, -47px);
+  transform: translate(-25px, -59px);
+  animation: Animation98Translate7 2s infinite;
+  animation-delay: 0.7s;
 }
 .g-queue2 .c-loading39 div:nth-child(8) {
-  transform: translate(0px, -47px);
+  transform: translate(-20px, -58px);
+  animation: Animation98Translate8 2s infinite;
+  animation-delay: 0.8s;
 }
 .g-queue2 .c-loading39 div:nth-child(9) {
-  transform: translate(-40px, -47px);
+  transform: translate(44px, -99px);
+  animation: Animation98Translate9 2s infinite;
+  animation-delay: 0.9s;
 }
 .g-queue2 .c-loading39 div:nth-child(5) {
   width: 25px;
   height: 25px;
   margin-left: 10px;
   margin-right: 10px;
-  transform: rotate(45deg);
+  transform: translate(20px, -55px);
+  animation: Animation98Translate5 2s infinite;
+  animation-delay: 0.5s;
 }
 
 @keyframes Animation1ShapeWrap1 {
@@ -4996,9 +5014,49 @@ body {
     transform: translateX(100px) rotate(480deg);
   }
 }
-@keyframes Animation98Translate {
+@keyframes Animation98Translate1 {
   50% {
-    transform: translate(0);
+    transform: translate(20px, 32px);
+  }
+}
+@keyframes Animation98Translate2 {
+  50% {
+    transform: translate(-20px, 32px);
+  }
+}
+@keyframes Animation98Translate3 {
+  50% {
+    transform: translate(20px, -8px);
+  }
+}
+@keyframes Animation98Translate4 {
+  50% {
+    transform: translate(-20px, -8px);
+  }
+}
+@keyframes Animation98Translate5 {
+  50% {
+    transform: translate(20px, -55px) scale(1.5);
+  }
+}
+@keyframes Animation98Translate6 {
+  50% {
+    transform: translate(-22px, -61px);
+  }
+}
+@keyframes Animation98Translate7 {
+  50% {
+    transform: translate(20px, -101px);
+  }
+}
+@keyframes Animation98Translate8 {
+  50% {
+    transform: translate(-20px, -101px);
+  }
+}
+@keyframes Animation98Translate9 {
+  50% {
+    transform: translate(0px, -141px);
   }
 }
 @keyframes barStripe {
