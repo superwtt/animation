@@ -11,7 +11,6 @@
                 calcMode="spline"
                 keyTimes="0; 1"
                 keySplines="0.165, 0.84, 0.44, 1"
-                keySplines="0.165 0.165 0.25 0.25;0 0 1 1"
                 repeatCount="indefinite" />
             <animate attributeName="stroke-opacity"
                 begin="0s" dur="1.8s"
