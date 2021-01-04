@@ -1,0 +1,7 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <rect x="10" y="10" width="60" height="60" stroke-width="3" stroke="#fff"></rect>
+    <rect x="10" y="10" width="60" height="60" stroke-width="3" stroke="#c5523f"></rect>
+  </g>
+
+</svg>
