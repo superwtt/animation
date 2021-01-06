@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        text-align: center;
+        margin: 14px 28px 0 0;
+        position: relative;
+        width: 110px;
+      }
+      font {
+        color: #0088cc;
+        display: block;
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0px 0 0 0px;
+      }
+      #circle{
+        transition: all 2s;
+        stroke-dasharray: 314,314;
+        stroke-dashoffset: 314;
+      }
+      div:hover #circle {
+        stroke-dashoffset: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <svg width="110" height="110">
+        <circle 
+          id="circle" 
+          cx="55" 
+          cy="55" 
+          r="50" 
+          fill="rgb(229, 229, 229)"
+          stroke="#0088cc"
+          stroke-width="6"
+         />
+      </svg>
+      <font>100%</font>
+    </div>
+  </body>
+</html>
