@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+        body{
+            display: flex;
+    
+        }
       .container {
         text-align: center;
         margin: 14px 28px 0 0;
         position: relative;
         width: 110px;
+      }
+      svg{
+          border: 1px solid #f00;
+          margin-left: 150px;
       }
       font {
         color: #0088cc;
@@ -37,18 +45,13 @@
   </head>
   <body>
     <div class="container">
-      <svg width="110" height="110">
-        <circle 
-          id="circle" 
-          cx="55" 
-          cy="55" 
-          r="50" 
-          fill="rgb(229, 229, 229)"
-          stroke="#0088cc"
-          stroke-width="6"
-         />
+      <svg width="500" height="500">
+        <line x1="0" y1="0" x2="200" y2="0" 
+        stroke-width="20" 
+        stroke="black" 
+        stroke-dasharray="30 10"
+        stroke-width="20" stroke-dashoffset="0" />
       </svg>
-      <font>100%</font>
     </div>
   </body>
 </html>
