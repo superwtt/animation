@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body{
-            display: flex;
-    
-        }
+      body {
+        display: flex;
+      }
       .container {
         text-align: center;
         margin: 14px 28px 0 0;
         position: relative;
         width: 110px;
       }
-      svg{
-          border: 1px solid #f00;
-          margin-left: 150px;
+      svg {
+        border: 1px solid #f00;
+        margin-left: 150px;
+        transition: all 0.5s;
+      }
+      line {
+        transition: all 2s;
+      }
+      svg:hover line {
+        stroke-dashoffset: 0;
       }
       font {
         color: #0088cc;
@@ -33,9 +39,9 @@
         top: 0;
         margin: 0px 0 0 0px;
       }
-      #circle{
+      #circle {
         transition: all 2s;
-        stroke-dasharray: 314,314;
+        stroke-dasharray: 314, 314;
         stroke-dashoffset: 314;
       }
       div:hover #circle {
@@ -45,12 +51,18 @@
   </head>
   <body>
     <div class="container">
-      <svg width="500" height="500">
-        <line x1="0" y1="0" x2="200" y2="0" 
-        stroke-width="20" 
-        stroke="black" 
-        stroke-dasharray="30 10"
-        stroke-width="20" stroke-dashoffset="0" />
+      <svg width="200" height="200">
+        <line
+          x1="0"
+          y1="0"
+          x2="200"
+          y2="0"
+          stroke-width="20"
+          stroke="black"
+          stroke-dasharray="200 210"
+          stroke-width="20"
+          stroke-dashoffset="200"
+        />
       </svg>
     </div>
   </body>
