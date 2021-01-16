@@ -1,0 +1,28 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" fill-rule="evenodd">
+    <rect x="35" y="35" width="50" height="50" stroke-width="3" stroke="#fff">
+      <animateTransform  attributeName="transform" 
+        from="0 60 60" 
+		to="360 60 60" type="rotate"
+        dur="3s"
+        calcMode="spline" 
+        keyTimes="0; 1"
+        keySplines="0.3, 0.61, 0.355, 1"
+        repeatCount="indefinite"
+        additive="sum" 
+       />
+    </rect>
+    <rect x="35" y="35" width="50" height="50" stroke-width="3" stroke="#c5523f">
+      <animateTransform  attributeName="transform" 
+        from="0 60 60" 
+		to="-360 60 60" type="rotate"
+        dur="3s"
+        keyTimes="0; 1"
+        keySplines="0.3, 0.61, 0.355, 1"
+        calcMode="spline"
+        repeatCount="indefinite"
+        additive="sum" 
+       />
+    </rect>
+  </g>
+</svg>
