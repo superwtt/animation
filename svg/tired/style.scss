@@ -1,0 +1,31 @@
+body {
+    background: #000;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    font-family: 'Waiting for the Sunrise', cursive;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .tierd {
+    position: relative;
+    font-size: 15rem;
+    filter: url(#filter) blur(3px) contrast(10);
+    background: #000;
+    user-select: none;
+    padding: 100px;
+    transform: rotateZ(5deg);
+    
+    &::before {
+      content: 'tired';
+      position: absolute;
+      transform: translate(7px, 13px);
+      filter: blur(10px);
+    }
+  }
+  
+  .svg {
+    display: none;
+  }
