@@ -5,7 +5,7 @@
 
 body {
   height: 100vh;
-//   background: radial-gradient(#1b2735 0%, #090a0f 100%);
+  //   background: radial-gradient(#1b2735 0%, #090a0f 100%);
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
   filter: drop-shadow(0 0 10px white);
@@ -33,16 +33,15 @@ body {
   border-radius: 100%;
 
   @for $i from 1 through $total {
-
-    $scale: random(10000) * 0.0001; // 0-1
+    $scale: random(10000) * 0.0001; // 0~1
     $x: random(1000000) * 0.0001vw; // 0-100vw
     $percentage: random_range(30000, 80000) / 100000; // 0.3-0.8
-    $duration: random_range(10, 30) * 1s;
-    $delay: random(30) * -1s; //
     $offset: random_range(-100000, 100000) * 0.0001vw; // -10vw-10vw
     $time: random_range(30000, 80000) / 100000; // 0.3-0.8
-    $x-end: $x + $offset;
+    $x-end: $x + $offset; // -10vw-110vw
     $y-end: $time * 100vh; // 30-80vh
+    $duration: random_range(10, 30) * 1s; // 10s-30s
+    $delay: random(30) * -1s; // -30s-0s
 
     &:nth-child(#{$i}) {
       opacity: random(10000) * 0.0001;
