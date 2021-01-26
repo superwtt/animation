@@ -16,16 +16,16 @@ body {
 }
 
 .snow {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   background-color: white;
   position: absolute;
   border-radius: 100%;
 }
 .snow:nth-child(1) {
-  transform: translate(47.0135vw, 29.5154vw) scale(0.3009);
-  animation: star-1 4s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(40.83vw, 45.1791vw) scale(0.0313);
+  animation: star-1 5s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-1 {
   0% {
@@ -36,9 +36,9 @@ body {
   }
 }
 .snow:nth-child(2) {
-  transform: translate(89.2438vw, 31.9484vw) scale(0.7446);
-  animation: star-2 2s linear infinite alternate;
-  animation-delay: -11s;
+  transform: translate(93.97vw, 66.9879vw) scale(0.7857);
+  animation: star-2 5s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-2 {
   0% {
@@ -49,9 +49,9 @@ body {
   }
 }
 .snow:nth-child(3) {
-  transform: translate(46.8773vw, 91.6309vw) scale(0.1698);
-  animation: star-3 5s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(69.65vw, 84.5156vw) scale(0.1246);
+  animation: star-3 4s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-3 {
   0% {
@@ -62,9 +62,9 @@ body {
   }
 }
 .snow:nth-child(4) {
-  transform: translate(11.7692vw, 80.7343vw) scale(0.3315);
-  animation: star-4 2s linear infinite alternate;
-  animation-delay: -26s;
+  transform: translate(81.14vw, 20.2055vw) scale(0.3936);
+  animation: star-4 5s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-4 {
   0% {
@@ -75,9 +75,9 @@ body {
   }
 }
 .snow:nth-child(5) {
-  transform: translate(83.9908vw, 94.0193vw) scale(0.1378);
-  animation: star-5 3s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(6.07vw, 83.6304vw) scale(0.8852);
+  animation: star-5 2s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-5 {
   0% {
@@ -88,9 +88,9 @@ body {
   }
 }
 .snow:nth-child(6) {
-  transform: translate(45.4281vw, 11.6139vw) scale(0.3822);
-  animation: star-6 5s linear infinite alternate;
-  animation-delay: -14s;
+  transform: translate(7.65vw, 37.3362vw) scale(0.8639);
+  animation: star-6 3s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-6 {
   0% {
@@ -101,9 +101,9 @@ body {
   }
 }
 .snow:nth-child(7) {
-  transform: translate(58.0394vw, 80.007vw) scale(0.4254);
-  animation: star-7 3s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(46.74vw, 50.2826vw) scale(0.0444);
+  animation: star-7 5s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-7 {
   0% {
@@ -114,9 +114,9 @@ body {
   }
 }
 .snow:nth-child(8) {
-  transform: translate(46.6923vw, 9.1109vw) scale(0.3433);
-  animation: star-8 2s linear infinite alternate;
-  animation-delay: -23s;
+  transform: translate(53.37vw, 11.3283vw) scale(0.4352);
+  animation: star-8 5s linear infinite alternate;
+  animation-delay: -25s;
 }
 @keyframes star-8 {
   0% {
@@ -127,9 +127,9 @@ body {
   }
 }
 .snow:nth-child(9) {
-  transform: translate(37.5356vw, 73.8766vw) scale(0.9624);
-  animation: star-9 4s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(96.61vw, 45.6293vw) scale(0.7031);
+  animation: star-9 5s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-9 {
   0% {
@@ -140,9 +140,9 @@ body {
   }
 }
 .snow:nth-child(10) {
-  transform: translate(31.2493vw, 27.8727vw) scale(0.1554);
-  animation: star-10 5s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(83.14vw, 89.5817vw) scale(0.3405);
+  animation: star-10 4s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-10 {
   0% {
@@ -153,9 +153,9 @@ body {
   }
 }
 .snow:nth-child(11) {
-  transform: translate(34.7796vw, 15.7235vw) scale(0.4224);
-  animation: star-11 3s linear infinite alternate;
-  animation-delay: -12s;
+  transform: translate(0.56vw, 29.9609vw) scale(0.6873);
+  animation: star-11 4s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-11 {
   0% {
@@ -166,9 +166,9 @@ body {
   }
 }
 .snow:nth-child(12) {
-  transform: translate(29.6211vw, 83.9645vw) scale(0.2495);
-  animation: star-12 4s linear infinite alternate;
-  animation-delay: -23s;
+  transform: translate(72.76vw, 86.0113vw) scale(0.2093);
+  animation: star-12 2s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-12 {
   0% {
@@ -179,9 +179,9 @@ body {
   }
 }
 .snow:nth-child(13) {
-  transform: translate(57.0515vw, 3.2828vw) scale(0.1759);
-  animation: star-13 3s linear infinite alternate;
-  animation-delay: -6s;
+  transform: translate(67.84vw, 26.4611vw) scale(0.0057);
+  animation: star-13 2s linear infinite alternate;
+  animation-delay: -15s;
 }
 @keyframes star-13 {
   0% {
@@ -192,9 +192,9 @@ body {
   }
 }
 .snow:nth-child(14) {
-  transform: translate(58.6547vw, 8.7538vw) scale(0.2486);
+  transform: translate(39.79vw, 82.337vw) scale(0.0612);
   animation: star-14 5s linear infinite alternate;
-  animation-delay: -15s;
+  animation-delay: -19s;
 }
 @keyframes star-14 {
   0% {
@@ -205,9 +205,9 @@ body {
   }
 }
 .snow:nth-child(15) {
-  transform: translate(84.0413vw, 63.2718vw) scale(0.0696);
-  animation: star-15 3s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(1.44vw, 15.3456vw) scale(0.6086);
+  animation: star-15 4s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-15 {
   0% {
@@ -218,9 +218,9 @@ body {
   }
 }
 .snow:nth-child(16) {
-  transform: translate(58.6819vw, 3.31vw) scale(0.1712);
-  animation: star-16 5s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(6.6vw, 55.8152vw) scale(0.9194);
+  animation: star-16 3s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-16 {
   0% {
@@ -231,9 +231,9 @@ body {
   }
 }
 .snow:nth-child(17) {
-  transform: translate(47.9396vw, 16.6083vw) scale(0.2609);
-  animation: star-17 2s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(1.73vw, 60.7272vw) scale(0.8083);
+  animation: star-17 4s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-17 {
   0% {
@@ -244,9 +244,9 @@ body {
   }
 }
 .snow:nth-child(18) {
-  transform: translate(1.2122vw, 94.3739vw) scale(0.3958);
-  animation: star-18 5s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(1.55vw, 43.4037vw) scale(0.7119);
+  animation: star-18 4s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-18 {
   0% {
@@ -257,9 +257,9 @@ body {
   }
 }
 .snow:nth-child(19) {
-  transform: translate(98.3758vw, 22.5994vw) scale(0.5908);
-  animation: star-19 2s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(42.76vw, 94.952vw) scale(0.7198);
+  animation: star-19 5s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-19 {
   0% {
@@ -270,9 +270,9 @@ body {
   }
 }
 .snow:nth-child(20) {
-  transform: translate(19.6615vw, 99.6269vw) scale(0.3239);
+  transform: translate(18.35vw, 73.4994vw) scale(0.4251);
   animation: star-20 5s linear infinite alternate;
-  animation-delay: -18s;
+  animation-delay: -22s;
 }
 @keyframes star-20 {
   0% {
@@ -283,9 +283,9 @@ body {
   }
 }
 .snow:nth-child(21) {
-  transform: translate(59.3681vw, 95.9336vw) scale(0.9755);
+  transform: translate(2.11vw, 20.8694vw) scale(0.4395);
   animation: star-21 2s linear infinite alternate;
-  animation-delay: -27s;
+  animation-delay: -12s;
 }
 @keyframes star-21 {
   0% {
@@ -296,9 +296,9 @@ body {
   }
 }
 .snow:nth-child(22) {
-  transform: translate(73.6348vw, 71.3405vw) scale(0.717);
-  animation: star-22 2s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(39.39vw, 42.7793vw) scale(0.8781);
+  animation: star-22 4s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-22 {
   0% {
@@ -309,9 +309,9 @@ body {
   }
 }
 .snow:nth-child(23) {
-  transform: translate(39.4965vw, 32.3295vw) scale(0.8606);
+  transform: translate(47.81vw, 35.478vw) scale(0.994);
   animation: star-23 3s linear infinite alternate;
-  animation-delay: -16s;
+  animation-delay: -8s;
 }
 @keyframes star-23 {
   0% {
@@ -322,9 +322,9 @@ body {
   }
 }
 .snow:nth-child(24) {
-  transform: translate(79.354vw, 20.1279vw) scale(0.506);
-  animation: star-24 2s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(15.55vw, 26.6459vw) scale(0.1484);
+  animation: star-24 5s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-24 {
   0% {
@@ -335,9 +335,9 @@ body {
   }
 }
 .snow:nth-child(25) {
-  transform: translate(43.5293vw, 1.2625vw) scale(0.3407);
-  animation: star-25 2s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(61.47vw, 13.5091vw) scale(0.1762);
+  animation: star-25 4s linear infinite alternate;
+  animation-delay: -26s;
 }
 @keyframes star-25 {
   0% {
@@ -348,9 +348,9 @@ body {
   }
 }
 .snow:nth-child(26) {
-  transform: translate(16.9582vw, 91.1835vw) scale(0.2316);
-  animation: star-26 3s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(38.43vw, 56.8792vw) scale(0.6806);
+  animation: star-26 5s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-26 {
   0% {
@@ -361,9 +361,9 @@ body {
   }
 }
 .snow:nth-child(27) {
-  transform: translate(20.3617vw, 35.4469vw) scale(0.6441);
-  animation: star-27 2s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(71.86vw, 28.1636vw) scale(0.0532);
+  animation: star-27 4s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-27 {
   0% {
@@ -374,9 +374,9 @@ body {
   }
 }
 .snow:nth-child(28) {
-  transform: translate(97.092vw, 87.4398vw) scale(0.2644);
-  animation: star-28 5s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(69.44vw, 58.5349vw) scale(0.7845);
+  animation: star-28 3s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-28 {
   0% {
@@ -387,9 +387,9 @@ body {
   }
 }
 .snow:nth-child(29) {
-  transform: translate(41.888vw, 98.8819vw) scale(0.9197);
-  animation: star-29 2s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(2.47vw, 36.3088vw) scale(0.5075);
+  animation: star-29 4s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-29 {
   0% {
@@ -400,9 +400,9 @@ body {
   }
 }
 .snow:nth-child(30) {
-  transform: translate(89.1957vw, 31.1613vw) scale(0.7659);
-  animation: star-30 3s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(29.76vw, 48.3197vw) scale(0.7837);
+  animation: star-30 5s linear infinite alternate;
+  animation-delay: -26s;
 }
 @keyframes star-30 {
   0% {
@@ -413,9 +413,9 @@ body {
   }
 }
 .snow:nth-child(31) {
-  transform: translate(36.0524vw, 70.4105vw) scale(0.7817);
+  transform: translate(77.3vw, 42.3952vw) scale(0.7034);
   animation: star-31 5s linear infinite alternate;
-  animation-delay: -20s;
+  animation-delay: -6s;
 }
 @keyframes star-31 {
   0% {
@@ -426,9 +426,9 @@ body {
   }
 }
 .snow:nth-child(32) {
-  transform: translate(58.0082vw, 6.4602vw) scale(0.8333);
+  transform: translate(12.29vw, 46.3508vw) scale(0.3167);
   animation: star-32 4s linear infinite alternate;
-  animation-delay: -24s;
+  animation-delay: -12s;
 }
 @keyframes star-32 {
   0% {
@@ -439,9 +439,9 @@ body {
   }
 }
 .snow:nth-child(33) {
-  transform: translate(0.1606vw, 66.7498vw) scale(0.7691);
-  animation: star-33 5s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(36.49vw, 13.4031vw) scale(0.4129);
+  animation: star-33 2s linear infinite alternate;
+  animation-delay: -26s;
 }
 @keyframes star-33 {
   0% {
@@ -452,9 +452,9 @@ body {
   }
 }
 .snow:nth-child(34) {
-  transform: translate(92.5608vw, 67.2667vw) scale(0.301);
-  animation: star-34 5s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(45.97vw, 26.8569vw) scale(0.8254);
+  animation: star-34 2s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-34 {
   0% {
@@ -465,9 +465,9 @@ body {
   }
 }
 .snow:nth-child(35) {
-  transform: translate(16.7693vw, 34.4798vw) scale(0.8069);
-  animation: star-35 3s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(51.05vw, 1.4117vw) scale(0.2938);
+  animation: star-35 4s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-35 {
   0% {
@@ -478,9 +478,9 @@ body {
   }
 }
 .snow:nth-child(36) {
-  transform: translate(87.86vw, 39.0294vw) scale(0.1911);
-  animation: star-36 3s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(33.24vw, 33.8546vw) scale(0.5214);
+  animation: star-36 4s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-36 {
   0% {
@@ -491,9 +491,9 @@ body {
   }
 }
 .snow:nth-child(37) {
-  transform: translate(12.6703vw, 93.6013vw) scale(0.151);
-  animation: star-37 2s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(62.41vw, 54.4714vw) scale(0.0751);
+  animation: star-37 4s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-37 {
   0% {
@@ -504,9 +504,9 @@ body {
   }
 }
 .snow:nth-child(38) {
-  transform: translate(5.365vw, 52.3259vw) scale(0.4377);
-  animation: star-38 4s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(69.71vw, 91.3003vw) scale(0.1203);
+  animation: star-38 3s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-38 {
   0% {
@@ -517,9 +517,9 @@ body {
   }
 }
 .snow:nth-child(39) {
-  transform: translate(31.3362vw, 39.5583vw) scale(0.4933);
-  animation: star-39 5s linear infinite alternate;
-  animation-delay: -14s;
+  transform: translate(83.91vw, 90.5206vw) scale(0.431);
+  animation: star-39 4s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-39 {
   0% {
@@ -530,9 +530,9 @@ body {
   }
 }
 .snow:nth-child(40) {
-  transform: translate(39.9134vw, 37.4668vw) scale(0.7253);
+  transform: translate(67.68vw, 54.1872vw) scale(0.2847);
   animation: star-40 3s linear infinite alternate;
-  animation-delay: -18s;
+  animation-delay: -23s;
 }
 @keyframes star-40 {
   0% {
@@ -543,9 +543,9 @@ body {
   }
 }
 .snow:nth-child(41) {
-  transform: translate(53.0168vw, 16.751vw) scale(0.5671);
-  animation: star-41 4s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(79.82vw, 15.2194vw) scale(0.7806);
+  animation: star-41 3s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-41 {
   0% {
@@ -556,9 +556,9 @@ body {
   }
 }
 .snow:nth-child(42) {
-  transform: translate(42.3188vw, 41.1105vw) scale(0.2282);
-  animation: star-42 5s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(29.6vw, 92.2806vw) scale(0.6567);
+  animation: star-42 4s linear infinite alternate;
+  animation-delay: -6s;
 }
 @keyframes star-42 {
   0% {
@@ -569,9 +569,9 @@ body {
   }
 }
 .snow:nth-child(43) {
-  transform: translate(22.9157vw, 44.3962vw) scale(0.2833);
-  animation: star-43 3s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(54.73vw, 64.6943vw) scale(0.7859);
+  animation: star-43 5s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-43 {
   0% {
@@ -582,9 +582,9 @@ body {
   }
 }
 .snow:nth-child(44) {
-  transform: translate(18.6192vw, 40.9272vw) scale(0.6412);
-  animation: star-44 3s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(41.57vw, 89.1339vw) scale(0.4914);
+  animation: star-44 5s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-44 {
   0% {
@@ -595,9 +595,9 @@ body {
   }
 }
 .snow:nth-child(45) {
-  transform: translate(55.3052vw, 95.8818vw) scale(0.3188);
-  animation: star-45 5s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(63.65vw, 46.4118vw) scale(0.9926);
+  animation: star-45 4s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-45 {
   0% {
@@ -608,9 +608,9 @@ body {
   }
 }
 .snow:nth-child(46) {
-  transform: translate(1.9938vw, 79.7289vw) scale(0.6768);
-  animation: star-46 4s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(40.54vw, 28.0062vw) scale(0.816);
+  animation: star-46 5s linear infinite alternate;
+  animation-delay: -17s;
 }
 @keyframes star-46 {
   0% {
@@ -621,9 +621,9 @@ body {
   }
 }
 .snow:nth-child(47) {
-  transform: translate(30.5776vw, 65.5783vw) scale(0.5855);
+  transform: translate(47.4vw, 70.5844vw) scale(0.8671);
   animation: star-47 4s linear infinite alternate;
-  animation-delay: -19s;
+  animation-delay: -9s;
 }
 @keyframes star-47 {
   0% {
@@ -634,9 +634,9 @@ body {
   }
 }
 .snow:nth-child(48) {
-  transform: translate(89.0598vw, 74.5788vw) scale(0.0798);
-  animation: star-48 5s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(64.01vw, 70.1948vw) scale(0.5013);
+  animation: star-48 4s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-48 {
   0% {
@@ -647,9 +647,9 @@ body {
   }
 }
 .snow:nth-child(49) {
-  transform: translate(89.6967vw, 13.1479vw) scale(0.7081);
-  animation: star-49 3s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(54.3vw, 49.2093vw) scale(0.2527);
+  animation: star-49 2s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-49 {
   0% {
@@ -660,9 +660,9 @@ body {
   }
 }
 .snow:nth-child(50) {
-  transform: translate(37.8408vw, 27.0502vw) scale(0.9854);
-  animation: star-50 4s linear infinite alternate;
-  animation-delay: -26s;
+  transform: translate(17.33vw, 21.2863vw) scale(0.0593);
+  animation: star-50 3s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-50 {
   0% {
@@ -673,9 +673,9 @@ body {
   }
 }
 .snow:nth-child(51) {
-  transform: translate(10.193vw, 57.8882vw) scale(0.7777);
-  animation: star-51 5s linear infinite alternate;
-  animation-delay: -4s;
+  transform: translate(58.62vw, 4.1301vw) scale(0.2615);
+  animation: star-51 2s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-51 {
   0% {
@@ -686,9 +686,9 @@ body {
   }
 }
 .snow:nth-child(52) {
-  transform: translate(33.7643vw, 20.7867vw) scale(0.428);
-  animation: star-52 2s linear infinite alternate;
-  animation-delay: -4s;
+  transform: translate(82.51vw, 73.4226vw) scale(0.3353);
+  animation: star-52 5s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-52 {
   0% {
@@ -699,9 +699,9 @@ body {
   }
 }
 .snow:nth-child(53) {
-  transform: translate(15.666vw, 59.9274vw) scale(0.289);
-  animation: star-53 2s linear infinite alternate;
-  animation-delay: -7s;
+  transform: translate(84.42vw, 45.697vw) scale(0.6877);
+  animation: star-53 4s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-53 {
   0% {
@@ -712,9 +712,9 @@ body {
   }
 }
 .snow:nth-child(54) {
-  transform: translate(30.6974vw, 83.614vw) scale(0.0475);
+  transform: translate(64.26vw, 28.2855vw) scale(0.9022);
   animation: star-54 5s linear infinite alternate;
-  animation-delay: -10s;
+  animation-delay: -27s;
 }
 @keyframes star-54 {
   0% {
@@ -725,9 +725,9 @@ body {
   }
 }
 .snow:nth-child(55) {
-  transform: translate(4.7437vw, 36.548vw) scale(0.5281);
-  animation: star-55 4s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(66.57vw, 94.4915vw) scale(0.4256);
+  animation: star-55 5s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-55 {
   0% {
@@ -738,9 +738,9 @@ body {
   }
 }
 .snow:nth-child(56) {
-  transform: translate(90.2946vw, 57.0468vw) scale(0.3991);
+  transform: translate(40.37vw, 48.9526vw) scale(0.8149);
   animation: star-56 5s linear infinite alternate;
-  animation-delay: -2s;
+  animation-delay: -28s;
 }
 @keyframes star-56 {
   0% {
@@ -751,9 +751,9 @@ body {
   }
 }
 .snow:nth-child(57) {
-  transform: translate(23.8311vw, 0.5712vw) scale(0.159);
-  animation: star-57 4s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(31.54vw, 33.2682vw) scale(0.7345);
+  animation: star-57 5s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-57 {
   0% {
@@ -764,9 +764,9 @@ body {
   }
 }
 .snow:nth-child(58) {
-  transform: translate(33.6329vw, 52.2858vw) scale(0.0585);
-  animation: star-58 5s linear infinite alternate;
-  animation-delay: -29s;
+  transform: translate(55.87vw, 86.9232vw) scale(0.6387);
+  animation: star-58 4s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-58 {
   0% {
@@ -777,9 +777,9 @@ body {
   }
 }
 .snow:nth-child(59) {
-  transform: translate(4.6822vw, 16.9693vw) scale(0.2603);
-  animation: star-59 4s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(17.57vw, 90.2776vw) scale(0.7984);
+  animation: star-59 5s linear infinite alternate;
+  animation-delay: -6s;
 }
 @keyframes star-59 {
   0% {
@@ -790,9 +790,9 @@ body {
   }
 }
 .snow:nth-child(60) {
-  transform: translate(51.2697vw, 22.4898vw) scale(0.8457);
-  animation: star-60 5s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(85.36vw, 21.5279vw) scale(0.8308);
+  animation: star-60 3s linear infinite alternate;
+  animation-delay: -24s;
 }
 @keyframes star-60 {
   0% {
@@ -803,9 +803,9 @@ body {
   }
 }
 .snow:nth-child(61) {
-  transform: translate(84.9802vw, 88.322vw) scale(0.8011);
-  animation: star-61 2s linear infinite alternate;
-  animation-delay: -7s;
+  transform: translate(14.53vw, 82.8203vw) scale(0.7431);
+  animation: star-61 5s linear infinite alternate;
+  animation-delay: -6s;
 }
 @keyframes star-61 {
   0% {
@@ -816,9 +816,9 @@ body {
   }
 }
 .snow:nth-child(62) {
-  transform: translate(26.7966vw, 7.2713vw) scale(0.0266);
-  animation: star-62 5s linear infinite alternate;
-  animation-delay: -28s;
+  transform: translate(15.64vw, 8.5vw) scale(0.5851);
+  animation: star-62 2s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-62 {
   0% {
@@ -829,9 +829,9 @@ body {
   }
 }
 .snow:nth-child(63) {
-  transform: translate(78.9959vw, 55.7896vw) scale(0.5479);
+  transform: translate(63.83vw, 37.5942vw) scale(0.0704);
   animation: star-63 4s linear infinite alternate;
-  animation-delay: -2s;
+  animation-delay: -8s;
 }
 @keyframes star-63 {
   0% {
@@ -842,9 +842,9 @@ body {
   }
 }
 .snow:nth-child(64) {
-  transform: translate(83.738vw, 73.2105vw) scale(0.9024);
-  animation: star-64 3s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(0.09vw, 30.1026vw) scale(0.0789);
+  animation: star-64 4s linear infinite alternate;
+  animation-delay: -15s;
 }
 @keyframes star-64 {
   0% {
@@ -855,9 +855,9 @@ body {
   }
 }
 .snow:nth-child(65) {
-  transform: translate(77.8198vw, 11.1543vw) scale(0.0921);
+  transform: translate(92.37vw, 9.0409vw) scale(0.7353);
   animation: star-65 4s linear infinite alternate;
-  animation-delay: -6s;
+  animation-delay: -27s;
 }
 @keyframes star-65 {
   0% {
@@ -868,9 +868,9 @@ body {
   }
 }
 .snow:nth-child(66) {
-  transform: translate(80.9808vw, 46.8801vw) scale(0.7391);
-  animation: star-66 3s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(90.04vw, 56.7281vw) scale(0.3481);
+  animation: star-66 5s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-66 {
   0% {
@@ -881,9 +881,9 @@ body {
   }
 }
 .snow:nth-child(67) {
-  transform: translate(77.082vw, 91.4919vw) scale(0.6364);
-  animation: star-67 2s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(70.1vw, 67.1272vw) scale(0.7742);
+  animation: star-67 4s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-67 {
   0% {
@@ -894,9 +894,9 @@ body {
   }
 }
 .snow:nth-child(68) {
-  transform: translate(84.7818vw, 19.6582vw) scale(0.4412);
-  animation: star-68 3s linear infinite alternate;
-  animation-delay: -22s;
+  transform: translate(37.08vw, 8.4237vw) scale(0.839);
+  animation: star-68 5s linear infinite alternate;
+  animation-delay: -17s;
 }
 @keyframes star-68 {
   0% {
@@ -907,9 +907,9 @@ body {
   }
 }
 .snow:nth-child(69) {
-  transform: translate(69.3229vw, 3.4619vw) scale(0.0939);
-  animation: star-69 2s linear infinite alternate;
-  animation-delay: -6s;
+  transform: translate(4.31vw, 30.7756vw) scale(0.3919);
+  animation: star-69 5s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-69 {
   0% {
@@ -920,9 +920,9 @@ body {
   }
 }
 .snow:nth-child(70) {
-  transform: translate(91.6694vw, 31.9051vw) scale(0.9632);
-  animation: star-70 3s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(33.61vw, 83.0892vw) scale(0.2276);
+  animation: star-70 2s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-70 {
   0% {
@@ -933,9 +933,9 @@ body {
   }
 }
 .snow:nth-child(71) {
-  transform: translate(99.8361vw, 54.8429vw) scale(0.2526);
-  animation: star-71 3s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(89.23vw, 49.5486vw) scale(0.5333);
+  animation: star-71 4s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-71 {
   0% {
@@ -946,9 +946,9 @@ body {
   }
 }
 .snow:nth-child(72) {
-  transform: translate(80.9693vw, 64.9502vw) scale(0.1024);
-  animation: star-72 4s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(36.55vw, 96.1971vw) scale(0.9079);
+  animation: star-72 2s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-72 {
   0% {
@@ -959,9 +959,9 @@ body {
   }
 }
 .snow:nth-child(73) {
-  transform: translate(61.8675vw, 32.0984vw) scale(0.3651);
-  animation: star-73 2s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(98.32vw, 43.3084vw) scale(0.1366);
+  animation: star-73 3s linear infinite alternate;
+  animation-delay: -2s;
 }
 @keyframes star-73 {
   0% {
@@ -972,9 +972,9 @@ body {
   }
 }
 .snow:nth-child(74) {
-  transform: translate(15.5068vw, 82.966vw) scale(0.5044);
+  transform: translate(12.75vw, 52.148vw) scale(0.1452);
   animation: star-74 4s linear infinite alternate;
-  animation-delay: -9s;
+  animation-delay: -20s;
 }
 @keyframes star-74 {
   0% {
@@ -985,9 +985,9 @@ body {
   }
 }
 .snow:nth-child(75) {
-  transform: translate(43.6069vw, 58.7361vw) scale(0.7126);
+  transform: translate(32.73vw, 49.9623vw) scale(0.0785);
   animation: star-75 4s linear infinite alternate;
-  animation-delay: -10s;
+  animation-delay: -9s;
 }
 @keyframes star-75 {
   0% {
@@ -998,9 +998,9 @@ body {
   }
 }
 .snow:nth-child(76) {
-  transform: translate(60.5774vw, 53.7074vw) scale(0.1328);
-  animation: star-76 4s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(50.8vw, 51.4337vw) scale(0.1787);
+  animation: star-76 3s linear infinite alternate;
+  animation-delay: -25s;
 }
 @keyframes star-76 {
   0% {
@@ -1011,9 +1011,9 @@ body {
   }
 }
 .snow:nth-child(77) {
-  transform: translate(73.2685vw, 98.5917vw) scale(0.9978);
-  animation: star-77 5s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(7.62vw, 96.4974vw) scale(0.3031);
+  animation: star-77 4s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-77 {
   0% {
@@ -1024,9 +1024,9 @@ body {
   }
 }
 .snow:nth-child(78) {
-  transform: translate(66.8355vw, 77.004vw) scale(0.936);
-  animation: star-78 4s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(4.67vw, 90.7206vw) scale(0.231);
+  animation: star-78 3s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-78 {
   0% {
@@ -1037,9 +1037,9 @@ body {
   }
 }
 .snow:nth-child(79) {
-  transform: translate(2.6917vw, 99.1059vw) scale(0.8121);
-  animation: star-79 5s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(13.11vw, 0.0347vw) scale(0.0879);
+  animation: star-79 3s linear infinite alternate;
+  animation-delay: -16s;
 }
 @keyframes star-79 {
   0% {
@@ -1050,9 +1050,9 @@ body {
   }
 }
 .snow:nth-child(80) {
-  transform: translate(69.4047vw, 3.7955vw) scale(0.916);
+  transform: translate(85.69vw, 32.1286vw) scale(0.4833);
   animation: star-80 2s linear infinite alternate;
-  animation-delay: -15s;
+  animation-delay: -26s;
 }
 @keyframes star-80 {
   0% {
@@ -1063,9 +1063,9 @@ body {
   }
 }
 .snow:nth-child(81) {
-  transform: translate(46.0897vw, 42.818vw) scale(0.9549);
-  animation: star-81 4s linear infinite alternate;
-  animation-delay: -7s;
+  transform: translate(60.74vw, 70.9304vw) scale(0.8175);
+  animation: star-81 2s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-81 {
   0% {
@@ -1076,9 +1076,9 @@ body {
   }
 }
 .snow:nth-child(82) {
-  transform: translate(76.941vw, 28.0331vw) scale(0.25);
-  animation: star-82 2s linear infinite alternate;
-  animation-delay: -23s;
+  transform: translate(35.45vw, 21.7471vw) scale(0.3079);
+  animation: star-82 5s linear infinite alternate;
+  animation-delay: -25s;
 }
 @keyframes star-82 {
   0% {
@@ -1089,9 +1089,9 @@ body {
   }
 }
 .snow:nth-child(83) {
-  transform: translate(12.5426vw, 24.7171vw) scale(0.9002);
-  animation: star-83 2s linear infinite alternate;
-  animation-delay: -28s;
+  transform: translate(63.79vw, 54.5032vw) scale(0.9763);
+  animation: star-83 3s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-83 {
   0% {
@@ -1102,9 +1102,9 @@ body {
   }
 }
 .snow:nth-child(84) {
-  transform: translate(45.6192vw, 46.9175vw) scale(0.8891);
-  animation: star-84 3s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(97.41vw, 56.3007vw) scale(0.1271);
+  animation: star-84 5s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-84 {
   0% {
@@ -1115,9 +1115,9 @@ body {
   }
 }
 .snow:nth-child(85) {
-  transform: translate(33.679vw, 44.0023vw) scale(0.2853);
-  animation: star-85 5s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(73.26vw, 44.5852vw) scale(0.0497);
+  animation: star-85 4s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-85 {
   0% {
@@ -1128,9 +1128,9 @@ body {
   }
 }
 .snow:nth-child(86) {
-  transform: translate(43.3874vw, 51.1629vw) scale(0.2194);
-  animation: star-86 5s linear infinite alternate;
-  animation-delay: -12s;
+  transform: translate(67.93vw, 26.3667vw) scale(0.8948);
+  animation: star-86 2s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-86 {
   0% {
@@ -1141,9 +1141,9 @@ body {
   }
 }
 .snow:nth-child(87) {
-  transform: translate(33.4105vw, 9.5023vw) scale(0.2135);
-  animation: star-87 4s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(72.26vw, 32.0661vw) scale(0.4507);
+  animation: star-87 2s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-87 {
   0% {
@@ -1154,9 +1154,9 @@ body {
   }
 }
 .snow:nth-child(88) {
-  transform: translate(74.7977vw, 1.0184vw) scale(0.4643);
-  animation: star-88 3s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(29.07vw, 93.1685vw) scale(0.8724);
+  animation: star-88 2s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-88 {
   0% {
@@ -1167,9 +1167,9 @@ body {
   }
 }
 .snow:nth-child(89) {
-  transform: translate(76.0487vw, 45.4459vw) scale(0.8118);
-  animation: star-89 5s linear infinite alternate;
-  animation-delay: -11s;
+  transform: translate(19.15vw, 67.5016vw) scale(0.2096);
+  animation: star-89 4s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-89 {
   0% {
@@ -1180,9 +1180,9 @@ body {
   }
 }
 .snow:nth-child(90) {
-  transform: translate(32.5033vw, 84.4612vw) scale(0.7941);
+  transform: translate(35.66vw, 11.4393vw) scale(0.1235);
   animation: star-90 4s linear infinite alternate;
-  animation-delay: -14s;
+  animation-delay: -3s;
 }
 @keyframes star-90 {
   0% {
@@ -1193,9 +1193,9 @@ body {
   }
 }
 .snow:nth-child(91) {
-  transform: translate(58.8474vw, 71.2593vw) scale(0.5245);
-  animation: star-91 5s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(99.21vw, 38.7145vw) scale(0.6603);
+  animation: star-91 4s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-91 {
   0% {
@@ -1206,9 +1206,9 @@ body {
   }
 }
 .snow:nth-child(92) {
-  transform: translate(60.1783vw, 78.0091vw) scale(0.5499);
+  transform: translate(56.27vw, 4.3524vw) scale(0.1402);
   animation: star-92 2s linear infinite alternate;
-  animation-delay: -21s;
+  animation-delay: -11s;
 }
 @keyframes star-92 {
   0% {
@@ -1219,9 +1219,9 @@ body {
   }
 }
 .snow:nth-child(93) {
-  transform: translate(28.1158vw, 88.1912vw) scale(0.1182);
+  transform: translate(66.82vw, 10.9362vw) scale(0.7439);
   animation: star-93 5s linear infinite alternate;
-  animation-delay: -11s;
+  animation-delay: -3s;
 }
 @keyframes star-93 {
   0% {
@@ -1232,9 +1232,9 @@ body {
   }
 }
 .snow:nth-child(94) {
-  transform: translate(90.176vw, 78.3255vw) scale(0.5679);
+  transform: translate(22.96vw, 33.9456vw) scale(0.9394);
   animation: star-94 4s linear infinite alternate;
-  animation-delay: -30s;
+  animation-delay: -11s;
 }
 @keyframes star-94 {
   0% {
@@ -1245,9 +1245,9 @@ body {
   }
 }
 .snow:nth-child(95) {
-  transform: translate(73.1124vw, 74.8954vw) scale(0.4739);
-  animation: star-95 5s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(98.31vw, 64.5632vw) scale(0.4929);
+  animation: star-95 2s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-95 {
   0% {
@@ -1258,9 +1258,9 @@ body {
   }
 }
 .snow:nth-child(96) {
-  transform: translate(48.029vw, 63.9172vw) scale(0.5405);
-  animation: star-96 3s linear infinite alternate;
-  animation-delay: -7s;
+  transform: translate(15.03vw, 4.5139vw) scale(0.1142);
+  animation: star-96 5s linear infinite alternate;
+  animation-delay: -17s;
 }
 @keyframes star-96 {
   0% {
@@ -1271,9 +1271,9 @@ body {
   }
 }
 .snow:nth-child(97) {
-  transform: translate(73.239vw, 48.7935vw) scale(0.6265);
-  animation: star-97 5s linear infinite alternate;
-  animation-delay: -22s;
+  transform: translate(72.57vw, 15.4928vw) scale(0.0119);
+  animation: star-97 4s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-97 {
   0% {
@@ -1284,9 +1284,9 @@ body {
   }
 }
 .snow:nth-child(98) {
-  transform: translate(33.2383vw, 14.9938vw) scale(0.1583);
+  transform: translate(59.96vw, 7.2366vw) scale(0.7287);
   animation: star-98 2s linear infinite alternate;
-  animation-delay: -18s;
+  animation-delay: -13s;
 }
 @keyframes star-98 {
   0% {
@@ -1297,9 +1297,9 @@ body {
   }
 }
 .snow:nth-child(99) {
-  transform: translate(76.2432vw, 1.8937vw) scale(0.9592);
-  animation: star-99 3s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(93.5vw, 21.9263vw) scale(0.652);
+  animation: star-99 4s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-99 {
   0% {
@@ -1310,9 +1310,9 @@ body {
   }
 }
 .snow:nth-child(100) {
-  transform: translate(12.2729vw, 82.239vw) scale(0.585);
-  animation: star-100 5s linear infinite alternate;
-  animation-delay: -23s;
+  transform: translate(67.3vw, 49.3628vw) scale(0.3164);
+  animation: star-100 4s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-100 {
   0% {
@@ -1323,9 +1323,9 @@ body {
   }
 }
 .snow:nth-child(101) {
-  transform: translate(52.6003vw, 24.7602vw) scale(0.3601);
+  transform: translate(59.16vw, 50.2354vw) scale(0.6778);
   animation: star-101 2s linear infinite alternate;
-  animation-delay: -30s;
+  animation-delay: -24s;
 }
 @keyframes star-101 {
   0% {
@@ -1336,9 +1336,9 @@ body {
   }
 }
 .snow:nth-child(102) {
-  transform: translate(28.3498vw, 83.2557vw) scale(0.8875);
-  animation: star-102 5s linear infinite alternate;
-  animation-delay: -12s;
+  transform: translate(11.08vw, 62.9894vw) scale(0.8975);
+  animation: star-102 2s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-102 {
   0% {
@@ -1349,9 +1349,9 @@ body {
   }
 }
 .snow:nth-child(103) {
-  transform: translate(99.3133vw, 10.0909vw) scale(0.4274);
-  animation: star-103 2s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(45.4vw, 20.0308vw) scale(0.9246);
+  animation: star-103 4s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-103 {
   0% {
@@ -1362,9 +1362,9 @@ body {
   }
 }
 .snow:nth-child(104) {
-  transform: translate(76.9161vw, 47.9882vw) scale(0.7727);
+  transform: translate(57.35vw, 17.743vw) scale(0.2724);
   animation: star-104 3s linear infinite alternate;
-  animation-delay: -23s;
+  animation-delay: -6s;
 }
 @keyframes star-104 {
   0% {
@@ -1375,9 +1375,9 @@ body {
   }
 }
 .snow:nth-child(105) {
-  transform: translate(88.6843vw, 26.7946vw) scale(0.3543);
-  animation: star-105 4s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(62.56vw, 24.802vw) scale(0.9646);
+  animation: star-105 2s linear infinite alternate;
+  animation-delay: -5s;
 }
 @keyframes star-105 {
   0% {
@@ -1388,9 +1388,9 @@ body {
   }
 }
 .snow:nth-child(106) {
-  transform: translate(28.115vw, 79.2108vw) scale(0.0358);
+  transform: translate(26.84vw, 6.4807vw) scale(0.7259);
   animation: star-106 3s linear infinite alternate;
-  animation-delay: -7s;
+  animation-delay: -2s;
 }
 @keyframes star-106 {
   0% {
@@ -1401,8 +1401,8 @@ body {
   }
 }
 .snow:nth-child(107) {
-  transform: translate(81.1872vw, 58.5537vw) scale(0.1829);
-  animation: star-107 3s linear infinite alternate;
+  transform: translate(42.92vw, 92.9226vw) scale(0.4422);
+  animation: star-107 4s linear infinite alternate;
   animation-delay: -1s;
 }
 @keyframes star-107 {
@@ -1414,9 +1414,9 @@ body {
   }
 }
 .snow:nth-child(108) {
-  transform: translate(68.1071vw, 49.0306vw) scale(0.8203);
-  animation: star-108 3s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(77.41vw, 43.879vw) scale(0.1908);
+  animation: star-108 4s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-108 {
   0% {
@@ -1427,9 +1427,9 @@ body {
   }
 }
 .snow:nth-child(109) {
-  transform: translate(81.489vw, 37.2062vw) scale(0.5069);
-  animation: star-109 4s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(97.68vw, 97.8868vw) scale(0.8815);
+  animation: star-109 5s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-109 {
   0% {
@@ -1440,9 +1440,9 @@ body {
   }
 }
 .snow:nth-child(110) {
-  transform: translate(38.5244vw, 62.9749vw) scale(0.7239);
-  animation: star-110 4s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(52.58vw, 88.6182vw) scale(0.0386);
+  animation: star-110 5s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-110 {
   0% {
@@ -1453,9 +1453,9 @@ body {
   }
 }
 .snow:nth-child(111) {
-  transform: translate(71.5587vw, 79.4987vw) scale(0.426);
-  animation: star-111 4s linear infinite alternate;
-  animation-delay: -4s;
+  transform: translate(72.53vw, 14.8676vw) scale(0.6219);
+  animation: star-111 3s linear infinite alternate;
+  animation-delay: -24s;
 }
 @keyframes star-111 {
   0% {
@@ -1466,9 +1466,9 @@ body {
   }
 }
 .snow:nth-child(112) {
-  transform: translate(39.8665vw, 62.3856vw) scale(0.9585);
-  animation: star-112 5s linear infinite alternate;
-  animation-delay: -22s;
+  transform: translate(55.52vw, 44.6051vw) scale(0.1934);
+  animation: star-112 2s linear infinite alternate;
+  animation-delay: -17s;
 }
 @keyframes star-112 {
   0% {
@@ -1479,9 +1479,9 @@ body {
   }
 }
 .snow:nth-child(113) {
-  transform: translate(28.1469vw, 69.3742vw) scale(0.5815);
-  animation: star-113 3s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(68.92vw, 73.0457vw) scale(0.1139);
+  animation: star-113 2s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-113 {
   0% {
@@ -1492,9 +1492,9 @@ body {
   }
 }
 .snow:nth-child(114) {
-  transform: translate(4.7175vw, 85.1177vw) scale(0.5064);
-  animation: star-114 5s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(0.12vw, 57.0868vw) scale(0.8338);
+  animation: star-114 4s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-114 {
   0% {
@@ -1505,9 +1505,9 @@ body {
   }
 }
 .snow:nth-child(115) {
-  transform: translate(52.3406vw, 62.3981vw) scale(0.8454);
-  animation: star-115 3s linear infinite alternate;
-  animation-delay: -21s;
+  transform: translate(75.37vw, 8.6455vw) scale(0.6963);
+  animation: star-115 2s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-115 {
   0% {
@@ -1518,9 +1518,9 @@ body {
   }
 }
 .snow:nth-child(116) {
-  transform: translate(1.9398vw, 20.1909vw) scale(0.6549);
+  transform: translate(73.72vw, 15.7178vw) scale(0.7271);
   animation: star-116 4s linear infinite alternate;
-  animation-delay: -19s;
+  animation-delay: -29s;
 }
 @keyframes star-116 {
   0% {
@@ -1531,9 +1531,9 @@ body {
   }
 }
 .snow:nth-child(117) {
-  transform: translate(61.6654vw, 47.5428vw) scale(0.1396);
-  animation: star-117 2s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(12.05vw, 48.1806vw) scale(0.5812);
+  animation: star-117 5s linear infinite alternate;
+  animation-delay: -6s;
 }
 @keyframes star-117 {
   0% {
@@ -1544,9 +1544,9 @@ body {
   }
 }
 .snow:nth-child(118) {
-  transform: translate(52.5764vw, 6.3152vw) scale(0.6388);
-  animation: star-118 3s linear infinite alternate;
-  animation-delay: -11s;
+  transform: translate(59.03vw, 61.052vw) scale(0.3361);
+  animation: star-118 5s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-118 {
   0% {
@@ -1557,9 +1557,9 @@ body {
   }
 }
 .snow:nth-child(119) {
-  transform: translate(63.9817vw, 0.4337vw) scale(0.5472);
+  transform: translate(30.71vw, 0.6846vw) scale(0.454);
   animation: star-119 2s linear infinite alternate;
-  animation-delay: -28s;
+  animation-delay: -23s;
 }
 @keyframes star-119 {
   0% {
@@ -1570,9 +1570,9 @@ body {
   }
 }
 .snow:nth-child(120) {
-  transform: translate(42.0206vw, 16.9097vw) scale(0.9897);
-  animation: star-120 2s linear infinite alternate;
-  animation-delay: -26s;
+  transform: translate(97.56vw, 15.4129vw) scale(0.1032);
+  animation: star-120 3s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-120 {
   0% {
@@ -1583,9 +1583,9 @@ body {
   }
 }
 .snow:nth-child(121) {
-  transform: translate(90.1837vw, 51.0702vw) scale(0.9363);
-  animation: star-121 2s linear infinite alternate;
-  animation-delay: -22s;
+  transform: translate(96.08vw, 92.4995vw) scale(0.9481);
+  animation: star-121 5s linear infinite alternate;
+  animation-delay: -5s;
 }
 @keyframes star-121 {
   0% {
@@ -1596,9 +1596,9 @@ body {
   }
 }
 .snow:nth-child(122) {
-  transform: translate(18.3012vw, 19.9462vw) scale(0.4146);
-  animation: star-122 2s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(90.34vw, 73.7123vw) scale(0.3956);
+  animation: star-122 3s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-122 {
   0% {
@@ -1609,9 +1609,9 @@ body {
   }
 }
 .snow:nth-child(123) {
-  transform: translate(25.8258vw, 87.7074vw) scale(0.3568);
+  transform: translate(73.35vw, 34.3971vw) scale(0.1377);
   animation: star-123 2s linear infinite alternate;
-  animation-delay: -3s;
+  animation-delay: -9s;
 }
 @keyframes star-123 {
   0% {
@@ -1622,9 +1622,9 @@ body {
   }
 }
 .snow:nth-child(124) {
-  transform: translate(68.1051vw, 2.7455vw) scale(0.4594);
-  animation: star-124 3s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(5.45vw, 82.3873vw) scale(0.791);
+  animation: star-124 5s linear infinite alternate;
+  animation-delay: -16s;
 }
 @keyframes star-124 {
   0% {
@@ -1635,9 +1635,9 @@ body {
   }
 }
 .snow:nth-child(125) {
-  transform: translate(40.5263vw, 11.4539vw) scale(0.7191);
-  animation: star-125 3s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(74.92vw, 18.0477vw) scale(0.3475);
+  animation: star-125 4s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-125 {
   0% {
@@ -1648,7 +1648,7 @@ body {
   }
 }
 .snow:nth-child(126) {
-  transform: translate(79.5776vw, 57.2664vw) scale(0.3568);
+  transform: translate(19.05vw, 29.1281vw) scale(0.7041);
   animation: star-126 5s linear infinite alternate;
   animation-delay: -18s;
 }
@@ -1661,9 +1661,9 @@ body {
   }
 }
 .snow:nth-child(127) {
-  transform: translate(25.6848vw, 62.8193vw) scale(0.207);
+  transform: translate(56.1vw, 18.0514vw) scale(0.7596);
   animation: star-127 2s linear infinite alternate;
-  animation-delay: -26s;
+  animation-delay: -12s;
 }
 @keyframes star-127 {
   0% {
@@ -1674,9 +1674,9 @@ body {
   }
 }
 .snow:nth-child(128) {
-  transform: translate(21.3271vw, 52.5468vw) scale(0.4371);
-  animation: star-128 3s linear infinite alternate;
-  animation-delay: -28s;
+  transform: translate(20.68vw, 52.6909vw) scale(0.0978);
+  animation: star-128 5s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-128 {
   0% {
@@ -1687,9 +1687,9 @@ body {
   }
 }
 .snow:nth-child(129) {
-  transform: translate(39.5527vw, 73.2332vw) scale(0.7249);
+  transform: translate(73.33vw, 70.1652vw) scale(0.9297);
   animation: star-129 3s linear infinite alternate;
-  animation-delay: -15s;
+  animation-delay: -10s;
 }
 @keyframes star-129 {
   0% {
@@ -1700,9 +1700,9 @@ body {
   }
 }
 .snow:nth-child(130) {
-  transform: translate(30.9258vw, 42.2807vw) scale(0.9518);
+  transform: translate(7.56vw, 99.5738vw) scale(0.962);
   animation: star-130 2s linear infinite alternate;
-  animation-delay: -17s;
+  animation-delay: -25s;
 }
 @keyframes star-130 {
   0% {
@@ -1713,9 +1713,9 @@ body {
   }
 }
 .snow:nth-child(131) {
-  transform: translate(75.8054vw, 41.5059vw) scale(0.9478);
+  transform: translate(23.52vw, 22.8791vw) scale(0.4068);
   animation: star-131 4s linear infinite alternate;
-  animation-delay: -14s;
+  animation-delay: -7s;
 }
 @keyframes star-131 {
   0% {
@@ -1726,9 +1726,9 @@ body {
   }
 }
 .snow:nth-child(132) {
-  transform: translate(41.0899vw, 26.5291vw) scale(0.904);
-  animation: star-132 2s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(78.74vw, 0.0621vw) scale(0.4863);
+  animation: star-132 4s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-132 {
   0% {
@@ -1739,9 +1739,9 @@ body {
   }
 }
 .snow:nth-child(133) {
-  transform: translate(52.7635vw, 73.9491vw) scale(0.6717);
-  animation: star-133 2s linear infinite alternate;
-  animation-delay: -7s;
+  transform: translate(61.29vw, 56.6732vw) scale(0.9487);
+  animation: star-133 3s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-133 {
   0% {
@@ -1752,9 +1752,9 @@ body {
   }
 }
 .snow:nth-child(134) {
-  transform: translate(42.6318vw, 49.0361vw) scale(0.1178);
-  animation: star-134 4s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(81.6vw, 96.3871vw) scale(0.8382);
+  animation: star-134 2s linear infinite alternate;
+  animation-delay: -24s;
 }
 @keyframes star-134 {
   0% {
@@ -1765,9 +1765,9 @@ body {
   }
 }
 .snow:nth-child(135) {
-  transform: translate(47.3573vw, 53.3534vw) scale(0.9927);
-  animation: star-135 2s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(9.66vw, 16.1907vw) scale(0.3806);
+  animation: star-135 5s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-135 {
   0% {
@@ -1778,9 +1778,9 @@ body {
   }
 }
 .snow:nth-child(136) {
-  transform: translate(70.0327vw, 13.6922vw) scale(0.4409);
-  animation: star-136 4s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(22.68vw, 83.9806vw) scale(0.5122);
+  animation: star-136 3s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-136 {
   0% {
@@ -1791,9 +1791,9 @@ body {
   }
 }
 .snow:nth-child(137) {
-  transform: translate(41.784vw, 40.9904vw) scale(0.5296);
+  transform: translate(6.46vw, 42.1937vw) scale(0.5334);
   animation: star-137 3s linear infinite alternate;
-  animation-delay: -20s;
+  animation-delay: -22s;
 }
 @keyframes star-137 {
   0% {
@@ -1804,9 +1804,9 @@ body {
   }
 }
 .snow:nth-child(138) {
-  transform: translate(31.1093vw, 10.9774vw) scale(0.8222);
-  animation: star-138 5s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(24.89vw, 7.5883vw) scale(0.0079);
+  animation: star-138 4s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-138 {
   0% {
@@ -1817,9 +1817,9 @@ body {
   }
 }
 .snow:nth-child(139) {
-  transform: translate(86.0789vw, 39.4985vw) scale(0.3732);
-  animation: star-139 3s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(41.74vw, 10.9263vw) scale(0.3538);
+  animation: star-139 4s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-139 {
   0% {
@@ -1830,9 +1830,9 @@ body {
   }
 }
 .snow:nth-child(140) {
-  transform: translate(96.4549vw, 58.9631vw) scale(0.1614);
-  animation: star-140 3s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(20.67vw, 81.6772vw) scale(0.8042);
+  animation: star-140 4s linear infinite alternate;
+  animation-delay: -6s;
 }
 @keyframes star-140 {
   0% {
@@ -1843,9 +1843,9 @@ body {
   }
 }
 .snow:nth-child(141) {
-  transform: translate(97.7472vw, 60.4346vw) scale(0.92);
+  transform: translate(81.62vw, 67.4473vw) scale(0.9671);
   animation: star-141 5s linear infinite alternate;
-  animation-delay: -24s;
+  animation-delay: -7s;
 }
 @keyframes star-141 {
   0% {
@@ -1856,9 +1856,9 @@ body {
   }
 }
 .snow:nth-child(142) {
-  transform: translate(67.4309vw, 78.0569vw) scale(0.9962);
-  animation: star-142 5s linear infinite alternate;
-  animation-delay: -4s;
+  transform: translate(77.41vw, 85.7591vw) scale(0.9177);
+  animation: star-142 3s linear infinite alternate;
+  animation-delay: -16s;
 }
 @keyframes star-142 {
   0% {
@@ -1869,9 +1869,9 @@ body {
   }
 }
 .snow:nth-child(143) {
-  transform: translate(40.5702vw, 97.5579vw) scale(0.4366);
-  animation: star-143 3s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(48.3vw, 17.7489vw) scale(0.0524);
+  animation: star-143 4s linear infinite alternate;
+  animation-delay: -25s;
 }
 @keyframes star-143 {
   0% {
@@ -1882,9 +1882,9 @@ body {
   }
 }
 .snow:nth-child(144) {
-  transform: translate(11.9546vw, 37.9862vw) scale(0.2743);
-  animation: star-144 4s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(33.6vw, 79.7262vw) scale(0.8589);
+  animation: star-144 3s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-144 {
   0% {
@@ -1895,9 +1895,9 @@ body {
   }
 }
 .snow:nth-child(145) {
-  transform: translate(54.4147vw, 86.9301vw) scale(0.93);
-  animation: star-145 4s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(59.67vw, 97.8875vw) scale(0.7282);
+  animation: star-145 3s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-145 {
   0% {
@@ -1908,9 +1908,9 @@ body {
   }
 }
 .snow:nth-child(146) {
-  transform: translate(59.7401vw, 64.0577vw) scale(0.9972);
-  animation: star-146 5s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(95.26vw, 34.0096vw) scale(0.0536);
+  animation: star-146 3s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-146 {
   0% {
@@ -1921,9 +1921,9 @@ body {
   }
 }
 .snow:nth-child(147) {
-  transform: translate(34.2067vw, 37.3866vw) scale(0.7664);
+  transform: translate(7.54vw, 23.818vw) scale(0.5398);
   animation: star-147 5s linear infinite alternate;
-  animation-delay: -18s;
+  animation-delay: -3s;
 }
 @keyframes star-147 {
   0% {
@@ -1934,9 +1934,9 @@ body {
   }
 }
 .snow:nth-child(148) {
-  transform: translate(26.7827vw, 10.0618vw) scale(0.8425);
-  animation: star-148 2s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(58.88vw, 65.9885vw) scale(0.0379);
+  animation: star-148 5s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-148 {
   0% {
@@ -1947,9 +1947,9 @@ body {
   }
 }
 .snow:nth-child(149) {
-  transform: translate(34.2347vw, 18.9804vw) scale(0.7886);
-  animation: star-149 3s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(70.27vw, 50.3988vw) scale(0.7577);
+  animation: star-149 2s linear infinite alternate;
+  animation-delay: -15s;
 }
 @keyframes star-149 {
   0% {
@@ -1960,9 +1960,9 @@ body {
   }
 }
 .snow:nth-child(150) {
-  transform: translate(74.953vw, 35.186vw) scale(0.2229);
+  transform: translate(32.42vw, 42.4693vw) scale(0.0041);
   animation: star-150 2s linear infinite alternate;
-  animation-delay: -25s;
+  animation-delay: -21s;
 }
 @keyframes star-150 {
   0% {
@@ -1973,9 +1973,9 @@ body {
   }
 }
 .snow:nth-child(151) {
-  transform: translate(57.8874vw, 78.7244vw) scale(0.4576);
+  transform: translate(25.19vw, 72.3017vw) scale(0.7094);
   animation: star-151 3s linear infinite alternate;
-  animation-delay: -23s;
+  animation-delay: -9s;
 }
 @keyframes star-151 {
   0% {
@@ -1986,9 +1986,9 @@ body {
   }
 }
 .snow:nth-child(152) {
-  transform: translate(71.8342vw, 81.5392vw) scale(0.9687);
+  transform: translate(10.4vw, 22.3964vw) scale(0.1376);
   animation: star-152 4s linear infinite alternate;
-  animation-delay: -5s;
+  animation-delay: -20s;
 }
 @keyframes star-152 {
   0% {
@@ -1999,9 +1999,9 @@ body {
   }
 }
 .snow:nth-child(153) {
-  transform: translate(33.5756vw, 95.4118vw) scale(0.7241);
+  transform: translate(58.01vw, 36.3308vw) scale(0.4317);
   animation: star-153 4s linear infinite alternate;
-  animation-delay: -2s;
+  animation-delay: -17s;
 }
 @keyframes star-153 {
   0% {
@@ -2012,9 +2012,9 @@ body {
   }
 }
 .snow:nth-child(154) {
-  transform: translate(70.4009vw, 91.6554vw) scale(0.8973);
-  animation: star-154 4s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(5.11vw, 27.4953vw) scale(0.4993);
+  animation: star-154 3s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-154 {
   0% {
@@ -2025,8 +2025,8 @@ body {
   }
 }
 .snow:nth-child(155) {
-  transform: translate(83.7845vw, 57.3089vw) scale(0.1803);
-  animation: star-155 3s linear infinite alternate;
+  transform: translate(74.56vw, 42.6246vw) scale(0.5613);
+  animation: star-155 4s linear infinite alternate;
   animation-delay: -16s;
 }
 @keyframes star-155 {
@@ -2038,9 +2038,9 @@ body {
   }
 }
 .snow:nth-child(156) {
-  transform: translate(9.8702vw, 69.2039vw) scale(0.4014);
-  animation: star-156 5s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(98.38vw, 25.1642vw) scale(0.2201);
+  animation: star-156 4s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-156 {
   0% {
@@ -2051,9 +2051,9 @@ body {
   }
 }
 .snow:nth-child(157) {
-  transform: translate(78.9346vw, 14.7722vw) scale(0.2676);
-  animation: star-157 3s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(26.9vw, 19.0689vw) scale(0.0365);
+  animation: star-157 4s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-157 {
   0% {
@@ -2064,9 +2064,9 @@ body {
   }
 }
 .snow:nth-child(158) {
-  transform: translate(60.7709vw, 18.1054vw) scale(0.6624);
-  animation: star-158 5s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(19.37vw, 23.4978vw) scale(0.3706);
+  animation: star-158 2s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-158 {
   0% {
@@ -2077,9 +2077,9 @@ body {
   }
 }
 .snow:nth-child(159) {
-  transform: translate(32.3315vw, 57.0666vw) scale(0.7358);
+  transform: translate(2.99vw, 82.7201vw) scale(0.2205);
   animation: star-159 4s linear infinite alternate;
-  animation-delay: -18s;
+  animation-delay: -9s;
 }
 @keyframes star-159 {
   0% {
@@ -2090,9 +2090,9 @@ body {
   }
 }
 .snow:nth-child(160) {
-  transform: translate(40.7001vw, 37.4774vw) scale(0.4477);
-  animation: star-160 5s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(96.77vw, 40.5307vw) scale(0.8311);
+  animation: star-160 3s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-160 {
   0% {
@@ -2103,9 +2103,9 @@ body {
   }
 }
 .snow:nth-child(161) {
-  transform: translate(97.2358vw, 99.4404vw) scale(0.3387);
-  animation: star-161 5s linear infinite alternate;
-  animation-delay: -21s;
+  transform: translate(34.95vw, 33.1455vw) scale(0.7896);
+  animation: star-161 3s linear infinite alternate;
+  animation-delay: -22s;
 }
 @keyframes star-161 {
   0% {
@@ -2116,9 +2116,9 @@ body {
   }
 }
 .snow:nth-child(162) {
-  transform: translate(13.503vw, 98.57vw) scale(0.5562);
-  animation: star-162 2s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(47.6vw, 21.1081vw) scale(0.1172);
+  animation: star-162 4s linear infinite alternate;
+  animation-delay: -16s;
 }
 @keyframes star-162 {
   0% {
@@ -2129,9 +2129,9 @@ body {
   }
 }
 .snow:nth-child(163) {
-  transform: translate(83.2985vw, 6.8461vw) scale(0.9596);
+  transform: translate(54.15vw, 91.7097vw) scale(0.7216);
   animation: star-163 5s linear infinite alternate;
-  animation-delay: -12s;
+  animation-delay: -1s;
 }
 @keyframes star-163 {
   0% {
@@ -2142,9 +2142,9 @@ body {
   }
 }
 .snow:nth-child(164) {
-  transform: translate(69.9167vw, 15.1729vw) scale(0.5002);
-  animation: star-164 3s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(0.58vw, 58.0116vw) scale(0.3315);
+  animation: star-164 5s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-164 {
   0% {
@@ -2155,9 +2155,9 @@ body {
   }
 }
 .snow:nth-child(165) {
-  transform: translate(58.7574vw, 96.2112vw) scale(0.4151);
-  animation: star-165 5s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(83.39vw, 22.05vw) scale(0.3209);
+  animation: star-165 4s linear infinite alternate;
+  animation-delay: -24s;
 }
 @keyframes star-165 {
   0% {
@@ -2168,9 +2168,9 @@ body {
   }
 }
 .snow:nth-child(166) {
-  transform: translate(9.7756vw, 74.6751vw) scale(0.621);
-  animation: star-166 5s linear infinite alternate;
-  animation-delay: -28s;
+  transform: translate(49.99vw, 34.0563vw) scale(0.3782);
+  animation: star-166 3s linear infinite alternate;
+  animation-delay: -6s;
 }
 @keyframes star-166 {
   0% {
@@ -2181,9 +2181,9 @@ body {
   }
 }
 .snow:nth-child(167) {
-  transform: translate(88.268vw, 70.5436vw) scale(0.766);
-  animation: star-167 4s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(41.66vw, 91.1744vw) scale(0.3106);
+  animation: star-167 2s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-167 {
   0% {
@@ -2194,9 +2194,9 @@ body {
   }
 }
 .snow:nth-child(168) {
-  transform: translate(5.3552vw, 1.5049vw) scale(0.4712);
-  animation: star-168 2s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(0.05vw, 65.3333vw) scale(0.598);
+  animation: star-168 5s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-168 {
   0% {
@@ -2207,9 +2207,9 @@ body {
   }
 }
 .snow:nth-child(169) {
-  transform: translate(32.6164vw, 35.5402vw) scale(0.2476);
-  animation: star-169 5s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(35.79vw, 68.3651vw) scale(0.7007);
+  animation: star-169 3s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-169 {
   0% {
@@ -2220,9 +2220,9 @@ body {
   }
 }
 .snow:nth-child(170) {
-  transform: translate(47.1645vw, 89.3652vw) scale(0.7339);
-  animation: star-170 5s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(0.5vw, 7.4405vw) scale(0.3847);
+  animation: star-170 3s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-170 {
   0% {
@@ -2233,9 +2233,9 @@ body {
   }
 }
 .snow:nth-child(171) {
-  transform: translate(33.5439vw, 57.3625vw) scale(0.5406);
-  animation: star-171 3s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(35.65vw, 84.8928vw) scale(0.2962);
+  animation: star-171 4s linear infinite alternate;
+  animation-delay: -5s;
 }
 @keyframes star-171 {
   0% {
@@ -2246,9 +2246,9 @@ body {
   }
 }
 .snow:nth-child(172) {
-  transform: translate(10.4402vw, 54.91vw) scale(0.1492);
+  transform: translate(46.53vw, 98.6386vw) scale(0.2358);
   animation: star-172 3s linear infinite alternate;
-  animation-delay: -17s;
+  animation-delay: -27s;
 }
 @keyframes star-172 {
   0% {
@@ -2259,9 +2259,9 @@ body {
   }
 }
 .snow:nth-child(173) {
-  transform: translate(63.8321vw, 69.9159vw) scale(0.7152);
+  transform: translate(54.74vw, 52.2542vw) scale(0.9989);
   animation: star-173 5s linear infinite alternate;
-  animation-delay: -16s;
+  animation-delay: -7s;
 }
 @keyframes star-173 {
   0% {
@@ -2272,9 +2272,9 @@ body {
   }
 }
 .snow:nth-child(174) {
-  transform: translate(74.8287vw, 51.9504vw) scale(0.4285);
-  animation: star-174 5s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(96.12vw, 99.7328vw) scale(0.7644);
+  animation: star-174 2s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-174 {
   0% {
@@ -2285,9 +2285,9 @@ body {
   }
 }
 .snow:nth-child(175) {
-  transform: translate(35.9961vw, 71.477vw) scale(0.1805);
+  transform: translate(13.11vw, 88.516vw) scale(0.7522);
   animation: star-175 2s linear infinite alternate;
-  animation-delay: -26s;
+  animation-delay: -10s;
 }
 @keyframes star-175 {
   0% {
@@ -2298,9 +2298,9 @@ body {
   }
 }
 .snow:nth-child(176) {
-  transform: translate(96.3828vw, 97.8088vw) scale(0.4976);
-  animation: star-176 5s linear infinite alternate;
-  animation-delay: -14s;
+  transform: translate(13.21vw, 48.6525vw) scale(0.2082);
+  animation: star-176 2s linear infinite alternate;
+  animation-delay: -22s;
 }
 @keyframes star-176 {
   0% {
@@ -2311,9 +2311,9 @@ body {
   }
 }
 .snow:nth-child(177) {
-  transform: translate(37.9372vw, 59.5475vw) scale(0.1429);
-  animation: star-177 3s linear infinite alternate;
-  animation-delay: -26s;
+  transform: translate(73.21vw, 13.4922vw) scale(0.0247);
+  animation: star-177 2s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-177 {
   0% {
@@ -2324,9 +2324,9 @@ body {
   }
 }
 .snow:nth-child(178) {
-  transform: translate(42.1663vw, 47.1872vw) scale(0.1382);
-  animation: star-178 5s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(84.92vw, 46.0062vw) scale(0.7523);
+  animation: star-178 2s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-178 {
   0% {
@@ -2337,9 +2337,9 @@ body {
   }
 }
 .snow:nth-child(179) {
-  transform: translate(6.5995vw, 37.6938vw) scale(0.4356);
-  animation: star-179 3s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(47.85vw, 12.6695vw) scale(0.2425);
+  animation: star-179 5s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-179 {
   0% {
@@ -2350,9 +2350,9 @@ body {
   }
 }
 .snow:nth-child(180) {
-  transform: translate(87.8684vw, 64.3594vw) scale(0.1875);
-  animation: star-180 4s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(51.08vw, 96.9166vw) scale(0.4277);
+  animation: star-180 2s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-180 {
   0% {
@@ -2363,9 +2363,9 @@ body {
   }
 }
 .snow:nth-child(181) {
-  transform: translate(67.931vw, 96.3773vw) scale(0.3631);
-  animation: star-181 3s linear infinite alternate;
-  animation-delay: -22s;
+  transform: translate(19.29vw, 1.225vw) scale(0.8456);
+  animation: star-181 4s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-181 {
   0% {
@@ -2376,9 +2376,9 @@ body {
   }
 }
 .snow:nth-child(182) {
-  transform: translate(32.8799vw, 51.2672vw) scale(0.1369);
-  animation: star-182 5s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(36.06vw, 33.4223vw) scale(0.8396);
+  animation: star-182 3s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-182 {
   0% {
@@ -2389,9 +2389,9 @@ body {
   }
 }
 .snow:nth-child(183) {
-  transform: translate(82.5947vw, 37.8878vw) scale(0.836);
-  animation: star-183 5s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(34.81vw, 87.719vw) scale(0.6488);
+  animation: star-183 4s linear infinite alternate;
+  animation-delay: -15s;
 }
 @keyframes star-183 {
   0% {
@@ -2402,9 +2402,9 @@ body {
   }
 }
 .snow:nth-child(184) {
-  transform: translate(72.5741vw, 47.6865vw) scale(0.6793);
-  animation: star-184 5s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(81.04vw, 80.0546vw) scale(0.6984);
+  animation: star-184 3s linear infinite alternate;
+  animation-delay: -25s;
 }
 @keyframes star-184 {
   0% {
@@ -2415,9 +2415,9 @@ body {
   }
 }
 .snow:nth-child(185) {
-  transform: translate(45.3994vw, 70.4763vw) scale(0.734);
-  animation: star-185 3s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(60.91vw, 8.2426vw) scale(0.1149);
+  animation: star-185 4s linear infinite alternate;
+  animation-delay: -22s;
 }
 @keyframes star-185 {
   0% {
@@ -2428,9 +2428,9 @@ body {
   }
 }
 .snow:nth-child(186) {
-  transform: translate(11.1085vw, 18.6016vw) scale(0.0321);
-  animation: star-186 2s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(29.01vw, 84.0825vw) scale(0.9351);
+  animation: star-186 5s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-186 {
   0% {
@@ -2441,9 +2441,9 @@ body {
   }
 }
 .snow:nth-child(187) {
-  transform: translate(70.9973vw, 19.0486vw) scale(0.2468);
-  animation: star-187 3s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(81.81vw, 9.6905vw) scale(0.6708);
+  animation: star-187 4s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-187 {
   0% {
@@ -2454,9 +2454,9 @@ body {
   }
 }
 .snow:nth-child(188) {
-  transform: translate(56.4449vw, 50.7004vw) scale(0.2749);
-  animation: star-188 5s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(68.06vw, 10.2832vw) scale(0.1793);
+  animation: star-188 2s linear infinite alternate;
+  animation-delay: -17s;
 }
 @keyframes star-188 {
   0% {
@@ -2467,9 +2467,9 @@ body {
   }
 }
 .snow:nth-child(189) {
-  transform: translate(67.0052vw, 45.5869vw) scale(0.1534);
-  animation: star-189 2s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(66.5vw, 86.3067vw) scale(0.7232);
+  animation: star-189 5s linear infinite alternate;
+  animation-delay: -25s;
 }
 @keyframes star-189 {
   0% {
@@ -2480,9 +2480,9 @@ body {
   }
 }
 .snow:nth-child(190) {
-  transform: translate(61.8225vw, 25.4711vw) scale(0.9131);
-  animation: star-190 3s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(57.02vw, 98.9915vw) scale(0.8366);
+  animation: star-190 4s linear infinite alternate;
+  animation-delay: -22s;
 }
 @keyframes star-190 {
   0% {
@@ -2493,9 +2493,9 @@ body {
   }
 }
 .snow:nth-child(191) {
-  transform: translate(9.9667vw, 16.2386vw) scale(0.6422);
-  animation: star-191 3s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(13.87vw, 82.9403vw) scale(0.4816);
+  animation: star-191 2s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-191 {
   0% {
@@ -2506,9 +2506,9 @@ body {
   }
 }
 .snow:nth-child(192) {
-  transform: translate(88.039vw, 55.2391vw) scale(0.6325);
-  animation: star-192 3s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(94.56vw, 32.3461vw) scale(0.9449);
+  animation: star-192 5s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-192 {
   0% {
@@ -2519,9 +2519,9 @@ body {
   }
 }
 .snow:nth-child(193) {
-  transform: translate(55.6647vw, 70.2888vw) scale(0.624);
+  transform: translate(18.3vw, 59.7632vw) scale(0.1008);
   animation: star-193 2s linear infinite alternate;
-  animation-delay: -20s;
+  animation-delay: -1s;
 }
 @keyframes star-193 {
   0% {
@@ -2532,9 +2532,9 @@ body {
   }
 }
 .snow:nth-child(194) {
-  transform: translate(96.6971vw, 70.9851vw) scale(0.572);
-  animation: star-194 3s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(10.34vw, 66.5413vw) scale(0.5178);
+  animation: star-194 5s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-194 {
   0% {
@@ -2545,9 +2545,9 @@ body {
   }
 }
 .snow:nth-child(195) {
-  transform: translate(70.7305vw, 74.8233vw) scale(0.3642);
-  animation: star-195 3s linear infinite alternate;
-  animation-delay: -21s;
+  transform: translate(51.4vw, 99.6761vw) scale(0.9509);
+  animation: star-195 5s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-195 {
   0% {
@@ -2558,9 +2558,9 @@ body {
   }
 }
 .snow:nth-child(196) {
-  transform: translate(40.63vw, 97.7211vw) scale(0.3074);
-  animation: star-196 5s linear infinite alternate;
-  animation-delay: -6s;
+  transform: translate(62.8vw, 55.6912vw) scale(0.222);
+  animation: star-196 4s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-196 {
   0% {
@@ -2571,9 +2571,9 @@ body {
   }
 }
 .snow:nth-child(197) {
-  transform: translate(87.9405vw, 70.4425vw) scale(0.654);
-  animation: star-197 3s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(93.17vw, 65.5032vw) scale(0.8931);
+  animation: star-197 2s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-197 {
   0% {
@@ -2584,9 +2584,9 @@ body {
   }
 }
 .snow:nth-child(198) {
-  transform: translate(79.3094vw, 55.4434vw) scale(0.3055);
+  transform: translate(75.77vw, 32.5638vw) scale(0.3372);
   animation: star-198 4s linear infinite alternate;
-  animation-delay: -25s;
+  animation-delay: -17s;
 }
 @keyframes star-198 {
   0% {
@@ -2597,9 +2597,9 @@ body {
   }
 }
 .snow:nth-child(199) {
-  transform: translate(20.0632vw, 49.8359vw) scale(0.2825);
-  animation: star-199 5s linear infinite alternate;
-  animation-delay: -14s;
+  transform: translate(80.91vw, 3.6802vw) scale(0.5858);
+  animation: star-199 2s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-199 {
   0% {
@@ -2610,9 +2610,9 @@ body {
   }
 }
 .snow:nth-child(200) {
-  transform: translate(39.1191vw, 30.7594vw) scale(0.6208);
-  animation: star-200 5s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(21.66vw, 62.4226vw) scale(0.8906);
+  animation: star-200 4s linear infinite alternate;
+  animation-delay: -24s;
 }
 @keyframes star-200 {
   0% {
@@ -2623,9 +2623,9 @@ body {
   }
 }
 .snow:nth-child(201) {
-  transform: translate(69.5vw, 15.7907vw) scale(0.4746);
+  transform: translate(9.4vw, 30.5505vw) scale(0.8117);
   animation: star-201 2s linear infinite alternate;
-  animation-delay: -13s;
+  animation-delay: -26s;
 }
 @keyframes star-201 {
   0% {
@@ -2636,9 +2636,9 @@ body {
   }
 }
 .snow:nth-child(202) {
-  transform: translate(82.6453vw, 83.4025vw) scale(0.3564);
+  transform: translate(87.76vw, 88.8581vw) scale(0.6414);
   animation: star-202 3s linear infinite alternate;
-  animation-delay: -14s;
+  animation-delay: -22s;
 }
 @keyframes star-202 {
   0% {
@@ -2649,9 +2649,9 @@ body {
   }
 }
 .snow:nth-child(203) {
-  transform: translate(49.985vw, 0.7732vw) scale(0.7882);
-  animation: star-203 4s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(17.32vw, 96.7144vw) scale(0.2649);
+  animation: star-203 2s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-203 {
   0% {
@@ -2662,9 +2662,9 @@ body {
   }
 }
 .snow:nth-child(204) {
-  transform: translate(6.2308vw, 75.8981vw) scale(0.7566);
-  animation: star-204 3s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(17.1vw, 38.8807vw) scale(0.8711);
+  animation: star-204 2s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-204 {
   0% {
@@ -2675,8 +2675,8 @@ body {
   }
 }
 .snow:nth-child(205) {
-  transform: translate(97.0062vw, 21.2112vw) scale(0.7862);
-  animation: star-205 3s linear infinite alternate;
+  transform: translate(14.12vw, 22.6649vw) scale(0.9767);
+  animation: star-205 5s linear infinite alternate;
   animation-delay: -19s;
 }
 @keyframes star-205 {
@@ -2688,9 +2688,9 @@ body {
   }
 }
 .snow:nth-child(206) {
-  transform: translate(22.2982vw, 8.316vw) scale(0.3594);
-  animation: star-206 2s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(71.63vw, 34.3193vw) scale(0.0419);
+  animation: star-206 3s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-206 {
   0% {
@@ -2701,9 +2701,9 @@ body {
   }
 }
 .snow:nth-child(207) {
-  transform: translate(61.7202vw, 5.8752vw) scale(0.8905);
+  transform: translate(34.59vw, 16.8026vw) scale(0.758);
   animation: star-207 4s linear infinite alternate;
-  animation-delay: -15s;
+  animation-delay: -14s;
 }
 @keyframes star-207 {
   0% {
@@ -2714,9 +2714,9 @@ body {
   }
 }
 .snow:nth-child(208) {
-  transform: translate(4.8139vw, 43.8162vw) scale(0.0608);
-  animation: star-208 3s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(68.91vw, 48.7149vw) scale(0.0173);
+  animation: star-208 4s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-208 {
   0% {
@@ -2727,9 +2727,9 @@ body {
   }
 }
 .snow:nth-child(209) {
-  transform: translate(59.6981vw, 74.7272vw) scale(0.5646);
-  animation: star-209 4s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(82.11vw, 29.664vw) scale(0.2213);
+  animation: star-209 3s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-209 {
   0% {
@@ -2740,9 +2740,9 @@ body {
   }
 }
 .snow:nth-child(210) {
-  transform: translate(83.0449vw, 31.4653vw) scale(0.6019);
-  animation: star-210 5s linear infinite alternate;
-  animation-delay: -29s;
+  transform: translate(55.03vw, 22.2115vw) scale(0.6628);
+  animation: star-210 4s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-210 {
   0% {
@@ -2753,9 +2753,9 @@ body {
   }
 }
 .snow:nth-child(211) {
-  transform: translate(43.8448vw, 14.3762vw) scale(0.0267);
-  animation: star-211 3s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(11.56vw, 54.0273vw) scale(0.7421);
+  animation: star-211 4s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-211 {
   0% {
@@ -2766,9 +2766,9 @@ body {
   }
 }
 .snow:nth-child(212) {
-  transform: translate(68.3073vw, 76.5837vw) scale(0.0552);
-  animation: star-212 2s linear infinite alternate;
-  animation-delay: -11s;
+  transform: translate(49.07vw, 58.9525vw) scale(0.2471);
+  animation: star-212 4s linear infinite alternate;
+  animation-delay: -22s;
 }
 @keyframes star-212 {
   0% {
@@ -2779,9 +2779,9 @@ body {
   }
 }
 .snow:nth-child(213) {
-  transform: translate(74.185vw, 82.1296vw) scale(0.756);
+  transform: translate(38.43vw, 10.0785vw) scale(0.3736);
   animation: star-213 3s linear infinite alternate;
-  animation-delay: -21s;
+  animation-delay: -11s;
 }
 @keyframes star-213 {
   0% {
@@ -2792,9 +2792,9 @@ body {
   }
 }
 .snow:nth-child(214) {
-  transform: translate(83.3746vw, 83.5162vw) scale(0.2144);
-  animation: star-214 4s linear infinite alternate;
-  animation-delay: -28s;
+  transform: translate(11.56vw, 98.2265vw) scale(0.6834);
+  animation: star-214 3s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-214 {
   0% {
@@ -2805,9 +2805,9 @@ body {
   }
 }
 .snow:nth-child(215) {
-  transform: translate(14.5453vw, 29.8526vw) scale(0.2747);
-  animation: star-215 5s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(97.77vw, 73.8943vw) scale(0.1474);
+  animation: star-215 4s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-215 {
   0% {
@@ -2818,9 +2818,9 @@ body {
   }
 }
 .snow:nth-child(216) {
-  transform: translate(37.9533vw, 35.5052vw) scale(0.3143);
-  animation: star-216 3s linear infinite alternate;
-  animation-delay: -6s;
+  transform: translate(44.41vw, 52.1512vw) scale(0.7443);
+  animation: star-216 5s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-216 {
   0% {
@@ -2831,9 +2831,9 @@ body {
   }
 }
 .snow:nth-child(217) {
-  transform: translate(33.9449vw, 60.6636vw) scale(0.1135);
-  animation: star-217 3s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(91.4vw, 6.2306vw) scale(0.9689);
+  animation: star-217 2s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-217 {
   0% {
@@ -2844,9 +2844,9 @@ body {
   }
 }
 .snow:nth-child(218) {
-  transform: translate(99.3344vw, 45.753vw) scale(0.4241);
-  animation: star-218 2s linear infinite alternate;
-  animation-delay: -7s;
+  transform: translate(26.37vw, 86.4541vw) scale(0.1474);
+  animation: star-218 5s linear infinite alternate;
+  animation-delay: -16s;
 }
 @keyframes star-218 {
   0% {
@@ -2857,9 +2857,9 @@ body {
   }
 }
 .snow:nth-child(219) {
-  transform: translate(32.5149vw, 78.6579vw) scale(0.7519);
-  animation: star-219 2s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(33.85vw, 54.4361vw) scale(0.1419);
+  animation: star-219 3s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-219 {
   0% {
@@ -2870,9 +2870,9 @@ body {
   }
 }
 .snow:nth-child(220) {
-  transform: translate(79.6613vw, 86.065vw) scale(0.2101);
+  transform: translate(93.19vw, 5.0295vw) scale(0.2557);
   animation: star-220 3s linear infinite alternate;
-  animation-delay: -23s;
+  animation-delay: -14s;
 }
 @keyframes star-220 {
   0% {
@@ -2883,9 +2883,9 @@ body {
   }
 }
 .snow:nth-child(221) {
-  transform: translate(45.5868vw, 32.0528vw) scale(0.6888);
+  transform: translate(15.4vw, 57.3219vw) scale(0.476);
   animation: star-221 3s linear infinite alternate;
-  animation-delay: -17s;
+  animation-delay: -12s;
 }
 @keyframes star-221 {
   0% {
@@ -2896,9 +2896,9 @@ body {
   }
 }
 .snow:nth-child(222) {
-  transform: translate(14.2636vw, 89.6434vw) scale(0.7408);
-  animation: star-222 3s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(35.12vw, 8.93vw) scale(0.883);
+  animation: star-222 4s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-222 {
   0% {
@@ -2909,9 +2909,9 @@ body {
   }
 }
 .snow:nth-child(223) {
-  transform: translate(16.2079vw, 96.7539vw) scale(0.6147);
-  animation: star-223 5s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(65.12vw, 40.1467vw) scale(0.3759);
+  animation: star-223 4s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-223 {
   0% {
@@ -2922,9 +2922,9 @@ body {
   }
 }
 .snow:nth-child(224) {
-  transform: translate(30.0221vw, 4.3108vw) scale(0.6433);
-  animation: star-224 5s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(67.62vw, 77.0971vw) scale(0.6735);
+  animation: star-224 4s linear infinite alternate;
+  animation-delay: -2s;
 }
 @keyframes star-224 {
   0% {
@@ -2935,9 +2935,9 @@ body {
   }
 }
 .snow:nth-child(225) {
-  transform: translate(58.3926vw, 49.7564vw) scale(0.0349);
+  transform: translate(72.26vw, 98.2196vw) scale(0.1581);
   animation: star-225 4s linear infinite alternate;
-  animation-delay: -19s;
+  animation-delay: -1s;
 }
 @keyframes star-225 {
   0% {
@@ -2948,9 +2948,9 @@ body {
   }
 }
 .snow:nth-child(226) {
-  transform: translate(73.4077vw, 73.8749vw) scale(0.7306);
-  animation: star-226 3s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(96.61vw, 7.6284vw) scale(0.9339);
+  animation: star-226 4s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-226 {
   0% {
@@ -2961,9 +2961,9 @@ body {
   }
 }
 .snow:nth-child(227) {
-  transform: translate(78.7362vw, 19.1809vw) scale(0.1207);
+  transform: translate(69.92vw, 50.8875vw) scale(0.2);
   animation: star-227 4s linear infinite alternate;
-  animation-delay: -30s;
+  animation-delay: -3s;
 }
 @keyframes star-227 {
   0% {
@@ -2974,9 +2974,9 @@ body {
   }
 }
 .snow:nth-child(228) {
-  transform: translate(61.7607vw, 71.787vw) scale(0.8721);
-  animation: star-228 5s linear infinite alternate;
-  animation-delay: -12s;
+  transform: translate(76.04vw, 61.826vw) scale(0.8275);
+  animation: star-228 2s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-228 {
   0% {
@@ -2987,9 +2987,9 @@ body {
   }
 }
 .snow:nth-child(229) {
-  transform: translate(51.2436vw, 61.3103vw) scale(0.8341);
-  animation: star-229 2s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(28.5vw, 35.4388vw) scale(0.7397);
+  animation: star-229 4s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-229 {
   0% {
@@ -3000,9 +3000,9 @@ body {
   }
 }
 .snow:nth-child(230) {
-  transform: translate(73.6912vw, 1.2447vw) scale(0.9034);
+  transform: translate(22.97vw, 10.592vw) scale(0.7728);
   animation: star-230 4s linear infinite alternate;
-  animation-delay: -17s;
+  animation-delay: -4s;
 }
 @keyframes star-230 {
   0% {
@@ -3013,9 +3013,9 @@ body {
   }
 }
 .snow:nth-child(231) {
-  transform: translate(93.3529vw, 94.0576vw) scale(0.3148);
+  transform: translate(32.82vw, 29.1219vw) scale(0.4042);
   animation: star-231 4s linear infinite alternate;
-  animation-delay: -13s;
+  animation-delay: -3s;
 }
 @keyframes star-231 {
   0% {
@@ -3026,9 +3026,9 @@ body {
   }
 }
 .snow:nth-child(232) {
-  transform: translate(17.2894vw, 69.9535vw) scale(0.7623);
-  animation: star-232 3s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(76.58vw, 31.0505vw) scale(0.2623);
+  animation: star-232 4s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-232 {
   0% {
@@ -3039,9 +3039,9 @@ body {
   }
 }
 .snow:nth-child(233) {
-  transform: translate(32.2818vw, 90.9098vw) scale(0.5618);
-  animation: star-233 5s linear infinite alternate;
-  animation-delay: -21s;
+  transform: translate(67.83vw, 25.664vw) scale(0.6686);
+  animation: star-233 3s linear infinite alternate;
+  animation-delay: -16s;
 }
 @keyframes star-233 {
   0% {
@@ -3052,9 +3052,9 @@ body {
   }
 }
 .snow:nth-child(234) {
-  transform: translate(84.8752vw, 78.5858vw) scale(0.2553);
+  transform: translate(29.68vw, 11.5672vw) scale(0.572);
   animation: star-234 4s linear infinite alternate;
-  animation-delay: -27s;
+  animation-delay: -13s;
 }
 @keyframes star-234 {
   0% {
@@ -3065,9 +3065,9 @@ body {
   }
 }
 .snow:nth-child(235) {
-  transform: translate(15.8516vw, 72.3094vw) scale(0.5068);
-  animation: star-235 3s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(95.58vw, 48.8154vw) scale(0.3511);
+  animation: star-235 2s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-235 {
   0% {
@@ -3078,9 +3078,9 @@ body {
   }
 }
 .snow:nth-child(236) {
-  transform: translate(99.3074vw, 42.1804vw) scale(0.7716);
-  animation: star-236 2s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(81.35vw, 69.5203vw) scale(0.2714);
+  animation: star-236 5s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-236 {
   0% {
@@ -3091,9 +3091,9 @@ body {
   }
 }
 .snow:nth-child(237) {
-  transform: translate(47.5183vw, 85.5992vw) scale(0.3234);
-  animation: star-237 5s linear infinite alternate;
-  animation-delay: -28s;
+  transform: translate(91.74vw, 64.8452vw) scale(0.5311);
+  animation: star-237 4s linear infinite alternate;
+  animation-delay: -15s;
 }
 @keyframes star-237 {
   0% {
@@ -3104,9 +3104,9 @@ body {
   }
 }
 .snow:nth-child(238) {
-  transform: translate(1.4227vw, 60.9242vw) scale(0.0323);
+  transform: translate(16.09vw, 98.5723vw) scale(0.4181);
   animation: star-238 5s linear infinite alternate;
-  animation-delay: -1s;
+  animation-delay: -6s;
 }
 @keyframes star-238 {
   0% {
@@ -3117,9 +3117,9 @@ body {
   }
 }
 .snow:nth-child(239) {
-  transform: translate(32.5039vw, 81.75vw) scale(0.811);
+  transform: translate(22.9vw, 32.7133vw) scale(0.6473);
   animation: star-239 2s linear infinite alternate;
-  animation-delay: -15s;
+  animation-delay: -14s;
 }
 @keyframes star-239 {
   0% {
@@ -3130,9 +3130,9 @@ body {
   }
 }
 .snow:nth-child(240) {
-  transform: translate(54.3177vw, 81.5371vw) scale(0.0316);
-  animation: star-240 4s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(83.13vw, 90.462vw) scale(0.3113);
+  animation: star-240 2s linear infinite alternate;
+  animation-delay: -17s;
 }
 @keyframes star-240 {
   0% {
@@ -3143,9 +3143,9 @@ body {
   }
 }
 .snow:nth-child(241) {
-  transform: translate(94.8017vw, 27.2308vw) scale(0.506);
-  animation: star-241 2s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(97.64vw, 5.9271vw) scale(0.7988);
+  animation: star-241 5s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-241 {
   0% {
@@ -3156,9 +3156,9 @@ body {
   }
 }
 .snow:nth-child(242) {
-  transform: translate(74.0405vw, 88.0802vw) scale(0.938);
+  transform: translate(59.7vw, 19.0358vw) scale(0.7747);
   animation: star-242 4s linear infinite alternate;
-  animation-delay: -23s;
+  animation-delay: -5s;
 }
 @keyframes star-242 {
   0% {
@@ -3169,9 +3169,9 @@ body {
   }
 }
 .snow:nth-child(243) {
-  transform: translate(7.1225vw, 70.5786vw) scale(0.768);
-  animation: star-243 3s linear infinite alternate;
-  animation-delay: -23s;
+  transform: translate(15.76vw, 98.5426vw) scale(0.577);
+  animation: star-243 2s linear infinite alternate;
+  animation-delay: -2s;
 }
 @keyframes star-243 {
   0% {
@@ -3182,9 +3182,9 @@ body {
   }
 }
 .snow:nth-child(244) {
-  transform: translate(2.9474vw, 4.558vw) scale(0.7157);
-  animation: star-244 5s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(97.61vw, 95.2187vw) scale(0.5901);
+  animation: star-244 3s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-244 {
   0% {
@@ -3195,9 +3195,9 @@ body {
   }
 }
 .snow:nth-child(245) {
-  transform: translate(75.8768vw, 70.2858vw) scale(0.2339);
-  animation: star-245 2s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(9.48vw, 16.1832vw) scale(0.0812);
+  animation: star-245 4s linear infinite alternate;
+  animation-delay: -26s;
 }
 @keyframes star-245 {
   0% {
@@ -3208,9 +3208,9 @@ body {
   }
 }
 .snow:nth-child(246) {
-  transform: translate(43.4558vw, 40.4934vw) scale(0.5032);
+  transform: translate(19.9vw, 53.4468vw) scale(0.5776);
   animation: star-246 5s linear infinite alternate;
-  animation-delay: -22s;
+  animation-delay: -25s;
 }
 @keyframes star-246 {
   0% {
@@ -3221,9 +3221,9 @@ body {
   }
 }
 .snow:nth-child(247) {
-  transform: translate(35.529vw, 90.3533vw) scale(0.8524);
-  animation: star-247 2s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(27.17vw, 96.2412vw) scale(0.6043);
+  animation: star-247 5s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-247 {
   0% {
@@ -3234,9 +3234,9 @@ body {
   }
 }
 .snow:nth-child(248) {
-  transform: translate(70.9673vw, 70.8307vw) scale(0.0588);
-  animation: star-248 2s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(36.12vw, 32.9002vw) scale(0.7624);
+  animation: star-248 5s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-248 {
   0% {
@@ -3247,9 +3247,9 @@ body {
   }
 }
 .snow:nth-child(249) {
-  transform: translate(37.6606vw, 53.3321vw) scale(0.8707);
-  animation: star-249 4s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(39.65vw, 61.2038vw) scale(0.4812);
+  animation: star-249 2s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-249 {
   0% {
@@ -3260,9 +3260,9 @@ body {
   }
 }
 .snow:nth-child(250) {
-  transform: translate(37.8669vw, 20.8402vw) scale(0.4446);
-  animation: star-250 4s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(54.5vw, 19.6699vw) scale(0.356);
+  animation: star-250 5s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-250 {
   0% {
@@ -3273,9 +3273,9 @@ body {
   }
 }
 .snow:nth-child(251) {
-  transform: translate(26.4442vw, 94.7132vw) scale(0.188);
+  transform: translate(17.32vw, 57.251vw) scale(0.528);
   animation: star-251 5s linear infinite alternate;
-  animation-delay: -20s;
+  animation-delay: -13s;
 }
 @keyframes star-251 {
   0% {
@@ -3286,9 +3286,9 @@ body {
   }
 }
 .snow:nth-child(252) {
-  transform: translate(57.7525vw, 32.3698vw) scale(0.8843);
-  animation: star-252 3s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(56.97vw, 11.2712vw) scale(0.9683);
+  animation: star-252 4s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-252 {
   0% {
@@ -3299,9 +3299,9 @@ body {
   }
 }
 .snow:nth-child(253) {
-  transform: translate(85.2629vw, 21.4049vw) scale(0.6308);
-  animation: star-253 4s linear infinite alternate;
-  animation-delay: -14s;
+  transform: translate(44.32vw, 19.3417vw) scale(0.7663);
+  animation: star-253 3s linear infinite alternate;
+  animation-delay: -26s;
 }
 @keyframes star-253 {
   0% {
@@ -3312,9 +3312,9 @@ body {
   }
 }
 .snow:nth-child(254) {
-  transform: translate(74.0557vw, 9.3892vw) scale(0.8562);
+  transform: translate(85.44vw, 79.5661vw) scale(0.2387);
   animation: star-254 2s linear infinite alternate;
-  animation-delay: -3s;
+  animation-delay: -25s;
 }
 @keyframes star-254 {
   0% {
@@ -3325,9 +3325,9 @@ body {
   }
 }
 .snow:nth-child(255) {
-  transform: translate(16.9764vw, 33.6143vw) scale(0.7977);
-  animation: star-255 2s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(34.35vw, 15.4077vw) scale(0.6131);
+  animation: star-255 5s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-255 {
   0% {
@@ -3338,9 +3338,9 @@ body {
   }
 }
 .snow:nth-child(256) {
-  transform: translate(77.3416vw, 79.2592vw) scale(0.784);
-  animation: star-256 4s linear infinite alternate;
-  animation-delay: -4s;
+  transform: translate(95.74vw, 21.1311vw) scale(0.3427);
+  animation: star-256 5s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-256 {
   0% {
@@ -3351,9 +3351,9 @@ body {
   }
 }
 .snow:nth-child(257) {
-  transform: translate(83.089vw, 97.3184vw) scale(0.7496);
+  transform: translate(91.79vw, 94.6557vw) scale(0.4214);
   animation: star-257 4s linear infinite alternate;
-  animation-delay: -4s;
+  animation-delay: -12s;
 }
 @keyframes star-257 {
   0% {
@@ -3364,9 +3364,9 @@ body {
   }
 }
 .snow:nth-child(258) {
-  transform: translate(82.9798vw, 5.3487vw) scale(0.5016);
-  animation: star-258 2s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(77.29vw, 62.2851vw) scale(0.5701);
+  animation: star-258 4s linear infinite alternate;
+  animation-delay: -17s;
 }
 @keyframes star-258 {
   0% {
@@ -3377,9 +3377,9 @@ body {
   }
 }
 .snow:nth-child(259) {
-  transform: translate(19.3641vw, 67.6058vw) scale(0.4153);
-  animation: star-259 2s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(10.22vw, 62.2144vw) scale(0.2237);
+  animation: star-259 5s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-259 {
   0% {
@@ -3390,9 +3390,9 @@ body {
   }
 }
 .snow:nth-child(260) {
-  transform: translate(63.9121vw, 54.4771vw) scale(0.8118);
+  transform: translate(91.16vw, 1.6773vw) scale(0.8086);
   animation: star-260 5s linear infinite alternate;
-  animation-delay: -29s;
+  animation-delay: -1s;
 }
 @keyframes star-260 {
   0% {
@@ -3403,9 +3403,9 @@ body {
   }
 }
 .snow:nth-child(261) {
-  transform: translate(56.5104vw, 73.2195vw) scale(0.6491);
+  transform: translate(54.95vw, 17.4086vw) scale(0.7834);
   animation: star-261 4s linear infinite alternate;
-  animation-delay: -25s;
+  animation-delay: -12s;
 }
 @keyframes star-261 {
   0% {
@@ -3416,9 +3416,9 @@ body {
   }
 }
 .snow:nth-child(262) {
-  transform: translate(32.6068vw, 20.1306vw) scale(0.1469);
-  animation: star-262 3s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(9.22vw, 17.4614vw) scale(0.4337);
+  animation: star-262 5s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-262 {
   0% {
@@ -3429,9 +3429,9 @@ body {
   }
 }
 .snow:nth-child(263) {
-  transform: translate(32.3555vw, 11.3841vw) scale(0.4202);
-  animation: star-263 5s linear infinite alternate;
-  animation-delay: -4s;
+  transform: translate(93.78vw, 80.3339vw) scale(0.3615);
+  animation: star-263 2s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-263 {
   0% {
@@ -3442,9 +3442,9 @@ body {
   }
 }
 .snow:nth-child(264) {
-  transform: translate(91.721vw, 64.445vw) scale(0.4044);
+  transform: translate(83.33vw, 31.5867vw) scale(0.3154);
   animation: star-264 2s linear infinite alternate;
-  animation-delay: -28s;
+  animation-delay: -23s;
 }
 @keyframes star-264 {
   0% {
@@ -3455,9 +3455,9 @@ body {
   }
 }
 .snow:nth-child(265) {
-  transform: translate(71.8041vw, 96.1105vw) scale(0.8342);
+  transform: translate(8.61vw, 57.9752vw) scale(0.6999);
   animation: star-265 3s linear infinite alternate;
-  animation-delay: -15s;
+  animation-delay: -9s;
 }
 @keyframes star-265 {
   0% {
@@ -3468,9 +3468,9 @@ body {
   }
 }
 .snow:nth-child(266) {
-  transform: translate(14.9882vw, 41.3652vw) scale(0.7877);
+  transform: translate(61.44vw, 85.1192vw) scale(0.8897);
   animation: star-266 4s linear infinite alternate;
-  animation-delay: -6s;
+  animation-delay: -23s;
 }
 @keyframes star-266 {
   0% {
@@ -3481,9 +3481,9 @@ body {
   }
 }
 .snow:nth-child(267) {
-  transform: translate(32.8224vw, 35.0578vw) scale(0.9772);
+  transform: translate(28.64vw, 99.8693vw) scale(0.3148);
   animation: star-267 2s linear infinite alternate;
-  animation-delay: -12s;
+  animation-delay: -29s;
 }
 @keyframes star-267 {
   0% {
@@ -3494,9 +3494,9 @@ body {
   }
 }
 .snow:nth-child(268) {
-  transform: translate(4.8512vw, 42.7008vw) scale(0.7134);
-  animation: star-268 5s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(77.7vw, 73.1897vw) scale(0.5652);
+  animation: star-268 2s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-268 {
   0% {
@@ -3507,9 +3507,9 @@ body {
   }
 }
 .snow:nth-child(269) {
-  transform: translate(59.6262vw, 75.5875vw) scale(0.0362);
-  animation: star-269 4s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(79.37vw, 62.0977vw) scale(0.8764);
+  animation: star-269 2s linear infinite alternate;
+  animation-delay: -24s;
 }
 @keyframes star-269 {
   0% {
@@ -3520,9 +3520,9 @@ body {
   }
 }
 .snow:nth-child(270) {
-  transform: translate(95.1167vw, 5.3683vw) scale(0.616);
-  animation: star-270 2s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(97.82vw, 7.3534vw) scale(0.9245);
+  animation: star-270 5s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-270 {
   0% {
@@ -3533,9 +3533,9 @@ body {
   }
 }
 .snow:nth-child(271) {
-  transform: translate(9.6327vw, 35.7759vw) scale(0.6335);
-  animation: star-271 3s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(17.88vw, 80.3057vw) scale(0.6258);
+  animation: star-271 5s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-271 {
   0% {
@@ -3546,9 +3546,9 @@ body {
   }
 }
 .snow:nth-child(272) {
-  transform: translate(13.0302vw, 89.3482vw) scale(0.8995);
+  transform: translate(72.04vw, 42.6139vw) scale(0.6968);
   animation: star-272 4s linear infinite alternate;
-  animation-delay: -1s;
+  animation-delay: -23s;
 }
 @keyframes star-272 {
   0% {
@@ -3559,9 +3559,9 @@ body {
   }
 }
 .snow:nth-child(273) {
-  transform: translate(17.0055vw, 94.8286vw) scale(0.1363);
+  transform: translate(4.07vw, 94.1181vw) scale(0.7513);
   animation: star-273 5s linear infinite alternate;
-  animation-delay: -19s;
+  animation-delay: -13s;
 }
 @keyframes star-273 {
   0% {
@@ -3572,7 +3572,7 @@ body {
   }
 }
 .snow:nth-child(274) {
-  transform: translate(12.3813vw, 68.2663vw) scale(0.5738);
+  transform: translate(12.15vw, 85.7868vw) scale(0.5202);
   animation: star-274 5s linear infinite alternate;
   animation-delay: -3s;
 }
@@ -3585,9 +3585,9 @@ body {
   }
 }
 .snow:nth-child(275) {
-  transform: translate(97.1074vw, 23.3102vw) scale(0.151);
-  animation: star-275 4s linear infinite alternate;
-  animation-delay: -14s;
+  transform: translate(40.01vw, 46.652vw) scale(0.0659);
+  animation: star-275 3s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-275 {
   0% {
@@ -3598,9 +3598,9 @@ body {
   }
 }
 .snow:nth-child(276) {
-  transform: translate(12.6892vw, 71.6625vw) scale(0.0434);
-  animation: star-276 3s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(70.49vw, 87.4867vw) scale(0.9785);
+  animation: star-276 5s linear infinite alternate;
+  animation-delay: -15s;
 }
 @keyframes star-276 {
   0% {
@@ -3611,9 +3611,9 @@ body {
   }
 }
 .snow:nth-child(277) {
-  transform: translate(26.1991vw, 20.6587vw) scale(0.182);
-  animation: star-277 2s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(94.06vw, 47.7717vw) scale(0.3211);
+  animation: star-277 3s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-277 {
   0% {
@@ -3624,9 +3624,9 @@ body {
   }
 }
 .snow:nth-child(278) {
-  transform: translate(81.4403vw, 37.9607vw) scale(0.7599);
+  transform: translate(96.15vw, 74.7923vw) scale(0.1099);
   animation: star-278 4s linear infinite alternate;
-  animation-delay: -25s;
+  animation-delay: -15s;
 }
 @keyframes star-278 {
   0% {
@@ -3637,9 +3637,9 @@ body {
   }
 }
 .snow:nth-child(279) {
-  transform: translate(9.238vw, 30.4031vw) scale(0.6526);
-  animation: star-279 4s linear infinite alternate;
-  animation-delay: -12s;
+  transform: translate(76.94vw, 10.2716vw) scale(0.8066);
+  animation: star-279 2s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-279 {
   0% {
@@ -3650,9 +3650,9 @@ body {
   }
 }
 .snow:nth-child(280) {
-  transform: translate(37.5583vw, 33.5228vw) scale(0.1855);
+  transform: translate(67.01vw, 69.6802vw) scale(0.1011);
   animation: star-280 3s linear infinite alternate;
-  animation-delay: -22s;
+  animation-delay: -16s;
 }
 @keyframes star-280 {
   0% {
@@ -3663,9 +3663,9 @@ body {
   }
 }
 .snow:nth-child(281) {
-  transform: translate(41.2082vw, 2.8749vw) scale(0.5012);
-  animation: star-281 5s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(83.78vw, 37.6446vw) scale(0.8877);
+  animation: star-281 3s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-281 {
   0% {
@@ -3676,9 +3676,9 @@ body {
   }
 }
 .snow:nth-child(282) {
-  transform: translate(72.8924vw, 69.3719vw) scale(0.1454);
-  animation: star-282 2s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(79.04vw, 57.5888vw) scale(0.0388);
+  animation: star-282 5s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-282 {
   0% {
@@ -3689,9 +3689,9 @@ body {
   }
 }
 .snow:nth-child(283) {
-  transform: translate(98.28vw, 25.9065vw) scale(0.5411);
-  animation: star-283 5s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(96.69vw, 50.7252vw) scale(0.2683);
+  animation: star-283 2s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-283 {
   0% {
@@ -3702,9 +3702,9 @@ body {
   }
 }
 .snow:nth-child(284) {
-  transform: translate(93.6648vw, 43.0673vw) scale(0.511);
-  animation: star-284 4s linear infinite alternate;
-  animation-delay: -21s;
+  transform: translate(27.74vw, 16.8219vw) scale(0.5363);
+  animation: star-284 3s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-284 {
   0% {
@@ -3715,9 +3715,9 @@ body {
   }
 }
 .snow:nth-child(285) {
-  transform: translate(32.6423vw, 84.6079vw) scale(0.4556);
-  animation: star-285 5s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(9.13vw, 80.8399vw) scale(0.4307);
+  animation: star-285 2s linear infinite alternate;
+  animation-delay: -2s;
 }
 @keyframes star-285 {
   0% {
@@ -3728,9 +3728,9 @@ body {
   }
 }
 .snow:nth-child(286) {
-  transform: translate(71.4834vw, 93.8768vw) scale(0.9435);
+  transform: translate(39.02vw, 71.5876vw) scale(0.2265);
   animation: star-286 5s linear infinite alternate;
-  animation-delay: -26s;
+  animation-delay: -5s;
 }
 @keyframes star-286 {
   0% {
@@ -3741,9 +3741,9 @@ body {
   }
 }
 .snow:nth-child(287) {
-  transform: translate(31.5163vw, 38.8612vw) scale(0.1718);
-  animation: star-287 4s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(30.99vw, 51.8195vw) scale(0.165);
+  animation: star-287 5s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-287 {
   0% {
@@ -3754,9 +3754,9 @@ body {
   }
 }
 .snow:nth-child(288) {
-  transform: translate(53.9135vw, 2.9397vw) scale(0.4223);
-  animation: star-288 4s linear infinite alternate;
-  animation-delay: -4s;
+  transform: translate(11.63vw, 8.3078vw) scale(0.2298);
+  animation: star-288 5s linear infinite alternate;
+  animation-delay: -2s;
 }
 @keyframes star-288 {
   0% {
@@ -3767,9 +3767,9 @@ body {
   }
 }
 .snow:nth-child(289) {
-  transform: translate(89.3143vw, 28.8821vw) scale(0.5095);
+  transform: translate(83.04vw, 34.4209vw) scale(0.507);
   animation: star-289 5s linear infinite alternate;
-  animation-delay: -21s;
+  animation-delay: -29s;
 }
 @keyframes star-289 {
   0% {
@@ -3780,9 +3780,9 @@ body {
   }
 }
 .snow:nth-child(290) {
-  transform: translate(47.7166vw, 72.5087vw) scale(0.3502);
-  animation: star-290 3s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(18.86vw, 28.7923vw) scale(0.5263);
+  animation: star-290 2s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-290 {
   0% {
@@ -3793,9 +3793,9 @@ body {
   }
 }
 .snow:nth-child(291) {
-  transform: translate(44.3281vw, 4.704vw) scale(0.3756);
+  transform: translate(59.82vw, 88.9306vw) scale(0.492);
   animation: star-291 3s linear infinite alternate;
-  animation-delay: -21s;
+  animation-delay: -25s;
 }
 @keyframes star-291 {
   0% {
@@ -3806,9 +3806,9 @@ body {
   }
 }
 .snow:nth-child(292) {
-  transform: translate(92.8073vw, 67.3005vw) scale(0.2291);
-  animation: star-292 4s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(54.81vw, 27.8601vw) scale(0.3549);
+  animation: star-292 5s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-292 {
   0% {
@@ -3819,9 +3819,9 @@ body {
   }
 }
 .snow:nth-child(293) {
-  transform: translate(84.6669vw, 48.0768vw) scale(0.942);
+  transform: translate(85.65vw, 95.9891vw) scale(0.8375);
   animation: star-293 4s linear infinite alternate;
-  animation-delay: -11s;
+  animation-delay: -23s;
 }
 @keyframes star-293 {
   0% {
@@ -3832,9 +3832,9 @@ body {
   }
 }
 .snow:nth-child(294) {
-  transform: translate(26.1015vw, 71.5942vw) scale(0.5791);
-  animation: star-294 5s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(88.63vw, 8.3118vw) scale(0.8238);
+  animation: star-294 3s linear infinite alternate;
+  animation-delay: -17s;
 }
 @keyframes star-294 {
   0% {
@@ -3845,9 +3845,9 @@ body {
   }
 }
 .snow:nth-child(295) {
-  transform: translate(9.5986vw, 98.5039vw) scale(0.3113);
-  animation: star-295 5s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(22.58vw, 52.3977vw) scale(0.0108);
+  animation: star-295 4s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-295 {
   0% {
@@ -3858,9 +3858,9 @@ body {
   }
 }
 .snow:nth-child(296) {
-  transform: translate(20.4118vw, 34.6386vw) scale(0.9662);
-  animation: star-296 4s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(26.93vw, 96.8707vw) scale(0.2272);
+  animation: star-296 2s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-296 {
   0% {
@@ -3871,9 +3871,9 @@ body {
   }
 }
 .snow:nth-child(297) {
-  transform: translate(37.548vw, 54.7834vw) scale(0.9191);
+  transform: translate(75.53vw, 45.0611vw) scale(0.9319);
   animation: star-297 3s linear infinite alternate;
-  animation-delay: -19s;
+  animation-delay: -5s;
 }
 @keyframes star-297 {
   0% {
@@ -3884,9 +3884,9 @@ body {
   }
 }
 .snow:nth-child(298) {
-  transform: translate(59.9495vw, 18.3692vw) scale(0.0222);
-  animation: star-298 3s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(59.43vw, 11.288vw) scale(0.7547);
+  animation: star-298 4s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-298 {
   0% {
@@ -3897,9 +3897,9 @@ body {
   }
 }
 .snow:nth-child(299) {
-  transform: translate(68.27vw, 21.7034vw) scale(0.4196);
-  animation: star-299 5s linear infinite alternate;
-  animation-delay: -6s;
+  transform: translate(96.04vw, 30.9632vw) scale(0.446);
+  animation: star-299 3s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-299 {
   0% {
@@ -3910,9 +3910,9 @@ body {
   }
 }
 .snow:nth-child(300) {
-  transform: translate(10.068vw, 74.1229vw) scale(0.0623);
-  animation: star-300 5s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(64.32vw, 31.7054vw) scale(0.3921);
+  animation: star-300 2s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-300 {
   0% {
@@ -3923,9 +3923,9 @@ body {
   }
 }
 .snow:nth-child(301) {
-  transform: translate(97.842vw, 18.2696vw) scale(0.8707);
-  animation: star-301 4s linear infinite alternate;
-  animation-delay: -28s;
+  transform: translate(49.37vw, 77.4835vw) scale(0.3259);
+  animation: star-301 5s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-301 {
   0% {
@@ -3936,9 +3936,9 @@ body {
   }
 }
 .snow:nth-child(302) {
-  transform: translate(35.9879vw, 70.9205vw) scale(0.1345);
-  animation: star-302 4s linear infinite alternate;
-  animation-delay: -17s;
+  transform: translate(13.22vw, 98.7304vw) scale(0.974);
+  animation: star-302 2s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-302 {
   0% {
@@ -3949,9 +3949,9 @@ body {
   }
 }
 .snow:nth-child(303) {
-  transform: translate(6.6463vw, 90.5671vw) scale(0.0457);
+  transform: translate(25.73vw, 94.028vw) scale(0.7119);
   animation: star-303 3s linear infinite alternate;
-  animation-delay: -2s;
+  animation-delay: -6s;
 }
 @keyframes star-303 {
   0% {
@@ -3962,9 +3962,9 @@ body {
   }
 }
 .snow:nth-child(304) {
-  transform: translate(75.252vw, 82.8324vw) scale(0.8782);
-  animation: star-304 4s linear infinite alternate;
-  animation-delay: -22s;
+  transform: translate(45.46vw, 69.0982vw) scale(0.5632);
+  animation: star-304 5s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-304 {
   0% {
@@ -3975,9 +3975,9 @@ body {
   }
 }
 .snow:nth-child(305) {
-  transform: translate(64.4522vw, 93.5766vw) scale(0.0776);
-  animation: star-305 3s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(76.69vw, 94.9496vw) scale(0.6216);
+  animation: star-305 2s linear infinite alternate;
+  animation-delay: -26s;
 }
 @keyframes star-305 {
   0% {
@@ -3988,9 +3988,9 @@ body {
   }
 }
 .snow:nth-child(306) {
-  transform: translate(46.572vw, 65.416vw) scale(0.4671);
-  animation: star-306 5s linear infinite alternate;
-  animation-delay: -12s;
+  transform: translate(31.85vw, 86.6399vw) scale(0.1267);
+  animation: star-306 3s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-306 {
   0% {
@@ -4001,9 +4001,9 @@ body {
   }
 }
 .snow:nth-child(307) {
-  transform: translate(82.1079vw, 76.8324vw) scale(0.3745);
-  animation: star-307 2s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(58.07vw, 10.2055vw) scale(0.7532);
+  animation: star-307 5s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-307 {
   0% {
@@ -4014,9 +4014,9 @@ body {
   }
 }
 .snow:nth-child(308) {
-  transform: translate(57.5865vw, 50.5357vw) scale(0.483);
-  animation: star-308 2s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(19.33vw, 57.8898vw) scale(0.1206);
+  animation: star-308 5s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-308 {
   0% {
@@ -4027,9 +4027,9 @@ body {
   }
 }
 .snow:nth-child(309) {
-  transform: translate(38.798vw, 57.481vw) scale(0.5186);
-  animation: star-309 5s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(52.46vw, 26.1039vw) scale(0.4737);
+  animation: star-309 2s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-309 {
   0% {
@@ -4040,9 +4040,9 @@ body {
   }
 }
 .snow:nth-child(310) {
-  transform: translate(27.8226vw, 18.417vw) scale(0.92);
-  animation: star-310 3s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(46.35vw, 6.2229vw) scale(0.3179);
+  animation: star-310 5s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-310 {
   0% {
@@ -4053,9 +4053,9 @@ body {
   }
 }
 .snow:nth-child(311) {
-  transform: translate(0.0901vw, 84.236vw) scale(0.3449);
-  animation: star-311 2s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(99.15vw, 88.1631vw) scale(0.0723);
+  animation: star-311 4s linear infinite alternate;
+  animation-delay: -7s;
 }
 @keyframes star-311 {
   0% {
@@ -4066,9 +4066,9 @@ body {
   }
 }
 .snow:nth-child(312) {
-  transform: translate(21.713vw, 76.0789vw) scale(0.9148);
-  animation: star-312 3s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(33.49vw, 68.3058vw) scale(0.4098);
+  animation: star-312 5s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-312 {
   0% {
@@ -4079,9 +4079,9 @@ body {
   }
 }
 .snow:nth-child(313) {
-  transform: translate(8.103vw, 4.967vw) scale(0.0624);
-  animation: star-313 2s linear infinite alternate;
-  animation-delay: -10s;
+  transform: translate(59.95vw, 14.6891vw) scale(0.0461);
+  animation: star-313 3s linear infinite alternate;
+  animation-delay: -26s;
 }
 @keyframes star-313 {
   0% {
@@ -4092,9 +4092,9 @@ body {
   }
 }
 .snow:nth-child(314) {
-  transform: translate(59.4259vw, 55.3118vw) scale(0.9643);
+  transform: translate(93.2vw, 58.0258vw) scale(0.8141);
   animation: star-314 4s linear infinite alternate;
-  animation-delay: -13s;
+  animation-delay: -17s;
 }
 @keyframes star-314 {
   0% {
@@ -4105,9 +4105,9 @@ body {
   }
 }
 .snow:nth-child(315) {
-  transform: translate(64.1033vw, 71.987vw) scale(0.517);
-  animation: star-315 3s linear infinite alternate;
-  animation-delay: -12s;
+  transform: translate(17.79vw, 93.0604vw) scale(0.8766);
+  animation: star-315 4s linear infinite alternate;
+  animation-delay: -29s;
 }
 @keyframes star-315 {
   0% {
@@ -4118,9 +4118,9 @@ body {
   }
 }
 .snow:nth-child(316) {
-  transform: translate(70.5178vw, 49.0476vw) scale(0.9575);
-  animation: star-316 4s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(41.52vw, 72.4226vw) scale(0.103);
+  animation: star-316 3s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-316 {
   0% {
@@ -4131,9 +4131,9 @@ body {
   }
 }
 .snow:nth-child(317) {
-  transform: translate(8.3731vw, 47.4804vw) scale(0.963);
-  animation: star-317 3s linear infinite alternate;
-  animation-delay: -4s;
+  transform: translate(6.15vw, 76.8912vw) scale(0.49);
+  animation: star-317 5s linear infinite alternate;
+  animation-delay: -10s;
 }
 @keyframes star-317 {
   0% {
@@ -4144,9 +4144,9 @@ body {
   }
 }
 .snow:nth-child(318) {
-  transform: translate(39.4313vw, 16.0079vw) scale(0.8539);
-  animation: star-318 4s linear infinite alternate;
-  animation-delay: -8s;
+  transform: translate(98.56vw, 91.5062vw) scale(0.4428);
+  animation: star-318 5s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-318 {
   0% {
@@ -4157,9 +4157,9 @@ body {
   }
 }
 .snow:nth-child(319) {
-  transform: translate(45.0638vw, 13.3299vw) scale(0.083);
-  animation: star-319 4s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(20.94vw, 62.8168vw) scale(0.961);
+  animation: star-319 5s linear infinite alternate;
+  animation-delay: -2s;
 }
 @keyframes star-319 {
   0% {
@@ -4170,9 +4170,9 @@ body {
   }
 }
 .snow:nth-child(320) {
-  transform: translate(52.8641vw, 78.414vw) scale(0.0907);
-  animation: star-320 4s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(16.19vw, 45.8737vw) scale(0.4338);
+  animation: star-320 3s linear infinite alternate;
+  animation-delay: -5s;
 }
 @keyframes star-320 {
   0% {
@@ -4183,9 +4183,9 @@ body {
   }
 }
 .snow:nth-child(321) {
-  transform: translate(2.7372vw, 21.0829vw) scale(0.8358);
-  animation: star-321 3s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(89.33vw, 4.2382vw) scale(0.3912);
+  animation: star-321 4s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-321 {
   0% {
@@ -4196,9 +4196,9 @@ body {
   }
 }
 .snow:nth-child(322) {
-  transform: translate(58.5737vw, 2.6737vw) scale(0.2968);
+  transform: translate(42.63vw, 24.3553vw) scale(0.6069);
   animation: star-322 5s linear infinite alternate;
-  animation-delay: -17s;
+  animation-delay: -10s;
 }
 @keyframes star-322 {
   0% {
@@ -4209,9 +4209,9 @@ body {
   }
 }
 .snow:nth-child(323) {
-  transform: translate(59.8018vw, 62.4752vw) scale(0.7939);
-  animation: star-323 2s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(87.61vw, 29.5213vw) scale(0.543);
+  animation: star-323 5s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-323 {
   0% {
@@ -4222,9 +4222,9 @@ body {
   }
 }
 .snow:nth-child(324) {
-  transform: translate(78.9895vw, 7.1479vw) scale(0.9113);
-  animation: star-324 3s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(71.72vw, 68.3875vw) scale(0.0925);
+  animation: star-324 5s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-324 {
   0% {
@@ -4235,9 +4235,9 @@ body {
   }
 }
 .snow:nth-child(325) {
-  transform: translate(95.4942vw, 29.5467vw) scale(0.2588);
-  animation: star-325 4s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(76.04vw, 47.684vw) scale(0.2568);
+  animation: star-325 3s linear infinite alternate;
+  animation-delay: -22s;
 }
 @keyframes star-325 {
   0% {
@@ -4248,9 +4248,9 @@ body {
   }
 }
 .snow:nth-child(326) {
-  transform: translate(75.3027vw, 68.3068vw) scale(0.634);
-  animation: star-326 5s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(9.58vw, 67.7143vw) scale(0.1792);
+  animation: star-326 4s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-326 {
   0% {
@@ -4261,9 +4261,9 @@ body {
   }
 }
 .snow:nth-child(327) {
-  transform: translate(50.862vw, 21.3865vw) scale(0.4936);
+  transform: translate(5.07vw, 90.8867vw) scale(0.7542);
   animation: star-327 2s linear infinite alternate;
-  animation-delay: -23s;
+  animation-delay: -10s;
 }
 @keyframes star-327 {
   0% {
@@ -4274,9 +4274,9 @@ body {
   }
 }
 .snow:nth-child(328) {
-  transform: translate(0.4713vw, 99.427vw) scale(0.6434);
-  animation: star-328 5s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(78.88vw, 2.1303vw) scale(0.0812);
+  animation: star-328 4s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-328 {
   0% {
@@ -4287,9 +4287,9 @@ body {
   }
 }
 .snow:nth-child(329) {
-  transform: translate(99.3726vw, 8.7806vw) scale(0.1959);
-  animation: star-329 2s linear infinite alternate;
-  animation-delay: -23s;
+  transform: translate(5.13vw, 43.9996vw) scale(0.1677);
+  animation: star-329 3s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-329 {
   0% {
@@ -4300,9 +4300,9 @@ body {
   }
 }
 .snow:nth-child(330) {
-  transform: translate(77.0498vw, 63.5652vw) scale(0.1227);
+  transform: translate(99.49vw, 19.5779vw) scale(0.4219);
   animation: star-330 3s linear infinite alternate;
-  animation-delay: -8s;
+  animation-delay: -14s;
 }
 @keyframes star-330 {
   0% {
@@ -4313,9 +4313,9 @@ body {
   }
 }
 .snow:nth-child(331) {
-  transform: translate(18.7893vw, 29.8328vw) scale(0.56);
-  animation: star-331 2s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(19.5vw, 49.9835vw) scale(0.5252);
+  animation: star-331 5s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-331 {
   0% {
@@ -4326,9 +4326,9 @@ body {
   }
 }
 .snow:nth-child(332) {
-  transform: translate(40.5527vw, 15.3391vw) scale(0.8924);
-  animation: star-332 5s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(8.35vw, 9.6548vw) scale(0.6819);
+  animation: star-332 3s linear infinite alternate;
+  animation-delay: -28s;
 }
 @keyframes star-332 {
   0% {
@@ -4339,9 +4339,9 @@ body {
   }
 }
 .snow:nth-child(333) {
-  transform: translate(79.4035vw, 1.1949vw) scale(0.5871);
-  animation: star-333 4s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(34.16vw, 35.4837vw) scale(0.1831);
+  animation: star-333 3s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-333 {
   0% {
@@ -4352,9 +4352,9 @@ body {
   }
 }
 .snow:nth-child(334) {
-  transform: translate(25.453vw, 79.7512vw) scale(0.5964);
+  transform: translate(1.56vw, 59.8006vw) scale(0.1092);
   animation: star-334 4s linear infinite alternate;
-  animation-delay: -15s;
+  animation-delay: -3s;
 }
 @keyframes star-334 {
   0% {
@@ -4365,9 +4365,9 @@ body {
   }
 }
 .snow:nth-child(335) {
-  transform: translate(59.3528vw, 64.2859vw) scale(0.8615);
-  animation: star-335 5s linear infinite alternate;
-  animation-delay: -21s;
+  transform: translate(14.02vw, 27.6802vw) scale(0.9869);
+  animation: star-335 2s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-335 {
   0% {
@@ -4378,9 +4378,9 @@ body {
   }
 }
 .snow:nth-child(336) {
-  transform: translate(23.9113vw, 23.1045vw) scale(0.5331);
-  animation: star-336 3s linear infinite alternate;
-  animation-delay: -23s;
+  transform: translate(5.7vw, 4.102vw) scale(0.2442);
+  animation: star-336 5s linear infinite alternate;
+  animation-delay: -9s;
 }
 @keyframes star-336 {
   0% {
@@ -4391,9 +4391,9 @@ body {
   }
 }
 .snow:nth-child(337) {
-  transform: translate(71.4352vw, 49.5275vw) scale(0.9411);
+  transform: translate(15.84vw, 92.1622vw) scale(0.8164);
   animation: star-337 4s linear infinite alternate;
-  animation-delay: -3s;
+  animation-delay: -14s;
 }
 @keyframes star-337 {
   0% {
@@ -4404,9 +4404,9 @@ body {
   }
 }
 .snow:nth-child(338) {
-  transform: translate(87.1415vw, 88.5738vw) scale(0.6651);
-  animation: star-338 3s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(60.34vw, 52.6407vw) scale(0.6741);
+  animation: star-338 4s linear infinite alternate;
+  animation-delay: -16s;
 }
 @keyframes star-338 {
   0% {
@@ -4417,9 +4417,9 @@ body {
   }
 }
 .snow:nth-child(339) {
-  transform: translate(3.4671vw, 78.2783vw) scale(0.4142);
-  animation: star-339 2s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(21.97vw, 74.3435vw) scale(0.9177);
+  animation: star-339 4s linear infinite alternate;
+  animation-delay: -6s;
 }
 @keyframes star-339 {
   0% {
@@ -4430,9 +4430,9 @@ body {
   }
 }
 .snow:nth-child(340) {
-  transform: translate(42.4901vw, 12.5285vw) scale(0.7599);
-  animation: star-340 5s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(99.29vw, 19.0566vw) scale(0.5221);
+  animation: star-340 4s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-340 {
   0% {
@@ -4443,9 +4443,9 @@ body {
   }
 }
 .snow:nth-child(341) {
-  transform: translate(59.1101vw, 87.7976vw) scale(0.3008);
-  animation: star-341 4s linear infinite alternate;
-  animation-delay: -23s;
+  transform: translate(31.39vw, 19.6738vw) scale(0.1231);
+  animation: star-341 5s linear infinite alternate;
+  animation-delay: -24s;
 }
 @keyframes star-341 {
   0% {
@@ -4456,9 +4456,9 @@ body {
   }
 }
 .snow:nth-child(342) {
-  transform: translate(27.4341vw, 7.8565vw) scale(0.55);
+  transform: translate(35.06vw, 14.7188vw) scale(0.6987);
   animation: star-342 3s linear infinite alternate;
-  animation-delay: -23s;
+  animation-delay: -12s;
 }
 @keyframes star-342 {
   0% {
@@ -4469,9 +4469,9 @@ body {
   }
 }
 .snow:nth-child(343) {
-  transform: translate(83.757vw, 57.7993vw) scale(0.0254);
+  transform: translate(65.59vw, 35.5971vw) scale(0.0298);
   animation: star-343 5s linear infinite alternate;
-  animation-delay: -21s;
+  animation-delay: -26s;
 }
 @keyframes star-343 {
   0% {
@@ -4482,9 +4482,9 @@ body {
   }
 }
 .snow:nth-child(344) {
-  transform: translate(63.608vw, 82.9602vw) scale(0.7194);
-  animation: star-344 2s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(35.61vw, 84.7931vw) scale(0.0808);
+  animation: star-344 3s linear infinite alternate;
+  animation-delay: -20s;
 }
 @keyframes star-344 {
   0% {
@@ -4495,9 +4495,9 @@ body {
   }
 }
 .snow:nth-child(345) {
-  transform: translate(50.8127vw, 27.1409vw) scale(0.6154);
-  animation: star-345 3s linear infinite alternate;
-  animation-delay: -30s;
+  transform: translate(9.99vw, 34.8874vw) scale(0.6202);
+  animation: star-345 4s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-345 {
   0% {
@@ -4508,8 +4508,8 @@ body {
   }
 }
 .snow:nth-child(346) {
-  transform: translate(6.4977vw, 77.3009vw) scale(0.6466);
-  animation: star-346 2s linear infinite alternate;
+  transform: translate(7.69vw, 53.5069vw) scale(0.7781);
+  animation: star-346 3s linear infinite alternate;
   animation-delay: -23s;
 }
 @keyframes star-346 {
@@ -4521,9 +4521,9 @@ body {
   }
 }
 .snow:nth-child(347) {
-  transform: translate(97.8156vw, 99.2137vw) scale(0.3218);
-  animation: star-347 2s linear infinite alternate;
-  animation-delay: -11s;
+  transform: translate(73.57vw, 82.2996vw) scale(0.3452);
+  animation: star-347 3s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-347 {
   0% {
@@ -4534,9 +4534,9 @@ body {
   }
 }
 .snow:nth-child(348) {
-  transform: translate(51.2591vw, 14.0518vw) scale(0.5462);
-  animation: star-348 5s linear infinite alternate;
-  animation-delay: -22s;
+  transform: translate(43.2vw, 43.7288vw) scale(0.2314);
+  animation: star-348 3s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-348 {
   0% {
@@ -4547,9 +4547,9 @@ body {
   }
 }
 .snow:nth-child(349) {
-  transform: translate(1.168vw, 75.0748vw) scale(0.5882);
-  animation: star-349 3s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(2.52vw, 96.5072vw) scale(0.4008);
+  animation: star-349 2s linear infinite alternate;
+  animation-delay: -5s;
 }
 @keyframes star-349 {
   0% {
@@ -4560,9 +4560,9 @@ body {
   }
 }
 .snow:nth-child(350) {
-  transform: translate(57.6718vw, 15.3002vw) scale(0.0418);
-  animation: star-350 2s linear infinite alternate;
-  animation-delay: -29s;
+  transform: translate(99.24vw, 4.1639vw) scale(0.452);
+  animation: star-350 5s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-350 {
   0% {
@@ -4573,9 +4573,9 @@ body {
   }
 }
 .snow:nth-child(351) {
-  transform: translate(80.2035vw, 61.3275vw) scale(0.5661);
+  transform: translate(87.81vw, 14.9948vw) scale(0.2701);
   animation: star-351 5s linear infinite alternate;
-  animation-delay: -23s;
+  animation-delay: -16s;
 }
 @keyframes star-351 {
   0% {
@@ -4586,9 +4586,9 @@ body {
   }
 }
 .snow:nth-child(352) {
-  transform: translate(56.8957vw, 59.951vw) scale(0.1418);
-  animation: star-352 4s linear infinite alternate;
-  animation-delay: -13s;
+  transform: translate(0.23vw, 95.6645vw) scale(0.5809);
+  animation: star-352 3s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-352 {
   0% {
@@ -4599,9 +4599,9 @@ body {
   }
 }
 .snow:nth-child(353) {
-  transform: translate(28.6662vw, 98.7729vw) scale(0.514);
+  transform: translate(74.12vw, 36.2682vw) scale(0.5485);
   animation: star-353 2s linear infinite alternate;
-  animation-delay: -14s;
+  animation-delay: -5s;
 }
 @keyframes star-353 {
   0% {
@@ -4612,9 +4612,9 @@ body {
   }
 }
 .snow:nth-child(354) {
-  transform: translate(91.1729vw, 78.3691vw) scale(0.8132);
-  animation: star-354 5s linear infinite alternate;
-  animation-delay: -1s;
+  transform: translate(38.28vw, 77.7763vw) scale(0.6189);
+  animation: star-354 3s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-354 {
   0% {
@@ -4625,8 +4625,8 @@ body {
   }
 }
 .snow:nth-child(355) {
-  transform: translate(57.2323vw, 47.4374vw) scale(0.8289);
-  animation: star-355 3s linear infinite alternate;
+  transform: translate(47.66vw, 73.5637vw) scale(0.2196);
+  animation: star-355 2s linear infinite alternate;
   animation-delay: -29s;
 }
 @keyframes star-355 {
@@ -4638,9 +4638,9 @@ body {
   }
 }
 .snow:nth-child(356) {
-  transform: translate(49.7075vw, 70.5051vw) scale(0.9659);
-  animation: star-356 4s linear infinite alternate;
-  animation-delay: -27s;
+  transform: translate(76.47vw, 43.309vw) scale(0.8746);
+  animation: star-356 5s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-356 {
   0% {
@@ -4651,9 +4651,9 @@ body {
   }
 }
 .snow:nth-child(357) {
-  transform: translate(1.7411vw, 23.9905vw) scale(0.8004);
-  animation: star-357 3s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(20.5vw, 82.7879vw) scale(0.8192);
+  animation: star-357 4s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-357 {
   0% {
@@ -4664,9 +4664,9 @@ body {
   }
 }
 .snow:nth-child(358) {
-  transform: translate(70.5037vw, 47.1656vw) scale(0.9104);
+  transform: translate(53.12vw, 47.5391vw) scale(0.6017);
   animation: star-358 5s linear infinite alternate;
-  animation-delay: -4s;
+  animation-delay: -19s;
 }
 @keyframes star-358 {
   0% {
@@ -4677,9 +4677,9 @@ body {
   }
 }
 .snow:nth-child(359) {
-  transform: translate(14.3515vw, 39.6848vw) scale(0.704);
-  animation: star-359 3s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(38.88vw, 2.6865vw) scale(0.8328);
+  animation: star-359 4s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-359 {
   0% {
@@ -4690,9 +4690,9 @@ body {
   }
 }
 .snow:nth-child(360) {
-  transform: translate(0.3319vw, 18.5179vw) scale(0.2033);
-  animation: star-360 4s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(20.24vw, 73.4501vw) scale(0.6982);
+  animation: star-360 5s linear infinite alternate;
+  animation-delay: -23s;
 }
 @keyframes star-360 {
   0% {
@@ -4703,9 +4703,9 @@ body {
   }
 }
 .snow:nth-child(361) {
-  transform: translate(57.8751vw, 26.1873vw) scale(0.4427);
-  animation: star-361 5s linear infinite alternate;
-  animation-delay: -21s;
+  transform: translate(22.46vw, 28.1293vw) scale(0.7613);
+  animation: star-361 2s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-361 {
   0% {
@@ -4716,9 +4716,9 @@ body {
   }
 }
 .snow:nth-child(362) {
-  transform: translate(47.345vw, 12.3064vw) scale(0.0447);
-  animation: star-362 5s linear infinite alternate;
-  animation-delay: -6s;
+  transform: translate(60.17vw, 74.1394vw) scale(0.3915);
+  animation: star-362 4s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-362 {
   0% {
@@ -4729,9 +4729,9 @@ body {
   }
 }
 .snow:nth-child(363) {
-  transform: translate(79.3015vw, 95.216vw) scale(0.3216);
-  animation: star-363 2s linear infinite alternate;
-  animation-delay: -29s;
+  transform: translate(7.23vw, 43.8802vw) scale(0.0517);
+  animation: star-363 4s linear infinite alternate;
+  animation-delay: -11s;
 }
 @keyframes star-363 {
   0% {
@@ -4742,9 +4742,9 @@ body {
   }
 }
 .snow:nth-child(364) {
-  transform: translate(23.2303vw, 87.1271vw) scale(0.643);
-  animation: star-364 3s linear infinite alternate;
-  animation-delay: -21s;
+  transform: translate(63.75vw, 46.5201vw) scale(0.4687);
+  animation: star-364 2s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-364 {
   0% {
@@ -4755,9 +4755,9 @@ body {
   }
 }
 .snow:nth-child(365) {
-  transform: translate(35.0602vw, 53.1827vw) scale(0.3528);
-  animation: star-365 4s linear infinite alternate;
-  animation-delay: -9s;
+  transform: translate(1.91vw, 45.3973vw) scale(0.4893);
+  animation: star-365 5s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-365 {
   0% {
@@ -4768,9 +4768,9 @@ body {
   }
 }
 .snow:nth-child(366) {
-  transform: translate(84.858vw, 96.1967vw) scale(0.3749);
-  animation: star-366 2s linear infinite alternate;
-  animation-delay: -5s;
+  transform: translate(36.07vw, 6.749vw) scale(0.233);
+  animation: star-366 4s linear infinite alternate;
+  animation-delay: -25s;
 }
 @keyframes star-366 {
   0% {
@@ -4781,9 +4781,9 @@ body {
   }
 }
 .snow:nth-child(367) {
-  transform: translate(99.5151vw, 55.3194vw) scale(0.5227);
-  animation: star-367 3s linear infinite alternate;
-  animation-delay: -11s;
+  transform: translate(21.26vw, 8.2074vw) scale(0.2618);
+  animation: star-367 2s linear infinite alternate;
+  animation-delay: -22s;
 }
 @keyframes star-367 {
   0% {
@@ -4794,9 +4794,9 @@ body {
   }
 }
 .snow:nth-child(368) {
-  transform: translate(40.1859vw, 3.3142vw) scale(0.1627);
-  animation: star-368 5s linear infinite alternate;
-  animation-delay: -16s;
+  transform: translate(65.85vw, 70.7808vw) scale(0.3992);
+  animation: star-368 4s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-368 {
   0% {
@@ -4807,9 +4807,9 @@ body {
   }
 }
 .snow:nth-child(369) {
-  transform: translate(33.2149vw, 52.1364vw) scale(0.5121);
-  animation: star-369 2s linear infinite alternate;
-  animation-delay: -11s;
+  transform: translate(32.98vw, 72.6039vw) scale(0.7516);
+  animation: star-369 5s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-369 {
   0% {
@@ -4820,9 +4820,9 @@ body {
   }
 }
 .snow:nth-child(370) {
-  transform: translate(17.4232vw, 7.2984vw) scale(0.0907);
-  animation: star-370 5s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(86.88vw, 13.201vw) scale(0.7493);
+  animation: star-370 3s linear infinite alternate;
+  animation-delay: -8s;
 }
 @keyframes star-370 {
   0% {
@@ -4833,9 +4833,9 @@ body {
   }
 }
 .snow:nth-child(371) {
-  transform: translate(29.6442vw, 38.0102vw) scale(0.7188);
-  animation: star-371 2s linear infinite alternate;
-  animation-delay: -11s;
+  transform: translate(4.43vw, 23.6757vw) scale(0.9207);
+  animation: star-371 5s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-371 {
   0% {
@@ -4846,9 +4846,9 @@ body {
   }
 }
 .snow:nth-child(372) {
-  transform: translate(37.6833vw, 35.0694vw) scale(0.222);
-  animation: star-372 3s linear infinite alternate;
-  animation-delay: -6s;
+  transform: translate(59.67vw, 48.2081vw) scale(0.3711);
+  animation: star-372 4s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-372 {
   0% {
@@ -4859,9 +4859,9 @@ body {
   }
 }
 .snow:nth-child(373) {
-  transform: translate(27.2244vw, 0.0846vw) scale(0.4453);
-  animation: star-373 2s linear infinite alternate;
-  animation-delay: -18s;
+  transform: translate(11.22vw, 4.8579vw) scale(0.7609);
+  animation: star-373 3s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-373 {
   0% {
@@ -4872,9 +4872,9 @@ body {
   }
 }
 .snow:nth-child(374) {
-  transform: translate(45.8018vw, 52.6695vw) scale(0.4307);
-  animation: star-374 2s linear infinite alternate;
-  animation-delay: -22s;
+  transform: translate(56.55vw, 44.3995vw) scale(0.6436);
+  animation: star-374 4s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-374 {
   0% {
@@ -4885,9 +4885,9 @@ body {
   }
 }
 .snow:nth-child(375) {
-  transform: translate(89.1447vw, 89.5021vw) scale(0.4787);
-  animation: star-375 4s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(52.5vw, 11.9993vw) scale(0.3976);
+  animation: star-375 3s linear infinite alternate;
+  animation-delay: -30s;
 }
 @keyframes star-375 {
   0% {
@@ -4898,9 +4898,9 @@ body {
   }
 }
 .snow:nth-child(376) {
-  transform: translate(83.347vw, 72.2145vw) scale(0.5176);
+  transform: translate(56.28vw, 71.1639vw) scale(0.4545);
   animation: star-376 3s linear infinite alternate;
-  animation-delay: -18s;
+  animation-delay: -16s;
 }
 @keyframes star-376 {
   0% {
@@ -4911,9 +4911,9 @@ body {
   }
 }
 .snow:nth-child(377) {
-  transform: translate(24.0786vw, 50.006vw) scale(0.3984);
+  transform: translate(2.38vw, 88.1467vw) scale(0.0668);
   animation: star-377 4s linear infinite alternate;
-  animation-delay: -27s;
+  animation-delay: -19s;
 }
 @keyframes star-377 {
   0% {
@@ -4924,9 +4924,9 @@ body {
   }
 }
 .snow:nth-child(378) {
-  transform: translate(22.1923vw, 88.7403vw) scale(0.1955);
+  transform: translate(33.82vw, 27.5826vw) scale(0.2109);
   animation: star-378 4s linear infinite alternate;
-  animation-delay: -23s;
+  animation-delay: -1s;
 }
 @keyframes star-378 {
   0% {
@@ -4937,9 +4937,9 @@ body {
   }
 }
 .snow:nth-child(379) {
-  transform: translate(2.3487vw, 81.5584vw) scale(0.1481);
-  animation: star-379 4s linear infinite alternate;
-  animation-delay: -12s;
+  transform: translate(54.25vw, 44.7387vw) scale(0.17);
+  animation: star-379 2s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-379 {
   0% {
@@ -4950,9 +4950,9 @@ body {
   }
 }
 .snow:nth-child(380) {
-  transform: translate(66.1418vw, 10.2075vw) scale(0.4148);
-  animation: star-380 4s linear infinite alternate;
-  animation-delay: -6s;
+  transform: translate(52.16vw, 81.0592vw) scale(0.473);
+  animation: star-380 2s linear infinite alternate;
+  animation-delay: -19s;
 }
 @keyframes star-380 {
   0% {
@@ -4963,9 +4963,9 @@ body {
   }
 }
 .snow:nth-child(381) {
-  transform: translate(23.4049vw, 64.1085vw) scale(0.1596);
+  transform: translate(0.01vw, 32.4196vw) scale(0.2981);
   animation: star-381 5s linear infinite alternate;
-  animation-delay: -9s;
+  animation-delay: -12s;
 }
 @keyframes star-381 {
   0% {
@@ -4976,9 +4976,9 @@ body {
   }
 }
 .snow:nth-child(382) {
-  transform: translate(32.1325vw, 34.0342vw) scale(0.1588);
-  animation: star-382 4s linear infinite alternate;
-  animation-delay: -26s;
+  transform: translate(1.93vw, 73.5746vw) scale(0.1146);
+  animation: star-382 3s linear infinite alternate;
+  animation-delay: -3s;
 }
 @keyframes star-382 {
   0% {
@@ -4989,9 +4989,9 @@ body {
   }
 }
 .snow:nth-child(383) {
-  transform: translate(18.2997vw, 10.5555vw) scale(0.4855);
+  transform: translate(5.65vw, 73.6924vw) scale(0.3573);
   animation: star-383 3s linear infinite alternate;
-  animation-delay: -7s;
+  animation-delay: -10s;
 }
 @keyframes star-383 {
   0% {
@@ -5002,9 +5002,9 @@ body {
   }
 }
 .snow:nth-child(384) {
-  transform: translate(14.0437vw, 59.569vw) scale(0.8337);
-  animation: star-384 4s linear infinite alternate;
-  animation-delay: -25s;
+  transform: translate(36.74vw, 8.5261vw) scale(0.3795);
+  animation: star-384 2s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-384 {
   0% {
@@ -5015,9 +5015,9 @@ body {
   }
 }
 .snow:nth-child(385) {
-  transform: translate(92.5281vw, 78.9143vw) scale(0.2036);
+  transform: translate(97.78vw, 76.9406vw) scale(0.1087);
   animation: star-385 2s linear infinite alternate;
-  animation-delay: -19s;
+  animation-delay: -24s;
 }
 @keyframes star-385 {
   0% {
@@ -5028,9 +5028,9 @@ body {
   }
 }
 .snow:nth-child(386) {
-  transform: translate(49.1666vw, 4.9838vw) scale(0.0589);
-  animation: star-386 3s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(5.83vw, 36.0552vw) scale(0.3666);
+  animation: star-386 5s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-386 {
   0% {
@@ -5041,9 +5041,9 @@ body {
   }
 }
 .snow:nth-child(387) {
-  transform: translate(42.4555vw, 43.2987vw) scale(0.8154);
+  transform: translate(99.64vw, 57.3742vw) scale(0.036);
   animation: star-387 4s linear infinite alternate;
-  animation-delay: -6s;
+  animation-delay: -26s;
 }
 @keyframes star-387 {
   0% {
@@ -5054,9 +5054,9 @@ body {
   }
 }
 .snow:nth-child(388) {
-  transform: translate(71.1781vw, 54.8013vw) scale(0.4409);
-  animation: star-388 4s linear infinite alternate;
-  animation-delay: -29s;
+  transform: translate(62.84vw, 84.5837vw) scale(0.2085);
+  animation: star-388 3s linear infinite alternate;
+  animation-delay: -14s;
 }
 @keyframes star-388 {
   0% {
@@ -5067,9 +5067,9 @@ body {
   }
 }
 .snow:nth-child(389) {
-  transform: translate(13.8783vw, 87.0673vw) scale(0.0431);
-  animation: star-389 2s linear infinite alternate;
-  animation-delay: -3s;
+  transform: translate(57.35vw, 44.9797vw) scale(0.6158);
+  animation: star-389 4s linear infinite alternate;
+  animation-delay: -13s;
 }
 @keyframes star-389 {
   0% {
@@ -5080,9 +5080,9 @@ body {
   }
 }
 .snow:nth-child(390) {
-  transform: translate(53.3509vw, 72.0451vw) scale(0.5647);
-  animation: star-390 4s linear infinite alternate;
-  animation-delay: -19s;
+  transform: translate(24.25vw, 68.5364vw) scale(0.3383);
+  animation: star-390 2s linear infinite alternate;
+  animation-delay: -4s;
 }
 @keyframes star-390 {
   0% {
@@ -5093,9 +5093,9 @@ body {
   }
 }
 .snow:nth-child(391) {
-  transform: translate(6.3393vw, 60.3372vw) scale(0.0679);
-  animation: star-391 4s linear infinite alternate;
-  animation-delay: -29s;
+  transform: translate(93.08vw, 5.3374vw) scale(0.8882);
+  animation: star-391 5s linear infinite alternate;
+  animation-delay: -27s;
 }
 @keyframes star-391 {
   0% {
@@ -5106,8 +5106,8 @@ body {
   }
 }
 .snow:nth-child(392) {
-  transform: translate(39.1228vw, 88.1851vw) scale(0.0457);
-  animation: star-392 3s linear infinite alternate;
+  transform: translate(4.31vw, 39.4239vw) scale(0.7345);
+  animation: star-392 2s linear infinite alternate;
   animation-delay: -6s;
 }
 @keyframes star-392 {
@@ -5119,9 +5119,9 @@ body {
   }
 }
 .snow:nth-child(393) {
-  transform: translate(93.9038vw, 73.5291vw) scale(0.6725);
-  animation: star-393 2s linear infinite alternate;
-  animation-delay: -24s;
+  transform: translate(63.85vw, 41.7251vw) scale(0.6569);
+  animation: star-393 5s linear infinite alternate;
+  animation-delay: -18s;
 }
 @keyframes star-393 {
   0% {
@@ -5132,9 +5132,9 @@ body {
   }
 }
 .snow:nth-child(394) {
-  transform: translate(20.7282vw, 20.9123vw) scale(0.5327);
+  transform: translate(90.53vw, 54.4262vw) scale(0.6367);
   animation: star-394 5s linear infinite alternate;
-  animation-delay: -14s;
+  animation-delay: -28s;
 }
 @keyframes star-394 {
   0% {
@@ -5145,9 +5145,9 @@ body {
   }
 }
 .snow:nth-child(395) {
-  transform: translate(36.0222vw, 89.484vw) scale(0.5617);
+  transform: translate(59.85vw, 67.7616vw) scale(0.8555);
   animation: star-395 4s linear infinite alternate;
-  animation-delay: -2s;
+  animation-delay: -22s;
 }
 @keyframes star-395 {
   0% {
@@ -5158,9 +5158,9 @@ body {
   }
 }
 .snow:nth-child(396) {
-  transform: translate(42.3612vw, 37.5071vw) scale(0.8364);
-  animation: star-396 4s linear infinite alternate;
-  animation-delay: -14s;
+  transform: translate(64.59vw, 81.0374vw) scale(0.4368);
+  animation: star-396 3s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-396 {
   0% {
@@ -5171,9 +5171,9 @@ body {
   }
 }
 .snow:nth-child(397) {
-  transform: translate(53.5611vw, 95.9496vw) scale(0.3534);
-  animation: star-397 2s linear infinite alternate;
-  animation-delay: -7s;
+  transform: translate(19.5vw, 69.19vw) scale(0.796);
+  animation: star-397 5s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-397 {
   0% {
@@ -5184,9 +5184,9 @@ body {
   }
 }
 .snow:nth-child(398) {
-  transform: translate(97.6733vw, 91.9395vw) scale(0.548);
-  animation: star-398 5s linear infinite alternate;
-  animation-delay: -15s;
+  transform: translate(52.91vw, 53.8067vw) scale(0.4219);
+  animation: star-398 3s linear infinite alternate;
+  animation-delay: -1s;
 }
 @keyframes star-398 {
   0% {
@@ -5197,9 +5197,9 @@ body {
   }
 }
 .snow:nth-child(399) {
-  transform: translate(41.2915vw, 71.5839vw) scale(0.4361);
-  animation: star-399 4s linear infinite alternate;
-  animation-delay: -20s;
+  transform: translate(58.28vw, 22.1157vw) scale(0.3184);
+  animation: star-399 5s linear infinite alternate;
+  animation-delay: -21s;
 }
 @keyframes star-399 {
   0% {
@@ -5210,9 +5210,9 @@ body {
   }
 }
 .snow:nth-child(400) {
-  transform: translate(99.9938vw, 49.376vw) scale(0.0132);
-  animation: star-400 5s linear infinite alternate;
-  animation-delay: -2s;
+  transform: translate(4.07vw, 44.1645vw) scale(0.1697);
+  animation: star-400 3s linear infinite alternate;
+  animation-delay: -12s;
 }
 @keyframes star-400 {
   0% {
