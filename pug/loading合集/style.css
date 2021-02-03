@@ -3235,6 +3235,32 @@ body {
   display: none;
 }
 
+.g-queue2 .c-loading30 {
+  position: relative;
+}
+.g-queue2 .c-loading30 div {
+  display: inline-block;
+  width: 6px;
+  height: 20px;
+  margin-right: 8px;
+  animation: Animation104Translate 0.4s infinite;
+}
+.g-queue2 .c-loading30 div:nth-child(1) {
+  background-color: #9b59b6;
+  animation-delay: 0.1s;
+}
+.g-queue2 .c-loading30 div:nth-child(2) {
+  background-color: #c5523f;
+  animation-delay: 0.2s;
+}
+.g-queue2 .c-loading30 div:nth-child(3) {
+  background-color: #f1c40f;
+  animation-delay: 0.3s;
+}
+.g-queue2 .c-loading30 div:nth-child(4), .g-queue2 .c-loading30 div:nth-child(5) {
+  display: none;
+}
+
 .g-queue1 .c-loading37 {
   display: block;
   font-size: 0;
@@ -5378,6 +5404,17 @@ body {
 @keyframes Animation103Translate {
   50% {
     transform: translate(-50%, -50%) rotate(360deg) scale(0.8);
+  }
+}
+@keyframes Animation104Translate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
 @keyframes barStripe {

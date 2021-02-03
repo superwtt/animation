@@ -3793,6 +3793,34 @@ body {
     }
   }
 }
+.g-queue2 .c-loading30{
+  position: relative;
+  div{
+    // position: absolute;
+    display: inline-block;
+    width: 6px;
+    height: 20px;
+    margin-right: 8px;
+    animation: Animation104Translate .4s infinite;
+    &:nth-child(1){
+      background-color: #9b59b6;
+      animation-delay: .1s;
+    }
+    &:nth-child(2){
+      background-color: #c5523f;
+      animation-delay: .2s;
+    }
+    &:nth-child(3){
+      background-color: #f1c40f;
+      animation-delay: .3s;
+    }
+    &:nth-child(4),
+    &:nth-child(5){
+      display: none;
+    }
+  }
+  
+}
 
 
 
@@ -6183,6 +6211,23 @@ body {
 @keyframes Animation103Translate{
   50%{
     transform:translate(-50%,-50%) rotate(360deg) scale(.8);
+  }
+}
+@keyframes Animation104Translate{
+  0%{
+    transform: translateY(0);
+  }
+  // 25%{
+  //   transform: translateY(5px);
+  // }
+  50%{
+    transform: translateY(20px);
+  }
+  // 75%{
+  //   transform: translateY(5px);
+  // }
+  100%{
+    transform: translateY(0px);
   }
 }
 
