@@ -3285,6 +3285,11 @@ body {
   display: none;
 }
 
+.g-queue4 .c-loading30 {
+  width: 20px;
+  height: 20px;
+}
+
 .g-queue1 .c-loading37 {
   display: block;
   font-size: 0;
