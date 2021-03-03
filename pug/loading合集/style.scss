@@ -3850,27 +3850,35 @@ body {
   
 }
 .g-queue4 .c-loading30{
+  position: relative;
+  width: 25px;
+  height: 25px;
+  animation: Animation106Rotate 2s infinite;
   div{
-    &:first-child{
-      position: relative;
-      width: 40px;
-      height: 40px;
-      &::after,&::before{
-        content: "";
-        position: absolute;
-        display: block;
-        border-radius: 50%;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-      }
-      &::after{
-        border: 3px solid #fff;
-      }
-      &::before{
-        border: 3px solid rgba(0, 0, 0, 0.9);
-      }
+    position: absolute;
+    width: 5px;
+    height: 25px;
+    &:nth-child(1){
+      top: 0px;
+      left: 5px;
+      background-color: #c5523f;
+    }
+    &:nth-child(2){
+      top: 0px;
+      right: 5px;
+      background-color: #f1c40f;
+    }
+    &:nth-child(3){
+      top: -5px;
+      left: 10px;
+      transform: rotate(90deg);
+      background-color: #9b59b6;
+    }
+    &:nth-child(4){
+      bottom: -5px;
+      right: 10px;
+      transform: rotate(90deg);
+      background-color: #1875e5;
     }
   }
 
@@ -6286,6 +6294,19 @@ body {
     opacity: 0.2;
   }
   100%{
+    opacity: 1;
+  }
+}
+@keyframes Animation106Rotate{
+  0%{
+    transform: rotate(0);
+    opacity: 1;
+  }
+  50%{
+    opacity: .4;
+  }
+  100%{
+    transform: rotate(360deg);
     opacity: 1;
   }
 }
