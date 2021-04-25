@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.m-container {
+  height: 100vh;
+  padding: 0 200px;
+}
+.m-container div {
+  float: left;
+  height: 100vh;
+}
+
+.m-middle {
+  width: 100%;
+  background-color: #ffbcec;
+  float: left;
+}
+
+.m-left {
+  position: relative;
+  left: -200px;
+  width: 200px;
+  background-color: #ffe86c;
+  margin-left: -100%;
+}
+
+.m-right {
+  position: relative;
+  right: -200px;
+  width: 200px;
+  background-color: #f01b2d;
+  margin-left: -200px;
+}
+
+.f-container {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+}
+.f-container div {
+  height: 100vh;
+}
+
+.f-middle {
+  flex: 1;
+  background-color: #ffbcec;
+}
+
+.f-left {
+  order: -1;
+  flex-basis: 200px;
+  background-color: #ffe86c;
+}
+
+.f-right {
+  flex-basis: 200px;
+  background-color: #f01b2d;
+}
