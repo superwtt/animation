@@ -1,0 +1,148 @@
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.wrap .queue {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 24%;
+}
+.wrap .item {
+  position: relative;
+  width: 100%;
+  margin: 2.5% 0;
+}
+
+.queue:nth-child(1) .item:nth-child(1) {
+  height: 194px;
+  background: #48ca63;
+}
+.queue:nth-child(1) .item:nth-child(2) {
+  height: 120px;
+  background: #d7ff86;
+}
+.queue:nth-child(1) .item:nth-child(3) {
+  height: 296px;
+  background: #739123;
+}
+.queue:nth-child(1) .item:nth-child(4) {
+  height: 218px;
+  background: #8319cd;
+}
+.queue:nth-child(1) .item:nth-child(5) {
+  height: 194px;
+  background: #49ef47;
+}
+.queue:nth-child(1) .item:nth-child(6) {
+  height: 251px;
+  background: #cb8e7c;
+}
+.queue:nth-child(1) .item:nth-child(7) {
+  height: 241px;
+  background: #8354d6;
+}
+.queue:nth-child(1) .item:nth-child(8) {
+  height: 186px;
+  background: #582df6;
+}
+
+.queue:nth-child(2) .item:nth-child(1) {
+  height: 248px;
+  background: #0af347;
+}
+.queue:nth-child(2) .item:nth-child(2) {
+  height: 87px;
+  background: #e4ca09;
+}
+.queue:nth-child(2) .item:nth-child(3) {
+  height: 348px;
+  background: #16d459;
+}
+.queue:nth-child(2) .item:nth-child(4) {
+  height: 98px;
+  background: #948256;
+}
+.queue:nth-child(2) .item:nth-child(5) {
+  height: 75px;
+  background: #7f5a07;
+}
+.queue:nth-child(2) .item:nth-child(6) {
+  height: 298px;
+  background: #5c36ae;
+}
+.queue:nth-child(2) .item:nth-child(7) {
+  height: 155px;
+  background: #09d8d7;
+}
+.queue:nth-child(2) .item:nth-child(8) {
+  height: 142px;
+  background: #5ea64b;
+}
+
+.queue:nth-child(3) .item:nth-child(1) {
+  height: 220px;
+  background: #20a649;
+}
+.queue:nth-child(3) .item:nth-child(2) {
+  height: 214px;
+  background: #3802ad;
+}
+.queue:nth-child(3) .item:nth-child(3) {
+  height: 73px;
+  background: #017b10;
+}
+.queue:nth-child(3) .item:nth-child(4) {
+  height: 113px;
+  background: #b3d747;
+}
+.queue:nth-child(3) .item:nth-child(5) {
+  height: 209px;
+  background: #d0f988;
+}
+.queue:nth-child(3) .item:nth-child(6) {
+  height: 277px;
+  background: #de20b7;
+}
+.queue:nth-child(3) .item:nth-child(7) {
+  height: 82px;
+  background: #288db4;
+}
+.queue:nth-child(3) .item:nth-child(8) {
+  height: 206px;
+  background: #e5f6c8;
+}
+
+.queue:nth-child(4) .item:nth-child(1) {
+  height: 107px;
+  background: #d116ff;
+}
+.queue:nth-child(4) .item:nth-child(2) {
+  height: 236px;
+  background: #bd781e;
+}
+.queue:nth-child(4) .item:nth-child(3) {
+  height: 84px;
+  background: #08919a;
+}
+.queue:nth-child(4) .item:nth-child(4) {
+  height: 53px;
+  background: #65904b;
+}
+.queue:nth-child(4) .item:nth-child(5) {
+  height: 61px;
+  background: #848fa1;
+}
+.queue:nth-child(4) .item:nth-child(6) {
+  height: 92px;
+  background: #bc06c4;
+}
+.queue:nth-child(4) .item:nth-child(7) {
+  height: 278px;
+  background: #49650b;
+}
+.queue:nth-child(4) .item:nth-child(8) {
+  height: 278px;
+  background: #bebc19;
+}
